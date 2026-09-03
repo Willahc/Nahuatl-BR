@@ -1,0 +1,54 @@
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# JavaScript / TypeScript
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# Temporários, logs e bancos locais
+tmp/
+temp/
+*.tmp
+*.bak
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+
+# Materiais externos não são versionados; apenas marcadores estruturais
+sources/**
+!sources/**/
+!sources/**/.gitkeep
+
+# Dados gerados
+data/raw/
+data/staging/
+data/derived/
+data/cache/
+data/exports/
