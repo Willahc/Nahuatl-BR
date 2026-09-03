@@ -114,7 +114,9 @@
                              "source_form":  "Tatli",
                              "original_gloss":  "padre.",
                              "url":  "https://gdn.iib.unam.mx/diccionario/tatli/157690",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          },
                          {
                              "attestation_id":  "L0038-A2",
@@ -129,7 +131,9 @@
                              "source_form":  "tà[tli]",
                              "original_gloss":  "padre",
                              "url":  "https://gdn.iib.unam.mx/diccionario/tatli/18614",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          }
                      ],
     "evidence":  [
@@ -206,17 +210,18 @@
                                   "work":  "Florentine Codex",
                                   "locator":  "GDN CF_INDEX/Sahagún entry 278439",
                                   "url":  "https://gdn.iib.unam.mx/diccionario/tatli/278439",
-                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+                                  "context_text_inspected":  false
                               }
                           ],
-    "conflicts":  [
-
-                  ],
     "provenance":  {
                        "created_by":  "EXECUTION_AGENT",
                        "created_at":  "2026-09-03",
                        "selection_method":  "bounded Gate 3 pilot lookup",
                        "aggregator_role":  "discovery and point reference only"
                    },
-    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+    "divergences":  [
+
+                    ]
 }

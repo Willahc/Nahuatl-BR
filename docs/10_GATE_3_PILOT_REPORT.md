@@ -31,10 +31,11 @@ ocorrência/identificador `CAN_REFERENCE`, sem cópia de transcrição ou tradu�
 - 50/50 com Attestation histórica e Source/Work;
 - 48/50 com duas Sources históricas;
 - 47/50 com referência contextual em `CF_INDEX` ou `Sahagún Escolio`;
+- 0/50 com texto do contexto histórico diretamente inspecionado neste piloto;
 - 23/50 com Evidence de notação relevante ao comprimento vocálico;
 - 10/50 com Evidence de notação relevante ao saltillo;
 - 12/50 com informação morfológica limitada ao frame de citação reportado;
-- 3/50 com conflito ou divergência explicitamente preservada.
+- 0/50 com `TRUE_CONTRADICTION`; três divergências foram classificadas separadamente.
 
 As contagens são produzidas por `scripts/validate_gate3.py`; não são mantidas
 manualmente nos arquivos de métrica e índice.
@@ -52,7 +53,7 @@ manualmente nos arquivos de métrica e índice.
 5. O Locator digital do GDN é preservado; Locator interno ausente recebe motivo
    explícito, sem folio inventado.
 
-## Ambiguidades e conflitos
+## Ambiguidades e divergências
 
 - `pilli`: Molina registra pessoa nobre, enquanto a entrada de Carochi
   selecionada, `pil[li]`, reporta filho/filha; a identidade lemática precisa de
@@ -74,7 +75,7 @@ o folio interno da Edition Siméon/Codex Colbert permanece `NOT_REVIEWED`.
 
 - O esquema precisa distinguir com mais precisão Locator do agregador e Locator
   interno do Witness.
-- A distinção entre conflito, polissemia e frames de citação ainda depende de
+- A distinção entre contradição, polissemia e frames de citação ainda depende de
   revisão humana.
 - `PhonologicalAnalysis` precisa representar notação histórica antes de sua
   interpretação fonológica.
@@ -91,6 +92,36 @@ Foram copiados apenas fragmentos lexicográficos curtos necessários ao piloto e
 identificadores. Nenhuma base, corpus ou transcrição moderna foi ingerida. C01
 Hueyapan não foi usado como Evidence. O piloto é material de revisão, não uma
 conclusão jurídica nem uma publicação canônica.
+
+## EXTERNAL REVIEW REMEDIATION
+
+`ORCHESTRATOR_REVIEWER_DECISION: PASS_AFTER_REMEDIATION`
+
+`GATE_3_STATUS: CLOSED`
+
+A revisão externa determinou que diferenças de glosa, sentido ou frame não
+constituem automaticamente contradição. A modelagem foi corrigida assim:
+
+- `pilli`: `LEXICAL_IDENTITY_UNRESOLVED`, com
+  `POLYSEMY_CANDIDATE`/`HOMONYMY_CANDIDATE` como alternativas não decididas;
+- `tlacatl`: `SOURCE_GRANULARITY_DIFFERENCE`, com
+  `SEMANTIC_VARIATION` apenas como candidato;
+- `mati`: `FRAME_VARIATION`;
+- nenhum caso foi classificado como `TRUE_CONTRADICTION`.
+
+As métricas recalculadas são `with_conflicting_claims: 0`,
+`with_semantic_variation: 1`, `with_frame_variation: 1` e
+`with_lexical_identity_unresolved: 1`.
+
+O antigo `with_context` foi dividido em `with_context_reference: 47` e
+`with_context_text_inspected: 0`. Um ID de `CF_INDEX` ou `Sahagún Escolio` não
+é apresentado como texto contextual lido.
+
+O antigo `with_primary_attestation` foi substituído por
+`with_historical_attestation: 50`, `with_direct_witness_attestation: 0` e
+`with_aggregator_mediated_attestation: 50`. As 98 Attestations possuem
+`mediation_level: AGGREGATOR`; a Work histórica permanece identificada, sem
+afirmação de inspeção direta do Witness.
 
 Fontes institucionais consultadas: [GDN](https://gdn.iib.unam.mx/),
 [Olmos](https://gdn.iib.unam.mx/textos/olmos),

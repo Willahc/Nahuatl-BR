@@ -178,6 +178,16 @@ Caracteriza como o conteúdo da Claim foi epistemicamente produzido:
 - `EDITORIAL`: decisão ou conteúdo editorial do projeto, incluindo organização
   e Editorial Translation quando aplicável.
 
+### Divergence Classification — PROVISIONAL
+
+Classificação editorial de diferenças entre registros que não pressupõe
+contradição. Vocabulário inicial: `SEMANTIC_VARIATION`,
+`POLYSEMY_CANDIDATE`, `HOMONYMY_CANDIDATE`, `FRAME_VARIATION`,
+`SOURCE_GRANULARITY_DIFFERENCE`, `LEXICAL_IDENTITY_UNRESOLVED` e
+`TRUE_CONTRADICTION`. `TRUE_CONTRADICTION` exige Claims incompatíveis sobre o
+mesmo objeto, sentido e contexto; sem comparabilidade demonstrada, não deve ser
+presumida.
+
 ### Confidence — PROVISIONAL
 
 Avaliação editorial da sustentação de uma Claim: `UNASSESSED`, `LOW`, `MEDIUM`

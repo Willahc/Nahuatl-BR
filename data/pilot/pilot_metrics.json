@@ -1,13 +1,19 @@
 {
   "total_lemmas": 50,
   "with_pt_br": 50,
-  "with_primary_attestation": 50,
+  "with_historical_attestation": 50,
+  "with_direct_witness_attestation": 0,
+  "with_aggregator_mediated_attestation": 50,
   "with_two_historical_sources": 48,
-  "with_context": 47,
+  "with_context_reference": 47,
+  "with_context_text_inspected": 0,
   "with_vowel_length_evidence": 23,
   "with_saltillo_evidence": 10,
   "with_morphology": 12,
-  "with_conflicting_claims": 3,
+  "with_conflicting_claims": 0,
+  "with_semantic_variation": 1,
+  "with_frame_variation": 1,
+  "with_lexical_identity_unresolved": 1,
   "with_unknown_fields": 50,
   "claims_total": 129,
   "claims_by_modality": {
@@ -23,5 +29,8 @@
     "A01": 49,
     "A02": 2,
     "A04": 47
+  },
+  "attestations_by_mediation": {
+    "AGGREGATOR": 98
   }
 }

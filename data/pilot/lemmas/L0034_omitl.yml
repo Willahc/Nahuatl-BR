@@ -105,7 +105,9 @@
                              "source_form":  "Omitl",
                              "original_gloss":  "huesso, alesna, o punçon.",
                              "url":  "https://gdn.iib.unam.mx/diccionario/omitl/155242",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          },
                          {
                              "attestation_id":  "L0034-A2",
@@ -120,7 +122,9 @@
                              "source_form":  "omitl",
                              "original_gloss":  "hueso / hueso(s)",
                              "url":  "https://gdn.iib.unam.mx/diccionario/omitl/17834",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          }
                      ],
     "evidence":  [
@@ -182,17 +186,18 @@
                                   "work":  "Florentine Codex",
                                   "locator":  "GDN CF_INDEX/Sahagún entry 213420",
                                   "url":  "https://gdn.iib.unam.mx/diccionario/omitl/213420",
-                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+                                  "context_text_inspected":  false
                               }
                           ],
-    "conflicts":  [
-
-                  ],
     "provenance":  {
                        "created_by":  "EXECUTION_AGENT",
                        "created_at":  "2026-09-03",
                        "selection_method":  "bounded Gate 3 pilot lookup",
                        "aggregator_role":  "discovery and point reference only"
                    },
-    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+    "divergences":  [
+
+                    ]
 }

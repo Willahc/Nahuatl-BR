@@ -123,7 +123,9 @@
                                                     "D"
                                                 ],
                              "url":  "https://gdn.iib.unam.mx/diccionario/nonotza/152169",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          },
                          {
                              "attestation_id":  "L0033-A2",
@@ -138,7 +140,9 @@
                              "source_form":  "nònotza, nitë",
                              "original_gloss":  "hablar con alguien",
                              "url":  "https://gdn.iib.unam.mx/diccionario/nonotza/17765",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          }
                      ],
     "evidence":  [
@@ -234,17 +238,18 @@
                                   "work":  "Florentine Codex",
                                   "locator":  "GDN CF_INDEX/Sahagún entry 279158",
                                   "url":  "https://gdn.iib.unam.mx/diccionario/nonotza/279158",
-                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+                                  "context_text_inspected":  false
                               }
                           ],
-    "conflicts":  [
-
-                  ],
     "provenance":  {
                        "created_by":  "EXECUTION_AGENT",
                        "created_at":  "2026-09-03",
                        "selection_method":  "bounded Gate 3 pilot lookup",
                        "aggregator_role":  "discovery and point reference only"
                    },
-    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+    "divergences":  [
+
+                    ]
 }

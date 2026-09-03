@@ -192,6 +192,12 @@ Relaciona uma Claim a Evidence com relação `SUPPORTS`, `CONTRADICTS`,
 responsável e data. A cadeia deve chegar a Evidence auditável. O vínculo não
 duplica a modalidade epistêmica da Claim.
 
+`CONTRADICTS` é reservado a Claims semanticamente comparáveis e efetivamente
+incompatíveis sobre o mesmo objeto, Sense e contexto. Diferença de glosa,
+granularidade ou frame verbal e candidatos a polissemia/homonímia usam Sense,
+Claim, notas e `Divergence Classification`. Quando polissemia e homonímia não
+podem ser decididas, usa-se `LEXICAL_IDENTITY_UNRESOLVED`.
+
 ## Modalidade, confiança e revisão
 
 ### Modalidade epistêmica da `Claim`

@@ -35,6 +35,10 @@ segunda execução retornou `PASS`. O erro e sua correção não foram ocultados
 
 ## Métricas verificadas
 
+Esta subseção preserva o retrato da autoauditoria anterior. Os nomes e valores
+que foram corrigidos pela revisão externa estão revogados e substituídos pela
+seção `EXTERNAL REVIEW REMEDIATION` abaixo e pelo arquivo de métricas gerado.
+
 - `total_lemmas`: 50
 - `with_pt_br`: 50
 - `with_primary_attestation`: 50
@@ -82,3 +86,40 @@ Os invariantes bloqueadores e as metas quantitativas foram satisfeitos, mas o
 piloto ainda exige revisão linguística humana e jurídica/editorial das camadas
 referenciadas. Esta autoavaliação não aprova o Gate 3, não substitui o
 `ORCHESTRATOR_REVIEWER` nem autoriza o Gate 4.
+
+## EXTERNAL REVIEW REMEDIATION
+
+`ORCHESTRATOR_REVIEWER_DECISION: PASS_AFTER_REMEDIATION`
+
+`GATE_3_STATUS: CLOSED`
+
+| Reserva | Ação | Resultado |
+|---|---|---|
+| Diferença semântica contada como contradição | Introduzida classificação estrutural de divergência | `with_conflicting_claims: 0` |
+| `pilli` | `LEXICAL_IDENTITY_UNRESOLVED` | Sem escolha inventada entre polissemia e homonímia |
+| `tlacatl` | `SOURCE_GRANULARITY_DIFFERENCE` | Incompatibilidade não presumida |
+| `mati` | `FRAME_VARIATION` | Frames distintos preservados |
+| Referência confundida com contexto textual | Separadas referência e inspeção | 47 referências; 0 textos inspecionados |
+| Work histórica confundida com Witness direto | Adicionado `mediation_level` | 98 `AGGREGATOR`; 0 `DIRECT_WITNESS` |
+
+Métricas finais recalculadas:
+
+- `with_historical_attestation`: 50;
+- `with_direct_witness_attestation`: 0;
+- `with_aggregator_mediated_attestation`: 50;
+- `with_context_reference`: 47;
+- `with_context_text_inspected`: 0;
+- `with_conflicting_claims`: 0;
+- `with_semantic_variation`: 1;
+- `with_frame_variation`: 1;
+- `with_lexical_identity_unresolved`: 1;
+- `attestations_by_mediation.AGGREGATOR`: 98.
+
+O validador exige mediação em cada Attestation e impede que uma ocorrência
+com agregador ou sem inspeção declarada seja chamada `DIRECT_WITNESS`. Um
+`EvidenceLink` `CONTRADICTS` somente passa com avaliação estrutural explícita de
+comparabilidade e `TRUE_CONTRADICTION`.
+
+Resultado final: `GATE 3 VALIDATION: PASS`.
+
+O encerramento não inicia nem autoriza o Gate 4.

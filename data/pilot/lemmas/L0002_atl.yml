@@ -114,7 +114,9 @@
                              "source_form":  "Atl",
                              "original_gloss":  "agua, orines, guerra, o la mollera de la cabeça.",
                              "url":  "https://gdn.iib.unam.mx/diccionario/atl/35404",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          },
                          {
                              "attestation_id":  "L0002-A2",
@@ -129,7 +131,9 @@
                              "source_form":  "ätl",
                              "original_gloss":  "agua / ~ tepëtl, ciudad o pueblo / ~ tepëtl, república",
                              "url":  "https://gdn.iib.unam.mx/diccionario/atl/19081",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          }
                      ],
     "evidence":  [
@@ -206,17 +210,18 @@
                                   "work":  "Florentine Codex",
                                   "locator":  "GDN CF_INDEX/Sahagún entry 190971",
                                   "url":  "https://gdn.iib.unam.mx/diccionario/atl/190971",
-                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+                                  "context_text_inspected":  false
                               }
                           ],
-    "conflicts":  [
-
-                  ],
     "provenance":  {
                        "created_by":  "EXECUTION_AGENT",
                        "created_at":  "2026-09-03",
                        "selection_method":  "bounded Gate 3 pilot lookup",
                        "aggregator_role":  "discovery and point reference only"
                    },
-    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+    "divergences":  [
+
+                    ]
 }

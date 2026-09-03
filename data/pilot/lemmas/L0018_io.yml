@@ -105,7 +105,9 @@
                              "source_form":  "iô",
                              "original_gloss":  "solo -véase iyô",
                              "url":  "https://gdn.iib.unam.mx/diccionario/io/17393",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          }
                      ],
     "evidence":  [
@@ -169,14 +171,14 @@
     "corpus_references":  [
 
                           ],
-    "conflicts":  [
-
-                  ],
     "provenance":  {
                        "created_by":  "EXECUTION_AGENT",
                        "created_at":  "2026-09-03",
                        "selection_method":  "bounded Gate 3 pilot lookup",
                        "aggregator_role":  "discovery and point reference only"
                    },
-    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+    "divergences":  [
+
+                    ]
 }

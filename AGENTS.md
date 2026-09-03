@@ -4,8 +4,8 @@ Estas regras valem para todo o repositório.
 
 ## Escopo atual
 
-Os Gates 0, 1 e 2 estão encerrados. O projeto está no Gate 3 — Corpus piloto
-canônico de exatamente 50 Lemmas de Classical Nahuatl. Não iniciar banco de dados, pipeline, API,
+Os Gates 0, 1, 2 e 3 estão encerrados. O Gate 4 está `NOT_STARTED`. Não iniciar
+modelo fonológico, banco de dados, pipeline, API,
 frontend, sistema de estudo, áudio ou escrita glífica até aprovação explícita
 do Gate correspondente. Não baixar, copiar, raspar ou ingerir fontes externas
 sem autorização.

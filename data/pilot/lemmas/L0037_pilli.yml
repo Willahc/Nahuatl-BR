@@ -105,7 +105,9 @@
                              "source_form":  "Pilli",
                              "original_gloss":  "cauallero, o noble persona.",
                              "url":  "https://gdn.iib.unam.mx/diccionario/pilli/156179",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          },
                          {
                              "attestation_id":  "L0037-A2",
@@ -120,7 +122,9 @@
                              "source_form":  "pil[li]",
                              "original_gloss":  "hijo, hija",
                              "url":  "https://gdn.iib.unam.mx/diccionario/pilli/17885",
-                             "notes":  "Point reference only; no extended modern transcription copied."
+                             "notes":  "Point reference only; no extended modern transcription copied.",
+                             "mediation_level":  "AGGREGATOR",
+                             "direct_witness_inspected":  false
                          }
                      ],
     "evidence":  [
@@ -182,25 +186,32 @@
                                   "work":  "Florentine Codex",
                                   "locator":  "GDN CF_INDEX/Sahagún entry 217235",
                                   "url":  "https://gdn.iib.unam.mx/diccionario/pilli/217235",
-                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+                                  "context_text_inspected":  false
                               }
                           ],
-    "conflicts":  [
-                      {
-                          "conflict_id":  "L0037-X1",
-                          "description":  "Selected historical entries differ in gloss or citation frame; retained without silent merger.",
-                          "status":  "IN_REVIEW",
-                          "evidence":  [
-                                           "L0037-E1",
-                                           "L0037-E2"
-                                       ]
-                      }
-                  ],
     "provenance":  {
                        "created_by":  "EXECUTION_AGENT",
                        "created_at":  "2026-09-03",
                        "selection_method":  "bounded Gate 3 pilot lookup",
                        "aggregator_role":  "discovery and point reference only"
                    },
-    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+    "divergences":  [
+                        {
+                            "divergence_id":  "L0037-D1",
+                            "classification":  "LEXICAL_IDENTITY_UNRESOLVED",
+                            "candidates":  [
+                                               "POLYSEMY_CANDIDATE",
+                                               "HOMONYMY_CANDIDATE"
+                                           ],
+                            "description":  "pilli (noble person) and pil[li] (child) are not treated as contradictory; lexical identity cannot be resolved from the inspected records.",
+                            "semantic_comparability":  "NOT_ESTABLISHED",
+                            "editorial_state":  "IN_REVIEW",
+                            "evidence":  [
+                                             "L0037-E1",
+                                             "L0037-E2"
+                                         ]
+                        }
+                    ]
 }
