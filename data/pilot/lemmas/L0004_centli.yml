@@ -1,0 +1,198 @@
+﻿{
+    "schema":  "nahuatl-br-gate3-pilot-v1",
+    "lemma":  {
+                  "id":  "L0004",
+                  "display_form":  "centli",
+                  "variety":  "Classical Nahuatl",
+                  "status":  "IN_REVIEW"
+              },
+    "forms":  [
+                  {
+                      "form_id":  "L0004-FS1",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "Centli",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0004-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0004-FS2",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "centli",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0004-E2"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0004-FN1",
+                      "layer":  "NORMALIZED_FORM",
+                      "value":  "centli",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+                                       "L0004-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0004-FP1",
+                      "layer":  "PEDAGOGICAL_FORM",
+                      "value":  "UNKNOWN",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0004-FK1",
+                      "layer":  "SEARCH_KEY",
+                      "value":  "centli",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  "NOT_APPLICABLE"
+                  }
+              ],
+    "senses":  [
+                   {
+                       "sense_id":  "L0004-S1",
+                       "original_gloss":  "maçorca de mayz curada y seca.",
+                       "interpretation":  "espiga de milho madura e seca",
+                       "editorial_status":  "IN_REVIEW",
+                       "confidence":  "MEDIUM",
+                       "translations":  [
+                                            {
+                                                "translation_id":  "L0004-T1",
+                                                "language":  "pt-BR",
+                                                "text":  "espiga de milho madura e seca",
+                                                "modality":  "EDITORIAL",
+                                                "editorial_state":  "IN_REVIEW",
+                                                "derived_from":  "L0004-C1",
+                                                "confidence":  "MEDIUM"
+                                            }
+                                        ]
+                   }
+               ],
+    "claims":  [
+                   {
+                       "claim_id":  "L0004-C1",
+                       "subject":  "L0004",
+                       "predicate":  "has_historical_gloss",
+                       "value":  "maçorca de mayz curada y seca.",
+                       "modality":  "REPORTED",
+                       "confidence":  "HIGH",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0004-C2",
+                       "subject":  "L0004",
+                       "predicate":  "has_pt_br_editorial_gloss",
+                       "value":  "espiga de milho madura e seca",
+                       "modality":  "EDITORIAL",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   }
+               ],
+    "attestations":  [
+                         {
+                             "attestation_id":  "L0004-A1",
+                             "source":  "A01",
+                             "aggregator":  "B01",
+                             "work":  "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+                             "edition":  "1571 Molina_2 as represented by GDN",
+                             "witness":  "GDN individual entry; exact printed exemplar NOT_REVIEWED",
+                             "locator":  "GDN entry 37219",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "Centli",
+                             "original_gloss":  "maçorca de mayz curada y seca.",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/centli/37219",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         },
+                         {
+                             "attestation_id":  "L0004-A2",
+                             "source":  "A02",
+                             "aggregator":  "B01",
+                             "work":  "Arte para aprender la lengua mexicana",
+                             "edition":  "Siméon 1875 / Olmos_G as represented by GDN",
+                             "witness":  "GDN Olmos_G entry; internal Colbert/Siméon locator NOT_REVIEWED",
+                             "locator":  "GDN entry 20313",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "centli",
+                             "original_gloss":  "maçorca de maiz",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/centli/20313",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         }
+                     ],
+    "evidence":  [
+                     {
+                         "evidence_id":  "L0004-E1",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A01",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 37219",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/centli/37219",
+                         "accessed_at":  "2026-09-03"
+                     },
+                     {
+                         "evidence_id":  "L0004-E2",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A02",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 20313",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/centli/20313",
+                         "accessed_at":  "2026-09-03"
+                     }
+                 ],
+    "evidence_links":  [
+                           {
+                               "claim_id":  "L0004-C1",
+                               "evidence_id":  "L0004-E1",
+                               "relation":  "SUPPORTS"
+                           },
+                           {
+                               "claim_id":  "L0004-C2",
+                               "evidence_id":  "L0004-E1",
+                               "relation":  "DERIVED_FROM"
+                           }
+                       ],
+    "morphology":  {
+                       "status":  "NOT_REVIEWED",
+                       "analyses":  [
+
+                                    ]
+                   },
+    "phonological_information":  {
+                                     "vowel_length":  "NOT_REVIEWED",
+                                     "saltillo":  "NOT_REVIEWED",
+                                     "status":  "NOT_REVIEWED",
+                                     "evidence":  [
+
+                                                  ],
+                                     "vowel_length_evidence":  [
+
+                                                               ],
+                                     "saltillo_evidence":  [
+
+                                                           ]
+                                 },
+    "corpus_references":  [
+                              {
+                                  "source":  "B03",
+                                  "aggregator":  "B01",
+                                  "work":  "Florentine Codex",
+                                  "locator":  "GDN CF_INDEX/Sahagún entry 192695",
+                                  "url":  "https://gdn.iib.unam.mx/diccionario/centli/192695",
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                              }
+                          ],
+    "conflicts":  [
+
+                  ],
+    "provenance":  {
+                       "created_by":  "EXECUTION_AGENT",
+                       "created_at":  "2026-09-03",
+                       "selection_method":  "bounded Gate 3 pilot lookup",
+                       "aggregator_role":  "discovery and point reference only"
+                   },
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+}

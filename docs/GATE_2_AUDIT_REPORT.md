@@ -94,3 +94,19 @@ fonológica foi fabricada. As reservas são a dependência do GDN na fixture, a
 ausência de um caso localizado de Olmos e as decisões que pertencem ao futuro
 modelo fonológico/revisão externa. Elas não impedem submeter o Gate 2 à revisão,
 mas o `EXECUTION_AGENT` não o aprova e não inicia o Gate 3.
+
+## Fechamento administrativo
+
+`ORCHESTRATOR_REVIEWER_DECISION: PASS`
+
+Decisão registrada em 2026-09-03. Permanecem duas reservas não bloqueadoras:
+
+1. o uso pedagógico de `h` para saltillo pertence à convenção ortográfica v1
+   e não constitui decisão fonética definitiva;
+2. deve-se tentar incorporar pelo menos um caso localizado de Olmos durante o
+   Gate 3.
+
+A aprovação de `classical_orthography_v1` limita-se ao corpus piloto do Gate 3,
+à representação editorial e à representação de busca. Não aprova IPA
+definitivo, realização fonética definitiva do saltillo nem reconstrução
+fonológica completa.

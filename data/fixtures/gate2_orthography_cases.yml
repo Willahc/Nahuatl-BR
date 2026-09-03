@@ -2,8 +2,17 @@ fixture_id: gate2_orthography_cases
 version: "1.0.0-draft.1"
 status: DRAFT
 purpose: "Test editorial layering; these are Forms/cases, not canonical Lemmas."
-case_count: 25
+case_count: 26
 cases:
+  - case_id: G2-026-olmos-centli
+    source: A02
+    source_locator: "GDN Olmos_G entry 20313; https://gdn.iib.unam.mx/diccionario/centli/20313"
+    source_form: "centli"
+    phenomenon: "Olmos localized historical spelling and GDN editorial mediation"
+    expected_editorial_treatment: "Preserve centli as SOURCE_FORM; retain the GDN entry ID as the verified digital Locator; mark the internal Siméon/Codex Colbert locator NOT_REVIEWED."
+    normalization_profile: classical_orthography_v1@1.0.0
+    confidence: HIGH
+    notes: "Gate 3 location attempt satisfied at the digital Edition level. This does not assert a manuscript folio and does not copy an extended protected transcription."
   - case_id: G2-001
     source: "A01 Molina_1, 1571 via GDN"
     source_locator: "folio 8v; https://gdn.iib.unam.mx/diccionario/analco/107971"

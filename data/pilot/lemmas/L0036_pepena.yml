@@ -1,0 +1,232 @@
+﻿{
+    "schema":  "nahuatl-br-gate3-pilot-v1",
+    "lemma":  {
+                  "id":  "L0036",
+                  "display_form":  "pepena",
+                  "variety":  "Classical Nahuatl",
+                  "status":  "IN_REVIEW"
+              },
+    "forms":  [
+                  {
+                      "form_id":  "L0036-FS1",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "Pepena, nite",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0036-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0036-FN1",
+                      "layer":  "NORMALIZED_FORM",
+                      "value":  "pepena",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+                                       "L0036-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0036-FP1",
+                      "layer":  "PEDAGOGICAL_FORM",
+                      "value":  "UNKNOWN",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0036-FK1",
+                      "layer":  "SEARCH_KEY",
+                      "value":  "pepena",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  "NOT_APPLICABLE"
+                  },
+                  {
+                      "form_id":  "L0036-FS2",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "pèpena, nic",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0036-E2"
+                                   ]
+                  }
+              ],
+    "senses":  [
+                   {
+                       "sense_id":  "L0036-S1",
+                       "original_gloss":  [
+                                              "elegir o escoger a alguno. preterito: onitepepen.",
+                                              "D"
+                                          ],
+                       "interpretation":  "escolher ou recolher",
+                       "editorial_status":  "IN_REVIEW",
+                       "confidence":  "MEDIUM",
+                       "translations":  [
+                                            {
+                                                "translation_id":  "L0036-T1",
+                                                "language":  "pt-BR",
+                                                "text":  "escolher ou recolher",
+                                                "modality":  "EDITORIAL",
+                                                "editorial_state":  "IN_REVIEW",
+                                                "derived_from":  "L0036-C1",
+                                                "confidence":  "MEDIUM"
+                                            }
+                                        ]
+                   }
+               ],
+    "claims":  [
+                   {
+                       "claim_id":  "L0036-C1",
+                       "subject":  "L0036",
+                       "predicate":  "has_historical_gloss",
+                       "value":  [
+                                     "elegir o escoger a alguno. preterito: onitepepen.",
+                                     "D"
+                                 ],
+                       "modality":  "REPORTED",
+                       "confidence":  "HIGH",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0036-C2",
+                       "subject":  "L0036",
+                       "predicate":  "has_pt_br_editorial_gloss",
+                       "value":  "escolher ou recolher",
+                       "modality":  "EDITORIAL",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0036-C3",
+                       "subject":  "L0036",
+                       "predicate":  "has_reported_prosodic_notation",
+                       "value":  "pèpena, nic",
+                       "modality":  "REPORTED",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   }
+               ],
+    "attestations":  [
+                         {
+                             "attestation_id":  "L0036-A1",
+                             "source":  "A01",
+                             "aggregator":  "B01",
+                             "work":  "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+                             "edition":  "1571 Molina_2 as represented by GDN",
+                             "witness":  "GDN individual entry; exact printed exemplar NOT_REVIEWED",
+                             "locator":  "GDN entry 156005",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "Pepena, nite",
+                             "original_gloss":  [
+                                                    "elegir o escoger a alguno. preterito: onitepepen.",
+                                                    "D"
+                                                ],
+                             "url":  "https://gdn.iib.unam.mx/diccionario/pepena/156005",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         },
+                         {
+                             "attestation_id":  "L0036-A2",
+                             "source":  "A04",
+                             "aggregator":  "B01",
+                             "work":  "Arte de la lengua mexicana con la declaración de los adverbios della",
+                             "edition":  "1645 Work, GDN vocabulary based on 1983 facsimile",
+                             "witness":  "GDN individual entry; facsimile-derived modern editorial layer",
+                             "locator":  "GDN entry 17950",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "pèpena, nic",
+                             "original_gloss":  "escoger / escoger algo, o recoger lo esparcido",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/pepena/17950",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         }
+                     ],
+    "evidence":  [
+                     {
+                         "evidence_id":  "L0036-E1",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A01",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 156005",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/pepena/156005",
+                         "accessed_at":  "2026-09-03"
+                     },
+                     {
+                         "evidence_id":  "L0036-E2",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A04",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 17950",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/pepena/17950",
+                         "accessed_at":  "2026-09-03"
+                     }
+                 ],
+    "evidence_links":  [
+                           {
+                               "claim_id":  "L0036-C1",
+                               "evidence_id":  "L0036-E1",
+                               "relation":  "SUPPORTS"
+                           },
+                           {
+                               "claim_id":  "L0036-C2",
+                               "evidence_id":  "L0036-E1",
+                               "relation":  "DERIVED_FROM"
+                           },
+                           {
+                               "claim_id":  "L0036-C3",
+                               "evidence_id":  "L0036-E2",
+                               "relation":  "SUPPORTS"
+                           }
+                       ],
+    "morphology":  {
+                       "status":  "IN_REVIEW",
+                       "analyses":  [
+                                        {
+                                            "analysis_id":  "L0036-M1",
+                                            "description":  "Citation-form frame/prefix information is present in the historical lexical entry; no segmentation asserted.",
+                                            "modality":  "REPORTED",
+                                            "confidence":  "MEDIUM",
+                                            "evidence":  [
+                                                             "L0036-E1"
+                                                         ]
+                                        }
+                                    ]
+                   },
+    "phonological_information":  {
+                                     "vowel_length":  "NOT_REVIEWED",
+                                     "saltillo":  "NOT_REVIEWED",
+                                     "status":  "IN_REVIEW",
+                                     "evidence":  [
+                                                      {
+                                                          "state":  "REPORTED",
+                                                          "notation":  "pèpena, nic",
+                                                          "evidence_id":  "L0036-E2",
+                                                          "note":  "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+                                                      }
+                                                  ],
+                                     "vowel_length_evidence":  [
+
+                                                               ],
+                                     "saltillo_evidence":  [
+                                                               {
+                                                                   "state":  "REPORTED",
+                                                                   "notation":  "pèpena, nic",
+                                                                   "evidence_id":  "L0036-E2",
+                                                                   "note":  "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+                                                               }
+                                                           ]
+                                 },
+    "corpus_references":  [
+
+                          ],
+    "conflicts":  [
+
+                  ],
+    "provenance":  {
+                       "created_by":  "EXECUTION_AGENT",
+                       "created_at":  "2026-09-03",
+                       "selection_method":  "bounded Gate 3 pilot lookup",
+                       "aggregator_role":  "discovery and point reference only"
+                   },
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+}

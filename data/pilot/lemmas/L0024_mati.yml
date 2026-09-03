@@ -1,0 +1,214 @@
+﻿{
+    "schema":  "nahuatl-br-gate3-pilot-v1",
+    "lemma":  {
+                  "id":  "L0024",
+                  "display_form":  "mati",
+                  "variety":  "Classical Nahuatl",
+                  "status":  "IN_REVIEW"
+              },
+    "forms":  [
+                  {
+                      "form_id":  "L0024-FS1",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "Mati, anic",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0024-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0024-FS2",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "mati, non",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0024-E2"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0024-FN1",
+                      "layer":  "NORMALIZED_FORM",
+                      "value":  "mati",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+                                       "L0024-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0024-FP1",
+                      "layer":  "PEDAGOGICAL_FORM",
+                      "value":  "UNKNOWN",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0024-FK1",
+                      "layer":  "SEARCH_KEY",
+                      "value":  "mati",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  "NOT_APPLICABLE"
+                  }
+              ],
+    "senses":  [
+                   {
+                       "sense_id":  "L0024-S1",
+                       "original_gloss":  "ignorar algo. preterito: aonicma. vel. amo onicma.",
+                       "interpretation":  "saber",
+                       "editorial_status":  "IN_REVIEW",
+                       "confidence":  "MEDIUM",
+                       "translations":  [
+                                            {
+                                                "translation_id":  "L0024-T1",
+                                                "language":  "pt-BR",
+                                                "text":  "saber",
+                                                "modality":  "EDITORIAL",
+                                                "editorial_state":  "IN_REVIEW",
+                                                "derived_from":  "L0024-C1",
+                                                "confidence":  "MEDIUM"
+                                            }
+                                        ]
+                   }
+               ],
+    "claims":  [
+                   {
+                       "claim_id":  "L0024-C1",
+                       "subject":  "L0024",
+                       "predicate":  "has_historical_gloss",
+                       "value":  "ignorar algo. preterito: aonicma. vel. amo onicma.",
+                       "modality":  "REPORTED",
+                       "confidence":  "HIGH",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0024-C2",
+                       "subject":  "L0024",
+                       "predicate":  "has_pt_br_editorial_gloss",
+                       "value":  "saber",
+                       "modality":  "EDITORIAL",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   }
+               ],
+    "attestations":  [
+                         {
+                             "attestation_id":  "L0024-A1",
+                             "source":  "A01",
+                             "aggregator":  "B01",
+                             "work":  "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+                             "edition":  "1571 Molina_2 as represented by GDN",
+                             "witness":  "GDN individual entry; exact printed exemplar NOT_REVIEWED",
+                             "locator":  "GDN entry 150955",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "Mati, anic",
+                             "original_gloss":  "ignorar algo. preterito: aonicma. vel. amo onicma.",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/mati/150955",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         },
+                         {
+                             "attestation_id":  "L0024-A2",
+                             "source":  "A04",
+                             "aggregator":  "B01",
+                             "work":  "Arte de la lengua mexicana con la declaración de los adverbios della",
+                             "edition":  "1645 Work, GDN vocabulary based on 1983 facsimile",
+                             "witness":  "GDN individual entry; facsimile-derived modern editorial layer",
+                             "locator":  "GDN entry 17436",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "mati, non",
+                             "original_gloss":  "saber el camino para alguna parte",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/mati/17436",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         }
+                     ],
+    "evidence":  [
+                     {
+                         "evidence_id":  "L0024-E1",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A01",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 150955",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/mati/150955",
+                         "accessed_at":  "2026-09-03"
+                     },
+                     {
+                         "evidence_id":  "L0024-E2",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A04",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 17436",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/mati/17436",
+                         "accessed_at":  "2026-09-03"
+                     }
+                 ],
+    "evidence_links":  [
+                           {
+                               "claim_id":  "L0024-C1",
+                               "evidence_id":  "L0024-E1",
+                               "relation":  "SUPPORTS"
+                           },
+                           {
+                               "claim_id":  "L0024-C2",
+                               "evidence_id":  "L0024-E1",
+                               "relation":  "DERIVED_FROM"
+                           }
+                       ],
+    "morphology":  {
+                       "status":  "IN_REVIEW",
+                       "analyses":  [
+                                        {
+                                            "analysis_id":  "L0024-M1",
+                                            "description":  "Citation-form frame/prefix information is present in the historical lexical entry; no segmentation asserted.",
+                                            "modality":  "REPORTED",
+                                            "confidence":  "MEDIUM",
+                                            "evidence":  [
+                                                             "L0024-E1"
+                                                         ]
+                                        }
+                                    ]
+                   },
+    "phonological_information":  {
+                                     "vowel_length":  "NOT_REVIEWED",
+                                     "saltillo":  "NOT_REVIEWED",
+                                     "status":  "NOT_REVIEWED",
+                                     "evidence":  [
+
+                                                  ],
+                                     "vowel_length_evidence":  [
+
+                                                               ],
+                                     "saltillo_evidence":  [
+
+                                                           ]
+                                 },
+    "corpus_references":  [
+                              {
+                                  "source":  "B03",
+                                  "aggregator":  "B01",
+                                  "work":  "Florentine Codex",
+                                  "locator":  "GDN CF_INDEX/Sahagún entry 278993",
+                                  "url":  "https://gdn.iib.unam.mx/diccionario/mati/278993",
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                              }
+                          ],
+    "conflicts":  [
+                      {
+                          "conflict_id":  "L0024-X1",
+                          "description":  "Selected historical entries differ in gloss or citation frame; retained without silent merger.",
+                          "status":  "IN_REVIEW",
+                          "evidence":  [
+                                           "L0024-E1",
+                                           "L0024-E2"
+                                       ]
+                      }
+                  ],
+    "provenance":  {
+                       "created_by":  "EXECUTION_AGENT",
+                       "created_at":  "2026-09-03",
+                       "selection_method":  "bounded Gate 3 pilot lookup",
+                       "aggregator_role":  "discovery and point reference only"
+                   },
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+}

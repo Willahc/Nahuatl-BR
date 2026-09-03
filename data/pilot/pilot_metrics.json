@@ -1,0 +1,27 @@
+{
+  "total_lemmas": 50,
+  "with_pt_br": 50,
+  "with_primary_attestation": 50,
+  "with_two_historical_sources": 48,
+  "with_context": 47,
+  "with_vowel_length_evidence": 23,
+  "with_saltillo_evidence": 10,
+  "with_morphology": 12,
+  "with_conflicting_claims": 3,
+  "with_unknown_fields": 50,
+  "claims_total": 129,
+  "claims_by_modality": {
+    "EDITORIAL": 50,
+    "REPORTED": 79
+  },
+  "claims_by_confidence": {
+    "HIGH": 50,
+    "MEDIUM": 79
+  },
+  "attestations_total": 98,
+  "attestations_by_source": {
+    "A01": 49,
+    "A02": 2,
+    "A04": 47
+  }
+}

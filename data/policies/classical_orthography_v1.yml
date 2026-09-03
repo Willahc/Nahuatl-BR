@@ -1,7 +1,15 @@
 policy_id: classical_orthography_v1
 name: "Classical Nahuatl editorial orthography"
-version: "1.0.0-draft.1"
-status: DRAFT
+version: "1.0.0"
+status: APPROVED
+approved_scope:
+  - "Gate 3 corpus pilot"
+  - "editorial representation"
+  - "search representation"
+excluded_from_approval:
+  - "definitive IPA"
+  - "definitive phonetic realization of saltillo"
+  - "complete phonological reconstruction"
 created_at: "2026-09-03"
 scope:
   language: "Classical Nahuatl"
@@ -80,4 +88,4 @@ open_decisions:
   - "full ligature/abbreviation policy per Witness"
   - "word-boundary and morphological-hyphen policy"
   - "operational Confidence rubric"
-  - "external approval and promotion from DRAFT"
+  - "future revision and expansion after the Gate 3 pilot"

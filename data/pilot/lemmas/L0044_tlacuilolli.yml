@@ -1,0 +1,233 @@
+﻿{
+    "schema":  "nahuatl-br-gate3-pilot-v1",
+    "lemma":  {
+                  "id":  "L0044",
+                  "display_form":  "tlacuilolli",
+                  "variety":  "Classical Nahuatl",
+                  "status":  "IN_REVIEW"
+              },
+    "forms":  [
+                  {
+                      "form_id":  "L0044-FS1",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "Tlacuilolli",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0044-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0044-FS2",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "tlàcuilölli",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0044-E2"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0044-FN1",
+                      "layer":  "NORMALIZED_FORM",
+                      "value":  "tlacuilolli",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+                                       "L0044-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0044-FP1",
+                      "layer":  "PEDAGOGICAL_FORM",
+                      "value":  "UNKNOWN",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0044-FK1",
+                      "layer":  "SEARCH_KEY",
+                      "value":  "tlacuilolli",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  "NOT_APPLICABLE"
+                  }
+              ],
+    "senses":  [
+                   {
+                       "sense_id":  "L0044-S1",
+                       "original_gloss":  "escriptura, o pintura.",
+                       "interpretation":  "escrita ou pintura",
+                       "editorial_status":  "IN_REVIEW",
+                       "confidence":  "MEDIUM",
+                       "translations":  [
+                                            {
+                                                "translation_id":  "L0044-T1",
+                                                "language":  "pt-BR",
+                                                "text":  "escrita ou pintura",
+                                                "modality":  "EDITORIAL",
+                                                "editorial_state":  "IN_REVIEW",
+                                                "derived_from":  "L0044-C1",
+                                                "confidence":  "MEDIUM"
+                                            }
+                                        ]
+                   }
+               ],
+    "claims":  [
+                   {
+                       "claim_id":  "L0044-C1",
+                       "subject":  "L0044",
+                       "predicate":  "has_historical_gloss",
+                       "value":  "escriptura, o pintura.",
+                       "modality":  "REPORTED",
+                       "confidence":  "HIGH",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0044-C2",
+                       "subject":  "L0044",
+                       "predicate":  "has_pt_br_editorial_gloss",
+                       "value":  "escrita ou pintura",
+                       "modality":  "EDITORIAL",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0044-C3",
+                       "subject":  "L0044",
+                       "predicate":  "has_reported_prosodic_notation",
+                       "value":  "tlàcuilölli",
+                       "modality":  "REPORTED",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   }
+               ],
+    "attestations":  [
+                         {
+                             "attestation_id":  "L0044-A1",
+                             "source":  "A01",
+                             "aggregator":  "B01",
+                             "work":  "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+                             "edition":  "1571 Molina_2 as represented by GDN",
+                             "witness":  "GDN individual entry; exact printed exemplar NOT_REVIEWED",
+                             "locator":  "GDN entry 162435",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "Tlacuilolli",
+                             "original_gloss":  "escriptura, o pintura.",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/tlacuilolli/162435",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         },
+                         {
+                             "attestation_id":  "L0044-A2",
+                             "source":  "A04",
+                             "aggregator":  "B01",
+                             "work":  "Arte de la lengua mexicana con la declaración de los adverbios della",
+                             "edition":  "1645 Work, GDN vocabulary based on 1983 facsimile",
+                             "witness":  "GDN individual entry; facsimile-derived modern editorial layer",
+                             "locator":  "GDN entry 18437",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "tlàcuilölli",
+                             "original_gloss":  "escrito, pintado",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/tlacuilolli/18437",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         }
+                     ],
+    "evidence":  [
+                     {
+                         "evidence_id":  "L0044-E1",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A01",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 162435",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/tlacuilolli/162435",
+                         "accessed_at":  "2026-09-03"
+                     },
+                     {
+                         "evidence_id":  "L0044-E2",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A04",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 18437",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/tlacuilolli/18437",
+                         "accessed_at":  "2026-09-03"
+                     }
+                 ],
+    "evidence_links":  [
+                           {
+                               "claim_id":  "L0044-C1",
+                               "evidence_id":  "L0044-E1",
+                               "relation":  "SUPPORTS"
+                           },
+                           {
+                               "claim_id":  "L0044-C2",
+                               "evidence_id":  "L0044-E1",
+                               "relation":  "DERIVED_FROM"
+                           },
+                           {
+                               "claim_id":  "L0044-C3",
+                               "evidence_id":  "L0044-E2",
+                               "relation":  "SUPPORTS"
+                           }
+                       ],
+    "morphology":  {
+                       "status":  "NOT_REVIEWED",
+                       "analyses":  [
+
+                                    ]
+                   },
+    "phonological_information":  {
+                                     "vowel_length":  "NOT_REVIEWED",
+                                     "saltillo":  "NOT_REVIEWED",
+                                     "status":  "IN_REVIEW",
+                                     "evidence":  [
+                                                      {
+                                                          "state":  "NOT_REVIEWED",
+                                                          "notation":  "tlàcuilölli",
+                                                          "evidence_id":  "L0044-E2",
+                                                          "note":  "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+                                                      },
+                                                      {
+                                                          "state":  "REPORTED",
+                                                          "notation":  "tlàcuilölli",
+                                                          "evidence_id":  "L0044-E2",
+                                                          "note":  "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+                                                      }
+                                                  ],
+                                     "vowel_length_evidence":  [
+                                                                   {
+                                                                       "state":  "NOT_REVIEWED",
+                                                                       "notation":  "tlàcuilölli",
+                                                                       "evidence_id":  "L0044-E2",
+                                                                       "note":  "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+                                                                   }
+                                                               ],
+                                     "saltillo_evidence":  [
+                                                               {
+                                                                   "state":  "REPORTED",
+                                                                   "notation":  "tlàcuilölli",
+                                                                   "evidence_id":  "L0044-E2",
+                                                                   "note":  "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+                                                               }
+                                                           ]
+                                 },
+    "corpus_references":  [
+                              {
+                                  "source":  "B03",
+                                  "aggregator":  "B01",
+                                  "work":  "Florentine Codex",
+                                  "locator":  "GDN CF_INDEX/Sahagún entry 260290",
+                                  "url":  "https://gdn.iib.unam.mx/diccionario/tlacuilolli/260290",
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                              }
+                          ],
+    "conflicts":  [
+
+                  ],
+    "provenance":  {
+                       "created_by":  "EXECUTION_AGENT",
+                       "created_at":  "2026-09-03",
+                       "selection_method":  "bounded Gate 3 pilot lookup",
+                       "aggregator_role":  "discovery and point reference only"
+                   },
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+}

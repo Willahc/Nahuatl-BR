@@ -1,0 +1,222 @@
+﻿{
+    "schema":  "nahuatl-br-gate3-pilot-v1",
+    "lemma":  {
+                  "id":  "L0006",
+                  "display_form":  "cihuatl",
+                  "variety":  "Classical Nahuatl",
+                  "status":  "IN_REVIEW"
+              },
+    "forms":  [
+                  {
+                      "form_id":  "L0006-FS1",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "Ciuatl",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0006-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0006-FS2",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "cihuätl",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0006-E2"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0006-FN1",
+                      "layer":  "NORMALIZED_FORM",
+                      "value":  "cihuatl",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+                                       "L0006-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0006-FP1",
+                      "layer":  "PEDAGOGICAL_FORM",
+                      "value":  "UNKNOWN",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0006-FK1",
+                      "layer":  "SEARCH_KEY",
+                      "value":  "cihuatl",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  "NOT_APPLICABLE"
+                  }
+              ],
+    "senses":  [
+                   {
+                       "sense_id":  "L0006-S1",
+                       "original_gloss":  "muger.",
+                       "interpretation":  "mulher",
+                       "editorial_status":  "IN_REVIEW",
+                       "confidence":  "MEDIUM",
+                       "translations":  [
+                                            {
+                                                "translation_id":  "L0006-T1",
+                                                "language":  "pt-BR",
+                                                "text":  "mulher",
+                                                "modality":  "EDITORIAL",
+                                                "editorial_state":  "IN_REVIEW",
+                                                "derived_from":  "L0006-C1",
+                                                "confidence":  "MEDIUM"
+                                            }
+                                        ]
+                   }
+               ],
+    "claims":  [
+                   {
+                       "claim_id":  "L0006-C1",
+                       "subject":  "L0006",
+                       "predicate":  "has_historical_gloss",
+                       "value":  "muger.",
+                       "modality":  "REPORTED",
+                       "confidence":  "HIGH",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0006-C2",
+                       "subject":  "L0006",
+                       "predicate":  "has_pt_br_editorial_gloss",
+                       "value":  "mulher",
+                       "modality":  "EDITORIAL",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0006-C3",
+                       "subject":  "L0006",
+                       "predicate":  "has_reported_prosodic_notation",
+                       "value":  "cihuätl",
+                       "modality":  "REPORTED",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   }
+               ],
+    "attestations":  [
+                         {
+                             "attestation_id":  "L0006-A1",
+                             "source":  "A01",
+                             "aggregator":  "B01",
+                             "work":  "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+                             "edition":  "1571 Molina_2 as represented by GDN",
+                             "witness":  "GDN individual entry; exact printed exemplar NOT_REVIEWED",
+                             "locator":  "GDN entry 38029",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "Ciuatl",
+                             "original_gloss":  "muger.",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/cihuatl/38029",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         },
+                         {
+                             "attestation_id":  "L0006-A2",
+                             "source":  "A04",
+                             "aggregator":  "B01",
+                             "work":  "Arte de la lengua mexicana con la declaración de los adverbios della",
+                             "edition":  "1645 Work, GDN vocabulary based on 1983 facsimile",
+                             "witness":  "GDN individual entry; facsimile-derived modern editorial layer",
+                             "locator":  "GDN entry 16925",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "cihuätl",
+                             "original_gloss":  "mujer / hembra",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/cihuatl/16925",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         }
+                     ],
+    "evidence":  [
+                     {
+                         "evidence_id":  "L0006-E1",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A01",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 38029",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/cihuatl/38029",
+                         "accessed_at":  "2026-09-03"
+                     },
+                     {
+                         "evidence_id":  "L0006-E2",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A04",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 16925",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/cihuatl/16925",
+                         "accessed_at":  "2026-09-03"
+                     }
+                 ],
+    "evidence_links":  [
+                           {
+                               "claim_id":  "L0006-C1",
+                               "evidence_id":  "L0006-E1",
+                               "relation":  "SUPPORTS"
+                           },
+                           {
+                               "claim_id":  "L0006-C2",
+                               "evidence_id":  "L0006-E1",
+                               "relation":  "DERIVED_FROM"
+                           },
+                           {
+                               "claim_id":  "L0006-C3",
+                               "evidence_id":  "L0006-E2",
+                               "relation":  "SUPPORTS"
+                           }
+                       ],
+    "morphology":  {
+                       "status":  "NOT_REVIEWED",
+                       "analyses":  [
+
+                                    ]
+                   },
+    "phonological_information":  {
+                                     "vowel_length":  "NOT_REVIEWED",
+                                     "saltillo":  "NOT_REVIEWED",
+                                     "status":  "IN_REVIEW",
+                                     "evidence":  [
+                                                      {
+                                                          "state":  "NOT_REVIEWED",
+                                                          "notation":  "cihuätl",
+                                                          "evidence_id":  "L0006-E2",
+                                                          "note":  "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+                                                      }
+                                                  ],
+                                     "vowel_length_evidence":  [
+                                                                   {
+                                                                       "state":  "NOT_REVIEWED",
+                                                                       "notation":  "cihuätl",
+                                                                       "evidence_id":  "L0006-E2",
+                                                                       "note":  "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+                                                                   }
+                                                               ],
+                                     "saltillo_evidence":  [
+
+                                                           ]
+                                 },
+    "corpus_references":  [
+                              {
+                                  "source":  "B03",
+                                  "aggregator":  "B01",
+                                  "work":  "Florentine Codex",
+                                  "locator":  "GDN CF_INDEX/Sahagún entry 270900",
+                                  "url":  "https://gdn.iib.unam.mx/diccionario/cihuatl/270900",
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                              }
+                          ],
+    "conflicts":  [
+
+                  ],
+    "provenance":  {
+                       "created_by":  "EXECUTION_AGENT",
+                       "created_at":  "2026-09-03",
+                       "selection_method":  "bounded Gate 3 pilot lookup",
+                       "aggregator_role":  "discovery and point reference only"
+                   },
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+}

@@ -12,9 +12,9 @@ mas não aprova o próprio Gate. Sua autoavaliação nunca autoriza progressão.
 
 Critérios de saída são cumulativos: decisões novas não podem enfraquecer
 separação de Varieties, Provenance ou direitos. Reprovação retorna itens para
-correção sem apagar o histórico. Os Gates 0 e 1 estão `CLOSED / PASS`; este
-repositório está no **Gate 2 — Padrão editorial e ortográfico**. Este documento
-não autoriza iniciar o Gate 3.
+correção sem apagar o histórico. Os Gates 0, 1 e 2 estão `CLOSED / PASS`; este
+repositório está no **Gate 3 — Corpus piloto canônico de 50 Lemmas**. Este
+documento não autoriza iniciar o Gate 4.
 
 ## GATE 0 — Governança e arquitetura — CLOSED
 
@@ -41,7 +41,7 @@ PDF local de Hueyapan, sem misturá-lo ao núcleo clássico.
 **Saída:** conjunto mínimo de fontes clássicas aprovado para o piloto; métodos
 de obtenção autorizados e reprodutíveis; riscos e fontes recusadas documentados.
 
-## GATE 2 — Padrão editorial e ortográfico — CURRENT
+## GATE 2 — Padrão editorial e ortográfico — CLOSED
 
 **Objetivo:** definir camadas reproduzíveis para preservar Source Form e
 distinguir Diplomatic Form, Normalized Form, Pedagogical Form, Search Key e
@@ -54,7 +54,7 @@ variação, fixture de casos editoriais, glossário atualizado e autoauditoria.
 explicitamente governados; perfil versionado; 20–30 casos reais; nenhuma
 inferência fonológica inventada ou ingestão em massa.
 
-## GATE 3 — Corpus piloto de 50 lemmas clássicos
+## GATE 3 — Corpus piloto de 50 lemmas clássicos — CURRENT
 
 **Objetivo:** testar o modelo com 50 lemmas de Náhuatl Clássico, selecionados por
 critérios documentados, sem incorporar variantes modernas.

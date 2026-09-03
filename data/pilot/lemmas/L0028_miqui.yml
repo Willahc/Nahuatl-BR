@@ -1,0 +1,206 @@
+﻿{
+    "schema":  "nahuatl-br-gate3-pilot-v1",
+    "lemma":  {
+                  "id":  "L0028",
+                  "display_form":  "miqui",
+                  "variety":  "Classical Nahuatl",
+                  "status":  "IN_REVIEW"
+              },
+    "forms":  [
+                  {
+                      "form_id":  "L0028-FS1",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "Miqui, ni",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0028-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0028-FS2",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "miqui, ni",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0028-E2"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0028-FN1",
+                      "layer":  "NORMALIZED_FORM",
+                      "value":  "miqui",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+                                       "L0028-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0028-FP1",
+                      "layer":  "PEDAGOGICAL_FORM",
+                      "value":  "UNKNOWN",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0028-FK1",
+                      "layer":  "SEARCH_KEY",
+                      "value":  "miqui",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  "NOT_APPLICABLE"
+                  }
+              ],
+    "senses":  [
+                   {
+                       "sense_id":  "L0028-S1",
+                       "original_gloss":  "morir. prete: onimic.",
+                       "interpretation":  "morrer",
+                       "editorial_status":  "IN_REVIEW",
+                       "confidence":  "MEDIUM",
+                       "translations":  [
+                                            {
+                                                "translation_id":  "L0028-T1",
+                                                "language":  "pt-BR",
+                                                "text":  "morrer",
+                                                "modality":  "EDITORIAL",
+                                                "editorial_state":  "IN_REVIEW",
+                                                "derived_from":  "L0028-C1",
+                                                "confidence":  "MEDIUM"
+                                            }
+                                        ]
+                   }
+               ],
+    "claims":  [
+                   {
+                       "claim_id":  "L0028-C1",
+                       "subject":  "L0028",
+                       "predicate":  "has_historical_gloss",
+                       "value":  "morir. prete: onimic.",
+                       "modality":  "REPORTED",
+                       "confidence":  "HIGH",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0028-C2",
+                       "subject":  "L0028",
+                       "predicate":  "has_pt_br_editorial_gloss",
+                       "value":  "morrer",
+                       "modality":  "EDITORIAL",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   }
+               ],
+    "attestations":  [
+                         {
+                             "attestation_id":  "L0028-A1",
+                             "source":  "A01",
+                             "aggregator":  "B01",
+                             "work":  "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+                             "edition":  "1571 Molina_2 as represented by GDN",
+                             "witness":  "GDN individual entry; exact printed exemplar NOT_REVIEWED",
+                             "locator":  "GDN entry 151775",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "Miqui, ni",
+                             "original_gloss":  "morir. prete: onimic.",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/miqui/151775",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         },
+                         {
+                             "attestation_id":  "L0028-A2",
+                             "source":  "A04",
+                             "aggregator":  "B01",
+                             "work":  "Arte de la lengua mexicana con la declaración de los adverbios della",
+                             "edition":  "1645 Work, GDN vocabulary based on 1983 facsimile",
+                             "witness":  "GDN individual entry; facsimile-derived modern editorial layer",
+                             "locator":  "GDN entry 17468",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "miqui, ni",
+                             "original_gloss":  "morir",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/miqui/17468",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         }
+                     ],
+    "evidence":  [
+                     {
+                         "evidence_id":  "L0028-E1",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A01",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 151775",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/miqui/151775",
+                         "accessed_at":  "2026-09-03"
+                     },
+                     {
+                         "evidence_id":  "L0028-E2",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A04",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 17468",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/miqui/17468",
+                         "accessed_at":  "2026-09-03"
+                     }
+                 ],
+    "evidence_links":  [
+                           {
+                               "claim_id":  "L0028-C1",
+                               "evidence_id":  "L0028-E1",
+                               "relation":  "SUPPORTS"
+                           },
+                           {
+                               "claim_id":  "L0028-C2",
+                               "evidence_id":  "L0028-E1",
+                               "relation":  "DERIVED_FROM"
+                           }
+                       ],
+    "morphology":  {
+                       "status":  "IN_REVIEW",
+                       "analyses":  [
+                                        {
+                                            "analysis_id":  "L0028-M1",
+                                            "description":  "Citation-form frame/prefix information is present in the historical lexical entry; no segmentation asserted.",
+                                            "modality":  "REPORTED",
+                                            "confidence":  "MEDIUM",
+                                            "evidence":  [
+                                                             "L0028-E1"
+                                                         ]
+                                        }
+                                    ]
+                   },
+    "phonological_information":  {
+                                     "vowel_length":  "NOT_REVIEWED",
+                                     "saltillo":  "NOT_REVIEWED",
+                                     "status":  "NOT_REVIEWED",
+                                     "evidence":  [
+
+                                                  ],
+                                     "vowel_length_evidence":  [
+
+                                                               ],
+                                     "saltillo_evidence":  [
+
+                                                           ]
+                                 },
+    "corpus_references":  [
+                              {
+                                  "source":  "B03",
+                                  "aggregator":  "B01",
+                                  "work":  "Florentine Codex",
+                                  "locator":  "GDN CF_INDEX/Sahagún entry 279039",
+                                  "url":  "https://gdn.iib.unam.mx/diccionario/miqui/279039",
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                              }
+                          ],
+    "conflicts":  [
+
+                  ],
+    "provenance":  {
+                       "created_by":  "EXECUTION_AGENT",
+                       "created_at":  "2026-09-03",
+                       "selection_method":  "bounded Gate 3 pilot lookup",
+                       "aggregator_role":  "discovery and point reference only"
+                   },
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+}

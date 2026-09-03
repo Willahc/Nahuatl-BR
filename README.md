@@ -4,8 +4,8 @@ Plataforma brasileira de estudo de náhuatl, com núcleo em Náhuatl Clássico e
 tratamento explicitamente separado e documentado de variantes modernas, como
 Hueyapan.
 
-Os Gates 0 e 1 estão encerrados com `PASS`. O projeto está no **Gate 2 — Padrão
-editorial e ortográfico**. Ainda não há corpus piloto, banco de dados, ingestão,
+Os Gates 0, 1 e 2 estão encerrados com `PASS`. O projeto está no **Gate 3 —
+Corpus piloto canônico de 50 Lemmas de Classical Nahuatl**. Ainda não há banco de dados, ingestão,
 API ou frontend.
 
 ## Princípios

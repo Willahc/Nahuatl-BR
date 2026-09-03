@@ -1,0 +1,222 @@
+﻿{
+    "schema":  "nahuatl-br-gate3-pilot-v1",
+    "lemma":  {
+                  "id":  "L0002",
+                  "display_form":  "atl",
+                  "variety":  "Classical Nahuatl",
+                  "status":  "IN_REVIEW"
+              },
+    "forms":  [
+                  {
+                      "form_id":  "L0002-FS1",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "Atl",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0002-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0002-FS2",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "ätl",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0002-E2"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0002-FN1",
+                      "layer":  "NORMALIZED_FORM",
+                      "value":  "atl",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+                                       "L0002-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0002-FP1",
+                      "layer":  "PEDAGOGICAL_FORM",
+                      "value":  "UNKNOWN",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0002-FK1",
+                      "layer":  "SEARCH_KEY",
+                      "value":  "atl",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  "NOT_APPLICABLE"
+                  }
+              ],
+    "senses":  [
+                   {
+                       "sense_id":  "L0002-S1",
+                       "original_gloss":  "agua, orines, guerra, o la mollera de la cabeça.",
+                       "interpretation":  "água",
+                       "editorial_status":  "IN_REVIEW",
+                       "confidence":  "MEDIUM",
+                       "translations":  [
+                                            {
+                                                "translation_id":  "L0002-T1",
+                                                "language":  "pt-BR",
+                                                "text":  "água",
+                                                "modality":  "EDITORIAL",
+                                                "editorial_state":  "IN_REVIEW",
+                                                "derived_from":  "L0002-C1",
+                                                "confidence":  "MEDIUM"
+                                            }
+                                        ]
+                   }
+               ],
+    "claims":  [
+                   {
+                       "claim_id":  "L0002-C1",
+                       "subject":  "L0002",
+                       "predicate":  "has_historical_gloss",
+                       "value":  "agua, orines, guerra, o la mollera de la cabeça.",
+                       "modality":  "REPORTED",
+                       "confidence":  "HIGH",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0002-C2",
+                       "subject":  "L0002",
+                       "predicate":  "has_pt_br_editorial_gloss",
+                       "value":  "água",
+                       "modality":  "EDITORIAL",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0002-C3",
+                       "subject":  "L0002",
+                       "predicate":  "has_reported_prosodic_notation",
+                       "value":  "ätl",
+                       "modality":  "REPORTED",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   }
+               ],
+    "attestations":  [
+                         {
+                             "attestation_id":  "L0002-A1",
+                             "source":  "A01",
+                             "aggregator":  "B01",
+                             "work":  "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+                             "edition":  "1571 Molina_2 as represented by GDN",
+                             "witness":  "GDN individual entry; exact printed exemplar NOT_REVIEWED",
+                             "locator":  "GDN entry 35404",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "Atl",
+                             "original_gloss":  "agua, orines, guerra, o la mollera de la cabeça.",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/atl/35404",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         },
+                         {
+                             "attestation_id":  "L0002-A2",
+                             "source":  "A04",
+                             "aggregator":  "B01",
+                             "work":  "Arte de la lengua mexicana con la declaración de los adverbios della",
+                             "edition":  "1645 Work, GDN vocabulary based on 1983 facsimile",
+                             "witness":  "GDN individual entry; facsimile-derived modern editorial layer",
+                             "locator":  "GDN entry 19081",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "ätl",
+                             "original_gloss":  "agua / ~ tepëtl, ciudad o pueblo / ~ tepëtl, república",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/atl/19081",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         }
+                     ],
+    "evidence":  [
+                     {
+                         "evidence_id":  "L0002-E1",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A01",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 35404",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/atl/35404",
+                         "accessed_at":  "2026-09-03"
+                     },
+                     {
+                         "evidence_id":  "L0002-E2",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A04",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 19081",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/atl/19081",
+                         "accessed_at":  "2026-09-03"
+                     }
+                 ],
+    "evidence_links":  [
+                           {
+                               "claim_id":  "L0002-C1",
+                               "evidence_id":  "L0002-E1",
+                               "relation":  "SUPPORTS"
+                           },
+                           {
+                               "claim_id":  "L0002-C2",
+                               "evidence_id":  "L0002-E1",
+                               "relation":  "DERIVED_FROM"
+                           },
+                           {
+                               "claim_id":  "L0002-C3",
+                               "evidence_id":  "L0002-E2",
+                               "relation":  "SUPPORTS"
+                           }
+                       ],
+    "morphology":  {
+                       "status":  "NOT_REVIEWED",
+                       "analyses":  [
+
+                                    ]
+                   },
+    "phonological_information":  {
+                                     "vowel_length":  "NOT_REVIEWED",
+                                     "saltillo":  "NOT_REVIEWED",
+                                     "status":  "IN_REVIEW",
+                                     "evidence":  [
+                                                      {
+                                                          "state":  "NOT_REVIEWED",
+                                                          "notation":  "ätl",
+                                                          "evidence_id":  "L0002-E2",
+                                                          "note":  "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+                                                      }
+                                                  ],
+                                     "vowel_length_evidence":  [
+                                                                   {
+                                                                       "state":  "NOT_REVIEWED",
+                                                                       "notation":  "ätl",
+                                                                       "evidence_id":  "L0002-E2",
+                                                                       "note":  "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+                                                                   }
+                                                               ],
+                                     "saltillo_evidence":  [
+
+                                                           ]
+                                 },
+    "corpus_references":  [
+                              {
+                                  "source":  "B03",
+                                  "aggregator":  "B01",
+                                  "work":  "Florentine Codex",
+                                  "locator":  "GDN CF_INDEX/Sahagún entry 190971",
+                                  "url":  "https://gdn.iib.unam.mx/diccionario/atl/190971",
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                              }
+                          ],
+    "conflicts":  [
+
+                  ],
+    "provenance":  {
+                       "created_by":  "EXECUTION_AGENT",
+                       "created_at":  "2026-09-03",
+                       "selection_method":  "bounded Gate 3 pilot lookup",
+                       "aggregator_role":  "discovery and point reference only"
+                   },
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+}

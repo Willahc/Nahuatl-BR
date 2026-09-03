@@ -1,0 +1,239 @@
+﻿{
+    "schema":  "nahuatl-br-gate3-pilot-v1",
+    "lemma":  {
+                  "id":  "L0019",
+                  "display_form":  "itoa",
+                  "variety":  "Classical Nahuatl",
+                  "status":  "IN_REVIEW"
+              },
+    "forms":  [
+                  {
+                      "form_id":  "L0019-FS1",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "Itoa, nin",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0019-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0019-FN1",
+                      "layer":  "NORMALIZED_FORM",
+                      "value":  "itoa",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+                                       "L0019-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0019-FP1",
+                      "layer":  "PEDAGOGICAL_FORM",
+                      "value":  "UNKNOWN",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0019-FK1",
+                      "layer":  "SEARCH_KEY",
+                      "value":  "itoa",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  "NOT_APPLICABLE"
+                  },
+                  {
+                      "form_id":  "L0019-FS2",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "ìtoa, m",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0019-E2"
+                                   ]
+                  }
+              ],
+    "senses":  [
+                   {
+                       "sense_id":  "L0019-S1",
+                       "original_gloss":  [
+                                              "comedirse, o ofrecerse a hazer alguna cosa. pret: oninito.",
+                                              "D"
+                                          ],
+                       "interpretation":  "dizer-se ou tratar-se",
+                       "editorial_status":  "IN_REVIEW",
+                       "confidence":  "MEDIUM",
+                       "translations":  [
+                                            {
+                                                "translation_id":  "L0019-T1",
+                                                "language":  "pt-BR",
+                                                "text":  "dizer-se ou tratar-se",
+                                                "modality":  "EDITORIAL",
+                                                "editorial_state":  "IN_REVIEW",
+                                                "derived_from":  "L0019-C1",
+                                                "confidence":  "MEDIUM"
+                                            }
+                                        ]
+                   }
+               ],
+    "claims":  [
+                   {
+                       "claim_id":  "L0019-C1",
+                       "subject":  "L0019",
+                       "predicate":  "has_historical_gloss",
+                       "value":  [
+                                     "comedirse, o ofrecerse a hazer alguna cosa. pret: oninito.",
+                                     "D"
+                                 ],
+                       "modality":  "REPORTED",
+                       "confidence":  "HIGH",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0019-C2",
+                       "subject":  "L0019",
+                       "predicate":  "has_pt_br_editorial_gloss",
+                       "value":  "dizer-se ou tratar-se",
+                       "modality":  "EDITORIAL",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0019-C3",
+                       "subject":  "L0019",
+                       "predicate":  "has_reported_prosodic_notation",
+                       "value":  "ìtoa, m",
+                       "modality":  "REPORTED",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   }
+               ],
+    "attestations":  [
+                         {
+                             "attestation_id":  "L0019-A1",
+                             "source":  "A01",
+                             "aggregator":  "B01",
+                             "work":  "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+                             "edition":  "1571 Molina_2 as represented by GDN",
+                             "witness":  "GDN individual entry; exact printed exemplar NOT_REVIEWED",
+                             "locator":  "GDN entry 149239",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "Itoa, nin",
+                             "original_gloss":  [
+                                                    "comedirse, o ofrecerse a hazer alguna cosa. pret: oninito.",
+                                                    "D"
+                                                ],
+                             "url":  "https://gdn.iib.unam.mx/diccionario/itoa/149239",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         },
+                         {
+                             "attestation_id":  "L0019-A2",
+                             "source":  "A04",
+                             "aggregator":  "B01",
+                             "work":  "Arte de la lengua mexicana con la declaración de los adverbios della",
+                             "edition":  "1645 Work, GDN vocabulary based on 1983 facsimile",
+                             "witness":  "GDN individual entry; facsimile-derived modern editorial layer",
+                             "locator":  "GDN entry 19263",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "ìtoa, m",
+                             "original_gloss":  "correr la voz / decirse / tratarse",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/itoa/19263",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         }
+                     ],
+    "evidence":  [
+                     {
+                         "evidence_id":  "L0019-E1",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A01",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 149239",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/itoa/149239",
+                         "accessed_at":  "2026-09-03"
+                     },
+                     {
+                         "evidence_id":  "L0019-E2",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A04",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 19263",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/itoa/19263",
+                         "accessed_at":  "2026-09-03"
+                     }
+                 ],
+    "evidence_links":  [
+                           {
+                               "claim_id":  "L0019-C1",
+                               "evidence_id":  "L0019-E1",
+                               "relation":  "SUPPORTS"
+                           },
+                           {
+                               "claim_id":  "L0019-C2",
+                               "evidence_id":  "L0019-E1",
+                               "relation":  "DERIVED_FROM"
+                           },
+                           {
+                               "claim_id":  "L0019-C3",
+                               "evidence_id":  "L0019-E2",
+                               "relation":  "SUPPORTS"
+                           }
+                       ],
+    "morphology":  {
+                       "status":  "IN_REVIEW",
+                       "analyses":  [
+                                        {
+                                            "analysis_id":  "L0019-M1",
+                                            "description":  "Citation-form frame/prefix information is present in the historical lexical entry; no segmentation asserted.",
+                                            "modality":  "REPORTED",
+                                            "confidence":  "MEDIUM",
+                                            "evidence":  [
+                                                             "L0019-E1"
+                                                         ]
+                                        }
+                                    ]
+                   },
+    "phonological_information":  {
+                                     "vowel_length":  "NOT_REVIEWED",
+                                     "saltillo":  "NOT_REVIEWED",
+                                     "status":  "IN_REVIEW",
+                                     "evidence":  [
+                                                      {
+                                                          "state":  "REPORTED",
+                                                          "notation":  "ìtoa, m",
+                                                          "evidence_id":  "L0019-E2",
+                                                          "note":  "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+                                                      }
+                                                  ],
+                                     "vowel_length_evidence":  [
+
+                                                               ],
+                                     "saltillo_evidence":  [
+                                                               {
+                                                                   "state":  "REPORTED",
+                                                                   "notation":  "ìtoa, m",
+                                                                   "evidence_id":  "L0019-E2",
+                                                                   "note":  "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+                                                               }
+                                                           ]
+                                 },
+    "corpus_references":  [
+                              {
+                                  "source":  "B03",
+                                  "aggregator":  "B01",
+                                  "work":  "Florentine Codex",
+                                  "locator":  "GDN CF_INDEX/Sahagún entry 278893",
+                                  "url":  "https://gdn.iib.unam.mx/diccionario/itoa/278893",
+                                  "use":  "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation."
+                              }
+                          ],
+    "conflicts":  [
+
+                  ],
+    "provenance":  {
+                       "created_by":  "EXECUTION_AGENT",
+                       "created_at":  "2026-09-03",
+                       "selection_method":  "bounded Gate 3 pilot lookup",
+                       "aggregator_role":  "discovery and point reference only"
+                   },
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+}

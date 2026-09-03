@@ -1,0 +1,243 @@
+﻿{
+    "schema":  "nahuatl-br-gate3-pilot-v1",
+    "lemma":  {
+                  "id":  "L0009",
+                  "display_form":  "cocotona",
+                  "variety":  "Classical Nahuatl",
+                  "status":  "IN_REVIEW"
+              },
+    "forms":  [
+                  {
+                      "form_id":  "L0009-FS1",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "Cocotona, nite",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0009-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0009-FN1",
+                      "layer":  "NORMALIZED_FORM",
+                      "value":  "cocotona",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+                                       "L0009-E1"
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0009-FP1",
+                      "layer":  "PEDAGOGICAL_FORM",
+                      "value":  "UNKNOWN",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  [
+
+                                   ]
+                  },
+                  {
+                      "form_id":  "L0009-FK1",
+                      "layer":  "SEARCH_KEY",
+                      "value":  "cocotona",
+                      "normalization_profile":  "classical_orthography_v1@1.0.0",
+                      "evidence":  "NOT_APPLICABLE"
+                  },
+                  {
+                      "form_id":  "L0009-FS2",
+                      "layer":  "SOURCE_FORM",
+                      "value":  "còcotöna, nitla",
+                      "normalization_profile":  "NOT_APPLICABLE",
+                      "evidence":  [
+                                       "L0009-E2"
+                                   ]
+                  }
+              ],
+    "senses":  [
+                   {
+                       "sense_id":  "L0009-S1",
+                       "original_gloss":  [
+                                              "pellizcar a otro. p: onitecocotó[n].",
+                                              "D"
+                                          ],
+                       "interpretation":  "cortar em várias partes ou despedaçar",
+                       "editorial_status":  "IN_REVIEW",
+                       "confidence":  "MEDIUM",
+                       "translations":  [
+                                            {
+                                                "translation_id":  "L0009-T1",
+                                                "language":  "pt-BR",
+                                                "text":  "cortar em várias partes ou despedaçar",
+                                                "modality":  "EDITORIAL",
+                                                "editorial_state":  "IN_REVIEW",
+                                                "derived_from":  "L0009-C1",
+                                                "confidence":  "MEDIUM"
+                                            }
+                                        ]
+                   }
+               ],
+    "claims":  [
+                   {
+                       "claim_id":  "L0009-C1",
+                       "subject":  "L0009",
+                       "predicate":  "has_historical_gloss",
+                       "value":  [
+                                     "pellizcar a otro. p: onitecocotó[n].",
+                                     "D"
+                                 ],
+                       "modality":  "REPORTED",
+                       "confidence":  "HIGH",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0009-C2",
+                       "subject":  "L0009",
+                       "predicate":  "has_pt_br_editorial_gloss",
+                       "value":  "cortar em várias partes ou despedaçar",
+                       "modality":  "EDITORIAL",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   },
+                   {
+                       "claim_id":  "L0009-C3",
+                       "subject":  "L0009",
+                       "predicate":  "has_reported_prosodic_notation",
+                       "value":  "còcotöna, nitla",
+                       "modality":  "REPORTED",
+                       "confidence":  "MEDIUM",
+                       "editorial_state":  "IN_REVIEW"
+                   }
+               ],
+    "attestations":  [
+                         {
+                             "attestation_id":  "L0009-A1",
+                             "source":  "A01",
+                             "aggregator":  "B01",
+                             "work":  "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+                             "edition":  "1571 Molina_2 as represented by GDN",
+                             "witness":  "GDN individual entry; exact printed exemplar NOT_REVIEWED",
+                             "locator":  "GDN entry 38230",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical folio/section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "Cocotona, nite",
+                             "original_gloss":  [
+                                                    "pellizcar a otro. p: onitecocotó[n].",
+                                                    "D"
+                                                ],
+                             "url":  "https://gdn.iib.unam.mx/diccionario/cocotona/38230",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         },
+                         {
+                             "attestation_id":  "L0009-A2",
+                             "source":  "A04",
+                             "aggregator":  "B01",
+                             "work":  "Arte de la lengua mexicana con la declaración de los adverbios della",
+                             "edition":  "1645 Work, GDN vocabulary based on 1983 facsimile",
+                             "witness":  "GDN individual entry; facsimile-derived modern editorial layer",
+                             "locator":  "GDN entry 17062",
+                             "underlying_locator":  "NOT_REVIEWED",
+                             "locator_absence_reason":  "Historical section was not exposed in the bounded capture; the stable digital entry ID is retained.",
+                             "source_form":  "còcotöna, nitla",
+                             "original_gloss":  "cortar varias cosas / despedazar",
+                             "url":  "https://gdn.iib.unam.mx/diccionario/cocotona/17062",
+                             "notes":  "Point reference only; no extended modern transcription copied."
+                         }
+                     ],
+    "evidence":  [
+                     {
+                         "evidence_id":  "L0009-E1",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A01",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 38230",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/cocotona/38230",
+                         "accessed_at":  "2026-09-03"
+                     },
+                     {
+                         "evidence_id":  "L0009-E2",
+                         "type":  "LEXICAL_ENTRY_REFERENCE",
+                         "source":  "A04",
+                         "aggregator":  "B01",
+                         "locator":  "GDN entry 17062",
+                         "url":  "https://gdn.iib.unam.mx/diccionario/cocotona/17062",
+                         "accessed_at":  "2026-09-03"
+                     }
+                 ],
+    "evidence_links":  [
+                           {
+                               "claim_id":  "L0009-C1",
+                               "evidence_id":  "L0009-E1",
+                               "relation":  "SUPPORTS"
+                           },
+                           {
+                               "claim_id":  "L0009-C2",
+                               "evidence_id":  "L0009-E1",
+                               "relation":  "DERIVED_FROM"
+                           },
+                           {
+                               "claim_id":  "L0009-C3",
+                               "evidence_id":  "L0009-E2",
+                               "relation":  "SUPPORTS"
+                           }
+                       ],
+    "morphology":  {
+                       "status":  "IN_REVIEW",
+                       "analyses":  [
+                                        {
+                                            "analysis_id":  "L0009-M1",
+                                            "description":  "Citation-form frame/prefix information is present in the historical lexical entry; no segmentation asserted.",
+                                            "modality":  "REPORTED",
+                                            "confidence":  "MEDIUM",
+                                            "evidence":  [
+                                                             "L0009-E1"
+                                                         ]
+                                        }
+                                    ]
+                   },
+    "phonological_information":  {
+                                     "vowel_length":  "NOT_REVIEWED",
+                                     "saltillo":  "NOT_REVIEWED",
+                                     "status":  "IN_REVIEW",
+                                     "evidence":  [
+                                                      {
+                                                          "state":  "NOT_REVIEWED",
+                                                          "notation":  "còcotöna, nitla",
+                                                          "evidence_id":  "L0009-E2",
+                                                          "note":  "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+                                                      },
+                                                      {
+                                                          "state":  "REPORTED",
+                                                          "notation":  "còcotöna, nitla",
+                                                          "evidence_id":  "L0009-E2",
+                                                          "note":  "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+                                                      }
+                                                  ],
+                                     "vowel_length_evidence":  [
+                                                                   {
+                                                                       "state":  "NOT_REVIEWED",
+                                                                       "notation":  "còcotöna, nitla",
+                                                                       "evidence_id":  "L0009-E2",
+                                                                       "note":  "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+                                                                   }
+                                                               ],
+                                     "saltillo_evidence":  [
+                                                               {
+                                                                   "state":  "REPORTED",
+                                                                   "notation":  "còcotöna, nitla",
+                                                                   "evidence_id":  "L0009-E2",
+                                                                   "note":  "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+                                                               }
+                                                           ]
+                                 },
+    "corpus_references":  [
+
+                          ],
+    "conflicts":  [
+
+                  ],
+    "provenance":  {
+                       "created_by":  "EXECUTION_AGENT",
+                       "created_at":  "2026-09-03",
+                       "selection_method":  "bounded Gate 3 pilot lookup",
+                       "aggregator_role":  "discovery and point reference only"
+                   },
+    "notes":  "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional."
+}
