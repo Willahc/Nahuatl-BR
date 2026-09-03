@@ -4,10 +4,11 @@ Estas regras valem para todo o repositório.
 
 ## Escopo atual
 
-O projeto está no Gate 0. Não implementar banco de dados, pipeline, API,
+Os Gates 0 e 1 estão encerrados. O projeto está no Gate 2 — Padrão editorial e
+ortográfico. Não iniciar o corpus de 50 Lemmas, banco de dados, pipeline, API,
 frontend, sistema de estudo, áudio ou escrita glífica até aprovação explícita
-do gate correspondente. Não baixar, copiar, raspar ou ingerir fontes externas
-sem autorização e sem a auditoria do Gate 1.
+do Gate correspondente. Não baixar, copiar, raspar ou ingerir fontes externas
+sem autorização.
 
 ## Regras linguísticas obrigatórias
 
@@ -34,6 +35,13 @@ sem autorização e sem a auditoria do Gate 1.
     condição.
 11. Claims sugeridas por IA nascem como `DRAFT`, registram sua origem e nunca
     constituem evidência linguística primária.
+12. `SOURCE_FORM` é imutável; `NORMALIZED_FORM` nunca a substitui.
+13. `PEDAGOGICAL_FORM` nunca é apresentada como `DIPLOMATIC_FORM`.
+14. `SEARCH_KEY` serve apenas à recuperação e nunca é Evidence linguística.
+15. Ausência de Diacritic não prova ausência de contraste fonológico; não
+    inferir comprimento vocálico, saltillo ou IPA sem Evidence.
+16. Não converter Modern Variety em Classical Nahuatl nem usar Hueyapan para
+    preencher lacunas clássicas.
 
 ## Disciplina de mudança
 

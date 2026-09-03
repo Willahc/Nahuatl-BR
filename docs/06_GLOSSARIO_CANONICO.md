@@ -34,6 +34,64 @@ Representação derivada de outra Form segundo convenção identificada e
 versionada. Coexiste com o original e nunca o substitui. A convenção definitiva
 é `OPEN_DECISION`.
 
+### Source Form
+
+Forma exatamente como registrada na Source consultada, preservando grafia,
+Diacritics e características editoriais relevantes. É imutável no registro; não
+é sinônimo de leitura linguística correta nem de texto do Witness quando a
+Source já contém intervenção editorial.
+
+### Diplomatic Form — PROVISIONAL
+
+Transcrição editorial fiel a um Witness. Conserva suas distinções relevantes e
+declara toda Editorial Intervention, como expansão de abreviatura, restituição
+ou tratamento de ligadura. Nunca sobrescreve Source Form.
+
+### Pedagogical Form — PROVISIONAL
+
+Forma destinada ao ensino. Pode explicitar informação sustentada — como
+comprimento vocálico — somente por Claims com Evidence própria. Nunca é
+apresentada como Source Form ou Diplomatic Form.
+
+### Search Key
+
+Representação técnica, versionada e potencialmente lossy, usada exclusivamente
+para recuperação. Não é forma linguística canônica, Evidence, Reconstruction ou
+fonte de Claims linguísticas.
+
+### Normalization Profile
+
+Conjunto identificado e versionado de regras que produz Normalized Form,
+Pedagogical Form ou Search Key dentro de escopo declarado. Cada regra registra
+condição, transformação, perda, Evidence, Confidence e versão.
+
+### Editorial Intervention
+
+Alteração, expansão, restituição, segmentação ou anotação introduzida por editor
+ou transcritor, registrada separadamente com responsável, motivo e Evidence.
+
+### Orthographic Variant — PROVISIONAL
+
+Relação documentada entre Forms que diferem ortograficamente. Não implica por si
+só identidade fonológica, morfológica, histórica ou lexical.
+
+### Phonological Representation — PROVISIONAL
+
+Camada separada das representações ortográficas para Claims sobre segmentos,
+contrastes e outras propriedades fonológicas. Não é derivada automaticamente de
+Source Form, Normalized Form, Pedagogical Form ou Search Key.
+
+### Grapheme — PROVISIONAL
+
+Unidade gráfica reconhecida dentro de uma convenção ou Witness declarado. Sua
+relação com som ou fonema exige Evidence e não é presumida universalmente.
+
+### Diacritic
+
+Marca gráfica associada a um caractere segundo uma Source ou convenção. Sua
+presença, ausência e função são preservadas; remoção em Search Key é operação
+lossy e não altera as demais camadas.
+
 ### Sense — PROVISIONAL
 
 Aceção editorial proposta para um Lemma em escopo declarado. Polissemia e

@@ -58,11 +58,28 @@ transcrição original, Variety atribuída, período, Locator, método e respons
 pela transcrição. Repetições podem permanecer Attestations distintas. A
 Attestation documenta a ocorrência; não certifica por si só sua análise.
 
+### Camadas editoriais de `Form`
+
+Uma Form pode possuir representações em camadas independentes:
+
+- `SOURCE_FORM`: valor imutável exatamente como registrado na Source;
+- `DIPLOMATIC_FORM`: transcrição fiel ao Witness, com Editorial Interventions;
+- `NORMALIZED_FORM`: derivada por Normalization Profile versionado;
+- `PEDAGOGICAL_FORM`: destinada ao ensino e sustentada por Evidence própria;
+- `SEARCH_KEY`: chave técnica potencialmente lossy, nunca Evidence;
+- `PHONOLOGICAL_REPRESENTATION`: Claims fonológicas independentes.
+
 ### `NormalizedForm`
 
 Representação derivada de uma forma atestada: valor, convenção/versionamento,
 operações aplicadas, responsável, data e confiança. Uma atestação admite várias
 normalizações concorrentes.
+
+### `NormalizationProfile`
+
+Objeto versionado que declara escopo e regras ordenadas para produzir camadas
+editoriais controladas. Cada regra explicita padrão de entrada/saída, condição,
+caráter lossy, Evidence e Confidence. Não constitui algoritmo implementado.
 
 ### `FormLink`
 

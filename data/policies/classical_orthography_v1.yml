@@ -1,0 +1,83 @@
+policy_id: classical_orthography_v1
+name: "Classical Nahuatl editorial orthography"
+version: "1.0.0-draft.1"
+status: DRAFT
+created_at: "2026-09-03"
+scope:
+  language: "Classical Nahuatl"
+  period: "colonial historical materials; precise attribution remains per Claim"
+  intended_use: "editorial representation, pedagogy preparation and search; not phonological reconstruction"
+representation_layers:
+  source_form: {canonical_name: SOURCE_FORM, mutable: false, description: "exact value supplied by the consulted Source", requires_provenance: true}
+  diplomatic_form: {canonical_name: DIPLOMATIC_FORM, mutable: true, description: "faithful project transcription of a Witness with interventions recorded", requires_provenance: true}
+  normalized_form: {canonical_name: NORMALIZED_FORM, mutable: true, description: "orthographic derivation under this versioned profile", requires_provenance: true}
+  pedagogical_form: {canonical_name: PEDAGOGICAL_FORM, mutable: true, description: "teaching form; may expose only independently evidenced information", requires_provenance: true}
+  search_key: {canonical_name: SEARCH_KEY, mutable: true, description: "potentially lossy retrieval-only representation", publish_as_linguistic_form: false}
+  phonological_representation: {canonical_name: PHONOLOGICAL_REPRESENTATION, mutable: true, description: "separate Claims; no IPA generated in Gate 2", requires_provenance: true}
+unicode_policy:
+  encoding: UTF-8
+  controlled_editorial_forms: NFC
+  source_form: "preserve received code points; record detected normalization; never silently rewrite"
+  precomposed_macrons: [ā, ē, ī, ō, Ā, Ē, Ī, Ō]
+  combining_characters: "accepted at capture; NFC conversion only in controlled derived layers and logged"
+  apostrophes: "ASCII apostrophe, right quote, modifier apostrophe and saltillo characters remain distinct unless a rule explicitly maps them"
+  hyphens: "preserve code point in SOURCE_FORM; any search folding is lossy"
+  unknown_historical_characters: "preserve and flag NOT_REVIEWED"
+vowel_length_policy:
+  states: [SHORT, LONG, UNKNOWN, NOT_APPLICABLE, NOT_REVIEWED]
+  pedagogical_long_vowels: [ā, ē, ī, ō]
+  rule: "macron may appear in PEDAGOGICAL_FORM only when LONG has linked Evidence"
+  warning: "absence of a mark in Source or rendered Form does not establish SHORT"
+saltillo_policy:
+  source_form: "preserve Source marking or non-marking exactly"
+  normalized_form: "do not add or remove in v1; annotate unresolved cases"
+  pedagogical_form: "use h only for an evidenced saltillo Claim"
+  phonological_representation: "represent separately; exact model deferred"
+  search_key: "optional separate fold_saltillo alias; lossy and retrieval-only"
+  unknown_supported: true
+capitalization_policy: "preserve Source; lowercase only in SEARCH_KEY, or in reviewed isolated NORMALIZED_FORM rule"
+punctuation_policy: "preserve Source/Diplomatic; peripheral removal only in lossy SEARCH_KEY"
+word_boundary_policy: "preserve Source/Diplomatic; joining or splitting requires Editorial Intervention and Evidence"
+hyphen_policy: "preserve Source; do not infer morpheme boundaries; optional removal only in lossy SEARCH_KEY alias"
+search_policy:
+  objective: "high-recall retrieval without asserting linguistic identity"
+  output: "multiple keys linked to originating Form"
+  transformations: [strict_nfc, fold_diacritics, fold_punctuation, authorized_historical_alias, fold_saltillo]
+  prohibited_uses: [linguistic_evidence, reconstruction, phonological_claim, replacement_of_form]
+normalization_rules:
+  - {rule_id: editorial-nfc-001, description: "NFC for controlled editorial layers", input_pattern: "any Unicode sequence", output_pattern: NFC, condition: "layer is not SOURCE_FORM", lossy: false, evidence: "Unicode canonical equivalence; project technical policy", confidence: HIGH}
+  - {rule_id: search-lower-001, description: "lowercase search alias", input_pattern: "cased string", output_pattern: lowercase, condition: "SEARCH_KEY only", lossy: true, evidence: "project retrieval policy", confidence: HIGH}
+  - {rule_id: search-diacritic-001, description: "remove controlled vowel diacritics for recall", input_pattern: "ā|ē|ī|ō and uppercase", output_pattern: "a|e|i|o", condition: "secondary SEARCH_KEY only", lossy: true, evidence: "xochitl/xōchitl retrieval requirement", confidence: HIGH}
+  - {rule_id: search-punct-001, description: "remove peripheral punctuation", input_pattern: "leading/trailing punctuation", output_pattern: "empty", condition: "secondary SEARCH_KEY only", lossy: true, evidence: "project retrieval policy", confidence: MEDIUM}
+  - {rule_id: search-hyphen-001, description: "remove hyphen variants", input_pattern: "recognized Unicode hyphens", output_pattern: "empty", condition: "secondary SEARCH_KEY only", lossy: true, evidence: "project retrieval policy", confidence: MEDIUM}
+  - {rule_id: search-saltillo-001, description: "remove evidenced pedagogical h for recall", input_pattern: h, output_pattern: "empty", condition: "optional secondary SEARCH_KEY generated from PEDAGOGICAL_FORM", lossy: true, evidence: "project retrieval policy; phonological model deferred", confidence: LOW}
+  - {rule_id: rincon-cedilla-001, description: "Rincón GDN mapping ç to z", input_pattern: ç, output_pattern: z, condition: "only Rincón-derived candidate after source-specific review", lossy: true, evidence: "https://gdn.iib.unam.mx/textos/rincon", confidence: HIGH}
+  - {rule_id: rincon-initial-y-001, description: "Rincón GDN initial y representing vowel i", input_pattern: "^y", output_pattern: i, condition: "only when source-specific analysis identifies vocalic i", lossy: true, evidence: "https://gdn.iib.unam.mx/textos/rincon", confidence: MEDIUM}
+  - {rule_id: rincon-semivowel-i-001, description: "Rincón GDN i representing semiconsonantal y", input_pattern: i, output_pattern: y, condition: "only when source-specific analysis identifies semiconsonant", lossy: true, evidence: "https://gdn.iib.unam.mx/textos/rincon", confidence: MEDIUM}
+  - {rule_id: rincon-semivowel-u-001, description: "Rincón GDN u representing semiconsonantal hu", input_pattern: u, output_pattern: hu, condition: "only when source-specific analysis identifies semiconsonant", lossy: true, evidence: "https://gdn.iib.unam.mx/textos/rincon", confidence: MEDIUM}
+  - {rule_id: rincon-qu-cu-001, description: "Rincón GDN qu to cu before a/e", input_pattern: "qu(?=[ae])", output_pattern: cu, condition: "Rincón source only; reviewed context", lossy: true, evidence: "https://gdn.iib.unam.mx/textos/rincon", confidence: HIGH}
+unknown_value_policy:
+  allowed: [UNKNOWN, NOT_APPLICABLE, NOT_REVIEWED, NOT_ATTESTED]
+  forbidden_placeholders: ["", "-", "N/A"]
+  null_rule: "technical null alone has no semantic meaning"
+prohibited_inferences:
+  - "vowel length from absence of diacritic"
+  - "saltillo from orthographic convenience"
+  - "IPA from spelling"
+  - "morpheme boundary from hyphen or spacing alone"
+  - "Classical form from a Modern Variety"
+  - "Classical gap filling from Hueyapan"
+  - "linguistic identity from SEARCH_KEY equality"
+references:
+  - {source: "GDN presentation", url: "https://gdn.iib.unam.mx/presentacion", accessed_at: "2026-09-03"}
+  - {source: "GDN Rincón", url: "https://gdn.iib.unam.mx/textos/rincon", accessed_at: "2026-09-03"}
+  - {source: "GDN Carochi", url: "https://gdn.iib.unam.mx/textos/carochi", accessed_at: "2026-09-03"}
+  - {source: "GDN Olmos", url: "https://gdn.iib.unam.mx/textos/olmos", accessed_at: "2026-09-03"}
+  - {source: "GDN Documentos México", url: "https://gdn.iib.unam.mx/textos/diccionario-de-documentos", accessed_at: "2026-09-03"}
+open_decisions:
+  - "complete source-specific rule inventory"
+  - "final saltillo mapping after Gate 4"
+  - "full ligature/abbreviation policy per Witness"
+  - "word-boundary and morphological-hyphen policy"
+  - "operational Confidence rubric"
+  - "external approval and promotion from DRAFT"

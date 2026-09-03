@@ -12,10 +12,11 @@ mas não aprova o próprio Gate. Sua autoavaliação nunca autoriza progressão.
 
 Critérios de saída são cumulativos: decisões novas não podem enfraquecer
 separação de Varieties, Provenance ou direitos. Reprovação retorna itens para
-correção sem apagar o histórico. Este repositório está no **Gate 0**; este
-documento não autoriza iniciar o Gate 1.
+correção sem apagar o histórico. Os Gates 0 e 1 estão `CLOSED / PASS`; este
+repositório está no **Gate 2 — Padrão editorial e ortográfico**. Este documento
+não autoriza iniciar o Gate 3.
 
-## GATE 0 — Governança e arquitetura
+## GATE 0 — Governança e arquitetura — CLOSED
 
 **Objetivo:** estabelecer missão, políticas, modelo conceitual, fontes
 candidatas, responsabilidades e progressão.
@@ -28,7 +29,7 @@ explícita do `PRODUCT_OWNER`; papéis de Gate formalizados; decisões críticas
 abertas registradas; confirmação de que não houve ingestão, implementação de
 banco ou frontend. Autoavaliação do `EXECUTION_AGENT` não satisfaz a decisão.
 
-## GATE 1 — Auditoria jurídica/técnica das fontes
+## GATE 1 — Auditoria jurídica/técnica das fontes — CLOSED
 
 **Objetivo:** avaliar individualmente identidade, direitos, adequação
 linguística, granularidade, qualidade e meios legítimos de acesso das fontes.
@@ -40,7 +41,20 @@ PDF local de Hueyapan, sem misturá-lo ao núcleo clássico.
 **Saída:** conjunto mínimo de fontes clássicas aprovado para o piloto; métodos
 de obtenção autorizados e reprodutíveis; riscos e fontes recusadas documentados.
 
-## GATE 2 — Corpus piloto de 50 lemmas clássicos
+## GATE 2 — Padrão editorial e ortográfico — CURRENT
+
+**Objetivo:** definir camadas reproduzíveis para preservar Source Form e
+distinguir Diplomatic Form, Normalized Form, Pedagogical Form, Search Key e
+Phonological Representation.
+
+**Entregáveis:** política versionada `classical_orthography_v1`, matriz de
+variação, fixture de casos editoriais, glossário atualizado e autoauditoria.
+
+**Saída:** seis camadas, Unicode, comprimento vocálico, saltillo e busca
+explicitamente governados; perfil versionado; 20–30 casos reais; nenhuma
+inferência fonológica inventada ou ingestão em massa.
+
+## GATE 3 — Corpus piloto de 50 lemmas clássicos
 
 **Objetivo:** testar o modelo com 50 lemmas de Náhuatl Clássico, selecionados por
 critérios documentados, sem incorporar variantes modernas.
@@ -53,7 +67,7 @@ lacunas, tempo de curadoria e mudanças propostas ao modelo.
 citações reconferida; zero mistura silenciosa de variante; modelo conceitual
 ajustado e aprovado.
 
-## GATE 3 — Modelo fonológico
+## GATE 4 — Modelo fonológico e pronúncia
 
 **Objetivo:** definir representação responsável de IPA, duração vocálica,
 saltillo, sílabas, acento e tipos de pronúncia.
@@ -65,7 +79,7 @@ clássicos e, separadamente, por variante moderna quando autorizada.
 **Saída:** revisão especializada; nenhuma derivação ortográfica não declarada;
 componentes fonológicos rastreáveis e validados em amostra.
 
-## GATE 4 — Pipeline de ingestão
+## GATE 5 — Pipeline de ingestão
 
 **Objetivo:** implementar ingestão reprodutível sem destruir o original ou a
 proveniência.
@@ -77,7 +91,7 @@ variantes.
 **Saída:** execução repetível sobre fontes autorizadas; auditoria entrada-saída;
 falhas seguras; documentação operacional e testes aprovados.
 
-## GATE 5 — Base canônica de 500 lemmas
+## GATE 6 — Base canônica de 500 lemmas
 
 **Objetivo:** ampliar o núcleo clássico curado mantendo os padrões do piloto.
 
@@ -88,7 +102,7 @@ relatório de qualidade, conflitos e proveniência.
 variante validada; metas mínimas de completude definidas por campo, sem fabricar
 dados ausentes.
 
-## GATE 6 — API
+## GATE 7 — API
 
 **Objetivo:** oferecer acesso estável e rastreável à base aprovada.
 
@@ -99,7 +113,7 @@ necessária, observabilidade e documentação.
 **Saída:** testes de contrato, segurança, desempenho e prevenção de mistura;
 política de versões e depreciação aprovada.
 
-## GATE 7 — Interface de dicionário
+## GATE 8 — Dicionário/interface
 
 **Objetivo:** apresentar consulta lexical sem ocultar original, variante,
 incerteza, conflito ou fonte.
@@ -110,7 +124,7 @@ responsivo; separação visual inequívoca entre clássico e variantes modernas.
 **Saída:** testes de usabilidade e acessibilidade; auditoria de fidelidade entre
 API e tela; revisão linguística da apresentação.
 
-## GATE 8 — Sistema de estudo
+## GATE 9 — Sistema de estudos
 
 **Objetivo:** criar atividades baseadas apenas em dados aprovados e adequadas ao
 nível do estudante.
@@ -121,7 +135,7 @@ progresso e indicação permanente de variante/fonte.
 **Saída:** revisão pedagógica; métricas de aprendizagem e privacidade definidas;
 conteúdo gerado ou autoral claramente distinguido de atestação.
 
-## GATE 9 — Áudio e treino de pronúncia
+## GATE 10 — Áudio e treino de pronúncia
 
 **Objetivo:** associar áudio e prática de pronúncia com classificação,
 consentimento e limites epistêmicos claros.
@@ -132,7 +146,7 @@ falante e variante, gestão de consentimento/licença e experiência de treino.
 **Saída:** revisão fonética e comunitária aplicável; rastreabilidade integral;
 nenhum áudio sintético ou reconstruído apresentado como fala nativa.
 
-## GATE 10 — Corpus histórico e leitura assistida
+## GATE 11 — Corpus histórico/leitura assistida
 
 **Objetivo:** permitir leitura contextualizada de textos históricos preservando
 estrutura documental e camadas editoriais.
@@ -143,7 +157,7 @@ normalização, análise, tradução e ligação lexical em camadas alternáveis
 **Saída:** citação em granularidade adequada; direitos por item verificados;
 amostra comparada ao original; interfaces não confundem texto e intervenção.
 
-## GATE 11 — Escrita glífica
+## GATE 12 — Escrita glífica
 
 **Objetivo:** incorporar pesquisa e recursos sobre escrita glífica sem reduzir
 glifos a equivalentes alfabéticos simples.
@@ -160,7 +174,8 @@ proveniência em nível de objeto/região e representação explícita de incert
 - identidade das pessoas que exercerão `PRODUCT_OWNER` e
   `ORCHESTRATOR_REVIEWER`, e atribuição dos demais papéis especializados;
 - variante/subtradição exata que delimitará o núcleo “clássico”;
-- convenção ou convenções de normalização e política de lematização;
+- aprovação, expansão e versionamento definitivos das convenções de
+  normalização; política de lematização;
 - edição/testemunho de cada obra candidata e estilo bibliográfico;
 - licenças, consentimentos e métodos permitidos de acesso por fonte;
 - rubrica de confiança e fluxo de revisão/publicação;
@@ -180,3 +195,14 @@ ontologia morfológica completa, IPA completo do Náhuatl Clássico, edição
 definitiva de Molina, Olmos, Rincón ou Carochi, licença das fontes ainda não
 auditadas, rubrica matemática de confiança, algoritmo de lematização e corpus
 definitivo de 50 lemmas. Nenhum desses itens foi resolvido no Gate 0.
+
+## ROADMAP REVISION HISTORY
+
+### 2026-09-03 — revisão após encerramento do Gate 1
+
+O `ORCHESTRATOR_REVIEWER` moveu o corpus piloto de 50 Lemmas do Gate 2 para o
+Gate 3 e inseriu como novo Gate 2 o padrão editorial e ortográfico. Os Gates
+subsequentes foram renumerados até o Gate 12. A motivação foi impedir que o
+corpus piloto fosse criado antes de existir uma convenção ortográfica explícita,
+versionada e auditável. A sequência original permanece registrada no histórico
+Git anterior a esta revisão; não foi apagada nem reinterpretada.

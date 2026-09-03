@@ -4,9 +4,9 @@ Plataforma brasileira de estudo de náhuatl, com núcleo em Náhuatl Clássico e
 tratamento explicitamente separado e documentado de variantes modernas, como
 Hueyapan.
 
-O projeto está no **Gate 0 — Governança e arquitetura**. Nesta fase existem
-apenas políticas, modelo conceitual e planejamento. Ainda não há banco de
-dados, ingestão, API ou frontend.
+Os Gates 0 e 1 estão encerrados com `PASS`. O projeto está no **Gate 2 — Padrão
+editorial e ortográfico**. Ainda não há corpus piloto, banco de dados, ingestão,
+API ou frontend.
 
 ## Princípios
 
@@ -27,6 +27,8 @@ dados, ingestão, API ou frontend.
 - [`docs/05_ROADMAP.md`](docs/05_ROADMAP.md)
 - [`docs/06_GLOSSARIO_CANONICO.md`](docs/06_GLOSSARIO_CANONICO.md)
 - [`docs/GATE_0_AUDIT_REPORT.md`](docs/GATE_0_AUDIT_REPORT.md)
+- [`docs/07_GATE_1_SOURCE_AUDIT.md`](docs/07_GATE_1_SOURCE_AUDIT.md)
+- [`docs/08_GATE_2_EDITORIAL_ORTHOGRAPHY.md`](docs/08_GATE_2_EDITORIAL_ORTHOGRAPHY.md)
 
 ## Estrutura reservada
 

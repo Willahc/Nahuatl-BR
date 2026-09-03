@@ -1,0 +1,235 @@
+fixture_id: gate2_orthography_cases
+version: "1.0.0-draft.1"
+status: DRAFT
+purpose: "Test editorial layering; these are Forms/cases, not canonical Lemmas."
+case_count: 25
+cases:
+  - case_id: G2-001
+    source: "A01 Molina_1, 1571 via GDN"
+    source_locator: "folio 8v; https://gdn.iib.unam.mx/diccionario/analco/107971"
+    source_form: "analco"
+    phenomenon: "lowercase; c before o; no phonological marks"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "analco (GDN-reported)", pedagogical_form: UNKNOWN, search_key: analco, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Absence of marks does not establish short vowels or no saltillo."
+  - case_id: G2-002
+    source: "A01 Molina_2, 1571 via GDN"
+    source_locator: "folio 69r; https://gdn.iib.unam.mx/diccionario/necuametl/153783"
+    source_form: "Nequametl"
+    phenomenon: "capitalization; qu/cu variation"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "necuametl (GDN-reported)", pedagogical_form: UNKNOWN, search_key: necuametl, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Do not generalize qu→cu without context."
+  - case_id: G2-003
+    source: "A01 Molina_1, 1571 via GDN"
+    source_locator: "folio 99v; https://gdn.iib.unam.mx/diccionario/cuauhcomitl/129125"
+    source_form: "quauhcomitl"
+    phenomenon: "qu/cu; u/hu/uh sequencing"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "cuauhcomitl (GDN-reported)", pedagogical_form: UNKNOWN, search_key: cuauhcomitl, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Internal uh is preserved; no automatic global u/hu substitution."
+  - case_id: G2-004
+    source: "A01 Molina_1, 1571 via GDN"
+    source_locator: "folio 65v; https://gdn.iib.unam.mx/diccionario/tlateotoquiliztli/140180"
+    source_form: "tlateotoquiliztli"
+    phenomenon: "tl; qu; z; word length"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "tlateotoquiliztli (GDN-reported)", pedagogical_form: UNKNOWN, search_key: tlateotoquiliztli, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "No morphological segmentation inferred."
+  - case_id: G2-005
+    source: "A01 Molina_1, 1571 via GDN"
+    source_locator: "https://gdn.iib.unam.mx/diccionario/copalli"
+    source_form: "copalli"
+    phenomenon: "double l; tl not present in isolated form"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "copalli (GDN entry)", pedagogical_form: UNKNOWN, search_key: copalli, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: MEDIUM
+    notes: "Entry page attributes a Molina_1 occurrence; exact folio NOT_REVIEWED."
+  - case_id: G2-006
+    source: "A01 Molina_1, 1571 via GDN"
+    source_locator: "https://gdn.iib.unam.mx/diccionario/ontetl/127710"
+    source_form: "ontetl"
+    phenomenon: "final tl"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "ontetl (GDN-reported)", pedagogical_form: UNKNOWN, search_key: ontetl, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: MEDIUM
+    notes: "Exact folio NOT_REVIEWED; retained as URL-addressed editorial case."
+  - case_id: G2-007
+    source: "A01 Molina_1, 1571 via GDN"
+    source_locator: "https://gdn.iib.unam.mx/diccionario/teatemohuiliztica"
+    source_form: "teatemouiliztica"
+    phenomenon: "u/hu; z; long string"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: UNKNOWN, pedagogical_form: UNKNOWN, search_key: teatemouiliztica, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: MEDIUM
+    notes: "Search result reports this paleography; normalization not copied from memory."
+  - case_id: G2-008
+    source: "A03 Rincón 1595 via GDN"
+    source_locator: "GDN Rincón introduction, minimal-pair list; https://gdn.iib.unam.mx/textos/rincon"
+    source_form: "chichi"
+    phenomenon: "explicitly described long first vowel"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: chichi, pedagogical_form: "macron allowed only after linking the cited length Claim", search_key: chichi, phonological_representation: "length LONG on first vowel; other properties UNKNOWN"}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Source gloss: mamar; do not infer IPA."
+  - case_id: G2-009
+    source: "A03 Rincón 1595 via GDN"
+    source_locator: "GDN Rincón introduction, minimal-pair list; https://gdn.iib.unam.mx/textos/rincon"
+    source_form: "chichi"
+    phenomenon: "explicitly described short first vowel"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: chichi, pedagogical_form: "unmacronized first vowel only with cited SHORT metadata", search_key: chichi, phonological_representation: "length SHORT on first vowel; other properties UNKNOWN"}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Source gloss: dog; same string must not merge length Claims."
+  - case_id: G2-010
+    source: "A03 Rincón 1595 via GDN"
+    source_locator: "normalization examples; https://gdn.iib.unam.mx/textos/rincon"
+    source_form: "chocctia"
+    phenomenon: "consonant duplication treated by GDN as typographic error"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "choctia (GDN-reported correction)", pedagogical_form: UNKNOWN, search_key: [chocctia, choctia], phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Correction is an Editorial Intervention, not overwrite."
+  - case_id: G2-011
+    source: "A03 Rincón 1595 via GDN"
+    source_locator: "normalization examples; https://gdn.iib.unam.mx/textos/rincon"
+    source_form: "ycuelia"
+    phenomenon: "initial y/i plus reported correction"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "icnelia (GDN-reported correction)", pedagogical_form: UNKNOWN, search_key: [ycuelia, icnelia], phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Do not decompose the difference into automatic rules without source analysis."
+  - case_id: G2-012
+    source: "A03 Rincón 1595 via GDN"
+    source_locator: "normalization examples; https://gdn.iib.unam.mx/textos/rincon"
+    source_form: "mauiaçoti"
+    phenomenon: "u/hu; i/y; ç/z; reported typographic correction"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "mahuizzoti (later GDN normalization)", pedagogical_form: UNKNOWN, search_key: [mauiaçoti, mahuizzoti], phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Multi-step mapping must retain rule order and GDN attribution."
+  - case_id: G2-013
+    source: "A03 Rincón 1595 via GDN"
+    source_locator: "folio 84; https://gdn.iib.unam.mx/diccionario/pal/19686"
+    source_form: "pal,"
+    phenomenon: "peripheral punctuation"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "pal (GDN-reported)", pedagogical_form: UNKNOWN, search_key: pal, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Comma removal is lossy and search/editorial only."
+  - case_id: G2-014
+    source: "A03 Rincón 1595 via GDN"
+    source_locator: "https://gdn.iib.unam.mx/diccionario/analco/107971"
+    source_form: "analco."
+    phenomenon: "terminal punctuation"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "analco (GDN-reported)", pedagogical_form: UNKNOWN, search_key: analco, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: MEDIUM
+    notes: "Exact Rincón folio NOT_REVIEWED."
+  - case_id: G2-015
+    source: "A03 Rincón 1595 via GDN"
+    source_locator: "https://gdn.iib.unam.mx/diccionario/copalli"
+    source_form: "copalli."
+    phenomenon: "double l and punctuation"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "copalli (GDN-reported)", pedagogical_form: UNKNOWN, search_key: copalli, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: MEDIUM
+    notes: "Do not reduce ll automatically."
+  - case_id: G2-016
+    source: "A04 Carochi 1645 via GDN"
+    source_locator: "entry notza; https://gdn.iib.unam.mx/diccionario/notza/17782"
+    source_form: "nötza"
+    phenomenon: "Carochi vowel Diacritic"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "notza (GDN-reported)", pedagogical_form: "derive only after Carochi-mark Claim", search_key: [nötza, notza], phonological_representation: "vowel information present; exact mapping deferred"}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Do not equate ö directly to an IPA value in Gate 2."
+  - case_id: G2-017
+    source: "A04 Carochi 1645 via GDN"
+    source_locator: "3.16.2; https://gdn.iib.unam.mx/diccionario/notza/17782"
+    source_form: "nicnònotza"
+    phenomenon: "reduplicated syllable described with saltillo"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: UNKNOWN, pedagogical_form: "h only after explicit mapping Claim", search_key: "lossy aliases permitted", phonological_representation: "saltillo reported; IPA UNKNOWN"}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Source description, not appearance alone, supports saltillo."
+  - case_id: G2-018
+    source: "A04 Carochi 1645 via GDN"
+    source_locator: "3.16.2; https://gdn.iib.unam.mx/diccionario/notza/17782"
+    source_form: "monònötztihuî"
+    phenomenon: "saltillo, multiple Diacritics, final circumflex"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: UNKNOWN, pedagogical_form: UNKNOWN, search_key: "diacritic-folded alias lossy", phonological_representation: "saltillo reported; remaining mapping NOT_REVIEWED"}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Retain every code point in SOURCE_FORM."
+  - case_id: G2-019
+    source: "A04 Carochi 1645 via GDN"
+    source_locator: "5.5.2; https://gdn.iib.unam.mx/diccionario/icnoilama"
+    source_form: "icnöilama"
+    phenomenon: "Carochi Diacritic within word"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "icnoilama (GDN-reported)", pedagogical_form: UNKNOWN, search_key: [icnöilama, icnoilama], phonological_representation: "partial evidence; exact representation deferred"}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Search folding does not erase Source."
+  - case_id: G2-020
+    source: "A04 Carochi 1645 via GDN"
+    source_locator: "5.2.3; https://gdn.iib.unam.mx/diccionario/io"
+    source_form: "iô"
+    phenomenon: "circumflex and short string"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: "io (GDN-reported)", pedagogical_form: UNKNOWN, search_key: [iô, io], phonological_representation: "exact values NOT_REVIEWED"}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Diacritic-folded key is lossy."
+  - case_id: G2-021
+    source: "A04 Carochi 1645 via GDN"
+    source_locator: "5.1.5; https://gdn.iib.unam.mx/diccionario/opochcopa"
+    source_form: "möpochcopa"
+    phenomenon: "prefixed occurrence with Carochi Diacritic"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: UNKNOWN, pedagogical_form: UNKNOWN, search_key: mopochcopa, phonological_representation: "partial evidence; exact values deferred"}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Do not infer Lemma or morphology from this fixture."
+  - case_id: G2-022
+    source: "A04 Carochi 1645 via GDN"
+    source_locator: "3.3.1; https://gdn.iib.unam.mx/diccionario/copalli"
+    source_form: "copalli"
+    phenomenon: "unmarked vowels in Carochi entry"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: copalli, pedagogical_form: UNKNOWN, search_key: copalli, phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "No marks does not prove SHORT/no saltillo."
+  - case_id: G2-023
+    source: "A04 Carochi 1645 via GDN"
+    source_locator: "1.1.1; https://gdn.iib.unam.mx/diccionario/notza/17782"
+    source_form: "Nimitz nötza"
+    phenomenon: "capitalization, space, vowel Diacritic"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: UNKNOWN, pedagogical_form: UNKNOWN, search_key: "nimitz notza", phonological_representation: UNKNOWN}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Search key lowercasing/folding is lossy; word boundary preserved."
+  - case_id: G2-024
+    source: "A04 Carochi 1645 via GDN"
+    source_locator: "2.4.1; https://gdn.iib.unam.mx/diccionario/notza/17782"
+    source_form: "önitënötz"
+    phenomenon: "multiple Carochi Diacritics"
+    expected_editorial_treatment: {source_form: preserve, normalized_form: UNKNOWN, pedagogical_form: UNKNOWN, search_key: onitenotz, phonological_representation: "partial evidence; mapping deferred"}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "No automatic macron output in fixture."
+  - case_id: G2-025
+    source: "B01 GDN Docs México"
+    source_locator: "paleography section; https://gdn.iib.unam.mx/textos/diccionario-de-documentos"
+    source_form: "[n]"
+    phenomenon: "modern editorial restitution with brackets"
+    expected_editorial_treatment: {source_form: preserve, diplomatic_form: "retain brackets and record Editorial Intervention", normalized_form: UNKNOWN, pedagogical_form: NOT_APPLICABLE, search_key: NOT_APPLICABLE, phonological_representation: NOT_APPLICABLE}
+    normalization_profile: classical_orthography_v1@1.0.0-draft.1
+    confidence: HIGH
+    notes: "Case tests intervention syntax, not a Lemma or independent Form."
+references:
+  - {source: "GDN Rincón", url: "https://gdn.iib.unam.mx/textos/rincon", accessed_at: "2026-09-03"}
+  - {source: "GDN Carochi", url: "https://gdn.iib.unam.mx/textos/carochi", accessed_at: "2026-09-03"}
+  - {source: "GDN Documentos México", url: "https://gdn.iib.unam.mx/textos/diccionario-de-documentos", accessed_at: "2026-09-03"}
