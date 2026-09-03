@@ -15,11 +15,9 @@ arquivo esteja disponível para download. `CAN_INGEST` e
 conclusões jurídicas. Os registros YAML em `data/source_registry/` são a fonte
 estruturada detalhada deste relatório.
 
-O PDF local de Hueyapan foi identificado por nome, tamanho e SHA-256. Como não
-havia leitor PDF disponível no ambiente, sua auditoria estrutural foi limitada
-a metadados locais e páginas preliminares indexadas publicamente; o dicionário
-não foi extraído. A contagem de aproximadamente 190 páginas precisa de
-confirmação independente.
+O PDF local de Hueyapan foi identificado por nome, tamanho e SHA-256. Inspeção
+independente confirmou 136 páginas, dados editoriais, prólogo e estrutura. O
+dicionário integral não foi extraído.
 
 ## Vocabulário de direitos
 
@@ -186,16 +184,27 @@ ser generalizado para todo Náhuatl Clássico. Evidência: [Edition UNAM](https:
 
 ### C01 — Dicionário de Hueyapan 2016
 
-*Ejercicios para el aprendizaje de la lengua náhuatl de Hueyapan y diccionario
-español-náhuatl*, de Marcelino Montero Baeza, Edition eletrônica 2016, financiada
-em 2012 por programa da CDI. As páginas preliminares descrevem pesquisa
-comunitária em Hueyapan, Morelos, alfabeto, gramática, exercícios, leituras e
-dicionário espanhol–náhuatl. É exclusivamente Modern Variety no Nahuatl-BR.
+*EJERCICIOS PARA EL APRENDIZAJE DE LA LENGUA NÁHUATL DE HUEYAPAN Y
+DICCIONARIO ESPAÑOL-NÁHUATL*, de Marcelino Montero Baeza, é uma *Edición
+Electrónica 2016, México*, com ISBN indicado como “en trámite” e 136 páginas. O
+trabalho foi financiado em 2012 com recursos do programa “Apoyo a Proyectos de
+Comunicación Indígena” da CDI. O prólogo afirma que a obra resulta de pesquisa
+comunitária entre habitantes de Hueyapan e representa a Variety da comunidade,
+em Hueyapan, Tetela del Volcán, Morelos, México. É exclusivamente Modern Variety
+no Nahuatl-BR.
 
-Não foi localizada licença aberta. O aviso de financiamento/programa não é
-licença de reutilização. Todos os componentes exigem permissão manual; o PDF
-local é `DO_NOT_INGEST` e não será redistribuído. Prioridade P2, separado do
-núcleo clássico. Evidências: [arquivo governamental identificado](https://www.gob.mx/cms/uploads/attachment/file/64177/diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf)
+A estrutura confirmada contém introdução/características, alfabeto,
+substantivos, plural, verbos, orações, pronomes, adjetivos, numerais, conjugação,
+conversação, dicionário espanhol–náhuatl, bibliografia e seção do autor.
+
+A página editorial contém declaração que restringe o uso às finalidades
+estabelecidas pelo programa. Isso é registro documental, não parecer jurídico.
+O Rights Status é `RESTRICTED_OR_PERMISSION_REQUIRED`, e todo conteúdo
+autoral/editorial é `MANUAL_PERMISSION_REQUIRED`. O PDF local permanece
+`DO_NOT_INGEST` e não será redistribuído. Papel recomendado: referência
+linguística de Hueyapan, comparação explicitamente separada com Classical
+Nahuatl e futura fonte de dados somente após autorização adequada. Prioridade
+P2. Evidências: [arquivo governamental identificado](https://www.gob.mx/cms/uploads/attachment/file/64177/diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf)
 e [bibliografia acadêmica independente](https://elpezylaflecha.uv.mx/index.php/elpezylaflecha/article/view/122).
 
 ### C02 — INALI
@@ -312,7 +321,7 @@ Ingestion Class. Nenhuma licença ausente foi presumida e não houve ingestão e
 massa.
 
 A auditoria está pronta para revisão, com reservas explícitas: direitos de
-vários componentes permanecem desconhecidos; C01 teve inspeção local limitada;
+vários componentes permanecem desconhecidos, C01 requer autorização adequada,
 e classificações jurídicas são triagem documental sujeita a revisão competente.
 O `EXECUTION_AGENT` recomenda **PASS_WITH_RESERVATIONS**, mas não aprova este
 Gate e não autoriza o Gate 2.
