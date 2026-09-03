@@ -272,3 +272,48 @@ foram mantidas como `OPEN_DECISION`. Esta avaliação é produzida pelo Codex no
 papel de `EXECUTION_AGENT`: não constitui aprovação, não substitui a recomendação
 do `ORCHESTRATOR_REVIEWER`, não substitui a decisão do `PRODUCT_OWNER` e não
 autoriza o Gate 1.
+
+### SECOND EXTERNAL REVIEW REMEDIATION
+
+Uma segunda revisão externa identificou inconsistência entre os nomes
+canônicos declarados no Glossário e os identificadores ainda usados no Modelo
+Canônico. Esta subseção registra a correção sem reescrever a autoauditoria
+histórica nem alterar a arquitetura conceitual.
+
+| Inconsistência/termo anterior | Substituição canônica | Ajuste semântico | Status |
+|---|---|---|---|
+| `LanguageVariety` | `Variety` | definição preservada e alinhada à identidade controlada de variedade | RESOLVED |
+| `FormAttestation` | `Attestation` | explicitado que registra ocorrência de Form em Witness e não certifica análise | RESOLVED |
+| `LinguisticAssertion` | `Claim` | proposição auditável preservada sob o nome canônico | RESOLVED |
+| `SourceWork` | `Work` | definido como conteúdo intelectual, distinto de realização e exemplar | RESOLVED |
+| `SourceExpression` | `Edition` | alinhado à realização editorial identificada, com intervenções e direitos próprios | RESOLVED |
+| `SourceItem` | `Witness` | alinhado à manifestação/exemplar concreto que suporta Attestation e Locator | RESOLVED |
+| `SourceLocator` | `Locator` | endereço verificável aplicável a Source, Edition ou Witness | RESOLVED |
+| `AudioRecording` | `Recording` | objeto de áudio preservado sob o nome canônico | RESOLVED |
+
+O diagrama conceitual e todas as definições correspondentes em
+`docs/03_MODELO_CANONICO.md` foram atualizados. As relações entre Work, Edition
+e Witness foram explicitadas para impedir que a troca de nomes produzisse uma
+equivalência semântica inadequada. As cardinalidades permanecem
+`OPEN_DECISION`.
+
+Também foi esclarecido que não estão genericamente abertos os vocabulários
+provisórios já aprovados de Confidence, estados editoriais e ausência de valor.
+Permanecem `OPEN_DECISION`: a rubrica matemática/operacional definitiva de
+Confidence; o workflow definitivo de revisão/publicação; a expansão e o
+versionamento definitivos dos vocabulários controlados; e a política física de
+implementação.
+
+Validação final desta remediação:
+
+- busca nos nove documentos normativos ativos: nenhuma ocorrência dos oito
+  nomes conceituais anteriores;
+- diagrama: somente nomes canônicos para as entidades migradas;
+- links Markdown relativos: nenhum quebrado;
+- `git diff --check`: sem erros;
+- frase anterior sobre substituição de termos históricos: agora factual nos
+  documentos normativos ativos; ocorrências neste relatório existem apenas para
+  documentar historicamente a migração.
+
+Resultado: **PASS** como autoavaliação do `EXECUTION_AGENT`. Esta conclusão não
+aprova o Gate 0 e não autoriza progressão ao Gate 1.

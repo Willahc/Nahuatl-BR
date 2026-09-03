@@ -9,22 +9,22 @@ objeto linguístico da afirmação sobre ele e ligar cada afirmação à proveni
 ## Visão relacional
 
 ```text
-LanguageVariety ──< FormAttestation >── SourceLocator ── SourceWork
-       │                  │                    │              │
-       │                  ├── CorpusPassage ───┘              └── Agent
-       │                  │
-       └──< Lemma ──< Sense ──< Translation
-               │        │
-               ├──< FormLink
-               └──< LinguisticAssertion >── EvidenceLink ── SourceLocator
-                          │
-                          ├── MorphologicalAnalysis ──< MorphemeOccurrence >── Morpheme
-                          ├── PhonologicalAnalysis
-                          ├── GrammaticalClassification
-                          └── RelationAssertion
+Variety ──< Attestation >── Locator ── Witness ── Edition ── Work
+   │              │            │          │          │         │
+   │              ├── CorpusPassage ──────┘          │         └── Agent
+   │              │                                 │
+   └──< Lemma ──< Sense ──< Translation            │
+           │        │                               │
+           ├──< FormLink                            │
+           └──< Claim >── EvidenceLink ── Locator ──┘
+                      │
+                      ├── MorphologicalAnalysis ──< MorphemeOccurrence >── Morpheme
+                      ├── PhonologicalAnalysis
+                      ├── GrammaticalClassification
+                      └── RelationAssertion
 
-FormAttestation/CorpusPassage ──< Example
-FormAttestation/Lemma ──< AudioRecording >── Speaker
+Attestation/CorpusPassage ──< Example
+Attestation/Lemma ──< Recording >── Speaker
 Qualquer entidade versionável ──< RevisionEvent >── Agent
 ```
 
@@ -32,7 +32,7 @@ As cardinalidades e agregados serão refinados no corpus piloto.
 
 ## Entidades nucleares
 
-### `LanguageVariety`
+### `Variety`
 
 Identidade controlada da variedade: nome preferido, nomes alternativos, código
 externo quando verificável, localidade, comunidade, período de validade e notas.
@@ -51,11 +51,12 @@ escopo temporal pertinente. Contém identificador estável e rótulo editorial,
 mas não incorpora silenciosamente todas as formas parecidas. Homônimos podem
 ser lemmas separados; a política definitiva de lematização segue aberta.
 
-### `FormAttestation`
+### `Attestation`
 
-Ocorrência ou forma registrada por uma fonte. Campos conceituais: transcrição
-original, variedade atribuída, período, localização na fonte, método e
-responsável pela transcrição. Repetições podem permanecer ocorrências distintas.
+Registro de ocorrência de uma Form em um Witness. Campos conceituais:
+transcrição original, Variety atribuída, período, Locator, método e responsável
+pela transcrição. Repetições podem permanecer Attestations distintas. A
+Attestation documenta a ocorrência; não certifica por si só sua análise.
 
 ### `NormalizedForm`
 
@@ -81,7 +82,7 @@ Camada editorial ligada a um sentido, exemplo ou passagem: idioma de destino
 (`pt-BR` inicialmente), texto, tradutor, revisor, versão, data, fonte-base,
 notas, confiança e estado. Não substitui a glosa original da fonte.
 
-### `LinguisticAssertion`
+### `Claim`
 
 Superentidade para uma proposição auditável. Contém sujeito, predicado/tipo,
 valor ou objeto, variedade, período, modalidade epistêmica, confiança, estado,
@@ -128,18 +129,31 @@ lemma.
 
 ## Fontes, agentes e direitos
 
-### `SourceWork`, `SourceExpression` e `SourceItem`
+### `Work`
 
-Separam, conceitualmente, obra (conteúdo intelectual), edição/transcrição ou
-versão, e exemplar/arquivo concreto. Campos incluem título, autoria, datas,
-identificadores, idioma, variante alegada e notas bibliográficas. Essa separação
-evita citar “Molina”, por exemplo, sem determinar edição e página.
+Conteúdo intelectual ou criação abstrata, com título, autoria e contexto. Não
+designa por si só a Edition consultada nem o Witness em que uma Attestation foi
+localizada.
 
-### `SourceLocator`
+### `Edition`
 
-Endereço interno a uma fonte: entrada, página, fólio, lado, coluna, linha,
-timestamp, região de imagem ou outro seletor. Mantém a citação humana e o
-seletor estruturado; pode registrar nível de precisão e incerteza.
+Realização editorial identificada de uma Work, como edição impressa, crítica ou
+digital. Registra responsáveis, data, identificadores, convenções e intervenções
+editoriais pertinentes. Uma Edition pode ter direitos diferentes da Work e não
+é sinônimo do exemplar ou arquivo concreto consultado.
+
+### `Witness`
+
+Manifestação ou exemplar específico usado como suporte verificável, como
+manuscrito, exemplar físico, imagem ou arquivo identificado. É no Witness que a
+Attestation é localizada. Sua identidade, custódia, versão e integridade devem
+poder ser registradas sem confundi-lo com Work ou Edition.
+
+### `Locator`
+
+Endereço interno a uma Source, Edition ou Witness: entrada, página, fólio, lado,
+coluna, linha, timestamp, região de imagem ou outro seletor. Mantém a citação
+humana e o seletor estruturado; pode registrar nível de precisão e incerteza.
 
 ### `Agent`
 
@@ -210,11 +224,11 @@ perder a trilha.
 ### `Speaker`
 
 Agent humano com metadados estritamente necessários, incluindo relação
-declarada com uma `LanguageVariety` quando legal e apropriado. Identidade
+declarada com uma `Variety` quando legal e apropriado. Identidade
 pública, anonimização e pseudonimização dependem da base jurídica, direitos e
 restrições aplicáveis, não apenas de consentimento.
 
-### `AudioRecording`
+### `Recording`
 
 Arquivo/objeto, conteúdo pronunciado, Speaker (quando humano), Variety do
 Speaker, Variety do item, contexto, data, equipamento/metodologia quando
@@ -253,7 +267,12 @@ todo áudio externo.
 
 ## OPEN_DECISION — questões a validar posteriormente
 
-Granularidade entre lemma e lexema, tratamento de homonímia, ontologia de
+Granularidade entre Lemma e lexema, tratamento de homonímia, ontologia de
 classes, representação de alomorfia, formato de segmentação, níveis fonológicos,
-modelo de citações manuscritas, escala de confiança, estados de publicação e
-cardinalidades definitivas permanecem deliberadamente abertos.
+modelo de citações manuscritas e cardinalidades físicas definitivas permanecem
+deliberadamente abertos. Também permanecem `OPEN_DECISION` a rubrica
+matemática/operacional definitiva de Confidence, o workflow definitivo de
+revisão/publicação, a expansão e o versionamento definitivos dos vocabulários
+controlados e a política física de implementação. Os vocabulários provisórios
+de Confidence, estado editorial e ausência de valor já estão aprovados para o
+modelo conceitual e não são questões genericamente abertas.
