@@ -1,0 +1,27 @@
+source_id: C02
+name: "INALI catalogs, archives and audiovisual materials"
+institution: "Instituto Nacional de Lenguas Indígenas"
+url: "https://www.inali.gob.mx/sitios/clin-inali/html/v_nahuatl.html"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: "Mexican national Indigenous languages including Nahuatl", variety: "multiple explicitly cataloged modern Nahuatl varieties", period: modern, geography: Mexico, date_range: "resource-dependent"}
+source_role: [metadata, corpus, audio, translation, dictionary]
+scholarly_relevance: "P1 authoritative institutional reference for modern Variety names, autodenominations and geostatistical references; audiovisual components are item-specific."
+available_components:
+  - {component_id: clin_metadata, description: "Catalog of variants, autodenominations and geostatistical references", format: [HTML, PDF], approximate_size: "national catalog; PDF about 2 MB stated", searchable: true, downloadable: true, machine_readable: PARTIAL}
+  - {component_id: alin_archive, description: "physical/digital vocabularies, phrases and narratives", format: mixed, approximate_size: UNKNOWN, searchable: UNKNOWN, downloadable: UNKNOWN, machine_readable: UNKNOWN}
+  - {component_id: audiorama_audio, description: "Nahuatl audio set", format: web_audio, approximate_size: "19 items displayed on audited page", searchable: false, downloadable: UNKNOWN, machine_readable: false}
+rights:
+  - {component_id: clin_metadata, work_status: UNKNOWN_RIGHTS, rights_holder: INALI, license: "official/public catalog but no explicit open reuse license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://www.inali.gob.mx/sitios/clin-inali/", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: alin_archive, work_status: UNKNOWN_RIGHTS, rights_holder: "INALI, depositors and communities, item-specific", license: "not located at collection level", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://www.inali.gob.mx/detalle/acervo-de-lenguas-indigenas-nacionales", status: UNKNOWN_RIGHTS, ingestion_class: RIGHTS_UNCLEAR}
+  - {component_id: audiorama_audio, work_status: UNKNOWN_RIGHTS, rights_holder: "INALI/speakers/producers, unresolved", license: "no explicit item license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://site.inali.gob.mx/Micrositios/audiorama/n8.html", status: UNKNOWN_RIGHTS, ingestion_class: MANUAL_PERMISSION_REQUIRED}
+technical_access: {html: true, pdf: true, iiif: false, api: "not documented", csv: false, xml: UNKNOWN, json: UNKNOWN, audio: true, download: SOURCE_DEPENDENT, other: "catalog tables and institutional archive inquiry"}
+linguistic_features: {classical_nahuatl: false, modern_variety: true, mixed: true, historical_orthography: false, normalization: SOURCE_DEPENDENT, vowel_length: SOURCE_DEPENDENT, saltillo: SOURCE_DEPENDENT, grammatical_class: SOURCE_DEPENDENT, morphology: SOURCE_DEPENDENT, examples: true, occurrence_locator: SOURCE_DEPENDENT, translations: SOURCE_DEPENDENT, translation_languages: [Spanish], audio: true, audio_variety: "must be identified per item", speaker_identification: UNKNOWN, phonological_reconstruction: LOW, lexical_evidence: MEDIUM, corpus_evidence: MEDIUM}
+provenance_quality: "High institutional authority for catalog classification; audiovisual item metadata/rights not established."
+known_limitations: ["umbrella source, not one homogeneous dataset", "catalog classification may evolve", "audio page lacks visible speaker/rights detail"]
+risks: ["treating all Nahuatl as one Variety", "assuming government availability is open license", "audio consent/rights/community restrictions"]
+recommended_role: "Canonical external reference for modern Variety metadata; audiovisual only after item-level audit/permission."
+ingestion_class: {clin_metadata: CAN_REFERENCE, alin_archive: RIGHTS_UNCLEAR, audiorama_audio: MANUAL_PERMISSION_REQUIRED}
+evidence:
+  - {claim: "Official CLIN page provides Nahuatl variant autodenominations and geostatistical references.", url: "https://www.inali.gob.mx/sitios/clin-inali/html/v_nahuatl.html", accessed_at: "2026-09-03"}
+  - {claim: "Official ALIN page describes an open physical/digital archive with vocabularies, phrases and audio/video narratives; no reuse license was located.", url: "https://www.inali.gob.mx/detalle/acervo-de-lenguas-indigenas-nacionales", accessed_at: "2026-09-03"}
+  - {claim: "Official Audiorama Nahuatl page lists 19 audio items.", url: "https://site.inali.gob.mx/Micrositios/audiorama/n8.html", accessed_at: "2026-09-03"}

@@ -1,0 +1,28 @@
+source_id: C03
+name: "UCLA Phonetics Lab Archive — Nahuatl, Isthmus-Mecayapan"
+institution: "UCLA Phonetics Lab Archive"
+url: "https://archive.phonetics.ucla.edu/Language/NHX/nhx.html"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: Nahuatl, variety: "Isthmus-Mecayapan (NHX)", period: modern_recording, geography: "Mecayapan area, Veracruz, Mexico", date_range: "recording list includes 1966; item-specific"}
+source_role: [audio, corpus, metadata]
+scholarly_relevance: "P1 direct phonetic Evidence for a modern Variety, not for Classical Nahuatl pronunciation."
+available_components:
+  - {component_id: wav_audio, description: "word-list recordings", format: WAV, approximate_size: UNKNOWN, searchable: "via word lists", downloadable: true, machine_readable: false}
+  - {component_id: mp3_audio, description: "compressed word-list recordings", format: MP3, approximate_size: UNKNOWN, searchable: "via word lists", downloadable: true, machine_readable: false}
+  - {component_id: scanned_wordlists, description: "scanned elicitation sheets", format: [JPG, TIF], approximate_size: UNKNOWN, searchable: false, downloadable: true, machine_readable: false}
+  - {component_id: recording_metadata, description: "word entries, named speaker and recording details", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: false, machine_readable: PARTIAL}
+rights:
+  - {component_id: wav_audio, work_status: UNKNOWN_RIGHTS, rights_holder: "UCLA and/or recordists/speakers; unresolved", license: "download capability stated; no explicit reuse license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://archive.phonetics.ucla.edu/Language/NHX/nhx.html", status: UNKNOWN_RIGHTS, ingestion_class: MANUAL_PERMISSION_REQUIRED}
+  - {component_id: mp3_audio, work_status: UNKNOWN_RIGHTS, rights_holder: "same underlying Recording rights", license: "no explicit reuse license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://archive.phonetics.ucla.edu/Language/NHX/nhx.html", status: UNKNOWN_RIGHTS, ingestion_class: MANUAL_PERMISSION_REQUIRED}
+  - {component_id: scanned_wordlists, work_status: UNKNOWN_RIGHTS, rights_holder: "UCLA/recordist; unresolved", license: "no explicit reuse license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://archive.phonetics.ucla.edu/Language/NHX/nhx.html", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: recording_metadata, work_status: UNKNOWN_RIGHTS, rights_holder: UCLA, license: "no explicit reusable-data license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://archive.phonetics.ucla.edu/Language/NHX/nhx.html", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: false, iiif: false, api: "not documented", csv: false, xml: false, json: UNKNOWN, audio: true, download: true, other: "direct WAV/MP3/JPG/TIF links and Details pages"}
+linguistic_features: {classical_nahuatl: false, modern_variety: true, mixed: false, historical_orthography: false, normalization: "word-list transcription", vowel_length: NOT_REVIEWED, saltillo: NOT_REVIEWED, grammatical_class: false, morphology: false, examples: "word list", occurrence_locator: "list/entry/recording", translations: SOURCE_DEPENDENT, translation_languages: [English], audio: true, audio_variety: "Isthmus-Mecayapan", speaker_identification: "E. Bautista visible for audited recording; details item-specific", phonological_reconstruction: "not reconstruction; comparative evidence only", lexical_evidence: MEDIUM, corpus_evidence: LOW}
+provenance_quality: "Good recording/list/file linkage and some speaker identification; rights and collection protocol not located."
+known_limitations: ["single modern Variety", "word lists rather than natural speech", "some cells may be blank", "historical recording metadata may be incomplete"]
+risks: ["using as Classical pronunciation", "speaker privacy/consent assumptions", "download mistaken for reuse permission"]
+recommended_role: "Modern comparative phonetics reference; audio requires permission before storage or redistribution."
+ingestion_class: {wav_audio: MANUAL_PERMISSION_REQUIRED, mp3_audio: MANUAL_PERMISSION_REQUIRED, scanned_wordlists: CAN_REFERENCE, recording_metadata: CAN_REFERENCE}
+evidence:
+  - {claim: "Official archive page identifies Isthmus-Mecayapan, speaker, 1966 word list and direct WAV/MP3/JPG/TIF access.", url: "https://archive.phonetics.ucla.edu/Language/NHX/nhx.html", accessed_at: "2026-09-03"}
+  - {claim: "Official instructions warn that not all information exists for every Recording.", url: "https://archive.phonetics.ucla.edu/Language/NHX/nhx.html", accessed_at: "2026-09-03"}

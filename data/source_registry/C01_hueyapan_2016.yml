@@ -1,0 +1,27 @@
+source_id: C01
+name: "Ejercicios para el aprendizaje de la lengua náhuatl de Hueyapan y diccionario español-náhuatl"
+author: "Marcelino Montero Baeza"
+institution: "Comisión Nacional para el Desarrollo de los Pueblos Indígenas (program funding); community cultural group"
+url: "https://www.gob.mx/cms/uploads/attachment/file/64177/diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf"
+accessed_at: "2026-09-03"
+local_witness: {path: "sources/hueyapan/diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf", sha256: "7B0A2C58D5E47F4BCFEB7960B12C255C572EEDF58FCAF634A171DEC79F6743FA", size_bytes: 2634723, page_count: "approximately 190 pages reported by indexed copy; local tooling could not independently count", inspection_scope: "file metadata plus indexed preliminary/structural text; no full-dictionary extraction"}
+linguistic_scope: {language: "Nahuatl and Spanish", variety: "Nahuatl of Hueyapan", period: modern, geography: "Hueyapan, formerly municipality of Tetela del Volcán, Morelos, Mexico", date_range: "community research preceding electronic Edition 2016"}
+source_role: [dictionary, grammar, corpus, translation, metadata]
+scholarly_relevance: "P2 important community-oriented modern-variety resource; must remain separated from Classical Nahuatl."
+available_components:
+  - {component_id: pedagogical_lessons, description: "alphabet, grammar explanations, exercises and readings", format: PDF, approximate_size: "part of approximately 190 pages", searchable: UNKNOWN, downloadable: true, machine_readable: false}
+  - {component_id: spanish_nahuatl_dictionary, description: "Spanish-to-Hueyapan Nahuatl dictionary", format: PDF, approximate_size: UNKNOWN, searchable: UNKNOWN, downloadable: true, machine_readable: false}
+  - {component_id: community_examples, description: "sentences/readings and Spanish translations", format: PDF, approximate_size: UNKNOWN, searchable: UNKNOWN, downloadable: true, machine_readable: false}
+rights:
+  - {component_id: all_pdf_components, work_status: RESTRICTED_COPYRIGHT, rights_holder: "Marcelino Montero Baeza, contributors/community and/or commissioning institution; exact allocation unresolved", license: "no explicit open license located; program-use notice is not an open license", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://www.gob.mx/cms/uploads/attachment/file/64177/diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf", status: UNKNOWN_RIGHTS, ingestion_class: MANUAL_PERMISSION_REQUIRED}
+  - {component_id: local_pdf_witness, work_status: UNKNOWN_RIGHTS, rights_holder: "unresolved", license: "availability on government domain does not grant redistribution", storage_allowed: true, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: false, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://www.gob.mx/cms/uploads/attachment/file/64177/diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf", status: UNKNOWN_RIGHTS, ingestion_class: DO_NOT_INGEST}
+technical_access: {html: false, pdf: true, iiif: false, api: false, csv: false, xml: false, json: false, audio: false, download: true, other: "single government-hosted PDF; local Witness present"}
+linguistic_features: {classical_nahuatl: false, modern_variety: true, mixed: false, historical_orthography: false, normalization: "community pedagogical orthography", vowel_length: "uses hyphen for described pronunciation length in examples; linguistic interpretation requires review", saltillo: NOT_REVIEWED, grammatical_class: true, morphology: true, examples: true, occurrence_locator: "PDF page", translations: true, translation_languages: [Spanish], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: LOW, lexical_evidence: HIGH, corpus_evidence: MEDIUM}
+provenance_quality: "Named author and explicit community focus; entry-level elicitation/speaker provenance not established in limited audit."
+known_limitations: ["not Classical Nahuatl", "Spanish-to-Nahuatl direction", "pedagogical/non-official self-description", "no explicit open license", "page count requires independent confirmation"]
+risks: ["mixing Hueyapan with Classical core", "community/cultural restrictions", "redistributing PDF", "interpreting orthographic G/K and hyphens without specialist review"]
+recommended_role: "Separate Hueyapan reference and future permission-based modern lexicon; never populate Classical records."
+ingestion_class: {pedagogical_lessons: MANUAL_PERMISSION_REQUIRED, spanish_nahuatl_dictionary: MANUAL_PERMISSION_REQUIRED, community_examples: MANUAL_PERMISSION_REQUIRED, local_pdf_witness: DO_NOT_INGEST}
+evidence:
+  - {claim: "Indexed preliminary pages identify Marcelino Montero Baeza, CDI program funding, electronic Edition 2016 and community-research basis in Hueyapan.", url: "https://www.gob.mx/cms/uploads/attachment/file/64177/diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf", accessed_at: "2026-09-03"}
+  - {claim: "Independent scholarly bibliography cites the same title, author, year and CDI publication.", url: "https://elpezylaflecha.uv.mx/index.php/elpezylaflecha/article/view/122", accessed_at: "2026-09-03"}

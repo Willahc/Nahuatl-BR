@@ -1,0 +1,26 @@
+source_id: A02
+name: "Arte para aprender la lengua mexicana and related vocabularies"
+institution: "Andrés de Olmos; audited descriptive host: Gran Diccionario Náhuatl, UNAM"
+url: "https://gdn.iib.unam.mx/textos/olmos-v"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: Nahuatl, variety: "sixteenth-century Nahuatl; manuscript-specific scope PROVISIONAL", period: "Classical/early colonial", geography: "Hueytlalpan and New Spain; Witness-dependent", date_range: "1547 and later manuscript copies"}
+source_role: [grammar, dictionary, manuscript, transcription, metadata]
+scholarly_relevance: "P0 early grammar; related verb list is lexically valuable but authorship is disputed."
+available_components:
+  - {component_id: arte_work, description: "sixteenth-century grammatical Work", format: manuscript, approximate_size: UNKNOWN, searchable: false, downloadable: false, machine_readable: false}
+  - {component_id: vocabulary_work, description: "verb list in Codex Toledo", format: manuscript, approximate_size: UNKNOWN, searchable: false, downloadable: false, machine_readable: false}
+  - {component_id: gdn_transcription_normalization, description: "GDN-derived paleography, normalized forms and editorial data", format: HTML_database, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: UNKNOWN}
+rights:
+  - {component_id: arte_work, work_status: PUBLIC_DOMAIN_WORK, rights_holder: UNKNOWN, license: "underlying historical Work", storage_allowed: true, extraction_allowed: true, derivative_use_allowed: true, redistribution_allowed: true, commercial_use_allowed: true, attribution_required: true, evidence_url: "https://gdn.iib.unam.mx/textos/olmos-v", status: PUBLIC_DOMAIN_WORK, ingestion_class: CAN_INGEST_WITH_ATTRIBUTION}
+  - {component_id: vocabulary_work, work_status: PUBLIC_DOMAIN_WORK, rights_holder: UNKNOWN, license: "underlying historical text; attribution to Olmos uncertain", storage_allowed: true, extraction_allowed: true, derivative_use_allowed: true, redistribution_allowed: true, commercial_use_allowed: true, attribution_required: true, evidence_url: "https://gdn.iib.unam.mx/textos/olmos-v", status: PUBLIC_DOMAIN_WORK, ingestion_class: CAN_INGEST_WITH_ATTRIBUTION}
+  - {component_id: gdn_transcription_normalization, work_status: UNKNOWN_RIGHTS, rights_holder: "UNAM and named modern contributors; exact allocation unresolved", license: "no explicit license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://gdn.iib.unam.mx/textos/olmos", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: UNKNOWN, iiif: false, api: UNKNOWN, csv: UNKNOWN, xml: UNKNOWN, json: UNKNOWN, audio: false, download: UNKNOWN, other: "GDN search interface"}
+linguistic_features: {classical_nahuatl: true, modern_variety: false, mixed: false, historical_orthography: true, normalization: "GDN provides separate normalization", vowel_length: NOT_REVIEWED, saltillo: NOT_REVIEWED, grammatical_class: true, morphology: true, examples: true, occurrence_locator: "Witness-dependent", translations: true, translation_languages: [Spanish, French], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: MEDIUM, lexical_evidence: HIGH, corpus_evidence: LOW}
+provenance_quality: "Good source history in GDN; six surviving copies and Codex Toledo must not be conflated."
+known_limitations: ["no autograph", "verb-list authorship not proven", "modern GDN normalization is editorial"]
+risks: ["attributing vocabulary to Olmos as fact", "mixing manuscript Witnesses", "copying modern GDN layer without permission"]
+recommended_role: "Primary grammatical Evidence; verb list only with disputed-attribution Claim."
+ingestion_class: {arte_work: CAN_INGEST_WITH_ATTRIBUTION, vocabulary_work: CAN_INGEST_WITH_ATTRIBUTION, gdn_transcription_normalization: CAN_REFERENCE}
+evidence:
+  - {claim: "GDN reports the Arte completed in 1547, six copies, and verb list only in Codex Toledo with uncertain authorship.", url: "https://gdn.iib.unam.mx/textos/olmos-v", accessed_at: "2026-09-03"}
+  - {claim: "GDN documents normalization while retaining paleography.", url: "https://gdn.iib.unam.mx/textos/olmos", accessed_at: "2026-09-03"}

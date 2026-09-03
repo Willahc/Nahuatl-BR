@@ -1,0 +1,26 @@
+source_id: A04
+name: "Arte de la lengua mexicana con la declaración de los adverbios della"
+institution: "Horacio Carochi; digital Edition: Biblioteca Virtual Miguel de Cervantes"
+url: "https://www.cervantesvirtual.com/nd/ark:/59851/bmcvt3g7"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: "Nahuatl and Spanish", variety: "seventeenth-century Classical Nahuatl; local variation requires review", period: "Classical/colonial", geography: "Mexico City and Tepotzotlán context", date_range: "1645"}
+source_role: [grammar, historical_print, transcription, metadata]
+scholarly_relevance: "P0 central grammatical and prosodic source, especially vowel length and glottal phenomena."
+available_components:
+  - {component_id: historical_work, description: "1645 grammar", format: print, approximate_size: "132 leaves", searchable: false, downloadable: false, machine_readable: false}
+  - {component_id: cervantes_html, description: "2014 digital HTML Edition from 1645 print", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: PARTIAL}
+  - {component_id: catalog_metadata, description: "bibliographic metadata and linked data", format: [HTML, RDF], approximate_size: "one record", searchable: true, downloadable: true, machine_readable: true}
+rights:
+  - {component_id: historical_work, work_status: PUBLIC_DOMAIN_WORK, rights_holder: UNKNOWN, license: "underlying 1645 Work", storage_allowed: true, extraction_allowed: true, derivative_use_allowed: true, redistribution_allowed: true, commercial_use_allowed: true, attribution_required: true, evidence_url: "https://www.cervantesvirtual.com/nd/ark:/59851/bmcvt3g7", status: PUBLIC_DOMAIN_WORK, ingestion_class: CAN_INGEST_WITH_ATTRIBUTION}
+  - {component_id: cervantes_html, work_status: UNKNOWN_RIGHTS, rights_holder: "Biblioteca Virtual Miguel de Cervantes and/or source institution", license: "no explicit content license located in audited record", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://www.cervantesvirtual.com/nd/ark:/59851/bmcvt3g7", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: catalog_metadata, work_status: UNKNOWN_RIGHTS, rights_holder: "Biblioteca Virtual Miguel de Cervantes", license: "catalog described as open linked data; exact license URI not located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://www.cervantesvirtual.com/nd/ark:/59851/bmcvt3g7", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: UNKNOWN, iiif: UNKNOWN, api: UNKNOWN, csv: false, xml: UNKNOWN, json: UNKNOWN, audio: false, download: UNKNOWN, other: "ARK, BibTeX, RIS and RDF catalog data"}
+linguistic_features: {classical_nahuatl: true, modern_variety: false, mixed: false, historical_orthography: true, normalization: "digital transcription exists; normalization extent NOT_REVIEWED", vowel_length: true, saltillo: true, grammatical_class: true, morphology: true, examples: true, occurrence_locator: "leaf/page", translations: PARTIAL, translation_languages: [Spanish], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: HIGH, lexical_evidence: MEDIUM, corpus_evidence: LOW}
+provenance_quality: "Stable ARK and edition statement; digital text rights require clarification."
+known_limitations: ["prescriptive/descriptive missionary grammar", "prosodic notation must be interpreted in its own system", "HTML is a modern Edition"]
+risks: ["equating notation directly with IPA", "copying modern transcription", "generalizing one grammar across all varieties"]
+recommended_role: "Primary grammatical/prosodic Evidence; historical Work ingestible from an authorized Witness."
+ingestion_class: {historical_work: CAN_INGEST_WITH_ATTRIBUTION, cervantes_html: CAN_REFERENCE, catalog_metadata: CAN_REFERENCE}
+evidence:
+  - {claim: "Official record identifies 2014 HTML Edition from Mexico 1645 original, 132 leaves, Spanish and Nahuatl.", url: "https://www.cervantesvirtual.com/nd/ark:/59851/bmcvt3g7", accessed_at: "2026-09-03"}
+  - {claim: "GDN documents a Carochi dictionary built from 1645 facsimile and Lockhart paleography.", url: "https://gdn.iib.unam.mx/textos/carochi", accessed_at: "2026-09-03"}

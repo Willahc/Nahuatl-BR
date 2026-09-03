@@ -1,0 +1,25 @@
+source_id: B05
+name: "Online Nahuatl Dictionary"
+institution: "Wired Humanities Projects, University of Oregon"
+url: "https://nahuatl.wired-humanities.org/"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: "Nahuatl, English and Spanish", variety: "mixed historical sources and modern contributors/varieties", period: "colonial to present", geography: "multiple", date_range: "source-dependent; project 2000-present"}
+source_role: [dictionary, transcription, translation, metadata]
+scholarly_relevance: "P1 discovery and aggregation with rich source citations; not a homogeneous lexical authority."
+available_components:
+  - {component_id: lexical_entries, description: "headwords, senses, themes and source quotations", format: HTML_database, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: PARTIAL}
+  - {component_id: translations_editorial, description: "English/Spanish meanings and modern contributions", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: PARTIAL}
+  - {component_id: metadata_citations, description: "source attributions and links", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: false, machine_readable: PARTIAL}
+rights:
+  - {component_id: lexical_entries, work_status: RESTRICTED_COPYRIGHT, rights_holder: "Wired Humanities Projects and source contributors", license: "©2000-present; no explicit open data license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://nahuatl.wired-humanities.org/content/welcome-online-nahuatl-dictionary", status: RESTRICTED_COPYRIGHT, ingestion_class: CAN_REFERENCE}
+  - {component_id: translations_editorial, work_status: RESTRICTED_COPYRIGHT, rights_holder: "named contributors/project", license: "no explicit open license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://nahuatl.wired-humanities.org/content/welcome-online-nahuatl-dictionary", status: RESTRICTED_COPYRIGHT, ingestion_class: CAN_REFERENCE}
+  - {component_id: metadata_citations, work_status: UNKNOWN_RIGHTS, rights_holder: "Wired Humanities Projects", license: "not located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://nahuatl.wired-humanities.org/content/welcome-online-nahuatl-dictionary", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: false, iiif: false, api: "not documented", csv: false, xml: UNKNOWN, json: UNKNOWN, audio: SOURCE_DEPENDENT, download: "no bulk export located", other: "advanced search and alphabetical listings; complex search reported under repair 2026-08-06"}
+linguistic_features: {classical_nahuatl: true, modern_variety: true, mixed: true, historical_orthography: SOURCE_DEPENDENT, normalization: true, vowel_length: SOURCE_DEPENDENT, saltillo: SOURCE_DEPENDENT, grammatical_class: SOURCE_DEPENDENT, morphology: SOURCE_DEPENDENT, examples: true, occurrence_locator: SOURCE_DEPENDENT, translations: true, translation_languages: [English, Spanish], audio: SOURCE_DEPENDENT, speaker_identification: SOURCE_DEPENDENT, phonological_reconstruction: MEDIUM, lexical_evidence: HIGH, corpus_evidence: MEDIUM}
+provenance_quality: "Often source-attributed, but aggregation and source heterogeneity require per-Claim tracing."
+known_limitations: ["mixed varieties and periods", "complex searches under repair at access", "no explicit reusable-data license"]
+risks: ["copying aggregated entries", "losing original source", "mixing modern and Classical forms"]
+recommended_role: "Discovery/reference; follow citations back to primary or licensed components."
+ingestion_class: {lexical_entries: CAN_REFERENCE, translations_editorial: CAN_REFERENCE, metadata_citations: CAN_REFERENCE}
+evidence:
+  - {claim: "Official page identifies Stephanie Wood as editor, project ©2000-present, contributors and search functions.", url: "https://nahuatl.wired-humanities.org/content/welcome-online-nahuatl-dictionary", accessed_at: "2026-09-03"}

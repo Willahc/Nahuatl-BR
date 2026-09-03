@@ -1,0 +1,28 @@
+source_id: B01
+name: "Gran Diccionario Náhuatl"
+institution: "Universidad Nacional Autónoma de México, Instituto de Investigaciones Bibliográficas"
+url: "https://gdn.iib.unam.mx/"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: Nahuatl, variety: "mixed: historical dictionaries/documents and modern varieties including Mecayapan and Tzinacapan", period: "sixteenth century to modern", geography: "multiple Mexican regions", date_range: "source-dependent"}
+source_role: [dictionary, corpus, transcription, translation, metadata]
+scholarly_relevance: "P1 discovery and cross-dictionary comparison; component provenance must be retained."
+available_components:
+  - {component_id: lexical_records, description: "searchable integrated dictionary entries", format: HTML_database, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: UNKNOWN}
+  - {component_id: paleography_normalization, description: "paleography and automated/editorial normalized spelling", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: UNKNOWN}
+  - {component_id: translations_examples_locators, description: "Spanish/French translations, examples, comments and source locators depending on dictionary", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: UNKNOWN}
+  - {component_id: project_metadata, description: "introductions, credits and bibliography", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: false, machine_readable: false}
+rights:
+  - {component_id: lexical_records, work_status: UNKNOWN_RIGHTS, rights_holder: "UNAM plus source-specific contributors/editions", license: "no explicit reusable-data license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://gdn.iib.unam.mx/", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: paleography_normalization, work_status: RESTRICTED_COPYRIGHT, rights_holder: "named modern editors/contributors; allocation unresolved", license: "no explicit open license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://gdn.iib.unam.mx/textos/diccionario-de-documentos", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: translations_examples_locators, work_status: UNKNOWN_RIGHTS, rights_holder: "source-dependent", license: "component-specific terms not located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://gdn.iib.unam.mx/textos/diccionario-de-documentos", status: UNKNOWN_RIGHTS, ingestion_class: RIGHTS_UNCLEAR}
+  - {component_id: project_metadata, work_status: UNKNOWN_RIGHTS, rights_holder: UNAM, license: "not located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://gdn.iib.unam.mx/", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: false, iiif: false, api: "no documented API located", csv: "no official export located", xml: UNKNOWN, json: UNKNOWN, audio: false, download: "no bulk download located", other: "advanced multi-dictionary search"}
+linguistic_features: {classical_nahuatl: true, modern_variety: true, mixed: true, historical_orthography: true, normalization: true, vowel_length: SOURCE_DEPENDENT, saltillo: SOURCE_DEPENDENT, grammatical_class: SOURCE_DEPENDENT, morphology: SOURCE_DEPENDENT, examples: true, occurrence_locator: SOURCE_DEPENDENT, translations: true, translation_languages: [Spanish, French], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: MEDIUM, lexical_evidence: HIGH, corpus_evidence: MEDIUM}
+provenance_quality: "Potentially strong introductions and per-dictionary provenance, but integrated results require source retention."
+known_limitations: ["heterogeneous sources", "automated normalization", "site says it remains under development", "no explicit data license/API located"]
+risks: ["mixing Classical and modern varieties", "losing dictionary-specific attribution", "treating normalization as original"]
+recommended_role: "Discovery and cross-check layer; reference until component permissions are clarified."
+ingestion_class: {lexical_records: CAN_REFERENCE, paleography_normalization: CAN_REFERENCE, translations_examples_locators: RIGHTS_UNCLEAR, project_metadata: CAN_REFERENCE}
+evidence:
+  - {claim: "Search interface lists historical and modern dictionaries and separate normalized spelling/translation fields.", url: "https://gdn.iib.unam.mx/textos/diccionario-de-documentos", accessed_at: "2026-09-03"}
+  - {claim: "GDN documents paleography, normalization, translations, examples and locators for the Mexico documents component.", url: "https://gdn.iib.unam.mx/textos/diccionario-de-documentos", accessed_at: "2026-09-03"}

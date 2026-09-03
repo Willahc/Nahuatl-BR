@@ -1,0 +1,27 @@
+source_id: B07
+name: "Cantares Mexicanos / relevant digital editions"
+institution: "Universidad Nacional Autónoma de México, Instituto de Investigaciones Históricas and partners"
+url: "https://historicas.unam.mx/publicaciones/publicadigital/libros/cantares/cm01.html"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: "historical Nahuatl with modern Spanish studies/translations", variety: "high-register colonial Central Mexican Nahuatl; precise strata PROVISIONAL", period: "sixteenth-century manuscript; 2011/2016 modern Edition", geography: "Central Mexico", date_range: "sixteenth century; electronic Edition 2016"}
+source_role: [corpus, manuscript, transcription, translation, metadata]
+scholarly_relevance: "P1 major poetic corpus; genre/register and editorial layers require careful handling."
+available_components:
+  - {component_id: historical_manuscript_work, description: "sixteenth-century Nahuatl song collection", format: manuscript, approximate_size: UNKNOWN, searchable: false, downloadable: false, machine_readable: false}
+  - {component_id: modern_edition_studies, description: "Volume I studies", format: PDF, approximate_size: "30 MB for electronic Volume I stated", searchable: true, downloadable: true, machine_readable: false}
+  - {component_id: modern_transcription_translation, description: "modern paleography/translation volumes or sections", format: PDF, approximate_size: UNKNOWN, searchable: SOURCE_DEPENDENT, downloadable: true, machine_readable: false}
+  - {component_id: catalog_metadata, description: "bibliographic and section metadata", format: HTML, approximate_size: "one work with parts", searchable: true, downloadable: false, machine_readable: PARTIAL}
+rights:
+  - {component_id: historical_manuscript_work, work_status: PUBLIC_DOMAIN_WORK, rights_holder: UNKNOWN, license: "underlying historical Work", storage_allowed: true, extraction_allowed: true, derivative_use_allowed: true, redistribution_allowed: true, commercial_use_allowed: true, attribution_required: true, evidence_url: "https://historicas.unam.mx/publicaciones/publicadigital/libros/cantares/cm01.html", status: PUBLIC_DOMAIN_WORK, ingestion_class: CAN_INGEST_WITH_ATTRIBUTION}
+  - {component_id: modern_edition_studies, work_status: RESTRICTED_COPYRIGHT, rights_holder: "UNAM and named authors/editors", license: "download availability; no explicit open license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://historicas.unam.mx/publicaciones/publicadigital/libros/cantares/cm01.html", status: RESTRICTED_COPYRIGHT, ingestion_class: CAN_REFERENCE}
+  - {component_id: modern_transcription_translation, work_status: RESTRICTED_COPYRIGHT, rights_holder: "UNAM and named editors/translators", license: "no explicit open license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://historicas.unam.mx/publicaciones/publicadigital/libros/cantares/cm01.html", status: RESTRICTED_COPYRIGHT, ingestion_class: CAN_REFERENCE}
+  - {component_id: catalog_metadata, work_status: UNKNOWN_RIGHTS, rights_holder: UNAM, license: "not located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://historicas.unam.mx/publicaciones/publicadigital/libros/cantares/cm01.html", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: true, iiif: false, api: "not documented", csv: false, xml: UNKNOWN, json: UNKNOWN, audio: false, download: true, other: "sectioned PDF links and catalog"}
+linguistic_features: {classical_nahuatl: true, modern_variety: false, mixed: "poetic/register diversity and modern Spanish layers", historical_orthography: true, normalization: SOURCE_DEPENDENT, vowel_length: SOURCE_DEPENDENT, saltillo: SOURCE_DEPENDENT, grammatical_class: false, morphology: false, examples: true, occurrence_locator: "folio/page via Edition", translations: true, translation_languages: [Spanish], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: MEDIUM, lexical_evidence: MEDIUM, corpus_evidence: HIGH}
+provenance_quality: "Strong modern scholarly Edition identity; Witness and per-line locators must be retained."
+known_limitations: ["poetic/high register not representative of all Classical Nahuatl", "modern editorial rights", "PDF not structured API"]
+risks: ["genre generalization", "copying modern translation/transcription", "confusing Work and Edition"]
+recommended_role: "Historical corpus Evidence by citation; ingest underlying text only from rights-cleared Witness/transcription."
+ingestion_class: {historical_manuscript_work: CAN_INGEST_WITH_ATTRIBUTION, modern_edition_studies: CAN_REFERENCE, modern_transcription_translation: CAN_REFERENCE, catalog_metadata: CAN_REFERENCE}
+evidence:
+  - {claim: "Official UNAM page identifies editors, 2016 electronic PDF Edition, size, ISBN and downloadable parts.", url: "https://historicas.unam.mx/publicaciones/publicadigital/libros/cantares/cm01.html", accessed_at: "2026-09-03"}

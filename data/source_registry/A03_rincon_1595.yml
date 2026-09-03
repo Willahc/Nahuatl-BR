@@ -1,0 +1,25 @@
+source_id: A03
+name: "Arte mexicana"
+institution: "Antonio del Rincón; Witness: J. Willard Marriott Library, University of Utah"
+url: "https://collections.lib.utah.edu/details?id=296198"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: "Nahuatl with Spanish metalanguage", variety: "colonial Central Mexican Nahuatl; PROVISIONAL", period: "Classical/colonial", geography: "Mexico City / New Spain", date_range: "1595"}
+source_role: [grammar, manuscript, metadata]
+scholarly_relevance: "P0 early Nahua-authored grammatical description and historical orthographic Evidence."
+available_components:
+  - {component_id: historical_work, description: "1595 first-edition grammar", format: print, approximate_size: UNKNOWN, searchable: false, downloadable: false, machine_readable: false}
+  - {component_id: digital_surrogate, description: "600 ppi capture and PDF derivatives", format: [TIFF, PDF, web_images], approximate_size: UNKNOWN, searchable: false, downloadable: true, machine_readable: false}
+  - {component_id: metadata, description: "item/page metadata with ARK", format: HTML, approximate_size: "one item plus pages", searchable: true, downloadable: UNKNOWN, machine_readable: UNKNOWN}
+rights:
+  - {component_id: historical_work, work_status: PUBLIC_DOMAIN_WORK, rights_holder: UNKNOWN, license: "underlying 1595 Work", storage_allowed: true, extraction_allowed: true, derivative_use_allowed: true, redistribution_allowed: true, commercial_use_allowed: true, attribution_required: true, evidence_url: "https://collections.lib.utah.edu/details?id=296198", status: PUBLIC_DOMAIN_WORK, ingestion_class: CAN_INGEST_WITH_ATTRIBUTION}
+  - {component_id: digital_surrogate, work_status: UNKNOWN_RIGHTS, rights_holder: "University of Utah / holding institution; exact rights not stated in item Rights field", license: "Rights field blank", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://collections.lib.utah.edu/details?id=296198", status: UNKNOWN_RIGHTS, ingestion_class: RIGHTS_UNCLEAR}
+  - {component_id: metadata, work_status: UNKNOWN_RIGHTS, rights_holder: "University of Utah", license: "not located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://collections.lib.utah.edu/details?id=296198", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: true, iiif: UNKNOWN, api: UNKNOWN, csv: false, xml: UNKNOWN, json: UNKNOWN, audio: false, download: true, other: "ARK stable identifier; page gallery; archival-file request"}
+linguistic_features: {classical_nahuatl: true, modern_variety: false, mixed: false, historical_orthography: true, normalization: false, vowel_length: NOT_REVIEWED, saltillo: NOT_REVIEWED, grammatical_class: true, morphology: true, examples: true, occurrence_locator: "page image", translations: PARTIAL, translation_languages: [Spanish], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: MEDIUM, lexical_evidence: MEDIUM, corpus_evidence: LOW}
+provenance_quality: "Strong edition/Witness metadata, ARK and page-level objects; rights field is empty."
+known_limitations: ["grammar rather than dictionary", "OCR not evidenced", "linguistic feature inventory requires closer reading"]
+risks: ["surrogate-rights ambiguity", "treating examples as broad corpus", "modernizing historical forms"]
+recommended_role: "Primary grammar and examples; use images only after rights clarification."
+ingestion_class: {historical_work: CAN_INGEST_WITH_ATTRIBUTION, digital_surrogate: RIGHTS_UNCLEAR, metadata: CAN_REFERENCE}
+evidence:
+  - {claim: "Official Utah item identifies first edition, 1595, grammar subject, PDF and 600 ppi digitization.", url: "https://collections.lib.utah.edu/details?id=296198", accessed_at: "2026-09-03"}

@@ -1,0 +1,25 @@
+source_id: B06
+name: "Visual Lexicon of Aztec Hieroglyphs"
+institution: "Wired Humanities Projects, University of Oregon"
+url: "https://aztecglyphs.wired-humanities.org/"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: "Nahuatl glyphic writing with English/Spanish descriptions", variety: "central Mexican historical sources", period: "sixteenth century manuscripts; modern analysis 2020-present", geography: "source-dependent", date_range: "c.1541-1570s and modern project"}
+source_role: [glyphs, manuscript, translation, metadata]
+scholarly_relevance: "P3 future Gate 11 core reference; useful for explicit glyph-reading Claims, not ordinary alphabetic lemma ingestion."
+available_components:
+  - {component_id: glyph_images, description: "cropped glyph/iconographic images from multiple repositories", format: web_images, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: false}
+  - {component_id: descriptions_comments, description: "individually attributed descriptions/comments", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: PARTIAL}
+  - {component_id: glyph_metadata_readings, description: "names, translations, source/folio, shapes, colors and dictionary links", format: HTML_database, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: PARTIAL}
+rights:
+  - {component_id: glyph_images, work_status: UNKNOWN_RIGHTS, rights_holder: "host repository/item-specific", license: "image-specific Rights field; academic reuse statement does not establish one uniform license", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: false, attribution_required: true, evidence_url: "https://aztecglyphs.wired-humanities.org/", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: descriptions_comments, work_status: OPEN_LICENSE, rights_holder: "individual contributors", license: "CC BY-NC-SA 3.0", storage_allowed: true, extraction_allowed: true, derivative_use_allowed: true, redistribution_allowed: true, commercial_use_allowed: false, attribution_required: true, evidence_url: "https://aztecglyphs.wired-humanities.org/", status: OPEN_LICENSE, ingestion_class: CAN_INGEST_WITH_ATTRIBUTION}
+  - {component_id: glyph_metadata_readings, work_status: UNKNOWN_RIGHTS, rights_holder: "project and individual contributors", license: "description license may apply only in part; database rights not explicitly resolved", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: false, attribution_required: true, evidence_url: "https://aztecglyphs.wired-humanities.org/", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: false, iiif: "source links may be IIIF; project API not documented", api: "not documented", csv: false, xml: UNKNOWN, json: UNKNOWN, audio: false, download: SOURCE_DEPENDENT, other: "quick/advanced search, thumbnails, per-glyph pages"}
+linguistic_features: {classical_nahuatl: "historical glyphic context", modern_variety: false, mixed: "multiple codices", historical_orthography: "glyphic plus alphabetic glosses", normalization: SOURCE_DEPENDENT, vowel_length: NOT_APPLICABLE, saltillo: NOT_APPLICABLE, grammatical_class: SOURCE_DEPENDENT, morphology: SOURCE_DEPENDENT, examples: true, occurrence_locator: "codex and folio", translations: true, translation_languages: [English, Spanish], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: LOW, lexical_evidence: MEDIUM, corpus_evidence: MEDIUM}
+provenance_quality: "Strong item-level image-source/rights fields where populated; interpretations individually attributed."
+known_limitations: ["image rights vary per host", "noncommercial license", "glyph readings may be competing interpretations"]
+risks: ["assuming project-wide image license", "treating interpretation as observation", "premature Gate 11 modeling"]
+recommended_role: "Future glyph-reference layer; only CC-licensed descriptions eligible now, with attribution and NC constraint review."
+ingestion_class: {glyph_images: CAN_REFERENCE, descriptions_comments: CAN_INGEST_WITH_ATTRIBUTION, glyph_metadata_readings: CAN_REFERENCE}
+evidence:
+  - {claim: "Official page describes source codices, search functions, academic image reuse, per-image rights, and CC BY-NC-SA 3.0 for descriptions/comments.", url: "https://aztecglyphs.wired-humanities.org/", accessed_at: "2026-09-03"}

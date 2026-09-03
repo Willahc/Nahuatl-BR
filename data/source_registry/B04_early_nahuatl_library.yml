@@ -1,0 +1,26 @@
+source_id: B04
+name: "Early Nahuatl Library"
+institution: "Wired Humanities Projects, University of Oregon"
+url: "https://enl.wired-humanities.org/"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: "Nahuatl with translations", variety: "multiple colonial documentary varieties", period: "early colonial", geography: "multiple central Mexican communities", date_range: "document-dependent"}
+source_role: [corpus, manuscript, transcription, translation, metadata]
+scholarly_relevance: "P1 full-text documentary corpus with granular element URLs and translations."
+available_components:
+  - {component_id: transcriptions, description: "full-text manuscript transcriptions", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: PARTIAL}
+  - {component_id: translations, description: "modern translations", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: PARTIAL}
+  - {component_id: metadata_locators, description: "document, folio/page and element identifiers", format: HTML_URLs, approximate_size: UNKNOWN, searchable: true, downloadable: false, machine_readable: PARTIAL}
+rights:
+  - {component_id: transcriptions, work_status: RESTRICTED_COPYRIGHT, rights_holder: "named editors/transcribers, source-dependent", license: "no explicit open license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://enl.wired-humanities.org/", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: translations, work_status: RESTRICTED_COPYRIGHT, rights_holder: "named translators/editors", license: "no explicit open license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://enl.wired-humanities.org/", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: metadata_locators, work_status: UNKNOWN_RIGHTS, rights_holder: "Wired Humanities Projects", license: "not located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://enl.wired-humanities.org/", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: SOURCE_DEPENDENT, iiif: UNKNOWN, api: "not documented", csv: false, xml: UNKNOWN, json: UNKNOWN, audio: false, download: UNKNOWN, other: "element-level URLs observed"}
+linguistic_features: {classical_nahuatl: true, modern_variety: false, mixed: "multiple colonial regions/registers", historical_orthography: true, normalization: SOURCE_DEPENDENT, vowel_length: SOURCE_DEPENDENT, saltillo: SOURCE_DEPENDENT, grammatical_class: false, morphology: false, examples: true, occurrence_locator: "document/folio/element", translations: true, translation_languages: [English, Spanish], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: LOW, lexical_evidence: HIGH, corpus_evidence: HIGH}
+provenance_quality: "Potentially strong document-level citations; project-wide rights and export documentation not located."
+known_limitations: ["heterogeneous documentary corpus", "modern transcription/translation rights", "homepage availability/indexing incomplete during audit"]
+risks: ["regional/register mixing", "copying modern editorial layers", "assuming stable undocumented endpoints"]
+recommended_role: "Reference and occurrence discovery pending permission; cite document and element."
+ingestion_class: {transcriptions: CAN_REFERENCE, translations: CAN_REFERENCE, metadata_locators: CAN_REFERENCE}
+evidence:
+  - {claim: "Wired Humanities identifies ENL as full-text alphabetic manuscripts with transcriptions and translations.", url: "https://wired-humanities.org/", accessed_at: "2026-09-03"}
+  - {claim: "OND entry demonstrates an ENL document/folio/element citation and URL.", url: "https://nahuatl.wired-humanities.org/content/tecpillalli", accessed_at: "2026-09-03"}

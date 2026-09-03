@@ -1,0 +1,27 @@
+source_id: B02
+name: Temoa
+institution: "Universidad Nacional Autónoma de México, Instituto de Investigaciones Bibliográficas"
+url: "https://temoa.iib.unam.mx/"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: "Nahuatl and Spanish", variety: "mixed historical documents; source-specific", period: "primarily colonial", geography: "multiple New Spain collections", date_range: "source-dependent"}
+source_role: [corpus, manuscript, transcription, translation, metadata]
+scholarly_relevance: "P1 folio-addressable historical corpus and discovery interface."
+available_components:
+  - {component_id: manuscript_images, description: "digital reproductions by document/folio", format: web_images, approximate_size: UNKNOWN, searchable: false, downloadable: UNKNOWN, machine_readable: false}
+  - {component_id: transcriptions, description: "folio/segment Nahuatl transcriptions", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: PARTIAL}
+  - {component_id: translations_notes, description: "translations and notes when available", format: HTML, approximate_size: UNKNOWN, searchable: true, downloadable: UNKNOWN, machine_readable: PARTIAL}
+  - {component_id: metadata_locators, description: "collection, folio and segment identifiers", format: HTML_URLs, approximate_size: UNKNOWN, searchable: true, downloadable: false, machine_readable: PARTIAL}
+rights:
+  - {component_id: manuscript_images, work_status: UNKNOWN_RIGHTS, rights_holder: "holding institutions, item-specific", license: "no explicit component license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://temoa.iib.unam.mx/cf_01_i/29r", status: UNKNOWN_RIGHTS, ingestion_class: RIGHTS_UNCLEAR}
+  - {component_id: transcriptions, work_status: RESTRICTED_COPYRIGHT, rights_holder: "UNAM and named editors, source-dependent", license: "no explicit open license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://temoa.iib.unam.mx/cf_01_i/29r", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: translations_notes, work_status: RESTRICTED_COPYRIGHT, rights_holder: "translators/editors, source-dependent", license: "no explicit open license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://temoa.iib.unam.mx/cf_01_i/29r", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+  - {component_id: metadata_locators, work_status: UNKNOWN_RIGHTS, rights_holder: UNAM, license: "not located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://temoa.iib.unam.mx/cf_01_i/29r", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: false, iiif: UNKNOWN, api: "not documented", csv: false, xml: UNKNOWN, json: UNKNOWN, audio: false, download: UNKNOWN, other: "stable-looking source/folio URLs; inline search links to dictionaries"}
+linguistic_features: {classical_nahuatl: true, modern_variety: false, mixed: "multiple historical registers", historical_orthography: true, normalization: "original-Nahuatl option; exact layers source-dependent", vowel_length: SOURCE_DEPENDENT, saltillo: SOURCE_DEPENDENT, grammatical_class: false, morphology: false, examples: true, occurrence_locator: "folio and numbered segment", translations: SOURCE_DEPENDENT, translation_languages: [Spanish], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: LOW, lexical_evidence: MEDIUM, corpus_evidence: HIGH}
+provenance_quality: "Good folio/segment addressing; project credits and rights require fuller verification."
+known_limitations: ["site declares it is still under development", "not every text has notes or translation", "no documented bulk/API access"]
+risks: ["unstable identifiers", "component-rights ambiguity", "corpus/register mixing"]
+recommended_role: "Reference corpus and locator discovery; no ingestion until permissions and identifiers are confirmed."
+ingestion_class: {manuscript_images: RIGHTS_UNCLEAR, transcriptions: CAN_REFERENCE, translations_notes: CAN_REFERENCE, metadata_locators: CAN_REFERENCE}
+evidence:
+  - {claim: "Official folio page exposes digital reproduction, Nahuatl, notes, optional translation, folio and numbered segments.", url: "https://temoa.iib.unam.mx/cf_01_i/29r", accessed_at: "2026-09-03"}

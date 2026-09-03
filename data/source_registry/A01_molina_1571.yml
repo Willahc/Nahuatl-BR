@@ -1,0 +1,26 @@
+source_id: A01
+name: "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+institution: "Obra de Alonso de Molina; Witness digital auditado: Biblioteca Virtual del Patrimonio Bibliográfico"
+url: "https://bvpb.mcu.es/es/consulta/registro.do?id=469079"
+accessed_at: "2026-09-03"
+linguistic_scope: {language: "Nahuatl and Spanish", variety: "colonial Central Mexican Nahuatl; precise delimitation PROVISIONAL", period: "Classical/early colonial", geography: "Mexico City / New Spain", date_range: "1571"}
+source_role: [dictionary, manuscript, metadata]
+scholarly_relevance: "P0 lexical source: two-direction bilingual vocabulary and foundational witness for colonial lexical forms."
+available_components:
+  - {component_id: historical_work, description: "1571 printed Work", format: "print", approximate_size: "two parts: 121 and 162 leaves plus preliminaries", searchable: false, downloadable: false, machine_readable: false}
+  - {component_id: digital_surrogate, description: "page images/reproduction of a library Witness", format: "web images", approximate_size: UNKNOWN, searchable: false, downloadable: UNKNOWN, machine_readable: false}
+  - {component_id: catalog_metadata, description: "bibliographic record", format: "HTML", approximate_size: "one record", searchable: true, downloadable: UNKNOWN, machine_readable: UNKNOWN}
+rights:
+  - {component_id: historical_work, work_status: PUBLIC_DOMAIN_WORK, rights_holder: UNKNOWN, license: "not required for underlying 1571 Work; jurisdictional review still required", storage_allowed: true, extraction_allowed: true, derivative_use_allowed: true, redistribution_allowed: true, commercial_use_allowed: true, attribution_required: true, evidence_url: "https://bvpb.mcu.es/es/consulta/registro.do?id=469079", status: PUBLIC_DOMAIN_WORK, ingestion_class: CAN_INGEST_WITH_ATTRIBUTION}
+  - {component_id: digital_surrogate, work_status: UNKNOWN_RIGHTS, rights_holder: "holding/digitizing institution not fully resolved", license: "no explicit license located on audited record", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://bvpb.mcu.es/es/consulta/registro.do?id=469079", status: UNKNOWN_RIGHTS, ingestion_class: RIGHTS_UNCLEAR}
+  - {component_id: catalog_metadata, work_status: UNKNOWN_RIGHTS, rights_holder: "BVPB / record provider", license: "no explicit reusable-data license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://bvpb.mcu.es/es/consulta/registro.do?id=469079", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
+technical_access: {html: true, pdf: UNKNOWN, iiif: UNKNOWN, api: UNKNOWN, csv: false, xml: UNKNOWN, json: UNKNOWN, audio: false, download: "digital reproduction advertised; method not validated", other: "persistent-link function and folio-level structure"}
+linguistic_features: {classical_nahuatl: true, modern_variety: false, mixed: false, historical_orthography: true, normalization: false, vowel_length: NOT_ATTESTED, saltillo: NOT_REVIEWED, grammatical_class: PARTIAL, morphology: PARTIAL, examples: PARTIAL, occurrence_locator: "folio", translations: true, translation_languages: [Spanish], audio: false, speaker_identification: NOT_APPLICABLE, phonological_reconstruction: "limited; orthography alone insufficient", lexical_evidence: HIGH, corpus_evidence: MEDIUM}
+provenance_quality: "High bibliographic identity and foliation; entry-level capture would require Witness-level citation."
+known_limitations: ["missionary bilingual lexicography", "Spanish glosses are historical and not PT-BR", "orthography and editorial categories require source-specific interpretation"]
+risks: ["confusing Work public domain with digital-surrogate rights", "merging the two directions", "normalizing away original spelling"]
+recommended_role: "Primary historical lexical Evidence; cite folio and direction; preserve original."
+ingestion_class: {historical_work: CAN_INGEST_WITH_ATTRIBUTION, digital_surrogate: RIGHTS_UNCLEAR, catalog_metadata: CAN_REFERENCE}
+evidence:
+  - {claim: "Official catalog identifies author, Mexico imprint, 1571 date, two parts and digital reproduction.", url: "https://bvpb.mcu.es/es/consulta/registro.do?id=469079", accessed_at: "2026-09-03"}
+  - {claim: "INALI describes Molina 1571 as a major lexical source for colonial Central Mexico.", url: "https://site.inali.gob.mx/publicaciones/libro_lectura_nahuatl/pdf/lectura_del_nahuatl.pdf", accessed_at: "2026-09-03"}
