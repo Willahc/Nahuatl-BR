@@ -2,11 +2,17 @@
 
 ## Estado do modelo
 
-`status: CANDIDATE` — policy `data/policies/classical_phonology_v1.yml`, v1.0.0-draft.1,
-`DRAFT`, `scope.variety: Classical Nahuatl`. O escopo é a documentação colonial
-central (principalmente séculos XVI–XVII), **não pan-nahua**; Hueyapan e Mecayapan
-ficam excluídos do escopo desta entrega. O modelo não é canônico: as 29 Claims
-estão `IN_REVIEW`, sem revisão humana individual documentada.
+`status: APPROVED` (policy `data/policies/classical_phonology_v1.yml`, v1.0.0,
+`approval_reference: ORCHESTRATOR_REVIEWER_GATE_4_PASS`). Aprovado como **modelo
+fonológico** para os próximos Gates: framework de reconstrução fonêmica e modelo
+de evidência ortografia→fonologia (ver `approved_scope`/`not_approved_as` na
+policy). O escopo é a documentação colonial central (principalmente séculos
+XVI–XVII), **não pan-nahua**; Hueyapan e Mecayapan ficam excluídos do escopo.
+
+`policy status = APPROVED` não significa que toda reconstrução individual seja
+certeza histórica: as 29 Claims seguem `IN_REVIEW`, sem revisão humana individual
+documentada, e os níveis `candidate`/`reconstructed`/`reported` de cada proposição
+são preservados abaixo.
 
 ## Camadas de análise
 

@@ -101,3 +101,25 @@ A infraestrutura de validação do Gate 4 está completa e reproduzível, e o
 conteúdo linguístico candidato permanece inalterado e `IN_REVIEW`. A progressão
 do Gate 4 e a revisão das reservas acima são de responsabilidade do
 `PRODUCT_OWNER`. Gate 5 não foi iniciado.
+
+## EXTERNAL REVIEW DECISION
+
+- `ORCHESTRATOR_REVIEWER_DECISION: PASS`
+- `GATE_4_STATUS: CLOSED`
+- `MODEL_USE: APPROVED`
+- `INDIVIDUAL_CLAIMS: IN_REVIEW`
+
+`PASS_WITH_RESERVATIONS` do EXECUTION_AGENT foi posteriormente aceito pelo
+ORCHESTRATOR_REVIEWER. As reservas registradas nesta autoauditoria são
+não bloqueadoras e **não reabrem o Gate**.
+
+A aprovação vale para o modelo fonológico (framework de reconstrução fonêmica e
+modelo de evidência ortografia→fonologia, policy
+`classical_phonology_v1`, `APPROVED`, `ORCHESTRATOR_REVIEWER_GATE_4_PASS`).
+Não valem como promovidos: Claims individuais (`IN_REVIEW`), fonética estreita
+(como fato observado), `/ʔ/` pan-nahua, nem Evidence mediada como
+`DIRECT_WITNESS`. A policy aprovada declara `approved_scope` e
+`not_approved_as` correspondentes.
+
+Gate 5: AUTHORIZED / NOT_STARTED — a implementação não foi iniciada nesta
+tarefa.

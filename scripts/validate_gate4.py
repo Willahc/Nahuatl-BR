@@ -30,6 +30,7 @@ POLICY_PATH = ROOT / "data" / "policies" / "classical_phonology_v1.yml"
 FIXTURES_PATH = ROOT / "data" / "fixtures" / "gate4_phonology_cases.yml"
 LEMMA_DIR = ROOT / "data" / "pilot" / "lemmas"
 SCAN_DIRS = (ROOT / "data", ROOT / "docs")
+GATE_STATUS_PATH = ROOT / "docs" / "GATE_STATUS.md"
 
 EXPECTED_CLAIMS = 29
 EXPECTED_EVIDENCE = 28
@@ -73,6 +74,9 @@ AUDIO_EXTENSIONS = {".mp3", ".wav", ".ogg", ".flac", ".m4a", ".mp4", ".aac", ".o
 
 PHONEMIC_RE = re.compile(r"/[^\[\]/]+/")
 PHONETIC_RE = re.compile(r"\[[^\[\]/]*\]")
+
+KNOWN_APPROVAL_REFERENCES = {"ORCHESTRATOR_REVIEWER_GATE_4_PASS"}
+GATE_4_CLOSED_RE = re.compile(r"Gate\s*4\s*:\s*PASS\s*/\s*CLOSED", re.IGNORECASE)
 
 
 def load(path: Path):
@@ -300,8 +304,23 @@ def main() -> int:
     if policy.get("policy_id") != "classical_phonology_v1":
         errors.append("POLICY_STATUS: policy_id is not classical_phonology_v1")
     require_string(policy, "version", errors, "POLICY_STATUS", "classical_phonology_v1")
-    if policy.get("status") != "DRAFT":
-        errors.append(f"POLICY_STATUS: status must remain DRAFT, found {policy.get('status')!r}")
+    policy_status = policy.get("status")
+    if policy_status not in {"DRAFT", "APPROVED"}:
+        errors.append(f"POLICY_STATUS: status must be DRAFT or APPROVED, found {policy_status!r}")
+    if policy_status == "APPROVED":
+        approval_ref = policy.get("approval_reference")
+        if approval_ref not in KNOWN_APPROVAL_REFERENCES:
+            errors.append(f"POLICY_STATUS: APPROVED policy requires a known approval_reference, found {approval_ref!r}")
+        for key in ("approved_scope", "not_approved_as"):
+            value = policy.get(key)
+            if not (isinstance(value, list) and all(isinstance(item, str) and item for item in value)):
+                errors.append(f"POLICY_STATUS: APPROVED policy requires non-empty {key}")
+        try:
+            gate_status_text = GATE_STATUS_PATH.read_text(encoding="utf-8-sig")
+        except OSError:
+            gate_status_text = ""
+        if not GATE_4_CLOSED_RE.search(gate_status_text):
+            errors.append("POLICY_STATUS: APPROVED policy requires Gate 4 CLOSED in docs/GATE_STATUS.md")
     if policy.get("scope", {}).get("variety") != "Classical Nahuatl":
         errors.append("POLICY_STATUS: policy scope variety is not Classical Nahuatl")
     excluded = set(policy.get("scope", {}).get("excluded", []))

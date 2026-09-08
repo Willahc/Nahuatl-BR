@@ -20,6 +20,8 @@ class Gate4ValidatorTests(unittest.TestCase):
         for directory in ("data/pilot", "data/source_registry", "data/policies",
                           "data/phonology", "data/fixtures"):
             shutil.copytree(ROOT / directory, self.root / directory)
+        (self.root / "docs").mkdir()
+        shutil.copyfile(ROOT / "docs/GATE_STATUS.md", self.root / "docs/GATE_STATUS.md")
         (self.root / "scripts").mkdir()
         for name in ("validate_gate4.py", "gate3_integrity.py"):
             shutil.copyfile(ROOT / "scripts" / name, self.root / "scripts" / name)
@@ -28,6 +30,9 @@ class Gate4ValidatorTests(unittest.TestCase):
         record = json.loads(path.read_text(encoding="utf-8-sig"))
         action(record)
         path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    def mutate_text(self, path, action):
+        path.write_text(action(path.read_text(encoding="utf-8-sig")), encoding="utf-8")
 
     def snapshot(self):
         return {p.relative_to(self.root).as_posix(): p.read_bytes()
@@ -113,9 +118,32 @@ class Gate4ValidatorTests(unittest.TestCase):
         self.mutate(self.integration(), mutate)
         self.rejected("INTEGRATION_CAP")
 
-    def test_T09_policy_promoted_to_approved(self):
+    def test_T09_policy_approved_without_approval_reference(self):
         path = self.root / "data/policies/classical_phonology_v1.yml"
-        self.mutate(path, lambda r: r.update(status="APPROVED"))
+        def mutate(record):
+            record.update(status="APPROVED")
+            for key in ("approval_reference", "approved_scope", "not_approved_as"):
+                record.pop(key, None)
+        self.mutate(path, mutate)
+        self.rejected("POLICY_STATUS")
+
+    def test_T09b_policy_approved_with_canonical_reference_passes(self):
+        path = self.root / "data/policies/classical_phonology_v1.yml"
+        self.mutate(path, _approve_with("ORCHESTRATOR_REVIEWER_GATE_4_PASS"))
+        result = self.run_validator("--check")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("GATE 4 VALIDATION: PASS", result.stdout)
+
+    def test_T09c_unknown_approval_reference_rejected(self):
+        path = self.root / "data/policies/classical_phonology_v1.yml"
+        self.mutate(path, _approve_with("SELF_PROMOTED_REFERENCE"))
+        self.rejected("POLICY_STATUS")
+
+    def test_T09d_approved_requires_gate_status_closed(self):
+        path = self.root / "data/policies/classical_phonology_v1.yml"
+        self.mutate(path, _approve_with("ORCHESTRATOR_REVIEWER_GATE_4_PASS"))
+        status_path = self.root / "docs/GATE_STATUS.md"
+        self.mutate_text(status_path, lambda text: text.replace("PASS / CLOSED", "PASS / OPEN"))
         self.rejected("POLICY_STATUS")
 
     def test_T10_audio_file_present(self):
@@ -152,6 +180,17 @@ def _item(record, lemma_id):
 
 def _source_form(record, form_id):
     return next(f for f in record["forms"] if f["form_id"] == form_id)
+
+
+def _approve_with(approval_reference):
+    def mutate(record):
+        record.update(
+            status="APPROVED",
+            approval_reference=approval_reference,
+            approved_scope=["canonical phonological model for subsequent Gates"],
+            not_approved_as=["automatic mass IPA", "audio pronunciation model"],
+        )
+    return mutate
 
 
 if __name__ == "__main__":

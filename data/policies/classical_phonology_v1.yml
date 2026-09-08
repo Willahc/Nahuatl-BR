@@ -1,7 +1,23 @@
 {
   "policy_id": "classical_phonology_v1",
-  "version": "1.0.0-draft.1",
-  "status": "DRAFT",
+  "version": "1.0.0",
+  "status": "APPROVED",
+  "approval_reference": "ORCHESTRATOR_REVIEWER_GATE_4_PASS",
+  "approved_scope": [
+    "canonical phonological model for subsequent Gates",
+    "phonemic reconstruction framework",
+    "orthography-to-phonology evidence model",
+    "Gate 5 pipeline validation",
+    "future pedagogical layer subject to explicit confidence/provenance"
+  ],
+  "not_approved_as": [
+    "narrow historical phonetic realization",
+    "pan-Nahuan uniform pronunciation",
+    "direct Witness transcription",
+    "automatic mass IPA",
+    "automatic promotion of Claims to PUBLISHED",
+    "audio pronunciation model"
+  ],
   "scope": {
     "variety": "Classical Nahuatl",
     "period": "central colonial documentation; source-specific",
@@ -378,7 +394,6 @@
     "typographic versus editorial diacritics",
     "independent inspection of historical Witnesses",
     "full original pages of Karttunen, Lockhart and Andrews",
-    "expert linguistic approval",
-    "Gate 5 remains unauthorized"
+    "expert linguistic approval"
   ]
 }

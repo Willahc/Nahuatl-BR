@@ -8,39 +8,56 @@ Gate 2: PASS / CLOSED
 
 Gate 3: PASS / CLOSED
 
-Gate 4: IN_PROGRESS (modelo, Claims, Evidence, fixtures e validação concluídos;
-validation infrastructure completed; external review pending. O Gate aguarda
-revisão e aprovação do PRODUCT_OWNER para encerramento)
+Gate 4: PASS / CLOSED
 
-Gate 3 final commit: `3995c2a`
+Gate 5: AUTHORIZED / NOT_STARTED
 
-O resultado de revisão do Gate 3 foi `PASS_AFTER_REMEDIATION`; a remediação foi
-concluída nesse commit. A publicação de infraestrutura e o hardening posteriores
-não reabrem o Gate e não aprovam o Gate 4. O início do Gate 4 foi posteriormente
-autorizado pelo PRODUCT_OWNER, no escopo de modelo, evidência e fixtures.
-Seu encerramento depende de aprovação externa; Gate 5 não foi iniciado.
+## Registro do fechamento do Gate 4
 
-## Estado de entrega do Gate 4 (Execution Agent)
+- Gate 4 delivery commit: `6588dd9`
+- Gate 4 validation/audit commit: `419beed`
+- Fechamento formal: commit "docs: close Gate 4 phonology model", marcado pela
+  tag `gate-4-approved`
+- Orchestrator Reviewer decision: `PASS / APPROVED FOR MODEL USE`
+- Aprovação: `ORCHESTRATOR_REVIEWER_GATE_4_PASS`, registrada na policy
+  `data/policies/classical_phonology_v1.yml` (`APPROVED`, v1.0.0).
 
-Entregáveis criados nesta fase (todos `IN_REVIEW`):
+A aprovação do Gate 4 aprova o **modelo fonológico** (framework de reconstrução
+fonêmica e modelo de evidência ortografia→fonologia) para uso nos próximos
+Gates. Ela não promove automaticamente Claims, fonética estreita, `/ʔ/`
+pan-nahua, traduções/Claims linguísticas individuais nem Evidence mediada a
+Witness direto.
 
-- `data/policies/classical_phonology_v1.yml` — política candidata (`DRAFT`, v1.0.0-draft.1).
-- `data/phonology/claims/G4C001..G4C029` — 29 Claims fonológicas (`IN_REVIEW`).
-- `data/phonology/evidence.yml` — 28 registros de Evidence.
-- `data/fixtures/gate4_phonology_cases.yml` — 32 casos (G4F001–G4F032).
-- `data/phonology/integration_sample.yml` — 15 itens de integração (12 lemmas
-  originais + 3 adicionados nesta entrega) vinculando fixture→Evidence→Claims.
-- `data/phonology/audio_model.yml` — modelo conceitual de áudio apenas (sem arquivos).
-- `data/source_registry/D01..D05` — registros bibliográficos de fontes modernas.
+### Reservas aceitas (não bloqueadoras, não reabrem o Gate)
 
-O Gate 4 não está encerrado. A aprovação cabe ao PRODUCT_OWNER humano, após
-recomendação do ORCHESTRATOR_REVIEWER. O EXECUTION_AGENT não aprova o próprio gate.
-Gate 5 não foi iniciado e não será iniciado por esta entrega.
+- direct Witness inspection pendente;
+- narrow phonetic realization pendente;
+- regional/chronological refinement pendente;
+- prosodic domains pendentes;
+- expert individual Claim review pendente.
+
+## Linha temporal de referência
+
+Gate 3 final commit: `3995c2a` (Gate 3 `PASS_AFTER_REMEDIATION`; o hardening
+posterior não reabre o Gate).
+
+Gate 4: modelo, Claims, Evidence e fixtures entregues em `6588dd9`; validação,
+testes, docs e auditoria em `419beed` (`GATE_4_AUDIT_REPORT.md`);
+`PASS_WITH_RESERVATIONS` do EXECUTION_AGENT foi aceito pelo ORCHESTRATOR_REVIEWER
+e o Gate foi encerrado com `PASS`.
 
 `gate-3-approved` identifica exclusivamente o corpus aprovado antes do hardening:
-`3995c2a10b2b66136c4819064c79d37ba580bfa5`. Não identifica o tooling mais recente.
-Não se define tag adicional de hardening.
+`3995c2a10b2b66136c4819064c79d37ba580bfa5`. Não identifica tooling mais recente.
 
-As 129 Claims e 50 Translations permanecem `IN_REVIEW`, com revisão individual
-não documentada. Gate completion não equivale a aprovação editorial individual.
-Consulte [o relatório de hardening](GATE_3_HARDENING_REPORT.md).
+## Estado do conteúdo editorial
+
+As 129 Claims do Gate 3 e as 29 Claims do Gate 4 (G4C001–G4C029) permanecem
+`IN_REVIEW`, com revisão individual não documentada. Gate completion não
+equivale a aprovação editorial individual. A policy fonológica é aprovada como
+modelo; nenhuma Claim individual foi promovida a `PUBLISHED`.
+
+Os 29 Claims fonológicos nascem `IN_REVIEW` por instrução explícita do
+PRODUCT_OWNER (exceção registrada no AGENTS.md), com origem EXECUTION_AGENT
+registrada. Revisão humana individual não está documentada.
+
+Gate 5 está autorizado mas não foi iniciado.
