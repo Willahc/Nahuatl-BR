@@ -64,6 +64,16 @@ especialista nem promove conteúdo a `APPROVED`/`PUBLISHED`.
 
 ## Estado
 
+`PROJECT_LICENSE_STATUS: OPEN_DECISION`
+
+A visibilidade PUBLIC no GitHub não concede uma licença aberta ao conteúdo
+original. Nenhuma LICENSE foi criada; a decisão será tomada separadamente.
+Fontes externas mantêm seus direitos. Consulte
+[direitos e licenciamento](docs/RIGHTS_AND_LICENSING.md),
+[reprodutibilidade](docs/11_REPOSITORY_REPRODUCIBILITY.md),
+[status dos Gates](docs/GATE_STATUS.md) e
+[manifest C01](manifests/external_sources/C01_hueyapan_2016.yml).
+
 Consulte o [roadmap](docs/05_ROADMAP.md). O avanço de gate exige satisfazer os
 critérios de saída documentados e autorização humana do `PRODUCT_OWNER`; a
 existência de código ou uma autoavaliação do Codex não substitui revisão

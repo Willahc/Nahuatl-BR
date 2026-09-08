@@ -1,0 +1,9 @@
+source_id: C01
+name: "Ejercicios para el aprendizaje de la lengua náhuatl de Hueyapan y Diccionario Español-Náhuatl"
+expected_local_path: sources/hueyapan/diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf
+sha256: 7B0A2C58D5E47F4BCFEB7960B12C255C572EEDF58FCAF634A171DEC79F6743FA
+rights_status: RESTRICTED_OR_PERMISSION_REQUIRED
+ingestion_class: MANUAL_PERMISSION_REQUIRED
+redistribution_allowed: false
+source_registry_record: data/source_registry/C01_hueyapan_2016.yml
+notes: "Metadata only. Does not override local_pdf_witness: DO_NOT_INGEST in the registry; no PDF bytes included."
