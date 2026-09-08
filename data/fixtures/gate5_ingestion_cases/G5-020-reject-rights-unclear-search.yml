@@ -1,0 +1,24 @@
+{
+  "fixture_id": "G5-020",
+  "version": "1.0.0",
+  "purpose": "Rights fail closed even for non-capture uses: a RIGHTS_UNCLEAR surrogate is not usable for regular search either.",
+  "category": "rights_unclear_search",
+  "expect": {
+    "outcome": "REJECT",
+    "codes": ["RIGHTS_UNCLEAR"]
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": [],
+    "source_id": "A03",
+    "component_id": "digital_surrogate",
+    "use": "SEARCH_ONLY",
+    "mediator": "B01",
+    "mediation_level": "AGGREGATOR",
+    "locator": "Utah Digital Library item 296198, image 7",
+    "url": "https://collections.lib.utah.edu/details?id=296198",
+    "accessed_at": "2026-09-03",
+    "entries": []
+  }
+}

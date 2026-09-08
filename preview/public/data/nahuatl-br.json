@@ -1,0 +1,3421 @@
+{
+  "counts": {
+    "claims_total": 29,
+    "evidence_total": 28,
+    "integration_items": 15,
+    "lemmas": 50,
+    "sources": 14
+  },
+  "gate_status": {
+    "0": {
+      "closure": "CLOSED",
+      "status": "PASS"
+    },
+    "1": {
+      "closure": "CLOSED",
+      "status": "PASS"
+    },
+    "2": {
+      "closure": "CLOSED",
+      "status": "PASS"
+    },
+    "3": {
+      "closure": "CLOSED",
+      "status": "PASS"
+    },
+    "4": {
+      "closure": "CLOSED",
+      "status": "PASS"
+    }
+  },
+  "generated_at": "NOT_RECORDED",
+  "generated_by": "scripts/build_preview_data.py",
+  "lemmas": [
+    {
+      "claim_ids": [],
+      "display_form": "amoxtli",
+      "forms": {
+        "normalized_form": "amoxtli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxtli"
+        ],
+        "source_forms": [
+          "Amoxtli",
+          "ämoxtli"
+        ]
+      },
+      "historical_glosses": [
+        "libro de escriptura."
+      ],
+      "id": "L0001",
+      "interpretations": [
+        "livro"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C003",
+            "G4C004"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "LONG"
+        },
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "livro"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 190227",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/amoxtli/190227",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 34990",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/amoxtli/34990",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 19066",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/amoxtli/19066",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "atl",
+      "forms": {
+        "normalized_form": "atl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "atl"
+        ],
+        "source_forms": [
+          "Atl",
+          "ätl"
+        ]
+      },
+      "historical_glosses": [
+        "agua, orines, guerra, o la mollera de la cabeça."
+      ],
+      "id": "L0002",
+      "interpretations": [
+        "água"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C003",
+            "G4C004"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "LONG"
+        },
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "água"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 190971",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/atl/190971",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 35404",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/atl/35404",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 19081",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/atl/19081",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "calli",
+      "forms": {
+        "normalized_form": "calli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "calli"
+        ],
+        "source_forms": [
+          "Calli",
+          "calli"
+        ]
+      },
+      "historical_glosses": [
+        "casa, o tenazuelas de palo o de caña para comer mayz tostado enel rescoldo."
+      ],
+      "id": "L0003",
+      "interpretations": [
+        "casa"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C011",
+            "G4C012",
+            "G4C013",
+            "G4C024"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "UNKNOWN"
+        },
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "casa"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 191853",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/calli/191853",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 36229",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/calli/36229",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 16740",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/calli/16740",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "centli",
+      "forms": {
+        "normalized_form": "centli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "centli"
+        ],
+        "source_forms": [
+          "Centli",
+          "centli"
+        ]
+      },
+      "historical_glosses": [
+        "maçorca de mayz curada y seca."
+      ],
+      "id": "L0004",
+      "interpretations": [
+        "espiga de milho madura e seca"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "espiga de milho madura e seca"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 192695",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/centli/192695",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 37219",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/centli/37219",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 20313",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A02",
+          "url": "https://gdn.iib.unam.mx/diccionario/centli/20313",
+          "work": "Arte para aprender la lengua mexicana"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "chilli",
+      "forms": {
+        "normalized_form": "chilli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chilli"
+        ],
+        "source_forms": [
+          "Chilli",
+          "chïlli"
+        ]
+      },
+      "historical_glosses": [
+        "axi o pimienta de las indias."
+      ],
+      "id": "L0005",
+      "interpretations": [
+        "pimenta"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C003",
+            "G4C004"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "LONG"
+        },
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "pimenta"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 193324",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/chilli/193324",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 37711",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/chilli/37711",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 16900",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/chilli/16900",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "cihuatl",
+      "forms": {
+        "normalized_form": "cihuatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cihuatl"
+        ],
+        "source_forms": [
+          "Ciuatl",
+          "cihuätl"
+        ]
+      },
+      "historical_glosses": [
+        "muger."
+      ],
+      "id": "L0006",
+      "interpretations": [
+        "mulher"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C003",
+            "G4C004"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "LONG"
+        },
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "mulher"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 270900",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/cihuatl/270900",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 38029",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/cihuatl/38029",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 16925",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/cihuatl/16925",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "citlalin",
+      "forms": {
+        "normalized_form": "citlalin",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "citlalin"
+        ],
+        "source_forms": [
+          "Citlalin",
+          "cïtlalin"
+        ]
+      },
+      "historical_glosses": [
+        "estrella."
+      ],
+      "id": "L0007",
+      "interpretations": [
+        "estrela"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "estrela"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 193823",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/citlalin/193823",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 37944",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/citlalin/37944",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17059",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/citlalin/17059",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "cochi",
+      "forms": {
+        "normalized_form": "cochi",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cochi"
+        ],
+        "source_forms": [
+          "Cochi, ni",
+          "cochi, ni"
+        ]
+      },
+      "historical_glosses": [
+        "dormir. preterito: onicoch."
+      ],
+      "id": "L0008",
+      "interpretations": [
+        "dormir"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C011",
+            "G4C012",
+            "G4C013",
+            "G4C024"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "UNKNOWN"
+        },
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "dormir"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 278735",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/cochi/278735",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 38116",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/cochi/38116",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 16933",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/cochi/16933",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "cocotona",
+      "forms": {
+        "normalized_form": "cocotona",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cocotona"
+        ],
+        "source_forms": [
+          "Cocotona, nite",
+          "còcotöna, nitla"
+        ]
+      },
+      "historical_glosses": [
+        [
+          "pellizcar a otro. p: onitecocotó[n].",
+          "D"
+        ]
+      ],
+      "id": "L0009",
+      "interpretations": [
+        "cortar em várias partes ou despedaçar"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "cortar em várias partes ou despedaçar"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 38230",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/cocotona/38230",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17062",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/cocotona/17062",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "conetl",
+      "forms": {
+        "normalized_form": "conetl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "conetl"
+        ],
+        "source_forms": [
+          "Conetl",
+          "conëtl"
+        ]
+      },
+      "historical_glosses": [
+        "niño o niña."
+      ],
+      "id": "L0010",
+      "interpretations": [
+        "criança"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "criança"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 194523",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/conetl/194523",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 38298",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/conetl/38298",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 16951",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/conetl/16951",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "cua",
+      "forms": {
+        "normalized_form": "cua",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cua"
+        ],
+        "source_forms": [
+          "QVa, nitla",
+          "qua, nitla"
+        ]
+      },
+      "historical_glosses": [
+        "comer algo. preteri: onitlaqua."
+      ],
+      "id": "L0011",
+      "interpretations": [
+        "comer"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C011",
+            "G4C012",
+            "G4C013",
+            "G4C024"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "UNKNOWN"
+        },
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "comer"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 279245",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/cua/279245",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 156483",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/cua/156483",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17991",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/cua/17991",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "cuahuitl",
+      "forms": {
+        "normalized_form": "cuahuitl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cuahuitl"
+        ],
+        "source_forms": [
+          "Quauitl",
+          "quahuitl"
+        ]
+      },
+      "historical_glosses": [
+        "arbol, madero o palo."
+      ],
+      "id": "L0012",
+      "interpretations": [
+        "árvore ou madeira"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C011",
+            "G4C012",
+            "G4C013",
+            "G4C024"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "UNKNOWN"
+        },
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "árvore ou madeira"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 218512",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/cuahuitl/218512",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 157162",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/cuahuitl/157162",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17992",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/cuahuitl/17992",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "cuicatl",
+      "forms": {
+        "normalized_form": "cuicatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cuicatl"
+        ],
+        "source_forms": [
+          "Cuicatl",
+          "cuïcatl"
+        ]
+      },
+      "historical_glosses": [
+        "canto, o cancion."
+      ],
+      "id": "L0013",
+      "interpretations": [
+        "canto ou canção"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "canto ou canção"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 195658",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/cuicatl/195658",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 38566",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/cuicatl/38566",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17001",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/cuicatl/17001",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "etl",
+      "forms": {
+        "normalized_form": "etl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "etl"
+        ],
+        "source_forms": [
+          "Etl",
+          "etl"
+        ]
+      },
+      "historical_glosses": [
+        "frisol, o haca."
+      ],
+      "id": "L0014",
+      "interpretations": [
+        "feijão"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "feijão"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 278805",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/etl/278805",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 147334",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/etl/147334",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 20375",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A02",
+          "url": "https://gdn.iib.unam.mx/diccionario/etl/20375",
+          "work": "Arte para aprender la lengua mexicana"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "eztli",
+      "forms": {
+        "normalized_form": "eztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "eztli"
+        ],
+        "source_forms": [
+          "Eztli",
+          "eztli"
+        ]
+      },
+      "historical_glosses": [
+        "sangre."
+      ],
+      "id": "L0015",
+      "interpretations": [
+        "sangue"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "sangue"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 196418",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/eztli/196418",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 147430",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/eztli/147430",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17091",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/eztli/17091",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "icxitl",
+      "forms": {
+        "normalized_form": "icxitl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "icxitl"
+        ],
+        "source_forms": [
+          "Icxitl",
+          "icxi[tl]"
+        ]
+      },
+      "historical_glosses": [
+        "pie."
+      ],
+      "id": "L0016",
+      "interpretations": [
+        "pé"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "pé"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 197630",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/icxitl/197630",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 148048",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/icxitl/148048",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17215",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/icxitl/17215",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "ilhuicatl",
+      "forms": {
+        "normalized_form": "ilhuicatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ilhuicatl"
+        ],
+        "source_forms": [
+          "Ilhuicatl",
+          "ilhuicatl"
+        ]
+      },
+      "historical_glosses": [
+        "cielo."
+      ],
+      "id": "L0017",
+      "interpretations": [
+        "céu"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "céu"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 198158",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/ilhuicatl/198158",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 148165",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/ilhuicatl/148165",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17237",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/ilhuicatl/17237",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "io",
+      "forms": {
+        "normalized_form": "io",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "io"
+        ],
+        "source_forms": [
+          "iô"
+        ]
+      },
+      "historical_glosses": [
+        "solo -véase iyô"
+      ],
+      "id": "L0018",
+      "interpretations": [
+        "sozinho"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C005"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "PRESENT",
+          "vowel_length": "UNKNOWN"
+        },
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "sozinho"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17393",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/io/17393",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "itoa",
+      "forms": {
+        "normalized_form": "itoa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "itoa"
+        ],
+        "source_forms": [
+          "Itoa, nin",
+          "ìtoa, m"
+        ]
+      },
+      "historical_glosses": [
+        [
+          "comedirse, o ofrecerse a hazer alguna cosa. pret: oninito.",
+          "D"
+        ]
+      ],
+      "id": "L0019",
+      "interpretations": [
+        "dizer-se ou tratar-se"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "dizer-se ou tratar-se"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 278893",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/itoa/278893",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 149239",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/itoa/149239",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 19263",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/itoa/19263",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "itta",
+      "forms": {
+        "normalized_form": "itta",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "itta"
+        ],
+        "source_forms": [
+          "Itta, nino",
+          "itta, nic"
+        ]
+      },
+      "historical_glosses": [
+        "mirar me. pret: oninottac."
+      ],
+      "id": "L0020",
+      "interpretations": [
+        "ver ou olhar"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "ver ou olhar"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 278901",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/itta/278901",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 149251",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/itta/149251",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17338",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/itta/17338",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "ixtli",
+      "forms": {
+        "normalized_form": "ixtli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ixtli"
+        ],
+        "source_forms": [
+          "Ixtli",
+          "ïxtli"
+        ]
+      },
+      "historical_glosses": [
+        "la haz o la cara, o el ñudo dela caña."
+      ],
+      "id": "L0021",
+      "interpretations": [
+        "face ou superfície"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "face ou superfície"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 199776",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/ixtli/199776",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 150114",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/ixtli/150114",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 19328",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/ixtli/19328",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "iztatl",
+      "forms": {
+        "normalized_form": "iztatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "iztatl"
+        ],
+        "source_forms": [
+          "Iztatl",
+          "iztátl"
+        ]
+      },
+      "historical_glosses": [
+        "sal."
+      ],
+      "id": "L0022",
+      "interpretations": [
+        "sal"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "sal"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 280058",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/iztatl/280058",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 150454",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/iztatl/150454",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17390",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/iztatl/17390",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "maitl",
+      "forms": {
+        "normalized_form": "maitl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "maitl"
+        ],
+        "source_forms": [
+          "Maytl",
+          "mä[itl]"
+        ]
+      },
+      "historical_glosses": [
+        "mano."
+      ],
+      "id": "L0023",
+      "interpretations": [
+        "mão"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "mão"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 203258",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/maitl/203258",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 151357",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/maitl/151357",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17535",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/maitl/17535",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "mati",
+      "forms": {
+        "normalized_form": "mati",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "mati"
+        ],
+        "source_forms": [
+          "Mati, anic",
+          "mati, non"
+        ]
+      },
+      "historical_glosses": [
+        "ignorar algo. preterito: aonicma. vel. amo onicma."
+      ],
+      "id": "L0024",
+      "interpretations": [
+        "saber"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "saber"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 278993",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/mati/278993",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 150955",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/mati/150955",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17436",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/mati/17436",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "metl",
+      "forms": {
+        "normalized_form": "metl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "metl"
+        ],
+        "source_forms": [
+          "Metl"
+        ]
+      },
+      "historical_glosses": [
+        "maguei."
+      ],
+      "id": "L0025",
+      "interpretations": [
+        "maguey"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "maguey"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 279022",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/metl/279022",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 151535",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/metl/151535",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "metztli",
+      "forms": {
+        "normalized_form": "metztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "metztli"
+        ],
+        "source_forms": [
+          "Metztli",
+          "métztli"
+        ]
+      },
+      "historical_glosses": [
+        "luna, o pierna de hombre o de animal, o mes."
+      ],
+      "id": "L0026",
+      "interpretations": [
+        "lua, mês ou perna"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C003",
+            "G4C004"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "SHORT"
+        },
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "lua, mês ou perna"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 278418",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/metztli/278418",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 151554",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/metztli/151554",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17580",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/metztli/17580",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "milli",
+      "forms": {
+        "normalized_form": "milli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "milli"
+        ],
+        "source_forms": [
+          "Milli",
+          "mïlli"
+        ]
+      },
+      "historical_glosses": [
+        "heredad."
+      ],
+      "id": "L0027",
+      "interpretations": [
+        "campo cultivado"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C003",
+            "G4C004"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "LONG"
+        },
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "campo cultivado"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 204335",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/milli/204335",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 151725",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/milli/151725",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17586",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/milli/17586",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "miqui",
+      "forms": {
+        "normalized_form": "miqui",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "miqui"
+        ],
+        "source_forms": [
+          "Miqui, ni",
+          "miqui, ni"
+        ]
+      },
+      "historical_glosses": [
+        "morir. prete: onimic."
+      ],
+      "id": "L0028",
+      "interpretations": [
+        "morrer"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "morrer"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 279039",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/miqui/279039",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 151775",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/miqui/151775",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17468",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/miqui/17468",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "nacatl",
+      "forms": {
+        "normalized_form": "nacatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "nacatl"
+        ],
+        "source_forms": [
+          "Nacatl",
+          "nacatl"
+        ]
+      },
+      "historical_glosses": [
+        "carne."
+      ],
+      "id": "L0029",
+      "interpretations": [
+        "carne"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "carne"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 208828",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/nacatl/208828",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 152647",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/nacatl/152647",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17613",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/nacatl/17613",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "nacaztli",
+      "forms": {
+        "normalized_form": "nacaztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "nacaztli"
+        ],
+        "source_forms": [
+          "Nacaztli",
+          "nacaztli"
+        ]
+      },
+      "historical_glosses": [
+        "oreja."
+      ],
+      "id": "L0030",
+      "interpretations": [
+        "orelha"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "orelha"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 208876",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/nacaztli/208876",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 152743",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/nacaztli/152743",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17617",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/nacaztli/17617",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "nantli",
+      "forms": {
+        "normalized_form": "nantli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "nantli"
+        ],
+        "source_forms": [
+          "Nantli",
+          "nän[tli]"
+        ]
+      },
+      "historical_glosses": [
+        "madre."
+      ],
+      "id": "L0031",
+      "interpretations": [
+        "mãe"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "mãe"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 278425",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/nantli/278425",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 152827",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/nantli/152827",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17715",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/nantli/17715",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "nemi",
+      "forms": {
+        "normalized_form": "nemi",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "nemi"
+        ],
+        "source_forms": [
+          "Nemi, ni",
+          "nemi, 3ª"
+        ]
+      },
+      "historical_glosses": [
+        "biuir, o morar. prete: oninen."
+      ],
+      "id": "L0032",
+      "interpretations": [
+        "viver, morar ou andar"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "viver, morar ou andar"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 209688",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/nemi/209688",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 153453",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/nemi/153453",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17642",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/nemi/17642",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "nonotza",
+      "forms": {
+        "normalized_form": "nonotza",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "nonotza"
+        ],
+        "source_forms": [
+          "Mononotza",
+          "nònotza, nitë"
+        ]
+      },
+      "historical_glosses": [
+        [
+          "auenirse o concertarse algunos, o tratar algo entre si.",
+          "D"
+        ]
+      ],
+      "id": "L0033",
+      "interpretations": [
+        "falar com alguém"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C005"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "PRESENT",
+          "vowel_length": "UNKNOWN"
+        },
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "falar com alguém"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 279158",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/nonotza/279158",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 152169",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/nonotza/152169",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17765",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/nonotza/17765",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "omitl",
+      "forms": {
+        "normalized_form": "omitl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "omitl"
+        ],
+        "source_forms": [
+          "Omitl",
+          "omitl"
+        ]
+      },
+      "historical_glosses": [
+        "huesso, alesna, o punçon."
+      ],
+      "id": "L0034",
+      "interpretations": [
+        "osso"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "osso"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 213420",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/omitl/213420",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 155242",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/omitl/155242",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17834",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/omitl/17834",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "oquichtli",
+      "forms": {
+        "normalized_form": "oquichtli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "oquichtli"
+        ],
+        "source_forms": [
+          "Oquichtli",
+          "oquichtli"
+        ]
+      },
+      "historical_glosses": [
+        "varon, o macho en cada especie."
+      ],
+      "id": "L0035",
+      "interpretations": [
+        "homem ou macho"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "homem ou macho"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 215370",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/oquichtli/215370",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 155552",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/oquichtli/155552",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17848",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/oquichtli/17848",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "pepena",
+      "forms": {
+        "normalized_form": "pepena",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "pepena"
+        ],
+        "source_forms": [
+          "Pepena, nite",
+          "pèpena, nic"
+        ]
+      },
+      "historical_glosses": [
+        [
+          "elegir o escoger a alguno. preterito: onitepepen.",
+          "D"
+        ]
+      ],
+      "id": "L0036",
+      "interpretations": [
+        "escolher ou recolher"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "escolher ou recolher"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 156005",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/pepena/156005",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17950",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/pepena/17950",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "pilli",
+      "forms": {
+        "normalized_form": "pilli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "pilli"
+        ],
+        "source_forms": [
+          "Pilli",
+          "pil[li]"
+        ]
+      },
+      "historical_glosses": [
+        "cauallero, o noble persona."
+      ],
+      "id": "L0037",
+      "interpretations": [
+        "pessoa nobre"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "pessoa nobre"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 217235",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/pilli/217235",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 156179",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/pilli/156179",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 17885",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/pilli/17885",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tatli",
+      "forms": {
+        "normalized_form": "tatli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tatli"
+        ],
+        "source_forms": [
+          "Tatli",
+          "tà[tli]"
+        ]
+      },
+      "historical_glosses": [
+        "padre."
+      ],
+      "id": "L0038",
+      "interpretations": [
+        "pai"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C005"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "PRESENT",
+          "vowel_length": "UNKNOWN"
+        },
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "pai"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 278439",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tatli/278439",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 157690",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tatli/157690",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18614",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tatli/18614",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tentli",
+      "forms": {
+        "normalized_form": "tentli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tentli"
+        ],
+        "source_forms": [
+          "Tentli",
+          "tëntli"
+        ]
+      },
+      "historical_glosses": [
+        "los labrios, o el borde o orilla de alguna cosa."
+      ],
+      "id": "L0039",
+      "interpretations": [
+        "lábio, borda ou margem"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "lábio, borda ou margem"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 255209",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tentli/255209",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 159023",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tentli/159023",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18688",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tentli/18688",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "teotl",
+      "forms": {
+        "normalized_form": "teotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "teotl"
+        ],
+        "source_forms": [
+          "Teotl",
+          "teötl"
+        ]
+      },
+      "historical_glosses": [
+        "dios."
+      ],
+      "id": "L0040",
+      "interpretations": [
+        "deus"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "deus"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 257041",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/teotl/257041",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 159255",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/teotl/159255",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18185",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/teotl/18185",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tequitl",
+      "forms": {
+        "normalized_form": "tequitl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tequitl"
+        ],
+        "source_forms": [
+          "Tequitl",
+          "tequitl"
+        ]
+      },
+      "historical_glosses": [
+        "tributo, o obra de trabajo."
+      ],
+      "id": "L0041",
+      "interpretations": [
+        "tributo ou trabalho"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "tributo ou trabalho"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 255863",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tequitl/255863",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 160038",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tequitl/160038",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18156",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tequitl/18156",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tetl",
+      "forms": {
+        "normalized_form": "tetl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tetl"
+        ],
+        "source_forms": [
+          "Tetl",
+          "tétl"
+        ]
+      },
+      "historical_glosses": [
+        "piedra, generalmente."
+      ],
+      "id": "L0042",
+      "interpretations": [
+        "pedra"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "pedra"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 256179",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tetl/256179",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 160437",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tetl/160437",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18634",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tetl/18634",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tlacatl",
+      "forms": {
+        "normalized_form": "tlacatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tlacatl"
+        ],
+        "source_forms": [
+          "Tlacatl",
+          "tläca[tl]"
+        ]
+      },
+      "historical_glosses": [
+        "hombre, persona, o señor."
+      ],
+      "id": "L0043",
+      "interpretations": [
+        "pessoa ou homem"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "pessoa ou homem"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 259699",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlacatl/259699",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 161921",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlacatl/161921",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18502",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlacatl/18502",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tlacuilolli",
+      "forms": {
+        "normalized_form": "tlacuilolli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tlacuilolli"
+        ],
+        "source_forms": [
+          "Tlacuilolli",
+          "tlàcuilölli"
+        ]
+      },
+      "historical_glosses": [
+        "escriptura, o pintura."
+      ],
+      "id": "L0044",
+      "interpretations": [
+        "escrita ou pintura"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C003",
+            "G4C004"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "PRESENT",
+          "vowel_length": "LONG"
+        },
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "escrita ou pintura"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 260290",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlacuilolli/260290",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 162435",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlacuilolli/162435",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18437",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlacuilolli/18437",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tlalli",
+      "forms": {
+        "normalized_form": "tlalli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tlalli"
+        ],
+        "source_forms": [
+          "Tlalli",
+          "tlälli"
+        ]
+      },
+      "historical_glosses": [
+        "tierra, o heredad."
+      ],
+      "id": "L0045",
+      "interpretations": [
+        "terra"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "terra"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 260910",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlalli/260910",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 162902",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlalli/162902",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18537",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlalli/18537",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tlaolli",
+      "forms": {
+        "normalized_form": "tlaolli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tlaolli"
+        ],
+        "source_forms": [
+          "Tlaulli",
+          "tlaolli"
+        ]
+      },
+      "historical_glosses": [
+        "mayz seco, desgranado."
+      ],
+      "id": "L0046",
+      "interpretations": [
+        "milho seco e debulhado"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "milho seco e debulhado"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 261844",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlaolli/261844",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 166048",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlaolli/166048",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18296",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlaolli/18296",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tlatoa",
+      "forms": {
+        "normalized_form": "tlatoa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tlatoa"
+        ],
+        "source_forms": [
+          "Tlatoa, ni",
+          "tlàtoa, ni"
+        ]
+      },
+      "historical_glosses": [
+        "hablar algo, o chirriar, gorgear o cantar las aues. pre: onitlato."
+      ],
+      "id": "L0047",
+      "interpretations": [
+        "falar"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "falar"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 263388",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlatoa/263388",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 165360",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlatoa/165360",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18465",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlatoa/18465",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tlatolli",
+      "forms": {
+        "normalized_form": "tlatolli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tlatolli"
+        ],
+        "source_forms": [
+          "Tlatolli",
+          "tlàtölli"
+        ]
+      },
+      "historical_glosses": [
+        "palabra, platica, o habla."
+      ],
+      "id": "L0048",
+      "interpretations": [
+        "palavra, fala ou discurso"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "palavra, fala ou discurso"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 263474",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlatolli/263474",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 165465",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlatolli/165465",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18475",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlatolli/18475",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "tlazotla",
+      "forms": {
+        "normalized_form": "tlazotla",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "tlazotla"
+        ],
+        "source_forms": [
+          "Titotlaçotla",
+          "tlaçòtla, nic"
+        ]
+      },
+      "historical_glosses": [
+        "nosotros nos amamos. prete: otitotlaçotlaque."
+      ],
+      "id": "L0049",
+      "interpretations": [
+        "amar ou estimar"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "amar ou estimar"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 279759",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlazotla/279759",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 161574",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlazotla/161574",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18401",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/tlazotla/18401",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "xochitl",
+      "forms": {
+        "normalized_form": "xochitl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "xochitl"
+        ],
+        "source_forms": [
+          "Xochitl",
+          "xöchitl"
+        ]
+      },
+      "historical_glosses": [
+        "rosa, o flor."
+      ],
+      "id": "L0050",
+      "interpretations": [
+        "flor"
+      ],
+      "notes": "Pilot record; not canonical publication. UNKNOWN and NOT_REVIEWED are intentional.",
+      "phonology": {
+        "analysis_candidate": {
+          "claim_ids": [
+            "G4C003",
+            "G4C004"
+          ],
+          "confidence": "MEDIUM",
+          "editorial_state": "IN_REVIEW",
+          "modality": "INFERRED",
+          "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence.",
+          "phonemic_ipa": "NOT_REVIEWED",
+          "phonetic_ipa": "NOT_REVIEWED",
+          "profile": "classical_phonology_v1@1.0.0-draft.1",
+          "saltillo": "UNKNOWN",
+          "vowel_length": "LONG"
+        },
+        "notes": [
+          "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+        ],
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "vowel_length": "NOT_REVIEWED"
+      },
+      "pt_br_editorial": [
+        "flor"
+      ],
+      "references": [
+        {
+          "locator": "GDN CF_INDEX/Sahagún entry 279906",
+          "source": "B03",
+          "url": "https://gdn.iib.unam.mx/diccionario/xochitl/279906",
+          "use": "CAN_REFERENCE metadata only; occurrence noted without copying transcription or translation.",
+          "work": "Florentine Codex"
+        }
+      ],
+      "sources": [
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 168847",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A01",
+          "url": "https://gdn.iib.unam.mx/diccionario/xochitl/168847",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        },
+        {
+          "direct_witness_inspected": false,
+          "locator": "GDN entry 18829",
+          "mediation_level": "AGGREGATOR",
+          "source_id": "A04",
+          "url": "https://gdn.iib.unam.mx/diccionario/xochitl/18829",
+          "work": "Arte de la lengua mexicana con la declaración de los adverbios della"
+        }
+      ],
+      "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    }
+  ],
+  "orthography_profile": "classical_orthography_v1@1.0.0",
+  "phonology_profile": "classical_phonology_v1@1.0.0",
+  "pipeline_version": "1.0.0",
+  "schema": "nahuatl-br-preview-v1",
+  "sources": {
+    "A01": {
+      "institution": "Obra de Alonso de Molina; Witness digital auditado: Biblioteca Virtual del Patrimonio Bibliográfico",
+      "name": "Vocabulario en lengua castellana y mexicana / mexicana y castellana",
+      "recommended_role": "Primary historical lexical Evidence; cite folio and direction; preserve original.",
+      "url": "https://bvpb.mcu.es/es/consulta/registro.do?id=469079"
+    },
+    "A02": {
+      "institution": "Andrés de Olmos; audited descriptive host: Gran Diccionario Náhuatl, UNAM",
+      "name": "Arte para aprender la lengua mexicana and related vocabularies",
+      "recommended_role": "Primary grammatical Evidence; verb list only with disputed-attribution Claim.",
+      "url": "https://gdn.iib.unam.mx/textos/olmos-v"
+    },
+    "A03": {
+      "institution": "Antonio del Rincón; Witness: J. Willard Marriott Library, University of Utah",
+      "name": "Arte mexicana",
+      "recommended_role": "Primary grammar and examples; use images only after rights clarification.",
+      "url": "https://collections.lib.utah.edu/details?id=296198"
+    },
+    "A04": {
+      "institution": "Horacio Carochi; digital Edition: Biblioteca Virtual Miguel de Cervantes",
+      "name": "Arte de la lengua mexicana con la declaración de los adverbios della",
+      "recommended_role": "Primary grammatical/prosodic Evidence; historical Work ingestible from an authorized Witness.",
+      "url": "https://www.cervantesvirtual.com/nd/ark:/59851/bmcvt3g7"
+    },
+    "B02": {
+      "institution": "Universidad Nacional Autónoma de México, Instituto de Investigaciones Bibliográficas",
+      "name": "Temoa",
+      "recommended_role": "Reference corpus and locator discovery; no ingestion until permissions and identifiers are confirmed.",
+      "url": "https://temoa.iib.unam.mx/"
+    },
+    "B03": {
+      "institution": "Getty Research Institute with Biblioteca Medicea Laurenziana and project partners",
+      "name": "Digital Florentine Codex",
+      "recommended_role": "P0 occurrence corpus; ingest only explicitly open metadata/essays/audio subcomponents after item check; reference restricted text/images.",
+      "url": "https://florentinecodex.getty.edu/"
+    },
+    "B04": {
+      "institution": "Wired Humanities Projects, University of Oregon",
+      "name": "Early Nahuatl Library",
+      "recommended_role": "Reference and occurrence discovery pending permission; cite document and element.",
+      "url": "https://enl.wired-humanities.org/"
+    },
+    "B06": {
+      "institution": "Wired Humanities Projects, University of Oregon",
+      "name": "Visual Lexicon of Aztec Hieroglyphs",
+      "recommended_role": "Future glyph-reference layer; only CC-licensed descriptions eligible now, with attribution and NC constraint review.",
+      "url": "https://aztecglyphs.wired-humanities.org/"
+    },
+    "B07": {
+      "institution": "Universidad Nacional Autónoma de México, Instituto de Investigaciones Históricas and partners",
+      "name": "Cantares Mexicanos / relevant digital editions",
+      "recommended_role": "Historical corpus Evidence by citation; ingest underlying text only from rights-cleared Witness/transcription.",
+      "url": "https://historicas.unam.mx/publicaciones/publicadigital/libros/cantares/cm01.html"
+    },
+    "D01": {
+      "institution": "Cambridge University Press",
+      "name": "An Introduction to Classical Nahuatl",
+      "recommended_role": "NOT_RECORDED",
+      "url": "https://api.pageplace.de/preview/DT0400.9780511985027_A23683606/preview-9780511985027_A23683606.pdf"
+    },
+    "D02": {
+      "institution": "UNAM, Estudios de Cultura Náhuatl 42, pp. 243–258",
+      "name": "El nauatl urbano de Tlatelolco/Tenochtitlan, resultado de convergencia entre dialectos. Con un esbozo brevísimo de la historia de los dialectos",
+      "recommended_role": "NOT_RECORDED",
+      "url": "https://nahuatl.historicas.unam.mx/index.php/ecn/article/download/26560/24897/51134"
+    },
+    "D03": {
+      "institution": "University of Texas Press (1983); University of Oklahoma Press (1992)",
+      "name": "An Analytical Dictionary of Nahuatl",
+      "recommended_role": "NOT_RECORDED",
+      "url": "https://www.oupress.com/9780806124216/an-analytical-dictionary-of-nahuatl/"
+    },
+    "D04": {
+      "institution": "Stanford University Press; UCLA Latin American Center Publications 89",
+      "name": "Grammar of the Mexican Language: With an Explanation of its Adverbs (1645)",
+      "recommended_role": "NOT_RECORDED",
+      "url": "https://gdn.iib.unam.mx/textos/carochi"
+    },
+    "D05": {
+      "institution": "University of Oklahoma Press",
+      "name": "Introduction to Classical Nahuatl",
+      "recommended_role": "NOT_RECORDED",
+      "url": "https://www.oupress.com/9780806181127/introduction-to-classical-nahuatl/"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fixture_id": "G5-032",
+  "version": "1.0.0",
+  "purpose": "Mandatory negative: C03 (UCLA Mecayapan, modern recording with MANUAL_PERMISSION_REQUIRED audio) is rejected as classical evidence on structured metadata alone.",
+  "category": "c03_manual_permission",
+  "expect": {
+    "outcome": "REJECT",
+    "codes": ["RIGHTS_PERMISSION", "MODERN_AS_CLASSICAL_EVIDENCE"]
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["NORMALIZED_FORM"],
+    "source_id": "C03",
+    "component_id": "wav_audio",
+    "use": "EVIDENCE_CAPTURE",
+    "locator": "word list entry xochitl",
+    "url": "https://archive.phonetics.ucla.edu/Language/NHX/nhx.html",
+    "accessed_at": "2026-09-03",
+    "entries": [
+      {
+        "source_form_id": "L0050-FS1",
+        "source_form": "Xochitl",
+        "original_gloss": "flower"
+      }
+    ],
+    "claims": []
+  }
+}

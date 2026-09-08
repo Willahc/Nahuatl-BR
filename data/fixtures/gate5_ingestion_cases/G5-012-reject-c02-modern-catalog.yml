@@ -1,0 +1,37 @@
+{
+  "fixture_id": "G5-012",
+  "version": "1.0.0",
+  "purpose": "A modern institutional catalog is registered CAN_REFERENCE and modern: capture is blocked and the modern variety is never used as Classical evidence.",
+  "category": "c02_modern_reference",
+  "expect": {
+    "outcome": "REJECT",
+    "codes": ["RIGHTS_REFERENCE_ONLY", "MODERN_AS_CLASSICAL_EVIDENCE"]
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["NORMALIZED_FORM"],
+    "source_id": "C02",
+    "component_id": "clin_metadata",
+    "use": "EVIDENCE_CAPTURE",
+    "locator": "CLIN Nahuatl variants table",
+    "url": "https://www.inali.gob.mx/sitios/clin-inali/html/v_nahuatl.html",
+    "accessed_at": "2026-09-03",
+    "entries": [
+      {
+        "source_form_id": "L0050-FS1",
+        "source_form": "Xochitl",
+        "original_gloss": "rosa, o flor."
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "rosa, o flor.",
+        "modality": "REPORTED",
+        "confidence": "HIGH",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

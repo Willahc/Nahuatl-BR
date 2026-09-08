@@ -1,0 +1,37 @@
+{
+  "fixture_id": "G5-014",
+  "version": "1.0.0",
+  "purpose": "An aggregator with mixed modern scope cannot back a Classical lemma record; its RIGHTS_UNCLEAR component also fails closed.",
+  "category": "modern_aggregator",
+  "expect": {
+    "outcome": "REJECT",
+    "codes": ["RIGHTS_UNCLEAR", "MODERN_AS_CLASSICAL_EVIDENCE"]
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["NORMALIZED_FORM"],
+    "source_id": "B01",
+    "component_id": "translations_examples_locators",
+    "use": "EVIDENCE_CAPTURE",
+    "locator": "GDN entry translations block for xochitl",
+    "url": "https://gdn.iib.unam.mx/",
+    "accessed_at": "2026-09-03",
+    "entries": [
+      {
+        "source_form_id": "L0050-FS1",
+        "source_form": "Xochitl",
+        "original_gloss": "rosa, o flor."
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "rosa, o flor.",
+        "modality": "REPORTED",
+        "confidence": "HIGH",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

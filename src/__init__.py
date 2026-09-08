@@ -1,0 +1,1 @@
+"""Nahuatl-BR source packages. Gate 5: canonical ingestion pipeline (dry-run)."""

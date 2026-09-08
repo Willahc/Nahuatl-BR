@@ -1,0 +1,39 @@
+{
+  "fixture_id": "G5-011",
+  "version": "1.0.0",
+  "purpose": "Fails closed on an unresolved digital surrogate: RIGHTS_UNCLEAR blocks capture even though the underlying historical Work is ingestible.",
+  "category": "rights_unclear",
+  "expect": {
+    "outcome": "REJECT",
+    "codes": ["RIGHTS_UNCLEAR"]
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["NORMALIZED_FORM"],
+    "source_id": "A03",
+    "component_id": "digital_surrogate",
+    "use": "EVIDENCE_CAPTURE",
+    "mediator": "B01",
+    "mediation_level": "AGGREGATOR",
+    "locator": "Utah Digital Library item 296198, image 7",
+    "url": "https://collections.lib.utah.edu/details?id=296198",
+    "accessed_at": "2026-09-03",
+    "entries": [
+      {
+        "source_form_id": "L0050-FS1",
+        "source_form": "Xochitl",
+        "original_gloss": "rosa, o flor."
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "rosa, o flor.",
+        "modality": "REPORTED",
+        "confidence": "HIGH",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

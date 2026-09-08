@@ -1,0 +1,37 @@
+{
+  "fixture_id": "G5-013",
+  "version": "1.0.0",
+  "purpose": "CAN_REFERENCE only admits REFERENCE_ONLY use; requesting lexical capture from a metadata component is rejected.",
+  "category": "reference_only_use",
+  "expect": {
+    "outcome": "REJECT",
+    "codes": ["RIGHTS_REFERENCE_ONLY"]
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["NORMALIZED_FORM"],
+    "source_id": "A03",
+    "component_id": "metadata",
+    "use": "EVIDENCE_CAPTURE",
+    "locator": "ARK metadata record 296198",
+    "url": "https://collections.lib.utah.edu/details?id=296198",
+    "accessed_at": "2026-09-03",
+    "entries": [
+      {
+        "source_form_id": "L0050-FS1",
+        "source_form": "Xochitl",
+        "original_gloss": "rosa, o flor."
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "rosa, o flor.",
+        "modality": "REPORTED",
+        "confidence": "HIGH",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

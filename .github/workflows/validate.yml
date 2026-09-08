@@ -1,4 +1,4 @@
-name: Validate Gates 3 and 4
+name: Validate Gates 3, 4 and 5
 
 on:
   push:
@@ -24,8 +24,23 @@ jobs:
         run: python scripts/validate_gate3.py --check
       - name: Validate Gate 4 phonological artifacts
         run: python scripts/validate_gate4.py --check
+      - name: Validate Gate 5 ingestion pipeline and fixtures
+        run: python scripts/validate_gate5.py --check
+      - name: Require reproducible research preview data
+        run: python scripts/build_preview_data.py --check
       - name: Run isolated regression tests
         run: python -m unittest discover -s tests -p "test_*.py"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: preview/package-lock.json
+      - name: Install preview dependencies (locked)
+        run: npm ci
+        working-directory: preview
+      - name: Build research preview
+        run: npm run build
+        working-directory: preview
       - name: Require unchanged working tree
         if: always()
         run: |

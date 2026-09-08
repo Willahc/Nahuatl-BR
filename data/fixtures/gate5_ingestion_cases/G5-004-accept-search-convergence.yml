@@ -1,0 +1,52 @@
+{
+  "fixture_id": "G5-004",
+  "version": "1.0.0",
+  "purpose": "Diacritic-insensitive retrieval: Xochitl and xöchitl converge on the same SEARCH_KEY xochitl, without asserting linguistic identity (search-diacritic-001).",
+  "category": "orthographic_variant",
+  "expect": {
+    "outcome": "ACCEPT",
+    "codes": []
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["SEARCH_KEY"],
+    "declared_lossy": true,
+    "source_id": "A01",
+    "component_id": "historical_work",
+    "use": "EVIDENCE_CAPTURE",
+    "mediator": "B01",
+    "mediation_level": "AGGREGATOR",
+    "locator": "GDN entry 168847",
+    "url": "https://gdn.iib.unam.mx/diccionario/xochitl/168847",
+    "accessed_at": "2026-09-03",
+    "entries": [
+      {
+        "source_form_id": "L0050-FS1",
+        "source_form": "Xochitl",
+        "original_gloss": "rosa, o flor."
+      },
+      {
+        "source_form_id": "L0050-FS2",
+        "source_form": "xöchitl",
+        "original_gloss": "flor / flor(es)"
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "rosa, o flor.",
+        "modality": "REPORTED",
+        "confidence": "HIGH",
+        "requested_state": "DRAFT"
+      },
+      {
+        "predicate": "has_historical_gloss",
+        "value": "flor / flor(es)",
+        "modality": "REPORTED",
+        "confidence": "MEDIUM",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

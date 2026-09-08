@@ -1,0 +1,40 @@
+{
+  "fixture_id": "G5-008",
+  "version": "1.0.0",
+  "purpose": "Non-canonical lemma id is out of scope for the canonical baseline guard: no mutation or unknown-id error, the record is simply not in the locked baseline.",
+  "category": "non_canonical",
+  "expect": {
+    "outcome": "ACCEPT",
+    "codes": []
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0999",
+    "requested_forms": ["NORMALIZED_FORM", "SEARCH_KEY"],
+    "declared_lossy": true,
+    "source_id": "A01",
+    "component_id": "historical_work",
+    "use": "EVIDENCE_CAPTURE",
+    "mediator": "B01",
+    "mediation_level": "AGGREGATOR",
+    "locator": "GDN entry 9999",
+    "url": "https://gdn.iib.unam.mx/diccionario/xochitl/9999",
+    "accessed_at": "2026-09-03",
+    "entries": [
+      {
+        "source_form_id": "NEW-FS1",
+        "source_form": "xochitl",
+        "original_gloss": "flower (non-canonical illustrative)"
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "flower (non-canonical illustrative)",
+        "modality": "REPORTED",
+        "confidence": "LOW",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

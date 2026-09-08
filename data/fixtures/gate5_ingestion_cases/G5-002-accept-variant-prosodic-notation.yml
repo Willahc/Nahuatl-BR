@@ -1,0 +1,48 @@
+{
+  "fixture_id": "G5-002",
+  "version": "1.0.0",
+  "purpose": "Carochi/GDN orthographic variant with reported prosodic notation; no vowel length or saltillo inference, only retrieval fold.",
+  "category": "orthographic_variant",
+  "expect": {
+    "outcome": "ACCEPT",
+    "codes": []
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["NORMALIZED_FORM", "SEARCH_KEY"],
+    "declared_lossy": true,
+    "source_id": "A04",
+    "component_id": "historical_work",
+    "use": "EVIDENCE_CAPTURE",
+    "mediator": "B01",
+    "mediation_level": "AGGREGATOR",
+    "locator": "GDN entry 18829",
+    "url": "https://gdn.iib.unam.mx/diccionario/xochitl/18829",
+    "accessed_at": "2026-09-03",
+    "witness": "GDN individual entry; facsimile-derived modern editorial layer",
+    "entries": [
+      {
+        "source_form_id": "L0050-FS2",
+        "source_form": "xöchitl",
+        "original_gloss": "flor / flor(es)"
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "flor / flor(es)",
+        "modality": "REPORTED",
+        "confidence": "MEDIUM",
+        "requested_state": "DRAFT"
+      },
+      {
+        "predicate": "has_reported_prosodic_notation",
+        "value": "xöchitl",
+        "modality": "REPORTED",
+        "confidence": "MEDIUM",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fixture_id": "G5-029",
+  "version": "1.0.0",
+  "purpose": "CAN_INGEST_WITH_ATTRIBUTION admits REFERENCE_ONLY use: no forms, claims, evidence or attestations are generated.",
+  "category": "reference_only",
+  "expect": {
+    "outcome": "ACCEPT",
+    "codes": []
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": [],
+    "source_id": "A01",
+    "component_id": "historical_work",
+    "use": "REFERENCE_ONLY",
+    "locator_absence_reason": "no lexical entry consulted; bibliographic point reference only",
+    "locator": "GDN catalog record 168847",
+    "url": "https://gdn.iib.unam.mx/diccionario/xochitl/168847",
+    "accessed_at": "2026-09-03",
+    "entries": []
+  }
+}

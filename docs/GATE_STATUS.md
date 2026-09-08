@@ -10,7 +10,9 @@ Gate 3: PASS / CLOSED
 
 Gate 4: PASS / CLOSED
 
-Gate 5: AUTHORIZED / NOT_STARTED
+Gate 5: IN_PROGRESS
+
+Gate 6: NOT_STARTED
 
 ## Registro do fechamento do Gate 4
 
@@ -60,4 +62,6 @@ Os 29 Claims fonológicos nascem `IN_REVIEW` por instrução explícita do
 PRODUCT_OWNER (exceção registrada no AGENTS.md), com origem EXECUTION_AGENT
 registrada. Revisão humana individual não está documentada.
 
-Gate 5 está autorizado mas não foi iniciado.
+Gate 5: IN_PROGRESS — pipeline de ingestão, gates de rights/Variety, transformação
+auditável, geração controlada de Claims (DRAFT), validator, testes, exportador e
+Research Preview 0 em desenvolvimento. Gate 6 não foi iniciado.

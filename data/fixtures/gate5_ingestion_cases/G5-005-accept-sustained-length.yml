@@ -1,0 +1,43 @@
+{
+  "fixture_id": "G5-005",
+  "version": "1.0.0",
+  "purpose": "Sustained length notation: the ä in ämoxtli is preserved exactly in SOURCE_FORM and derived layers; no SHORT/LONG is inferred from the mark.",
+  "category": "sustained_length",
+  "expect": {
+    "outcome": "ACCEPT",
+    "codes": []
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0001",
+    "requested_forms": ["DIPLOMATIC_FORM", "NORMALIZED_FORM", "PEDAGOGICAL_FORM"],
+    "source_id": "A04",
+    "component_id": "historical_work",
+    "use": "EVIDENCE_CAPTURE",
+    "mediator": "B01",
+    "mediation_level": "AGGREGATOR",
+    "locator": "GDN entry 279906",
+    "url": "https://gdn.iib.unam.mx/diccionario/amoxtli/279906",
+    "accessed_at": "2026-09-03",
+    "pedagogical": {
+      "value": "UNKNOWN",
+      "evidence": []
+    },
+    "entries": [
+      {
+        "source_form_id": "L0001-FS2",
+        "source_form": "ämoxtli",
+        "original_gloss": "libro"
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "libro",
+        "modality": "REPORTED",
+        "confidence": "HIGH",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

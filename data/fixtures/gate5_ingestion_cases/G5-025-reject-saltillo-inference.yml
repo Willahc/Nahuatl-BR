@@ -1,0 +1,45 @@
+{
+  "fixture_id": "G5-025",
+  "version": "1.0.0",
+  "purpose": "A marked saltillo value without token Evidence is rejected: absence of a mark does not establish ANY saltillo state.",
+  "category": "saltillo_inference",
+  "expect": {
+    "outcome": "REJECT",
+    "codes": ["SALTILLO_EVIDENCE_REQUIRED"]
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["NORMALIZED_FORM"],
+    "source_id": "A01",
+    "component_id": "historical_work",
+    "use": "EVIDENCE_CAPTURE",
+    "mediator": "B01",
+    "mediation_level": "AGGREGATOR",
+    "locator": "GDN entry 168847",
+    "url": "https://gdn.iib.unam.mx/diccionario/xochitl/168847",
+    "accessed_at": "2026-09-03",
+    "phonology_hints": {
+      "saltillo": {
+        "value": "ABSENT",
+        "evidence": []
+      }
+    },
+    "entries": [
+      {
+        "source_form_id": "L0050-FS1",
+        "source_form": "Xochitl",
+        "original_gloss": "rosa, o flor."
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "rosa, o flor.",
+        "modality": "REPORTED",
+        "confidence": "HIGH",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

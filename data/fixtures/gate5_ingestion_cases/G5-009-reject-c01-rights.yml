@@ -1,0 +1,37 @@
+{
+  "fixture_id": "G5-009",
+  "version": "1.0.0",
+  "purpose": "Mandatory negative: a modern-variety Source with MANUAL_PERMISSION_REQUIRED components is rejected without any dependence on the name of the variety.",
+  "category": "c01_manual_permission",
+  "expect": {
+    "outcome": "REJECT",
+    "codes": ["RIGHTS_PERMISSION", "MODERN_AS_CLASSICAL_EVIDENCE"]
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["NORMALIZED_FORM"],
+    "source_id": "C01",
+    "component_id": "spanish_nahuatl_dictionary",
+    "use": "EVIDENCE_CAPTURE",
+    "locator": "PDF page 12",
+    "url": "https://www.gob.mx/cms/uploads/attachment/file/64177/diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf",
+    "accessed_at": "2026-09-03",
+    "entries": [
+      {
+        "source_form_id": "L0050-FS1",
+        "source_form": "Xochitl",
+        "original_gloss": "rosa, o flor."
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "rosa, o flor.",
+        "modality": "REPORTED",
+        "confidence": "HIGH",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

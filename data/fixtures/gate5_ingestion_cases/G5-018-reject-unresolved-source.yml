@@ -1,0 +1,37 @@
+{
+  "fixture_id": "G5-018",
+  "version": "1.0.0",
+  "purpose": "A Source id outside the registered inventory is rejected by reference before any other stage.",
+  "category": "unresolved_source",
+  "expect": {
+    "outcome": "REJECT",
+    "codes": ["SOURCE_REFERENCE"]
+  },
+  "ingest": {
+    "lemma_variety": "Classical Nahuatl",
+    "lemma_id": "L0050",
+    "requested_forms": ["NORMALIZED_FORM"],
+    "source_id": "ZZ9",
+    "component_id": "historical_work",
+    "use": "EVIDENCE_CAPTURE",
+    "mediator": "B01",
+    "mediation_level": "AGGREGATOR",
+    "locator": "page 12",
+    "entries": [
+      {
+        "source_form_id": "L0050-FS1",
+        "source_form": "Xochitl",
+        "original_gloss": "rosa, o flor."
+      }
+    ],
+    "claims": [
+      {
+        "predicate": "has_historical_gloss",
+        "value": "rosa, o flor.",
+        "modality": "REPORTED",
+        "confidence": "HIGH",
+        "requested_state": "DRAFT"
+      }
+    ]
+  }
+}

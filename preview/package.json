@@ -1,0 +1,25 @@
+{
+  "name": "nahuatl-br-preview",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Research Preview 0 — visualização de pesquisa dos 50 lemas piloto de Náhuatl Clássico.",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc -b",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  }
+}
