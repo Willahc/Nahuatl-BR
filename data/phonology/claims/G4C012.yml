@@ -1,0 +1,32 @@
+{
+  "claim_id": "G4C012",
+  "topic": "GRAPHEME_PHONEME_CORRESPONDENCE",
+  "statement": "cu/uc podem representar uma unidade /kʷ/, não duas posições silábicas.",
+  "modality": "RECONSTRUCTED",
+  "confidence": "HIGH",
+  "editorial_state": "IN_REVIEW",
+  "scope": {
+    "variety": "Classical Nahuatl",
+    "period": "central colonial documentation, principally sixteenth/seventeenth centuries; not pan-Nahuan"
+  },
+  "layer": "PHONEMIC_RECONSTRUCTION",
+  "certainty_dimension": "PHONEMIC_INTERPRETATION",
+  "evidence": [
+    "G4E003",
+    "G4E002"
+  ],
+  "counterevidence": [],
+  "notes": "Candidate for external review; source-level claims do not fill individual lexical gaps.",
+  "editorial_provenance": {
+    "actor_role": "EXECUTION_AGENT",
+    "actor_id": "UNKNOWN",
+    "tool": "Codex",
+    "tool_version": "UNKNOWN",
+    "timestamp": "2026-09-08",
+    "action": "INITIAL_SUBMISSION_BY_EXPLICIT_PRODUCT_OWNER_INSTRUCTION",
+    "from_state": "NOT_APPLICABLE",
+    "to_state": "IN_REVIEW",
+    "review_status": "NOT_REVIEWED"
+  },
+  "phonemic_ipa": "/kʷ/"
+}

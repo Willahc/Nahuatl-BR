@@ -1,0 +1,31 @@
+{
+  "claim_id": "G4C011",
+  "topic": "GRAPHEME_PHONEME_CORRESPONDENCE",
+  "statement": "tl conta como unidade consonantal; candidato IPA /t͡ɬ/.",
+  "modality": "RECONSTRUCTED",
+  "confidence": "MEDIUM",
+  "editorial_state": "IN_REVIEW",
+  "scope": {
+    "variety": "Classical Nahuatl",
+    "period": "central colonial documentation, principally sixteenth/seventeenth centuries; not pan-Nahuan"
+  },
+  "layer": "PHONEMIC_RECONSTRUCTION",
+  "certainty_dimension": "PHONEMIC_INTERPRETATION",
+  "evidence": [
+    "G4E003"
+  ],
+  "counterevidence": [],
+  "notes": "Launey pp.4,7 uses lambda notation for the complex consonant. IPA rendering is editorial reconstruction; not Portuguese t+l and not a measured release.",
+  "editorial_provenance": {
+    "actor_role": "EXECUTION_AGENT",
+    "actor_id": "UNKNOWN",
+    "tool": "Codex",
+    "tool_version": "UNKNOWN",
+    "timestamp": "2026-09-08",
+    "action": "INITIAL_SUBMISSION_BY_EXPLICIT_PRODUCT_OWNER_INSTRUCTION",
+    "from_state": "NOT_APPLICABLE",
+    "to_state": "IN_REVIEW",
+    "review_status": "NOT_REVIEWED"
+  },
+  "phonemic_ipa": "/t͡ɬ/"
+}

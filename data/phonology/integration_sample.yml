@@ -1,0 +1,513 @@
+{
+  "schema": "gate4-integration-v1",
+  "profile": "classical_phonology_v1@1.0.0-draft.1",
+  "max_lemmas": 15,
+  "items": [
+    {
+      "lemma_id": "L0001",
+      "case_id": "G4F001",
+      "source_form_id": "L0001-FS2",
+      "source_form": "ämoxtli",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E101",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C003",
+        "G4C004"
+      ],
+      "vowel_length": {
+        "value": "LONG",
+        "target": "initial ä",
+        "evidence": [
+          "G4E101",
+          "G4E002"
+        ]
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0002",
+      "case_id": "G4F002",
+      "source_form_id": "L0002-FS2",
+      "source_form": "ätl",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E102",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C003",
+        "G4C004"
+      ],
+      "vowel_length": {
+        "value": "LONG",
+        "target": "ä",
+        "evidence": [
+          "G4E102",
+          "G4E002"
+        ]
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0003",
+      "case_id": "G4F003",
+      "source_form_id": "L0003-FS2",
+      "source_form": "calli",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E103",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C011",
+        "G4C012",
+        "G4C013",
+        "G4C024"
+      ],
+      "vowel_length": {
+        "value": "UNKNOWN",
+        "target": "ll",
+        "evidence": []
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0006",
+      "case_id": "G4F005",
+      "source_form_id": "L0006-FS2",
+      "source_form": "cihuätl",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E106",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C003",
+        "G4C004"
+      ],
+      "vowel_length": {
+        "value": "LONG",
+        "target": "ä",
+        "evidence": [
+          "G4E106",
+          "G4E002"
+        ]
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0008",
+      "case_id": "G4F006",
+      "source_form_id": "L0008-FS2",
+      "source_form": "cochi, ni",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E108",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C011",
+        "G4C012",
+        "G4C013",
+        "G4C024"
+      ],
+      "vowel_length": {
+        "value": "UNKNOWN",
+        "target": "unmarked cochi",
+        "evidence": []
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0011",
+      "case_id": "G4F008",
+      "source_form_id": "L0011-FS2",
+      "source_form": "qua, nitla",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E111",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C011",
+        "G4C012",
+        "G4C013",
+        "G4C024"
+      ],
+      "vowel_length": {
+        "value": "UNKNOWN",
+        "target": "qua",
+        "evidence": []
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0012",
+      "case_id": "G4F009",
+      "source_form_id": "L0012-FS2",
+      "source_form": "quahuitl",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E112",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C011",
+        "G4C012",
+        "G4C013",
+        "G4C024"
+      ],
+      "vowel_length": {
+        "value": "UNKNOWN",
+        "target": "quahuitl",
+        "evidence": []
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0018",
+      "case_id": "G4F012",
+      "source_form_id": "L0018-FS1",
+      "source_form": "iô",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E118",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C005"
+      ],
+      "vowel_length": {
+        "value": "UNKNOWN",
+        "target": "ô",
+        "evidence": []
+      },
+      "saltillo": {
+        "value": "PRESENT",
+        "target": "ô",
+        "evidence": [
+          "G4E118",
+          "G4E002"
+        ]
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0026",
+      "case_id": "G4F015",
+      "source_form_id": "L0026-FS2",
+      "source_form": "métztli",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E126",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C003",
+        "G4C004"
+      ],
+      "vowel_length": {
+        "value": "SHORT",
+        "target": "é",
+        "evidence": [
+          "G4E126",
+          "G4E002"
+        ]
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0033",
+      "case_id": "G4F017",
+      "source_form_id": "L0033-FS2",
+      "source_form": "nònotza, nitë",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E133",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C005"
+      ],
+      "vowel_length": {
+        "value": "UNKNOWN",
+        "target": "ò",
+        "evidence": []
+      },
+      "saltillo": {
+        "value": "PRESENT",
+        "target": "ò",
+        "evidence": [
+          "G4E133",
+          "G4E002"
+        ]
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0044",
+      "case_id": "G4F019",
+      "source_form_id": "L0044-FS2",
+      "source_form": "tlàcuilölli",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E144",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C003",
+        "G4C004"
+      ],
+      "vowel_length": {
+        "value": "LONG",
+        "target": "ö",
+        "evidence": [
+          "G4E144",
+          "G4E002"
+        ]
+      },
+      "saltillo": {
+        "value": "PRESENT",
+        "target": "à",
+        "evidence": [
+          "G4E144",
+          "G4E002"
+        ]
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0050",
+      "case_id": "G4F020",
+      "source_form_id": "L0050-FS2",
+      "source_form": "xöchitl",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E150",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C003",
+        "G4C004"
+      ],
+      "vowel_length": {
+        "value": "LONG",
+        "target": "ö",
+        "evidence": [
+          "G4E150",
+          "G4E002"
+        ]
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0005",
+      "case_id": "G4F004",
+      "source_form_id": "L0005-FS2",
+      "source_form": "chïlli",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E105",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C003",
+        "G4C004"
+      ],
+      "vowel_length": {
+        "value": "LONG",
+        "target": "ï",
+        "evidence": [
+          "G4E105",
+          "G4E002"
+        ]
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0027",
+      "case_id": "G4F016",
+      "source_form_id": "L0027-FS2",
+      "source_form": "mïlli",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E127",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C003",
+        "G4C004"
+      ],
+      "vowel_length": {
+        "value": "LONG",
+        "target": "ï",
+        "evidence": [
+          "G4E127",
+          "G4E002"
+        ]
+      },
+      "saltillo": {
+        "value": "UNKNOWN",
+        "target": "NOT_REVIEWED",
+        "evidence": []
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Unmarked segments remain UNKNOWN; GDN editorial/typographic mediation limits confidence."
+    },
+    {
+      "lemma_id": "L0038",
+      "case_id": "G4F018",
+      "source_form_id": "L0038-FS2",
+      "source_form": "tà[tli]",
+      "editorial_state": "IN_REVIEW",
+      "layer": "PHONOLOGICAL_ANALYSIS",
+      "modality": "INFERRED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E138",
+        "G4E002"
+      ],
+      "claim_ids": [
+        "G4C005"
+      ],
+      "vowel_length": {
+        "value": "UNKNOWN",
+        "target": "à",
+        "evidence": []
+      },
+      "saltillo": {
+        "value": "PRESENT",
+        "target": "à",
+        "evidence": [
+          "G4E138",
+          "G4E002"
+        ]
+      },
+      "phonemic_ipa": "NOT_REVIEWED",
+      "phonetic_ipa": "NOT_REVIEWED",
+      "notes": "Partial source-system interpretation, not a complete pronunciation. Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+    }
+  ]
+}

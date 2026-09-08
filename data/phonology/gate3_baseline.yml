@@ -1,0 +1,1409 @@
+{
+  "baseline_commit": "fb205964910864f91ee1cb5c18d1d9d0dbcafb4e",
+  "lemmas": {
+    "L0001": {
+      "path": "data/pilot/lemmas/L0001_amoxtli.yml",
+      "source_forms": {
+        "L0001-FS1": "Amoxtli",
+        "L0001-FS2": "ämoxtli"
+      },
+      "attestation_forms": {
+        "L0001-A1": "Amoxtli",
+        "L0001-A2": "ämoxtli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "ämoxtli",
+            "evidence_id": "L0001-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "ämoxtli",
+            "evidence_id": "L0001-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0002": {
+      "path": "data/pilot/lemmas/L0002_atl.yml",
+      "source_forms": {
+        "L0002-FS1": "Atl",
+        "L0002-FS2": "ätl"
+      },
+      "attestation_forms": {
+        "L0002-A1": "Atl",
+        "L0002-A2": "ätl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "ätl",
+            "evidence_id": "L0002-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "ätl",
+            "evidence_id": "L0002-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0003": {
+      "path": "data/pilot/lemmas/L0003_calli.yml",
+      "source_forms": {
+        "L0003-FS1": "Calli",
+        "L0003-FS2": "calli"
+      },
+      "attestation_forms": {
+        "L0003-A1": "Calli",
+        "L0003-A2": "calli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0004": {
+      "path": "data/pilot/lemmas/L0004_centli.yml",
+      "source_forms": {
+        "L0004-FS1": "Centli",
+        "L0004-FS2": "centli"
+      },
+      "attestation_forms": {
+        "L0004-A1": "Centli",
+        "L0004-A2": "centli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0005": {
+      "path": "data/pilot/lemmas/L0005_chilli.yml",
+      "source_forms": {
+        "L0005-FS1": "Chilli",
+        "L0005-FS2": "chïlli"
+      },
+      "attestation_forms": {
+        "L0005-A1": "Chilli",
+        "L0005-A2": "chïlli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "chïlli",
+            "evidence_id": "L0005-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "chïlli",
+            "evidence_id": "L0005-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0006": {
+      "path": "data/pilot/lemmas/L0006_cihuatl.yml",
+      "source_forms": {
+        "L0006-FS1": "Ciuatl",
+        "L0006-FS2": "cihuätl"
+      },
+      "attestation_forms": {
+        "L0006-A1": "Ciuatl",
+        "L0006-A2": "cihuätl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "cihuätl",
+            "evidence_id": "L0006-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "cihuätl",
+            "evidence_id": "L0006-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0007": {
+      "path": "data/pilot/lemmas/L0007_citlalin.yml",
+      "source_forms": {
+        "L0007-FS1": "Citlalin",
+        "L0007-FS2": "cïtlalin"
+      },
+      "attestation_forms": {
+        "L0007-A1": "Citlalin",
+        "L0007-A2": "cïtlalin"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "cïtlalin",
+            "evidence_id": "L0007-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "cïtlalin",
+            "evidence_id": "L0007-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0008": {
+      "path": "data/pilot/lemmas/L0008_cochi.yml",
+      "source_forms": {
+        "L0008-FS1": "Cochi, ni",
+        "L0008-FS2": "cochi, ni"
+      },
+      "attestation_forms": {
+        "L0008-A1": "Cochi, ni",
+        "L0008-A2": "cochi, ni"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0009": {
+      "path": "data/pilot/lemmas/L0009_cocotona.yml",
+      "source_forms": {
+        "L0009-FS1": "Cocotona, nite",
+        "L0009-FS2": "còcotöna, nitla"
+      },
+      "attestation_forms": {
+        "L0009-A1": "Cocotona, nite",
+        "L0009-A2": "còcotöna, nitla"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "còcotöna, nitla",
+            "evidence_id": "L0009-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          },
+          {
+            "state": "REPORTED",
+            "notation": "còcotöna, nitla",
+            "evidence_id": "L0009-E2",
+            "note": "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "còcotöna, nitla",
+            "evidence_id": "L0009-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "còcotöna, nitla",
+            "evidence_id": "L0009-E2",
+            "note": "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0010": {
+      "path": "data/pilot/lemmas/L0010_conetl.yml",
+      "source_forms": {
+        "L0010-FS1": "Conetl",
+        "L0010-FS2": "conëtl"
+      },
+      "attestation_forms": {
+        "L0010-A1": "Conetl",
+        "L0010-A2": "conëtl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "conëtl",
+            "evidence_id": "L0010-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "conëtl",
+            "evidence_id": "L0010-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0011": {
+      "path": "data/pilot/lemmas/L0011_cua.yml",
+      "source_forms": {
+        "L0011-FS1": "QVa, nitla",
+        "L0011-FS2": "qua, nitla"
+      },
+      "attestation_forms": {
+        "L0011-A1": "QVa, nitla",
+        "L0011-A2": "qua, nitla"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0012": {
+      "path": "data/pilot/lemmas/L0012_cuahuitl.yml",
+      "source_forms": {
+        "L0012-FS1": "Quauitl",
+        "L0012-FS2": "quahuitl"
+      },
+      "attestation_forms": {
+        "L0012-A1": "Quauitl",
+        "L0012-A2": "quahuitl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0013": {
+      "path": "data/pilot/lemmas/L0013_cuicatl.yml",
+      "source_forms": {
+        "L0013-FS1": "Cuicatl",
+        "L0013-FS2": "cuïcatl"
+      },
+      "attestation_forms": {
+        "L0013-A1": "Cuicatl",
+        "L0013-A2": "cuïcatl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "cuïcatl",
+            "evidence_id": "L0013-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "cuïcatl",
+            "evidence_id": "L0013-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0014": {
+      "path": "data/pilot/lemmas/L0014_etl.yml",
+      "source_forms": {
+        "L0014-FS1": "Etl",
+        "L0014-FS2": "etl"
+      },
+      "attestation_forms": {
+        "L0014-A1": "Etl",
+        "L0014-A2": "etl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0015": {
+      "path": "data/pilot/lemmas/L0015_eztli.yml",
+      "source_forms": {
+        "L0015-FS1": "Eztli",
+        "L0015-FS2": "eztli"
+      },
+      "attestation_forms": {
+        "L0015-A1": "Eztli",
+        "L0015-A2": "eztli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0016": {
+      "path": "data/pilot/lemmas/L0016_icxitl.yml",
+      "source_forms": {
+        "L0016-FS1": "Icxitl",
+        "L0016-FS2": "icxi[tl]"
+      },
+      "attestation_forms": {
+        "L0016-A1": "Icxitl",
+        "L0016-A2": "icxi[tl]"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0017": {
+      "path": "data/pilot/lemmas/L0017_ilhuicatl.yml",
+      "source_forms": {
+        "L0017-FS1": "Ilhuicatl",
+        "L0017-FS2": "ilhuicatl"
+      },
+      "attestation_forms": {
+        "L0017-A1": "Ilhuicatl",
+        "L0017-A2": "ilhuicatl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0018": {
+      "path": "data/pilot/lemmas/L0018_io.yml",
+      "source_forms": {
+        "L0018-FS1": "iô"
+      },
+      "attestation_forms": {
+        "L0018-A1": "iô"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "iô",
+            "evidence_id": "L0018-E1",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "iô",
+            "evidence_id": "L0018-E1",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0019": {
+      "path": "data/pilot/lemmas/L0019_itoa.yml",
+      "source_forms": {
+        "L0019-FS1": "Itoa, nin",
+        "L0019-FS2": "ìtoa, m"
+      },
+      "attestation_forms": {
+        "L0019-A1": "Itoa, nin",
+        "L0019-A2": "ìtoa, m"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "ìtoa, m",
+            "evidence_id": "L0019-E2",
+            "note": "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "ìtoa, m",
+            "evidence_id": "L0019-E2",
+            "note": "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0020": {
+      "path": "data/pilot/lemmas/L0020_itta.yml",
+      "source_forms": {
+        "L0020-FS1": "Itta, nino",
+        "L0020-FS2": "itta, nic"
+      },
+      "attestation_forms": {
+        "L0020-A1": "Itta, nino",
+        "L0020-A2": "itta, nic"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0021": {
+      "path": "data/pilot/lemmas/L0021_ixtli.yml",
+      "source_forms": {
+        "L0021-FS1": "Ixtli",
+        "L0021-FS2": "ïxtli"
+      },
+      "attestation_forms": {
+        "L0021-A1": "Ixtli",
+        "L0021-A2": "ïxtli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "ïxtli",
+            "evidence_id": "L0021-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "ïxtli",
+            "evidence_id": "L0021-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0022": {
+      "path": "data/pilot/lemmas/L0022_iztatl.yml",
+      "source_forms": {
+        "L0022-FS1": "Iztatl",
+        "L0022-FS2": "iztátl"
+      },
+      "attestation_forms": {
+        "L0022-A1": "Iztatl",
+        "L0022-A2": "iztátl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "iztátl",
+            "evidence_id": "L0022-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "iztátl",
+            "evidence_id": "L0022-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0023": {
+      "path": "data/pilot/lemmas/L0023_maitl.yml",
+      "source_forms": {
+        "L0023-FS1": "Maytl",
+        "L0023-FS2": "mä[itl]"
+      },
+      "attestation_forms": {
+        "L0023-A1": "Maytl",
+        "L0023-A2": "mä[itl]"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "mä[itl]",
+            "evidence_id": "L0023-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "mä[itl]",
+            "evidence_id": "L0023-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0024": {
+      "path": "data/pilot/lemmas/L0024_mati.yml",
+      "source_forms": {
+        "L0024-FS1": "Mati, anic",
+        "L0024-FS2": "mati, non"
+      },
+      "attestation_forms": {
+        "L0024-A1": "Mati, anic",
+        "L0024-A2": "mati, non"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0025": {
+      "path": "data/pilot/lemmas/L0025_metl.yml",
+      "source_forms": {
+        "L0025-FS1": "Metl"
+      },
+      "attestation_forms": {
+        "L0025-A1": "Metl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0026": {
+      "path": "data/pilot/lemmas/L0026_metztli.yml",
+      "source_forms": {
+        "L0026-FS1": "Metztli",
+        "L0026-FS2": "métztli"
+      },
+      "attestation_forms": {
+        "L0026-A1": "Metztli",
+        "L0026-A2": "métztli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "métztli",
+            "evidence_id": "L0026-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "métztli",
+            "evidence_id": "L0026-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0027": {
+      "path": "data/pilot/lemmas/L0027_milli.yml",
+      "source_forms": {
+        "L0027-FS1": "Milli",
+        "L0027-FS2": "mïlli"
+      },
+      "attestation_forms": {
+        "L0027-A1": "Milli",
+        "L0027-A2": "mïlli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "mïlli",
+            "evidence_id": "L0027-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "mïlli",
+            "evidence_id": "L0027-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0028": {
+      "path": "data/pilot/lemmas/L0028_miqui.yml",
+      "source_forms": {
+        "L0028-FS1": "Miqui, ni",
+        "L0028-FS2": "miqui, ni"
+      },
+      "attestation_forms": {
+        "L0028-A1": "Miqui, ni",
+        "L0028-A2": "miqui, ni"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0029": {
+      "path": "data/pilot/lemmas/L0029_nacatl.yml",
+      "source_forms": {
+        "L0029-FS1": "Nacatl",
+        "L0029-FS2": "nacatl"
+      },
+      "attestation_forms": {
+        "L0029-A1": "Nacatl",
+        "L0029-A2": "nacatl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0030": {
+      "path": "data/pilot/lemmas/L0030_nacaztli.yml",
+      "source_forms": {
+        "L0030-FS1": "Nacaztli",
+        "L0030-FS2": "nacaztli"
+      },
+      "attestation_forms": {
+        "L0030-A1": "Nacaztli",
+        "L0030-A2": "nacaztli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0031": {
+      "path": "data/pilot/lemmas/L0031_nantli.yml",
+      "source_forms": {
+        "L0031-FS1": "Nantli",
+        "L0031-FS2": "nän[tli]"
+      },
+      "attestation_forms": {
+        "L0031-A1": "Nantli",
+        "L0031-A2": "nän[tli]"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "nän[tli]",
+            "evidence_id": "L0031-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "nän[tli]",
+            "evidence_id": "L0031-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0032": {
+      "path": "data/pilot/lemmas/L0032_nemi.yml",
+      "source_forms": {
+        "L0032-FS1": "Nemi, ni",
+        "L0032-FS2": "nemi, 3ª"
+      },
+      "attestation_forms": {
+        "L0032-A1": "Nemi, ni",
+        "L0032-A2": "nemi, 3ª"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0033": {
+      "path": "data/pilot/lemmas/L0033_nonotza.yml",
+      "source_forms": {
+        "L0033-FS1": "Mononotza",
+        "L0033-FS2": "nònotza, nitë"
+      },
+      "attestation_forms": {
+        "L0033-A1": "Mononotza",
+        "L0033-A2": "nònotza, nitë"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "nònotza, nitë",
+            "evidence_id": "L0033-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          },
+          {
+            "state": "REPORTED",
+            "notation": "nònotza, nitë",
+            "evidence_id": "L0033-E2",
+            "note": "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "nònotza, nitë",
+            "evidence_id": "L0033-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "nònotza, nitë",
+            "evidence_id": "L0033-E2",
+            "note": "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0034": {
+      "path": "data/pilot/lemmas/L0034_omitl.yml",
+      "source_forms": {
+        "L0034-FS1": "Omitl",
+        "L0034-FS2": "omitl"
+      },
+      "attestation_forms": {
+        "L0034-A1": "Omitl",
+        "L0034-A2": "omitl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0035": {
+      "path": "data/pilot/lemmas/L0035_oquichtli.yml",
+      "source_forms": {
+        "L0035-FS1": "Oquichtli",
+        "L0035-FS2": "oquichtli"
+      },
+      "attestation_forms": {
+        "L0035-A1": "Oquichtli",
+        "L0035-A2": "oquichtli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0036": {
+      "path": "data/pilot/lemmas/L0036_pepena.yml",
+      "source_forms": {
+        "L0036-FS1": "Pepena, nite",
+        "L0036-FS2": "pèpena, nic"
+      },
+      "attestation_forms": {
+        "L0036-A1": "Pepena, nite",
+        "L0036-A2": "pèpena, nic"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "pèpena, nic",
+            "evidence_id": "L0036-E2",
+            "note": "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "pèpena, nic",
+            "evidence_id": "L0036-E2",
+            "note": "Grave notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0037": {
+      "path": "data/pilot/lemmas/L0037_pilli.yml",
+      "source_forms": {
+        "L0037-FS1": "Pilli",
+        "L0037-FS2": "pil[li]"
+      },
+      "attestation_forms": {
+        "L0037-A1": "Pilli",
+        "L0037-A2": "pil[li]"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0038": {
+      "path": "data/pilot/lemmas/L0038_tatli.yml",
+      "source_forms": {
+        "L0038-FS1": "Tatli",
+        "L0038-FS2": "tà[tli]"
+      },
+      "attestation_forms": {
+        "L0038-A1": "Tatli",
+        "L0038-A2": "tà[tli]"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "tà[tli]",
+            "evidence_id": "L0038-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "tà[tli]",
+            "evidence_id": "L0038-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0039": {
+      "path": "data/pilot/lemmas/L0039_tentli.yml",
+      "source_forms": {
+        "L0039-FS1": "Tentli",
+        "L0039-FS2": "tëntli"
+      },
+      "attestation_forms": {
+        "L0039-A1": "Tentli",
+        "L0039-A2": "tëntli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tëntli",
+            "evidence_id": "L0039-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tëntli",
+            "evidence_id": "L0039-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0040": {
+      "path": "data/pilot/lemmas/L0040_teotl.yml",
+      "source_forms": {
+        "L0040-FS1": "Teotl",
+        "L0040-FS2": "teötl"
+      },
+      "attestation_forms": {
+        "L0040-A1": "Teotl",
+        "L0040-A2": "teötl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "teötl",
+            "evidence_id": "L0040-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "teötl",
+            "evidence_id": "L0040-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0041": {
+      "path": "data/pilot/lemmas/L0041_tequitl.yml",
+      "source_forms": {
+        "L0041-FS1": "Tequitl",
+        "L0041-FS2": "tequitl"
+      },
+      "attestation_forms": {
+        "L0041-A1": "Tequitl",
+        "L0041-A2": "tequitl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0042": {
+      "path": "data/pilot/lemmas/L0042_tetl.yml",
+      "source_forms": {
+        "L0042-FS1": "Tetl",
+        "L0042-FS2": "tétl"
+      },
+      "attestation_forms": {
+        "L0042-A1": "Tetl",
+        "L0042-A2": "tétl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tétl",
+            "evidence_id": "L0042-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tétl",
+            "evidence_id": "L0042-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0043": {
+      "path": "data/pilot/lemmas/L0043_tlacatl.yml",
+      "source_forms": {
+        "L0043-FS1": "Tlacatl",
+        "L0043-FS2": "tläca[tl]"
+      },
+      "attestation_forms": {
+        "L0043-A1": "Tlacatl",
+        "L0043-A2": "tläca[tl]"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tläca[tl]",
+            "evidence_id": "L0043-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tläca[tl]",
+            "evidence_id": "L0043-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0044": {
+      "path": "data/pilot/lemmas/L0044_tlacuilolli.yml",
+      "source_forms": {
+        "L0044-FS1": "Tlacuilolli",
+        "L0044-FS2": "tlàcuilölli"
+      },
+      "attestation_forms": {
+        "L0044-A1": "Tlacuilolli",
+        "L0044-A2": "tlàcuilölli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tlàcuilölli",
+            "evidence_id": "L0044-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          },
+          {
+            "state": "REPORTED",
+            "notation": "tlàcuilölli",
+            "evidence_id": "L0044-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tlàcuilölli",
+            "evidence_id": "L0044-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "tlàcuilölli",
+            "evidence_id": "L0044-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0045": {
+      "path": "data/pilot/lemmas/L0045_tlalli.yml",
+      "source_forms": {
+        "L0045-FS1": "Tlalli",
+        "L0045-FS2": "tlälli"
+      },
+      "attestation_forms": {
+        "L0045-A1": "Tlalli",
+        "L0045-A2": "tlälli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tlälli",
+            "evidence_id": "L0045-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tlälli",
+            "evidence_id": "L0045-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    },
+    "L0046": {
+      "path": "data/pilot/lemmas/L0046_tlaolli.yml",
+      "source_forms": {
+        "L0046-FS1": "Tlaulli",
+        "L0046-FS2": "tlaolli"
+      },
+      "attestation_forms": {
+        "L0046-A1": "Tlaulli",
+        "L0046-A2": "tlaolli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "NOT_REVIEWED",
+        "evidence": [],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": []
+      }
+    },
+    "L0047": {
+      "path": "data/pilot/lemmas/L0047_tlatoa.yml",
+      "source_forms": {
+        "L0047-FS1": "Tlatoa, ni",
+        "L0047-FS2": "tlàtoa, ni"
+      },
+      "attestation_forms": {
+        "L0047-A1": "Tlatoa, ni",
+        "L0047-A2": "tlàtoa, ni"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "tlàtoa, ni",
+            "evidence_id": "L0047-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "tlàtoa, ni",
+            "evidence_id": "L0047-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0048": {
+      "path": "data/pilot/lemmas/L0048_tlatolli.yml",
+      "source_forms": {
+        "L0048-FS1": "Tlatolli",
+        "L0048-FS2": "tlàtölli"
+      },
+      "attestation_forms": {
+        "L0048-A1": "Tlatolli",
+        "L0048-A2": "tlàtölli"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tlàtölli",
+            "evidence_id": "L0048-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          },
+          {
+            "state": "REPORTED",
+            "notation": "tlàtölli",
+            "evidence_id": "L0048-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "tlàtölli",
+            "evidence_id": "L0048-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "tlàtölli",
+            "evidence_id": "L0048-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0049": {
+      "path": "data/pilot/lemmas/L0049_tlazotla.yml",
+      "source_forms": {
+        "L0049-FS1": "Titotlaçotla",
+        "L0049-FS2": "tlaçòtla, nic"
+      },
+      "attestation_forms": {
+        "L0049-A1": "Titotlaçotla",
+        "L0049-A2": "tlaçòtla, nic"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "tlaçòtla, nic",
+            "evidence_id": "L0049-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ],
+        "vowel_length_evidence": [],
+        "saltillo_evidence": [
+          {
+            "state": "REPORTED",
+            "notation": "tlaçòtla, nic",
+            "evidence_id": "L0049-E2",
+            "note": "Grave/circumflex notation reported by Carochi/GDN; phonetic realization remains outside approved scope."
+          }
+        ]
+      }
+    },
+    "L0050": {
+      "path": "data/pilot/lemmas/L0050_xochitl.yml",
+      "source_forms": {
+        "L0050-FS1": "Xochitl",
+        "L0050-FS2": "xöchitl"
+      },
+      "attestation_forms": {
+        "L0050-A1": "Xochitl",
+        "L0050-A2": "xöchitl"
+      },
+      "phonological_information": {
+        "vowel_length": "NOT_REVIEWED",
+        "saltillo": "NOT_REVIEWED",
+        "status": "IN_REVIEW",
+        "evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "xöchitl",
+            "evidence_id": "L0050-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "vowel_length_evidence": [
+          {
+            "state": "NOT_REVIEWED",
+            "notation": "xöchitl",
+            "evidence_id": "L0050-E2",
+            "note": "Carochi/GDN diacritic preserved; no automatic short/long mapping in this pilot."
+          }
+        ],
+        "saltillo_evidence": []
+      }
+    }
+  }
+}

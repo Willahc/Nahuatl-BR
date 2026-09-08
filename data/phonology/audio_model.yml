@@ -1,0 +1,28 @@
+{
+  "schema": "gate4-audio-concept-v1",
+  "status": "CONCEPT_ONLY",
+  "audio_types": [
+    "HUMAN_NATIVE",
+    "MODERN_READING",
+    "HISTORICAL_RECONSTRUCTION",
+    "SYNTHETIC"
+  ],
+  "fields": [
+    "recording_id",
+    "audio_type",
+    "speaker",
+    "speaker_variety",
+    "text_variety",
+    "pronunciation_model",
+    "recorded_at",
+    "source",
+    "rights",
+    "consent_or_rights_basis",
+    "license",
+    "phonological_profile",
+    "confidence",
+    "notes"
+  ],
+  "recordings": [],
+  "notes": "No file, binary, waveform, synthesized voice or recording instance is permitted in Gate 4."
+}

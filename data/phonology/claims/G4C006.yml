@@ -1,0 +1,34 @@
+{
+  "claim_id": "G4C006",
+  "topic": "SALTILLO_REALIZATION",
+  "statement": "/ʔ/ é a reconstrução preferida para o recorte central aqui delimitado.",
+  "modality": "RECONSTRUCTED",
+  "confidence": "MEDIUM",
+  "editorial_state": "IN_REVIEW",
+  "scope": {
+    "variety": "Classical Nahuatl",
+    "period": "central colonial documentation, principally sixteenth/seventeenth centuries; not pan-Nahuan"
+  },
+  "layer": "PHONEMIC_RECONSTRUCTION",
+  "certainty_dimension": "HISTORICAL_RECONSTRUCTION",
+  "evidence": [
+    "G4E006",
+    "G4E003"
+  ],
+  "counterevidence": [
+    "G4E006"
+  ],
+  "notes": "Canger supports a central glottal outcome but opposes generalizing it to all colonial regions; no unique narrow realization is asserted.",
+  "editorial_provenance": {
+    "actor_role": "EXECUTION_AGENT",
+    "actor_id": "UNKNOWN",
+    "tool": "Codex",
+    "tool_version": "UNKNOWN",
+    "timestamp": "2026-09-08",
+    "action": "INITIAL_SUBMISSION_BY_EXPLICIT_PRODUCT_OWNER_INSTRUCTION",
+    "from_state": "NOT_APPLICABLE",
+    "to_state": "IN_REVIEW",
+    "review_status": "NOT_REVIEWED"
+  },
+  "phonemic_ipa": "/ʔ/"
+}

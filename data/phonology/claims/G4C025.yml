@@ -1,0 +1,31 @@
+{
+  "claim_id": "G4C025",
+  "topic": "MORPHOPHONOLOGICAL_PROCESS",
+  "statement": "Reduplicação plural pode envolver quantidade e saltillo; não é generalizada a todo radical.",
+  "modality": "REPORTED",
+  "confidence": "MEDIUM",
+  "editorial_state": "IN_REVIEW",
+  "scope": {
+    "variety": "Classical Nahuatl",
+    "period": "central colonial documentation, principally sixteenth/seventeenth centuries; not pan-Nahuan"
+  },
+  "layer": "PHONOLOGICAL_ANALYSIS",
+  "certainty_dimension": "DISTRIBUTION",
+  "evidence": [
+    "G4E005",
+    "G4E007"
+  ],
+  "counterevidence": [],
+  "notes": "Candidate for external review; source-level claims do not fill individual lexical gaps.",
+  "editorial_provenance": {
+    "actor_role": "EXECUTION_AGENT",
+    "actor_id": "UNKNOWN",
+    "tool": "Codex",
+    "tool_version": "UNKNOWN",
+    "timestamp": "2026-09-08",
+    "action": "INITIAL_SUBMISSION_BY_EXPLICIT_PRODUCT_OWNER_INSTRUCTION",
+    "from_state": "NOT_APPLICABLE",
+    "to_state": "IN_REVIEW",
+    "review_status": "NOT_REVIEWED"
+  }
+}

@@ -1,0 +1,747 @@
+{
+  "fixture_id": "gate4_phonology_cases",
+  "version": "1.0.0-draft.1",
+  "status": "IN_REVIEW",
+  "cases": [
+    {
+      "case_id": "G4F001",
+      "lemma_id_if_available": "L0001",
+      "source": "A04",
+      "locator": "GDN entry 19066",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "ämoxtli",
+      "orthographic_evidence": {
+        "source_form_id": "L0001-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "vowel length mark",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E101",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F002",
+      "lemma_id_if_available": "L0002",
+      "source": "A04",
+      "locator": "GDN entry 19081",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "ätl",
+      "orthographic_evidence": {
+        "source_form_id": "L0002-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "tl and long-marked nucleus",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E102",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F003",
+      "lemma_id_if_available": "L0003",
+      "source": "A04",
+      "locator": "GDN entry 16740",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "calli",
+      "orthographic_evidence": {
+        "source_form_id": "L0003-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "ll and absolutive",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E103",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F004",
+      "lemma_id_if_available": "L0005",
+      "source": "A04",
+      "locator": "GDN entry 16900",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "chïlli",
+      "orthographic_evidence": {
+        "source_form_id": "L0005-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "length mark on i",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E105",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F005",
+      "lemma_id_if_available": "L0006",
+      "source": "A04",
+      "locator": "GDN entry 16925",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "cihuätl",
+      "orthographic_evidence": {
+        "source_form_id": "L0006-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "hu and quantity",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E106",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F006",
+      "lemma_id_if_available": "L0008",
+      "source": "A04",
+      "locator": "GDN entry 16933",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "cochi, ni",
+      "orthographic_evidence": {
+        "source_form_id": "L0008-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "unmarked quantity; no proven saltillo absence",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E108",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F007",
+      "lemma_id_if_available": "L0009",
+      "source": "A04",
+      "locator": "GDN entry 17062",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "còcotöna, nitla",
+      "orthographic_evidence": {
+        "source_form_id": "L0009-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "reduplication candidate not inferred from spelling",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E109",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F008",
+      "lemma_id_if_available": "L0011",
+      "source": "A04",
+      "locator": "GDN entry 17991",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "qua, nitla",
+      "orthographic_evidence": {
+        "source_form_id": "L0011-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "historical qu before a",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E111",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F009",
+      "lemma_id_if_available": "L0012",
+      "source": "A04",
+      "locator": "GDN entry 17992",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "quahuitl",
+      "orthographic_evidence": {
+        "source_form_id": "L0012-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "qu/hu sequence",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E112",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F010",
+      "lemma_id_if_available": "L0014",
+      "source": "A02",
+      "locator": "GDN entry 20375",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "etl",
+      "orthographic_evidence": {
+        "source_form_id": "L0014-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "tl and unknown quantity",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E114",
+        "G4E008"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F011",
+      "lemma_id_if_available": "L0016",
+      "source": "A04",
+      "locator": "GDN entry 17215",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "icxi[tl]",
+      "orthographic_evidence": {
+        "source_form_id": "L0016-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "editorial brackets and x",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E116",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F012",
+      "lemma_id_if_available": "L0018",
+      "source": "A04",
+      "locator": "GDN entry 17393",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "iô",
+      "orthographic_evidence": {
+        "source_form_id": "L0018-FS1",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "final circumflex",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E118",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F013",
+      "lemma_id_if_available": "L0023",
+      "source": "A04",
+      "locator": "GDN entry 17535",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "mä[itl]",
+      "orthographic_evidence": {
+        "source_form_id": "L0023-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "restored letters and quantity",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E123",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F014",
+      "lemma_id_if_available": "L0025",
+      "source": "A01",
+      "locator": "GDN entry 151535",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "Metl",
+      "orthographic_evidence": {
+        "source_form_id": "L0025-FS1",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "unmarked length",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E125",
+        "G4E003"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F015",
+      "lemma_id_if_available": "L0026",
+      "source": "A04",
+      "locator": "GDN entry 17580",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "métztli",
+      "orthographic_evidence": {
+        "source_form_id": "L0026-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "acute: explicitly short candidate, typography review",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E126",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F016",
+      "lemma_id_if_available": "L0027",
+      "source": "A04",
+      "locator": "GDN entry 17586",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "mïlli",
+      "orthographic_evidence": {
+        "source_form_id": "L0027-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "ll and marked length",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E127",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F017",
+      "lemma_id_if_available": "L0033",
+      "source": "A04",
+      "locator": "GDN entry 17765",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "nònotza, nitë",
+      "orthographic_evidence": {
+        "source_form_id": "L0033-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "grave saltillo and reduplication question",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E133",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F018",
+      "lemma_id_if_available": "L0038",
+      "source": "A04",
+      "locator": "GDN entry 18614",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "tà[tli]",
+      "orthographic_evidence": {
+        "source_form_id": "L0038-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "saltillo and restored absolutive",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E138",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F019",
+      "lemma_id_if_available": "L0044",
+      "source": "A04",
+      "locator": "GDN entry 18437",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "tlàcuilölli",
+      "orthographic_evidence": {
+        "source_form_id": "L0044-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "grave plus length notation",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E144",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F020",
+      "lemma_id_if_available": "L0050",
+      "source": "A04",
+      "locator": "GDN entry 18829",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "xöchitl",
+      "orthographic_evidence": {
+        "source_form_id": "L0050-FS2",
+        "preserved_codepoints": true
+      },
+      "phenomenon": "x plus length notation",
+      "analysis_candidate": "Source-specific interpretation only; see linked Claims.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E150",
+        "G4E002"
+      ],
+      "open_question": "Which traits are supported for this token, rather than merely for its spelling class?",
+      "notes": "Gate 3 capture reused exactly; not a new historical Witness inspection."
+    },
+    {
+      "case_id": "G4F021",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "A03",
+      "locator": "GDN Rincón introduction; Libro V cap. IV",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "chichi",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "quantity contrast with identical spelling",
+      "analysis_candidate": "First vowel LONG reported; senses distinguished by source.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E001"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma.",
+      "comparison_group": "RINCON_CHICHI",
+      "reported_sense": "mamar",
+      "vowel_length": {
+        "value": "LONG",
+        "target": "first vowel",
+        "evidence": [
+          "G4E001"
+        ]
+      }
+    },
+    {
+      "case_id": "G4F022",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "A03",
+      "locator": "GDN Rincón introduction; Libro V cap. IV",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "chichi",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "quantity contrast with identical spelling",
+      "analysis_candidate": "First vowel SHORT reported; senses distinguished by source.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E001"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma.",
+      "comparison_group": "RINCON_CHICHI",
+      "reported_sense": "perro",
+      "vowel_length": {
+        "value": "SHORT",
+        "target": "first vowel",
+        "evidence": [
+          "G4E001"
+        ]
+      }
+    },
+    {
+      "case_id": "G4F023",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "A02",
+      "locator": "GDN Olmos, Normalisation des orthographes",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "nutza",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "u/o correspondence",
+      "analysis_candidate": "Do not assign /u/ from u.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E008"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma."
+    },
+    {
+      "case_id": "G4F024",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "A02",
+      "locator": "GDN Olmos, l/ll discussion",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "calle",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "morphological/graphic ambiguity",
+      "analysis_candidate": "No automatic l/ll phonetic equivalence.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E008"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma."
+    },
+    {
+      "case_id": "G4F025",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "A04",
+      "locator": "GDN Carochi, ii) Paleografía",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "nohuian",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "typographic/editorial quantity ambiguity",
+      "analysis_candidate": "Parallel source spellings, not competing narrow transcriptions.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E002"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma.",
+      "comparison_group": "GDN_NOHUIAN"
+    },
+    {
+      "case_id": "G4F026",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "A04",
+      "locator": "GDN Carochi, ii) Paleografía",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "nohuiän",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "typographic/editorial quantity ambiguity",
+      "analysis_candidate": "Parallel source spellings, not competing narrow transcriptions.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E002"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma.",
+      "comparison_group": "GDN_NOHUIAN"
+    },
+    {
+      "case_id": "G4F027",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "D01",
+      "locator": "p. 6, Complementary Note 1",
+      "mediation_level": "MODERN_EDITION",
+      "source_form": "nopiltzin",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "default stress",
+      "analysis_candidate": "Reported stress on penultimate syllable.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E003"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma."
+    },
+    {
+      "case_id": "G4F028",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "A02",
+      "locator": "GDN Olmos introduction, vocative example",
+      "mediation_level": "AGGREGATOR",
+      "source_form": "tlanellee",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "vocative morphology",
+      "analysis_candidate": "Vocative identified by the source; stress needs separate Evidence.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E008"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma."
+    },
+    {
+      "case_id": "G4F029",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "D01",
+      "locator": "p. 10, Exercise 2(2)",
+      "mediation_level": "MODERN_EDITION",
+      "source_form": "iuh",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "uh as coda /w/",
+      "analysis_candidate": "Author gives /iw/; candidate reconstruction limited to this case.",
+      "phonemic_candidate": "/iw/",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E003"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma."
+    },
+    {
+      "case_id": "G4F030",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "D01",
+      "locator": "p. 7, Complementary Note 4",
+      "mediation_level": "MODERN_EDITION",
+      "source_form": "etl",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "tl as one consonant",
+      "analysis_candidate": "Reported monosyllabicity; no Portuguese syllable inserted.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E003"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma."
+    },
+    {
+      "case_id": "G4F031",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "D02",
+      "locator": "p. 251, plural discussion",
+      "mediation_level": "MODERN_EDITION",
+      "source_form": "ko:-koyo-’",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "reduplication, quantity and saltillo",
+      "analysis_candidate": "Reported plural example; no productive rule applied to pilot.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E007"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma."
+    },
+    {
+      "case_id": "G4F032",
+      "lemma_id_if_available": "NOT_APPLICABLE",
+      "source": "D01",
+      "locator": "p. 7, Complementary Note 3",
+      "mediation_level": "MODERN_EDITION",
+      "source_form": "cochî",
+      "orthographic_evidence": {
+        "preserved_codepoints": true
+      },
+      "phenomenon": "final saltillo and plural",
+      "analysis_candidate": "Reported plural notation; compare pilot cochi without merging.",
+      "phonemic_candidate": "NOT_REVIEWED",
+      "phonetic_candidate": "NOT_REVIEWED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "G4E003"
+      ],
+      "open_question": "No narrow realization or complete lexical transcription inferred.",
+      "notes": "Short reference case; not a new lemma.",
+      "comparison_group": "COCHI_PLURAL",
+      "saltillo": {
+        "value": "PRESENT",
+        "target": "word-final",
+        "evidence": [
+          "G4E003"
+        ]
+      }
+    }
+  ]
+}

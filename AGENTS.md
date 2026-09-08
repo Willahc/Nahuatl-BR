@@ -4,11 +4,12 @@ Estas regras valem para todo o repositório.
 
 ## Escopo atual
 
-Os Gates 0, 1, 2 e 3 estão encerrados. O Gate 4 está `NOT_STARTED`. Não iniciar
-modelo fonológico, banco de dados, pipeline, API,
-frontend, sistema de estudo, áudio ou escrita glífica até aprovação explícita
-do Gate correspondente. Não baixar, copiar, raspar ou ingerir fontes externas
-sem autorização.
+Os Gates 0, 1, 2 e 3 estão encerrados. O Gate 4 está `IN_PROGRESS`, autorizado
+pelo PRODUCT_OWNER para pesquisa documental pontual, modelo candidato, Claims,
+fixtures e validação. Não gerar áudio nem preencher IPA dos 50 lemmas em massa.
+Não iniciar Gate 5, banco, pipeline, API, frontend, estudo ou escrita glífica.
+Não copiar obras modernas protegidas; manter apenas referências e evidência curta.
+O EXECUTION_AGENT não aprova nem encerra o Gate 4.
 
 ## Regras linguísticas obrigatórias
 
@@ -35,6 +36,9 @@ sem autorização.
     condição.
 11. Claims sugeridas por IA nascem como `DRAFT`, registram sua origem e nunca
     constituem evidência linguística primária.
+    Exceção explícita do PRODUCT_OWNER para esta entrega do Gate 4: Claims
+    fonológicas são submetidas inicialmente como `IN_REVIEW`, com origem
+    EXECUTION_AGENT registrada; isso não significa revisão humana concluída.
 12. `SOURCE_FORM` é imutável; `NORMALIZED_FORM` nunca a substitui.
 13. `PEDAGOGICAL_FORM` nunca é apresentada como `DIPLOMATIC_FORM`.
 14. `SEARCH_KEY` serve apenas à recuperação e nunca é Evidence linguística.

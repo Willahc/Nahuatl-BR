@@ -1,0 +1,30 @@
+{
+  "claim_id": "G4C007",
+  "topic": "SALTILLO_REALIZATION",
+  "statement": "Canger sustenta fricção glotal regional já colonial, contra uma origem global oclusiva.",
+  "modality": "REPORTED",
+  "confidence": "MEDIUM",
+  "editorial_state": "IN_REVIEW",
+  "scope": {
+    "variety": "Classical Nahuatl",
+    "period": "central colonial documentation, principally sixteenth/seventeenth centuries; not pan-Nahuan"
+  },
+  "layer": "PHONOLOGICAL_ANALYSIS",
+  "certainty_dimension": "DISTRIBUTION",
+  "evidence": [
+    "G4E006"
+  ],
+  "counterevidence": [],
+  "notes": "Karttunen 1983 xxii, Lockhart 2001 p.21 and Andrews 1975 p.5 are cited indirectly through Canger p.245; original pages not inspected.",
+  "editorial_provenance": {
+    "actor_role": "EXECUTION_AGENT",
+    "actor_id": "UNKNOWN",
+    "tool": "Codex",
+    "tool_version": "UNKNOWN",
+    "timestamp": "2026-09-08",
+    "action": "INITIAL_SUBMISSION_BY_EXPLICIT_PRODUCT_OWNER_INSTRUCTION",
+    "from_state": "NOT_APPLICABLE",
+    "to_state": "IN_REVIEW",
+    "review_status": "NOT_REVIEWED"
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "policy_id": "classical_phonology_v1",
+  "version": "1.0.0-draft.1",
+  "status": "DRAFT",
+  "scope": {
+    "variety": "Classical Nahuatl",
+    "period": "central colonial documentation; source-specific",
+    "excluded": [
+      "Hueyapan",
+      "Mecayapan",
+      "pan-Nahuan uniform pronunciation"
+    ]
+  },
+  "layers": [
+    "ORTHOGRAPHIC_EVIDENCE",
+    "PHONOLOGICAL_ANALYSIS",
+    "PHONEMIC_RECONSTRUCTION",
+    "PHONETIC_REALIZATION",
+    "PEDAGOGICAL_PRONUNCIATION",
+    "MODERN_VARIETY_PRONUNCIATION",
+    "AUDIO_REALIZATION"
+  ],
+  "certainty_dimensions": [
+    "CONTRAST_EXISTENCE",
+    "PHONEMIC_INTERPRETATION",
+    "PHONETIC_REALIZATION",
+    "DISTRIBUTION",
+    "HISTORICAL_RECONSTRUCTION",
+    "PEDAGOGICAL_CONVENTION"
+  ],
+  "vowel_system": {
+    "candidates": [
+      "/a/",
+      "/e/",
+      "/i/",
+      "/o/"
+    ],
+    "claim_ids": [
+      "G4C001",
+      "G4C002"
+    ]
+  },
+  "consonant_system": {
+    "candidates": [
+      "/p/",
+      "/t/",
+      "/k/",
+      "/kʷ/",
+      "/t͡s/",
+      "/t͡ʃ/",
+      "/t͡ɬ/",
+      "/s/",
+      "/ʃ/",
+      "/m/",
+      "/n/",
+      "/l/",
+      "/j/",
+      "/w/",
+      "/ʔ/"
+    ],
+    "claim_ids": [
+      "G4C010"
+    ]
+  },
+  "vowel_length": {
+    "states": [
+      "SHORT",
+      "LONG",
+      "UNKNOWN",
+      "NOT_APPLICABLE",
+      "NOT_REVIEWED"
+    ],
+    "phonemic_long_marker": "ː",
+    "claim_ids": [
+      "G4C002",
+      "G4C003",
+      "G4C004"
+    ],
+    "phonetic_duration_ms": "NOT_REVIEWED"
+  },
+  "saltillo": {
+    "preferred_central_candidate": "/ʔ/",
+    "claim_ids": [
+      "G4C005",
+      "G4C006",
+      "G4C007",
+      "G4C008",
+      "G4C009"
+    ],
+    "phonetic_ipa": "NOT_REVIEWED",
+    "regional_alternatives": "Separate source-specific Claims; no pan-colonial realization selected."
+  },
+  "stress": {
+    "default_claim": "G4C017",
+    "exceptions_claim": "G4C018",
+    "morphological_interaction_claim": "G4C019",
+    "enclitics": "NOT_REVIEWED"
+  },
+  "syllable_structure": {
+    "candidate": "(C)V(ː)(C)",
+    "claim_ids": [
+      "G4C020"
+    ]
+  },
+  "phonotactics": {
+    "claim_ids": [
+      "G4C021",
+      "G4C022",
+      "G4C023",
+      "G4C024",
+      "G4C025",
+      "G4C028"
+    ],
+    "syllabifier": "NOT_IMPLEMENTED"
+  },
+  "grapheme_correspondences": [
+    {
+      "orthographic_patterns": [
+        "p"
+      ],
+      "candidate_phoneme": "/p/",
+      "claim_id": "G4C016",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "NOT_REVIEWED",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "t"
+      ],
+      "candidate_phoneme": "/t/",
+      "claim_id": "G4C016",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "NOT_REVIEWED",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "c",
+        "qu"
+      ],
+      "candidate_phoneme": "/k/",
+      "claim_id": "G4C016",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "c depends on following vowel",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "cu",
+        "uc"
+      ],
+      "candidate_phoneme": "/kʷ/",
+      "claim_id": "G4C012",
+      "evidence": [
+        "G4E003",
+        "G4E002"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "prevocalic versus coda spelling",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "tz"
+      ],
+      "candidate_phoneme": "/t͡s/",
+      "claim_id": "G4C015",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "NOT_REVIEWED",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "ch"
+      ],
+      "candidate_phoneme": "/t͡ʃ/",
+      "claim_id": "G4C015",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "NOT_REVIEWED",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "tl"
+      ],
+      "candidate_phoneme": "/t͡ɬ/",
+      "claim_id": "G4C011",
+      "evidence": [
+        "G4E003"
+      ],
+      "confidence": "MEDIUM",
+      "known_variation": "lateral release remains open",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "s",
+        "z",
+        "c"
+      ],
+      "candidate_phoneme": "/s/",
+      "claim_id": "G4C014",
+      "evidence": [
+        "G4E002"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "c before e/i; s is an editorial alternative",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "x"
+      ],
+      "candidate_phoneme": "/ʃ/",
+      "claim_id": "G4C015",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "NOT_REVIEWED",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "m"
+      ],
+      "candidate_phoneme": "/m/",
+      "claim_id": "G4C016",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "nasal coda processes: G4C023",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "n"
+      ],
+      "candidate_phoneme": "/n/",
+      "claim_id": "G4C016",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "nasal coda processes: G4C023",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "l",
+        "ll"
+      ],
+      "candidate_phoneme": "/l/",
+      "claim_id": "G4C016",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "ll is not automatically single l; G4C024",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "y"
+      ],
+      "candidate_phoneme": "/j/",
+      "claim_id": "G4C016",
+      "evidence": [
+        "G4E002",
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "historical i/y ambiguity",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "hu",
+        "uh"
+      ],
+      "candidate_phoneme": "/w/",
+      "claim_id": "G4C013",
+      "evidence": [
+        "G4E003"
+      ],
+      "confidence": "HIGH",
+      "known_variation": "coda realization requires its own Claim",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    },
+    {
+      "orthographic_patterns": [
+        "grave",
+        "circumflex",
+        "pedagogical h"
+      ],
+      "candidate_phoneme": "/ʔ/",
+      "claim_id": "G4C006",
+      "evidence": [
+        "G4E006",
+        "G4E003"
+      ],
+      "confidence": "MEDIUM",
+      "known_variation": "regional laryngeal alternatives: G4C007",
+      "modern_reflexes_if_relevant": "NOT_REVIEWED; no automatic transfer",
+      "pedagogical_notes": "No Portuguese approximation is treated as Evidence."
+    }
+  ],
+  "phonemic_representation_policy": "PHONEMIC_IPA uses /.../ for a source-bounded reconstruction, not observed sound. G4C029.",
+  "phonetic_representation_policy": "PHONETIC_IPA uses [...] only with component Evidence, justification and Confidence; default NOT_REVIEWED.",
+  "pedagogical_pronunciation_policy": "h is an orthographic convention; pronunciation exercises/audio remain outside this delivery. G4C008.",
+  "prohibited_inferences": [
+    "unmarked means SHORT",
+    "unmarked means no saltillo",
+    "orthography equals narrow IPA",
+    "modern pronunciation is DIRECT_CLASSICAL_EVIDENCE",
+    "GDN entry means inspected historical Witness",
+    "all cu/uc are globally rewritten",
+    "automatic mass IPA",
+    "audio generation",
+    "Execution Agent approval"
+  ],
+  "references": [
+    "G4E001",
+    "G4E002",
+    "G4E003",
+    "G4E004",
+    "G4E005",
+    "G4E006",
+    "G4E007",
+    "G4E008"
+  ],
+  "open_decisions": [
+    "historical regional scope and chronology",
+    "narrow lateral release and vowel qualities",
+    "laryngeal realization by region/context",
+    "word/clitic prosodic domains",
+    "lexical shortness where unmarked",
+    "typographic versus editorial diacritics",
+    "independent inspection of historical Witnesses",
+    "full original pages of Karttunen, Lockhart and Andrews",
+    "expert linguistic approval",
+    "Gate 5 remains unauthorized"
+  ]
+}
