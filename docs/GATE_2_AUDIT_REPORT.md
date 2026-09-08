@@ -110,3 +110,11 @@ A aprovação de `classical_orthography_v1` limita-se ao corpus piloto do Gate 3
 à representação editorial e à representação de busca. Não aprova IPA
 definitivo, realização fonética definitiva do saltillo nem reconstrução
 fonológica completa.
+
+## Nota de manutenção pós-Gate 3
+
+As referências históricas a DRAFT e 25 casos acima descrevem a autoauditoria
+original. O fechamento administrativo posterior aprova o perfil 1.0.0 no escopo
+ali delimitado. A fixture atual tem 26 casos após a inclusão de Olmos no Gate 3;
+a migração das referências de perfil está documentada na própria fixture e no
+[relatório de hardening](GATE_3_HARDENING_REPORT.md).

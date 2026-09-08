@@ -1,5 +1,9 @@
 # Gate 3 — Autoauditoria do corpus piloto
 
+Nota de manutenção: este relatório preserva os resultados históricos do Gate.
+O hardening posterior do tooling e da proveniência editorial está documentado
+em [GATE_3_HARDENING_REPORT.md](GATE_3_HARDENING_REPORT.md), sem reabrir o Gate 3.
+
 ## Escopo auditado
 
 - 50 arquivos em `data/pilot/lemmas/`;

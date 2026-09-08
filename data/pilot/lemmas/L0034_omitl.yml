@@ -1,4 +1,4 @@
-﻿{
+{
     "schema":  "nahuatl-br-gate3-pilot-v1",
     "lemma":  {
                   "id":  "L0034",
@@ -66,7 +66,21 @@
                                                 "modality":  "EDITORIAL",
                                                 "editorial_state":  "IN_REVIEW",
                                                 "derived_from":  "L0034-C1",
-                                                "confidence":  "MEDIUM"
+                                                "confidence":  "MEDIUM",
+                                                "editorial_provenance": {
+                                                    "actor_role": "EXECUTION_AGENT",
+                                                    "actor_id": "UNKNOWN",
+                                                    "tool": "Codex",
+                                                    "tool_version": "UNKNOWN",
+                                                    "timestamp": "UNKNOWN",
+                                                    "action": "FIRST_VERSIONED_STATE",
+                                                    "from_state": "NOT_RECORDED",
+                                                    "to_state": "IN_REVIEW",
+                                                    "created_in_commit": "f21b64268cba3e08336608ef5e44491782db1b9c",
+                                                    "history_status": "NOT_RECORDED_PRIOR_TO_FIRST_COMMIT",
+                                                    "review_status": "NOT_REVIEWED",
+                                                    "notes": "First versioned state verified in Git; no prior transition or individual human review is recorded. Historical tool version and object-specific editorial timestamp are unknown."
+                                                }
                                             }
                                         ]
                    }
@@ -79,7 +93,21 @@
                        "value":  "huesso, alesna, o punçon.",
                        "modality":  "REPORTED",
                        "confidence":  "HIGH",
-                       "editorial_state":  "IN_REVIEW"
+                       "editorial_state":  "IN_REVIEW",
+                       "editorial_provenance": {
+                           "actor_role": "EXECUTION_AGENT",
+                           "actor_id": "UNKNOWN",
+                           "tool": "Codex",
+                           "tool_version": "UNKNOWN",
+                           "timestamp": "UNKNOWN",
+                           "action": "FIRST_VERSIONED_STATE",
+                           "from_state": "NOT_RECORDED",
+                           "to_state": "IN_REVIEW",
+                           "created_in_commit": "f21b64268cba3e08336608ef5e44491782db1b9c",
+                           "history_status": "NOT_RECORDED_PRIOR_TO_FIRST_COMMIT",
+                           "review_status": "NOT_REVIEWED",
+                           "notes": "First versioned state verified in Git; no prior transition or individual human review is recorded. Historical tool version and object-specific editorial timestamp are unknown."
+                       }
                    },
                    {
                        "claim_id":  "L0034-C2",
@@ -88,7 +116,21 @@
                        "value":  "osso",
                        "modality":  "EDITORIAL",
                        "confidence":  "MEDIUM",
-                       "editorial_state":  "IN_REVIEW"
+                       "editorial_state":  "IN_REVIEW",
+                       "editorial_provenance": {
+                           "actor_role": "EXECUTION_AGENT",
+                           "actor_id": "UNKNOWN",
+                           "tool": "Codex",
+                           "tool_version": "UNKNOWN",
+                           "timestamp": "UNKNOWN",
+                           "action": "FIRST_VERSIONED_STATE",
+                           "from_state": "NOT_RECORDED",
+                           "to_state": "IN_REVIEW",
+                           "created_in_commit": "f21b64268cba3e08336608ef5e44491782db1b9c",
+                           "history_status": "NOT_RECORDED_PRIOR_TO_FIRST_COMMIT",
+                           "review_status": "NOT_REVIEWED",
+                           "notes": "First versioned state verified in Git; no prior transition or individual human review is recorded. Historical tool version and object-specific editorial timestamp are unknown."
+                       }
                    }
                ],
     "attestations":  [
@@ -135,7 +177,8 @@
                          "aggregator":  "B01",
                          "locator":  "GDN entry 155242",
                          "url":  "https://gdn.iib.unam.mx/diccionario/omitl/155242",
-                         "accessed_at":  "2026-09-03"
+                         "accessed_at":  "2026-09-03",
+                         "attestation_id": "L0034-A1"
                      },
                      {
                          "evidence_id":  "L0034-E2",
@@ -144,7 +187,8 @@
                          "aggregator":  "B01",
                          "locator":  "GDN entry 17834",
                          "url":  "https://gdn.iib.unam.mx/diccionario/omitl/17834",
-                         "accessed_at":  "2026-09-03"
+                         "accessed_at":  "2026-09-03",
+                         "attestation_id": "L0034-A2"
                      }
                  ],
     "evidence_links":  [

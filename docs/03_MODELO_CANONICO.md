@@ -299,3 +299,13 @@ revisão/publicação, a expansão e o versionamento definitivos dos vocabulári
 controlados e a política física de implementação. Os vocabulários provisórios
 de Confidence, estado editorial e ausência de valor já estão aprovados para o
 modelo conceitual e não são questões genericamente abertas.
+
+## Complemento pós-Gate 3 — proveniência e validação
+
+`editorial_provenance` especializa Provenance nos objetos Claim e Translation;
+não cria fonte linguística nem uma nomenclatura concorrente. Consulte
+[proveniência editorial mínima](EDITORIAL_PROVENANCE.md) e
+[contrato de validação](GATE_3_VALIDATION_POLICY.md) para os campos, escopos de
+identificadores e referências. `NOT_RECORDED` indica registro histórico ausente,
+sem inferir que o evento ocorreu ou deixou de ocorrer. Gate 3 fechado não
+significa aprovação editorial individual das 129 Claims do piloto.

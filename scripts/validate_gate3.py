@@ -8,10 +8,14 @@ This is validation/measurement tooling, not an ingestion pipeline.
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from collections import Counter
 from pathlib import Path
+
+sys.dont_write_bytecode = True
+from gate3_integrity import load_metadata, validate_record
 
 ROOT = Path(__file__).resolve().parents[1]
 LEMMA_DIR = ROOT / "data" / "pilot" / "lemmas"
@@ -33,6 +37,11 @@ def load(path: Path):
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--check", action="store_true", help="read-only validation (default)")
+    mode.add_argument("--write-derived", action="store_true", help="write index/metrics only after validation")
+    args = parser.parse_args()
     errors: list[str] = []
     paths = sorted(LEMMA_DIR.glob("*.yml"))
     if len(paths) != 50:
@@ -44,16 +53,19 @@ def main() -> int:
         except Exception as exc:
             errors.append(f"{path.name}: unreadable JSON-compatible YAML: {exc}")
 
-    source_ids = set()
-    for path in REGISTRY_DIR.glob("*.yml"):
-        first = path.read_text(encoding="utf-8").splitlines()[0]
-        if first.startswith("source_id:"):
-            source_ids.add(first.split(":", 1)[1].strip().strip('"'))
-
-    ids = [r["lemma"]["id"] for _, r in records]
+    registry, profiles = load_metadata(ROOT)
+    source_ids = set(registry)
+    for path, record in records:
+        try:
+            validate_record(record, registry, profiles, errors)
+        except (KeyError, TypeError, ValueError, AttributeError) as exc:
+            errors.append(f"SCHEMA_ERROR: {path.name}: {exc}")
+    ids = [r.get("lemma", {}).get("id") for _, r in records]
     for duplicate, count in Counter(ids).items():
         if count > 1:
-            errors.append(f"duplicate lemma id: {duplicate}")
+            errors.append(f"DUPLICATE_ID: lemma_id {duplicate}")
+    if errors:
+        return fail(errors)
 
     claims_total = 0
     modalities: Counter[str] = Counter()
@@ -202,19 +214,37 @@ def main() -> int:
         "attestations_by_source": dict(sorted(att_sources.items())),
         "attestations_by_mediation": dict(sorted(Counter(a.get("mediation_level", "MISSING") for _, rec in records for a in rec.get("attestations", [])).items())),
     }
-    INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
-    INDEX_PATH.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    METRICS_PATH.write_text(json.dumps(metrics, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
     if errors:
-        print("GATE 3 VALIDATION: FAIL", file=sys.stderr)
-        for error in errors:
-            print(f"- {error}", file=sys.stderr)
-        return 1
+        return fail(errors)
+    derived = ((INDEX_PATH, index), (METRICS_PATH, metrics))
+    if args.write_derived:
+        for path, value in derived:
+            path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    else:
+        for path, value in derived:
+            try:
+                current = load(path)
+            except (OSError, ValueError):
+                current = None
+            if current != value:
+                errors.append(f"DERIVED_DATA_OUT_OF_DATE: {path.relative_to(ROOT)}")
+        if errors:
+            return fail(errors)
     print("GATE 3 VALIDATION: PASS")
     print(json.dumps(metrics, ensure_ascii=False, indent=2))
     return 0
 
 
+def fail(errors):
+    print("GATE 3 VALIDATION: FAIL", file=sys.stderr)
+    for error in errors:
+        print(f"- {error}", file=sys.stderr)
+    return 1
+
+
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        result = main()
+    except (OSError, ValueError, TypeError, KeyError, AttributeError) as exc:
+        result = fail([f"SCHEMA_ERROR: {exc}"])
+    raise SystemExit(result)

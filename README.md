@@ -32,16 +32,35 @@ API ou frontend.
 
 ## Estrutura reservada
 
-- `data/`: futuros dados derivados e validados;
+- `data/`: registry, política ortográfica, fixtures e piloto de 50 lemmas;
 - `docs/`: decisões e políticas do projeto;
-- `scripts/`: futuras ferramentas reprodutíveis;
+- `scripts/`: validador e controles de integridade do piloto;
 - `sources/`: materiais-fonte, segregados por tipo/variante;
 - `src/`: futura implementação;
-- `tests/`: futuros testes e validações.
+- `tests/`: testes regressivos isolados do validador.
 
-O PDF já presente em `sources/hueyapan/` não foi inspecionado, copiado nem
-ingerido neste gate. Sua situação jurídica, conteúdo e adequação técnica
-continuam pendentes do Gate 1.
+C01 foi inspecionado no Gate 1 e está registrado em
+`data/source_registry/C01_hueyapan_2016.yml`. O PDF local não é versionado;
+seus direitos permanecem restritos ou sujeitos a autorização. Hueyapan não
+fornece Evidence ao piloto clássico.
+
+## Validação local
+
+Com Python 3.13 e biblioteca padrão:
+
+```text
+python scripts/validate_gate3.py --check
+python -m unittest discover -s tests -p "test_*.py"
+```
+
+O modo padrão é somente leitura e detecta derivados desatualizados.
+`--write-derived` regenera índice/métricas somente após validar as entradas.
+Consulte o [contrato de validação](docs/GATE_3_VALIDATION_POLICY.md) e a
+[política de proveniência editorial](docs/EDITORIAL_PROVENANCE.md).
+
+O piloto tem 129 Claims e 50 Translations em `IN_REVIEW`. O encerramento do
+Gate 3 aprova a estrutura do piloto; não equivale à revisão individual por
+especialista nem promove conteúdo a `APPROVED`/`PUBLISHED`.
 
 ## Estado
 

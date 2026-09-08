@@ -60,12 +60,15 @@ inferência fonológica inventada ou ingestão em massa.
 critérios documentados, sem incorporar variantes modernas.
 
 **Entregáveis:** amostra com formas originais, normalizações separadas, sentidos,
-traduções PT-BR revisadas e proveniência granular; relatório de conflitos,
+traduções PT-BR editoriais em `IN_REVIEW` e proveniência granular; relatório de conflitos,
 lacunas, tempo de curadoria e mudanças propostas ao modelo.
 
-**Saída:** 50 lemmas auditados por revisão linguística e editorial; amostra de
-citações reconferida; zero mistura silenciosa de variante; modelo conceitual
-ajustado e aprovado.
+**Saída registrada:** piloto estrutural de 50 lemmas aceito após remediação,
+com separação de variantes, proveniência e limites documentados. Claims e
+Translations permanecem `IN_REVIEW`; a aprovação do Gate não declara revisão
+especializada individual nem inspeção direta de Witnesses. A revisão editorial
+individual continua pendente, conforme `docs/10_GATE_3_PILOT_REPORT.md`.
+Os objetivos editoriais mais amplos não são retroativamente declarados cumpridos.
 
 ## GATE 4 — Modelo fonológico e pronúncia — NOT_STARTED
 

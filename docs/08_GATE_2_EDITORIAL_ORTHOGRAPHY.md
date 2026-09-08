@@ -2,9 +2,15 @@
 
 ## Status e escopo
 
-Esta política é `DRAFT`, versão 1.0.0, restrita ao tratamento editorial de
-Náhuatl Clássico. Não aprova o Gate, não cria corpus de Lemmas, não define IPA e
-não transfere dados de Modern Varieties. O YAML normativo correspondente é
+`initial_status: DRAFT`
+
+`current_status: APPROVED`
+
+`approval_reference: docs/GATE_2_AUDIT_REPORT.md — Fechamento administrativo`
+
+Esta política é versão 1.0.0, aprovada para o piloto do Gate 3, representação
+editorial e busca. Não define IPA nem transfere dados de Modern Varieties.
+O YAML normativo correspondente é
 `data/policies/classical_orthography_v1.yml`.
 
 ## Invariantes
@@ -177,7 +183,7 @@ Search Key nunca alimenta Reconstruction, Normalized Form ou Claim fonológica.
 ## Normalization Profile
 
 `classical_orthography_v1` contém `profile_id`, nome, versão semântica, escopo,
-data, status `DRAFT`, Evidence e notas. Cada regra possui `rule_id`, descrição,
+data, status atual `APPROVED`, Evidence e notas. Cada regra possui `rule_id`, descrição,
 padrões, condição, `lossy`, Evidence e Confidence. Regras não implementam
 algoritmo neste Gate; descrevem transformações candidatas reproduzíveis.
 
@@ -203,4 +209,4 @@ algoritmo neste Gate; descrevem transformações candidatas reproduzíveis.
 - política de fronteira de palavra e hífen morfológico;
 - uso de maiúsculas em nomes próprios;
 - rubrica operacional de Confidence;
-- aprovação externa e eventual versão 1.0.0 `APPROVED`.
+- futuras revisões além do escopo aprovado da versão 1.0.0.
