@@ -120,14 +120,17 @@ seguem o formato YAML plano já usado no repositório.
 - Aprovação linguística especializada.
 - Gate 5 permanece não autorizado.
 
-## Comandos de aceitação pendentes do Gate 4
+## Comandos de aceitação do Gate 4
 
 ```text
 python scripts/validate_gate3.py --check
+python scripts/validate_gate4.py --check
 python -m unittest discover -s tests -p "test_*.py"
 git diff --check
 ```
 
-Estes validam o corpus do Gate 3 e o tooling; não cobrem ainda os novos artefatos
-da fonologia, cujo validador próprio fica para o Gate 5 (não autorizado) ou nova
-autorização.
+A infraestrutura de validação dos artefatos de fonologia foi entregue
+posteriormente nesta fase (`scripts/validate_gate4.py`, testes T01–T15 e o
+relatório de auditoria em `docs/GATE_4_AUDIT_REPORT.md`). Os três validam o
+corpus do Gate 3 e os novos artefatos; a aprovação do conteúdo permanece do
+PRODUCT_OWNER.

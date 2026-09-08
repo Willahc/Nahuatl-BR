@@ -9,7 +9,8 @@ Gate 2: PASS / CLOSED
 Gate 3: PASS / CLOSED
 
 Gate 4: IN_PROGRESS (modelo, Claims, Evidence, fixtures e validação concluídos;
-aguarda revisão e aprovação do PRODUCT_OWNER para encerramento)
+validation infrastructure completed; external review pending. O Gate aguarda
+revisão e aprovação do PRODUCT_OWNER para encerramento)
 
 Gate 3 final commit: `3995c2a`
 

@@ -1,4 +1,4 @@
-name: Validate Gate 3
+name: Validate Gates 3 and 4
 
 on:
   push:
@@ -22,6 +22,8 @@ jobs:
           python-version: "3.13"
       - name: Validate corpus and derived data without writes
         run: python scripts/validate_gate3.py --check
+      - name: Validate Gate 4 phonological artifacts
+        run: python scripts/validate_gate4.py --check
       - name: Run isolated regression tests
         run: python -m unittest discover -s tests -p "test_*.py"
       - name: Require unchanged working tree
