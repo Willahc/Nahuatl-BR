@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-23997dfba17c",
+      "attestation_id": "PAT-8423040e6184",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "original_gloss": "disminuirse las mercedes que recibe de otro",
       "source": "A01",
-      "source_form": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+      "source_form": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -38,7 +38,7 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-6c4ffaf40b03"
+        "PEV-27107e4adbd2"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
@@ -47,7 +47,7 @@
       "value": "\"disminuirse las mercedes que recibe de otro\""
     },
     {
-      "claim_id": "PCL-24673fe329bf",
+      "claim_id": "PCL-846a84543ca6",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -66,20 +66,20 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-6c4ffaf40b03"
+        "PEV-27107e4adbd2"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0202",
-      "value": "\"diminuÃƒÂ­rem as mercÃƒÂªs recebidas\""
+      "value": "\"diminuÃƒÆ’Ã‚Â­rem as mercÃƒÆ’Ã‚Âªs recebidas\""
     }
   ],
   "corpus_references": [],
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-23997dfba17c",
+      "attestation_id": "PAT-8423040e6184",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-6c4ffaf40b03",
+      "evidence_id": "PEV-27107e4adbd2",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -109,60 +109,60 @@
   "evidence_links": [
     {
       "claim_id": "PCL-d64107837100",
-      "evidence_id": "PEV-6c4ffaf40b03",
+      "evidence_id": "PEV-27107e4adbd2",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-24673fe329bf",
-      "evidence_id": "PEV-6c4ffaf40b03",
+      "claim_id": "PCL-846a84543ca6",
+      "evidence_id": "PEV-27107e4adbd2",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-6c4ffaf40b03"
+        "PEV-27107e4adbd2"
       ],
       "form_id": "L0202-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil"
+      "value": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil"
     },
     {
       "derivation_steps": [
         {
-          "input": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+          "input": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
           "lossy": false,
-          "output": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+          "output": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0202-FS1-FD-e80f323d3870",
+      "form_id": "L0202-FS1-FD-64c24a178c90",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil"
+      "value": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil"
     },
     {
       "derivation_steps": [
         {
-          "input": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+          "input": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
           "lossy": false,
-          "output": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+          "output": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0202-FS1-FN-e5a2ab07604d",
+      "form_id": "L0202-FS1-FN-da03e1a53048",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil"
+      "value": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil"
     },
     {
       "evidence": [],
-      "form_id": "L0202-FS1-FP-93c63b803462",
+      "form_id": "L0202-FS1-FP-325c1afbaf5a",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0202-FS1-SK-ea53f9d62e0d",
+      "form_id": "L0202-FS1-SK-dc18abf431c0",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicoquiãƒâ§a inonãâµã‘â€šlauhtil"
+        "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil"
       ],
       "steps": [
         {
-          "input": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+          "input": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
           "lossy": false,
-          "output": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+          "output": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+          "input": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
           "lossy": true,
-          "output": "chicoquiãƒâ§a inonãâµã‘â€šlauhtil",
+          "output": "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicoquiãƒâ§a inonãâµã‘â€šlauhtil",
+          "input": "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil",
           "lossy": true,
-          "output": "chicoquiãƒâ§a inonãâµã‘â€šlauhtil",
+          "output": "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicoquiãƒâ§a inonãâµã‘â€šlauhtil",
+          "input": "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil",
           "lossy": true,
-          "output": "chicoquiãƒâ§a inonãâµã‘â€šlauhtil",
+          "output": "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicoquiãƒâ§a inonãâµã‘â€šlauhtil",
+          "input": "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil",
           "lossy": true,
-          "output": "chicoquiãƒâ§a inonãâµã‘â€šlauhtil",
+          "output": "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicoquiãƒâ§a inonãâµã‘â€šlauhtil"
+      "value": "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil"
     }
   ],
   "gate6": {
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "4781451808325c8425cdee3154262a8fe3b767f3f4b6d942d82ba6a9091d6ac5",
+    "pipeline_digest": "c28a9d93187c95f843e10374e13224437e276fe3f12e95e5e90321d2bb7f2881",
     "request": {
       "case_id": "G6-L0202",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "diminuÃƒÂ­rem as mercÃƒÂªs recebidas"
+            "value": "diminuÃƒÆ’Ã‚Â­rem as mercÃƒÆ’Ã‚Âªs recebidas"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -256,13 +256,13 @@
         "entries": [
           {
             "original_gloss": "disminuirse las mercedes que recibe de otro",
-            "source_form": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+            "source_form": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
             "source_form_id": "L0202-FS1"
           }
         ],
         "lemma_id": "L0202",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+        "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +272,7 @@
     }
   },
   "lemma": {
-    "display_form": "ChicoquiÃƒÂ§a inonÃÂµÃ‘â€šlauhtil",
+    "display_form": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
     "id": "L0202",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -291,22 +291,22 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "relaÃƒÂ§ÃƒÂµes",
+    "semantic_domain": "relaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "diminuÃƒÂ­rem as mercÃƒÂªs recebidas",
+      "interpretation": "diminuÃƒÆ’Ã‚Â­rem as mercÃƒÆ’Ã‚Âªs recebidas",
       "original_gloss": "disminuirse las mercedes que recibe de otro",
       "sense_id": "L0202-S1",
       "translations": [
         {
-          "claim_id": "PCL-24673fe329bf",
+          "claim_id": "PCL-846a84543ca6",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-6c4ffaf40b03"
+            "PEV-27107e4adbd2"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "diminuÃƒÂ­rem as mercÃƒÂªs recebidas",
+          "text": "diminuÃƒÆ’Ã‚Â­rem as mercÃƒÆ’Ã‚Âªs recebidas",
           "translation_id": "L0202-T1"
         }
       ]

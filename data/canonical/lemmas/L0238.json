@@ -47,7 +47,7 @@
       "value": "\"en nueve partes o nueve raciones\""
     },
     {
-      "claim_id": "PCL-eaae97355725",
+      "claim_id": "PCL-1b7d9b477930",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0238",
-      "value": "\"em nove partes ou porÃƒÂ§ÃƒÂµes\""
+      "value": "\"em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes\""
     }
   ],
   "corpus_references": [],
@@ -113,7 +113,7 @@
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-eaae97355725",
+      "claim_id": "PCL-1b7d9b477930",
       "evidence_id": "PEV-c87fd3a8ced4",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "cb4013215ce302d93da7071f28cecf30b482381b7ea5b1a6c8c524c5671cbf7f",
+    "pipeline_digest": "be0c18ea2d602fd9f48474984090a875a2bb3dab42b9ddce6210e43302e6efe1",
     "request": {
       "case_id": "G6-L0238",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "em nove partes ou porÃƒÂ§ÃƒÂµes"
+            "value": "em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -298,12 +298,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "em nove partes ou porÃƒÂ§ÃƒÂµes",
+      "interpretation": "em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
       "original_gloss": "en nueve partes o nueve raciones",
       "sense_id": "L0238-S1",
       "translations": [
         {
-          "claim_id": "PCL-eaae97355725",
+          "claim_id": "PCL-1b7d9b477930",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-c87fd3a8ced4"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "em nove partes ou porÃƒÂ§ÃƒÂµes",
+          "text": "em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
           "translation_id": "L0238-T1"
         }
       ]

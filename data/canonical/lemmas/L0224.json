@@ -47,7 +47,7 @@
       "value": "\"en siete partes, o siete raciones\""
     },
     {
-      "claim_id": "PCL-ad5184b7f71c",
+      "claim_id": "PCL-95b4a4059ff9",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0224",
-      "value": "\"em sete partes ou porÃƒÂ§ÃƒÂµes\""
+      "value": "\"em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes\""
     }
   ],
   "corpus_references": [],
@@ -113,7 +113,7 @@
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-ad5184b7f71c",
+      "claim_id": "PCL-95b4a4059ff9",
       "evidence_id": "PEV-a1b39d81bf46",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "9970a5e0edb5318af177a38e25a959cf21234422943d5c900fea616dc56ac511",
+    "pipeline_digest": "be831c783727c79daf23586339bea4c8286094769907d065548563afd0cc52b6",
     "request": {
       "case_id": "G6-L0224",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "em sete partes ou porÃƒÂ§ÃƒÂµes"
+            "value": "em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -298,12 +298,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "em sete partes ou porÃƒÂ§ÃƒÂµes",
+      "interpretation": "em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
       "original_gloss": "en siete partes, o siete raciones",
       "sense_id": "L0224-S1",
       "translations": [
         {
-          "claim_id": "PCL-ad5184b7f71c",
+          "claim_id": "PCL-95b4a4059ff9",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-a1b39d81bf46"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "em sete partes ou porÃƒÂ§ÃƒÂµes",
+          "text": "em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
           "translation_id": "L0224-T1"
         }
       ]

@@ -47,7 +47,7 @@
       "value": "\"deposicion de oficio o cargo\""
     },
     {
-      "claim_id": "PCL-f09ecd8346ad",
+      "claim_id": "PCL-535abf8053b8",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0205",
-      "value": "\"exoneraÃƒÂ§ÃƒÂ£o de cargo\""
+      "value": "\"exoneraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de cargo\""
     }
   ],
   "corpus_references": [],
@@ -113,7 +113,7 @@
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-f09ecd8346ad",
+      "claim_id": "PCL-535abf8053b8",
       "evidence_id": "PEV-6dc0f609eaec",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "c010b45b7eb7012ca653daac7f2bb9f4c6191bba4ccada62995a4349d1fbb81f",
+    "pipeline_digest": "c5da5eb055a8d7a1b086e93a33be7d61843412ba5dbafdfffc8ef003ed029b71",
     "request": {
       "case_id": "G6-L0205",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "exoneraÃƒÂ§ÃƒÂ£o de cargo"
+            "value": "exoneraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de cargo"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -298,12 +298,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "exoneraÃƒÂ§ÃƒÂ£o de cargo",
+      "interpretation": "exoneraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de cargo",
       "original_gloss": "deposicion de oficio o cargo",
       "sense_id": "L0205-S1",
       "translations": [
         {
-          "claim_id": "PCL-f09ecd8346ad",
+          "claim_id": "PCL-535abf8053b8",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-6dc0f609eaec"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "exoneraÃƒÂ§ÃƒÂ£o de cargo",
+          "text": "exoneraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de cargo",
           "translation_id": "L0205-T1"
         }
       ]

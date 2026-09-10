@@ -47,7 +47,7 @@
       "value": "\"en ocho partes, o ocho raciones\""
     },
     {
-      "claim_id": "PCL-ab398193570d",
+      "claim_id": "PCL-68c7c01b0987",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0226",
-      "value": "\"em oito partes ou porÃƒÂ§ÃƒÂµes\""
+      "value": "\"em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes\""
     }
   ],
   "corpus_references": [],
@@ -113,7 +113,7 @@
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-ab398193570d",
+      "claim_id": "PCL-68c7c01b0987",
       "evidence_id": "PEV-ca55051c465b",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "3c8c9b1ab6c95246d5f2cec702555c7fca586f55097c706f13366030908bc378",
+    "pipeline_digest": "d5f0c5e077f85b2aa60233f10eeb89aa8965634a7f31e18e335187e72c8ea9ba",
     "request": {
       "case_id": "G6-L0226",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "em oito partes ou porÃƒÂ§ÃƒÂµes"
+            "value": "em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -298,12 +298,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "em oito partes ou porÃƒÂ§ÃƒÂµes",
+      "interpretation": "em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
       "original_gloss": "en ocho partes, o ocho raciones",
       "sense_id": "L0226-S1",
       "translations": [
         {
-          "claim_id": "PCL-ab398193570d",
+          "claim_id": "PCL-68c7c01b0987",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-ca55051c465b"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "em oito partes ou porÃƒÂ§ÃƒÂµes",
+          "text": "em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
           "translation_id": "L0226-T1"
         }
       ]

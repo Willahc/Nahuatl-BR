@@ -47,7 +47,7 @@
       "value": "\"palabra cautelosa, blasfemia, o palabra aviesa\""
     },
     {
-      "claim_id": "PCL-0b17a27caf4e",
+      "claim_id": "PCL-6bebf6a5696f",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0217",
-      "value": "\"palavra cautelosa, blasfÃƒÂªmia ou palavra maldosa\""
+      "value": "\"palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa\""
     }
   ],
   "corpus_references": [],
@@ -113,7 +113,7 @@
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-0b17a27caf4e",
+      "claim_id": "PCL-6bebf6a5696f",
       "evidence_id": "PEV-df7a2f3f6fdf",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "59fb3d127da0167798766a666d4f77d15095904c70e00eeccd28d08ed1345ce4",
+    "pipeline_digest": "06f28c54d9826c7522bac7250b946ca73d8bc69e086262d42b6b877f803a62e5",
     "request": {
       "case_id": "G6-L0217",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "palavra cautelosa, blasfÃƒÂªmia ou palavra maldosa"
+            "value": "palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -298,12 +298,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "palavra cautelosa, blasfÃƒÂªmia ou palavra maldosa",
+      "interpretation": "palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa",
       "original_gloss": "palabra cautelosa, blasfemia, o palabra aviesa",
       "sense_id": "L0217-S1",
       "translations": [
         {
-          "claim_id": "PCL-0b17a27caf4e",
+          "claim_id": "PCL-6bebf6a5696f",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-df7a2f3f6fdf"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "palavra cautelosa, blasfÃƒÂªmia ou palavra maldosa",
+          "text": "palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa",
           "translation_id": "L0217-T1"
         }
       ]

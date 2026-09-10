@@ -47,7 +47,7 @@
       "value": "\"desuario tal\""
     },
     {
-      "claim_id": "PCL-77f3b5d8cb62",
+      "claim_id": "PCL-5a1fe3a2dc1a",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0216",
-      "value": "\"delÃƒÂ­rio\""
+      "value": "\"delÃƒÆ’Ã‚Â­rio\""
     }
   ],
   "corpus_references": [],
@@ -113,7 +113,7 @@
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-77f3b5d8cb62",
+      "claim_id": "PCL-5a1fe3a2dc1a",
       "evidence_id": "PEV-00c7e12a21eb",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "56b78d593f0f98056b8a19775cd8a9b1c2042e8800ee3b27424dc6b8a40c0025",
+    "pipeline_digest": "e1617e856426c713b82ed3e2bd671e49531bc77a6dc06f12bc0b0d67ffdadf5e",
     "request": {
       "case_id": "G6-L0216",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "delÃƒÂ­rio"
+            "value": "delÃƒÆ’Ã‚Â­rio"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -291,19 +291,19 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "cogniÃƒÂ§ÃƒÂ£o",
+    "semantic_domain": "cogniÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "delÃƒÂ­rio",
+      "interpretation": "delÃƒÆ’Ã‚Â­rio",
       "original_gloss": "desuario tal",
       "sense_id": "L0216-S1",
       "translations": [
         {
-          "claim_id": "PCL-77f3b5d8cb62",
+          "claim_id": "PCL-5a1fe3a2dc1a",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-00c7e12a21eb"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "delÃƒÂ­rio",
+          "text": "delÃƒÆ’Ã‚Â­rio",
           "translation_id": "L0216-T1"
         }
       ]

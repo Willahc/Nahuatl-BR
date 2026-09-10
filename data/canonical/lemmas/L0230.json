@@ -47,7 +47,7 @@
       "value": "\"niteta. persuadir algo a otro con importunidad\""
     },
     {
-      "claim_id": "PCL-e3908af3e13c",
+      "claim_id": "PCL-7bebe0140417",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0230",
-      "value": "\"persuadir alguÃƒÂ©m com insistÃƒÂªncia\""
+      "value": "\"persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia\""
     }
   ],
   "corpus_references": [],
@@ -113,7 +113,7 @@
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-e3908af3e13c",
+      "claim_id": "PCL-7bebe0140417",
       "evidence_id": "PEV-77bdfd32008d",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "ae3b2d72dec8487b7a4e25221bb865dd4dc347882e4a87bc747af08acb71054d",
+    "pipeline_digest": "2f91d0ac203da1aed76b8f184479bddfcc69c489762dbf21e2b52a2d99b8d540",
     "request": {
       "case_id": "G6-L0230",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "persuadir alguÃƒÂ©m com insistÃƒÂªncia"
+            "value": "persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -291,19 +291,19 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "relaÃƒÂ§ÃƒÂµes",
+    "semantic_domain": "relaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "persuadir alguÃƒÂ©m com insistÃƒÂªncia",
+      "interpretation": "persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia",
       "original_gloss": "niteta. persuadir algo a otro con importunidad",
       "sense_id": "L0230-S1",
       "translations": [
         {
-          "claim_id": "PCL-e3908af3e13c",
+          "claim_id": "PCL-7bebe0140417",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-77bdfd32008d"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "persuadir alguÃƒÂ©m com insistÃƒÂªncia",
+          "text": "persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia",
           "translation_id": "L0230-T1"
         }
       ]

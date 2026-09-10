@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "pagar parte de la deuda, o sacar algo a fuera en edificioÃ¤Â½Â ",
+      "original_gloss": "pagar parte de la deuda, o sacar algo a fuera en edificio",
       "source": "A01",
       "source_form": "Chicoquixtia",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-b28803c7d98f",
+      "claim_id": "PCL-60c274b84272",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0203",
-      "value": "\"pagar parte de la deuda, o sacar algo a fuera en edificioÃ¤Â½Â \""
+      "value": "\"pagar parte de la deuda, o sacar algo a fuera en edificio\""
     },
     {
-      "claim_id": "PCL-0cf618ecf4e2",
+      "claim_id": "PCL-942c81b0d732",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0203",
-      "value": "\"pagar parte da dÃƒÂ­vida ou retirar algo de um edifÃƒÂ­cio\""
+      "value": "\"pagar parte da divida ou retirar algo de um edificio\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-b28803c7d98f",
+      "claim_id": "PCL-60c274b84272",
       "evidence_id": "PEV-ee6f4f65ef80",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-0cf618ecf4e2",
+      "claim_id": "PCL-942c81b0d732",
       "evidence_id": "PEV-ee6f4f65ef80",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "e42cc3164ef3536f1e459eaff434af0cba4ccb8f1525ca12cb71dc3a605d9f17",
+    "pipeline_digest": "15296ba973cd8cfee897945b798de35605acfe15cd0c29eb8bb7e31e14f82be9",
     "request": {
       "case_id": "G6-L0203",
       "ingest": {
@@ -240,13 +240,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "pagar parte de la deuda, o sacar algo a fuera en edificioÃ¤Â½Â "
+            "value": "pagar parte de la deuda, o sacar algo a fuera en edificio"
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "pagar parte da dÃƒÂ­vida ou retirar algo de um edifÃƒÂ­cio"
+            "value": "pagar parte da divida ou retirar algo de um edificio"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +255,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "pagar parte de la deuda, o sacar algo a fuera en edificioÃ¤Â½Â ",
+            "original_gloss": "pagar parte de la deuda, o sacar algo a fuera en edificio",
             "source_form": "Chicoquixtia",
             "source_form_id": "L0203-FS1"
           }
@@ -291,19 +291,19 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "comÃƒÂ©rcio",
+    "semantic_domain": "comercio",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "pagar parte da dÃƒÂ­vida ou retirar algo de um edifÃƒÂ­cio",
-      "original_gloss": "pagar parte de la deuda, o sacar algo a fuera en edificioÃ¤Â½Â ",
+      "interpretation": "pagar parte da divida ou retirar algo de um edificio",
+      "original_gloss": "pagar parte de la deuda, o sacar algo a fuera en edificio",
       "sense_id": "L0203-S1",
       "translations": [
         {
-          "claim_id": "PCL-0cf618ecf4e2",
+          "claim_id": "PCL-942c81b0d732",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-ee6f4f65ef80"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "pagar parte da dÃƒÂ­vida ou retirar algo de um edifÃƒÂ­cio",
+          "text": "pagar parte da divida ou retirar algo de um edificio",
           "translation_id": "L0203-T1"
         }
       ]

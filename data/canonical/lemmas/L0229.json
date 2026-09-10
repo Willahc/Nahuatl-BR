@@ -47,7 +47,7 @@
       "value": "\"garauato\""
     },
     {
-      "claim_id": "PCL-9768db532171",
+      "claim_id": "PCL-be9cb0fd71b2",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0229",
-      "value": "\"caroÃƒÂ§o ou verruga\""
+      "value": "\"caroÃƒÆ’Ã‚Â§o ou verruga\""
     }
   ],
   "corpus_references": [],
@@ -113,7 +113,7 @@
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-9768db532171",
+      "claim_id": "PCL-be9cb0fd71b2",
       "evidence_id": "PEV-137dca6f5687",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "cdb112770a05ee25a527fef0984c6fccebcd9965bde70a202a7c5abd6e176149",
+    "pipeline_digest": "3deedb8368bd0d307683e40de0ec2472f0ac5ba2155aec64db77550ddbd48702",
     "request": {
       "case_id": "G6-L0229",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "caroÃƒÂ§o ou verruga"
+            "value": "caroÃƒÆ’Ã‚Â§o ou verruga"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -298,12 +298,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "caroÃƒÂ§o ou verruga",
+      "interpretation": "caroÃƒÆ’Ã‚Â§o ou verruga",
       "original_gloss": "garauato",
       "sense_id": "L0229-S1",
       "translations": [
         {
-          "claim_id": "PCL-9768db532171",
+          "claim_id": "PCL-be9cb0fd71b2",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-137dca6f5687"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "caroÃƒÂ§o ou verruga",
+          "text": "caroÃƒÆ’Ã‚Â§o ou verruga",
           "translation_id": "L0229-T1"
         }
       ]

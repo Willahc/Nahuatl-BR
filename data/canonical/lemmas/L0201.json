@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-ab6d7f4e2a01",
+      "attestation_id": "PAT-1a55fe5f1a1a",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÂ§a",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÆ’Ã‚Â§a",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "original_gloss": "apartarse dela virtud",
       "source": "A01",
-      "source_form": "ChicoquiÃƒÂ§a",
+      "source_form": "ChicoquiÃƒÆ’Ã‚Â§a",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -38,7 +38,7 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-2b3af3c620fe"
+        "PEV-bd353ef03244"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
@@ -66,7 +66,7 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-2b3af3c620fe"
+        "PEV-bd353ef03244"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
@@ -79,7 +79,7 @@
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-ab6d7f4e2a01",
+      "attestation_id": "PAT-1a55fe5f1a1a",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-2b3af3c620fe",
+      "evidence_id": "PEV-bd353ef03244",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÂ§a",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÆ’Ã‚Â§a",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -109,60 +109,60 @@
   "evidence_links": [
     {
       "claim_id": "PCL-eed1694d6c33",
-      "evidence_id": "PEV-2b3af3c620fe",
+      "evidence_id": "PEV-bd353ef03244",
       "relation": "SUPPORTS"
     },
     {
       "claim_id": "PCL-80acb812f6ef",
-      "evidence_id": "PEV-2b3af3c620fe",
+      "evidence_id": "PEV-bd353ef03244",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-2b3af3c620fe"
+        "PEV-bd353ef03244"
       ],
       "form_id": "L0201-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "ChicoquiÃƒÂ§a"
+      "value": "ChicoquiÃƒÆ’Ã‚Â§a"
     },
     {
       "derivation_steps": [
         {
-          "input": "ChicoquiÃƒÂ§a",
+          "input": "ChicoquiÃƒÆ’Ã‚Â§a",
           "lossy": false,
-          "output": "ChicoquiÃƒÂ§a",
+          "output": "ChicoquiÃƒÆ’Ã‚Â§a",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0201-FS1-FD-63cc31467b7a",
+      "form_id": "L0201-FS1-FD-973b38f2715d",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "ChicoquiÃƒÂ§a"
+      "value": "ChicoquiÃƒÆ’Ã‚Â§a"
     },
     {
       "derivation_steps": [
         {
-          "input": "ChicoquiÃƒÂ§a",
+          "input": "ChicoquiÃƒÆ’Ã‚Â§a",
           "lossy": false,
-          "output": "ChicoquiÃƒÂ§a",
+          "output": "ChicoquiÃƒÆ’Ã‚Â§a",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0201-FS1-FN-8b81156bb9f1",
+      "form_id": "L0201-FS1-FN-33321375dcb8",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "ChicoquiÃƒÂ§a"
+      "value": "ChicoquiÃƒÆ’Ã‚Â§a"
     },
     {
       "evidence": [],
-      "form_id": "L0201-FS1-FP-fb1c05d40dc3",
+      "form_id": "L0201-FS1-FP-634b20f1d648",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0201-FS1-SK-469f37339530",
+      "form_id": "L0201-FS1-SK-d80c03f437c0",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicoquiãƒâ§a"
+        "chicoquiãƒæ’ã‚â§a"
       ],
       "steps": [
         {
-          "input": "ChicoquiÃƒÂ§a",
+          "input": "ChicoquiÃƒÆ’Ã‚Â§a",
           "lossy": false,
-          "output": "ChicoquiÃƒÂ§a",
+          "output": "ChicoquiÃƒÆ’Ã‚Â§a",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "ChicoquiÃƒÂ§a",
+          "input": "ChicoquiÃƒÆ’Ã‚Â§a",
           "lossy": true,
-          "output": "chicoquiãƒâ§a",
+          "output": "chicoquiãƒæ’ã‚â§a",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicoquiãƒâ§a",
+          "input": "chicoquiãƒæ’ã‚â§a",
           "lossy": true,
-          "output": "chicoquiãƒâ§a",
+          "output": "chicoquiãƒæ’ã‚â§a",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicoquiãƒâ§a",
+          "input": "chicoquiãƒæ’ã‚â§a",
           "lossy": true,
-          "output": "chicoquiãƒâ§a",
+          "output": "chicoquiãƒæ’ã‚â§a",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicoquiãƒâ§a",
+          "input": "chicoquiãƒæ’ã‚â§a",
           "lossy": true,
-          "output": "chicoquiãƒâ§a",
+          "output": "chicoquiãƒæ’ã‚â§a",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicoquiãƒâ§a"
+      "value": "chicoquiãƒæ’ã‚â§a"
     }
   ],
   "gate6": {
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "732454187d4e29a42d37792e6f1e191db328feae03db902a2b30601a4c2b3104",
+    "pipeline_digest": "50334c9a7b8869b3d37c7aab069c21de00b3e6756aadf86f6b37b281fba85708",
     "request": {
       "case_id": "G6-L0201",
       "ingest": {
@@ -256,13 +256,13 @@
         "entries": [
           {
             "original_gloss": "apartarse dela virtud",
-            "source_form": "ChicoquiÃƒÂ§a",
+            "source_form": "ChicoquiÃƒÆ’Ã‚Â§a",
             "source_form_id": "L0201-FS1"
           }
         ],
         "lemma_id": "L0201",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÂ§a",
+        "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÆ’Ã‚Â§a",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +272,7 @@
     }
   },
   "lemma": {
-    "display_form": "ChicoquiÃƒÂ§a",
+    "display_form": "ChicoquiÃƒÆ’Ã‚Â§a",
     "id": "L0201",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -291,7 +291,7 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "ÃƒÂ©tica",
+    "semantic_domain": "ÃƒÆ’Ã‚Â©tica",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
@@ -306,7 +306,7 @@
           "claim_id": "PCL-80acb812f6ef",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-2b3af3c620fe"
+            "PEV-bd353ef03244"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",

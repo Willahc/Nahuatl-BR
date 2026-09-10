@@ -47,7 +47,7 @@
       "value": "\"nitla. ametalar algo de diversas colores\""
     },
     {
-      "claim_id": "PCL-31460ae09503",
+      "claim_id": "PCL-06427263b250",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0222",
-      "value": "\"metalizar algo com vÃƒÂ¡rias cores\""
+      "value": "\"metalizar algo com vÃƒÆ’Ã‚Â¡rias cores\""
     }
   ],
   "corpus_references": [],
@@ -113,7 +113,7 @@
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-31460ae09503",
+      "claim_id": "PCL-06427263b250",
       "evidence_id": "PEV-b9ddd500487a",
       "relation": "DERIVED_FROM"
     }
@@ -230,7 +230,7 @@
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
       "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
     },
-    "pipeline_digest": "6ddde37394260d91ce8d9d6a667178a8e1791f12ecfd630568e809f4d6a3ccf8",
+    "pipeline_digest": "98eadbc722e9718ddab4dd9bcb48f736b2eb8a008e855be6921a395b6caac4cf",
     "request": {
       "case_id": "G6-L0222",
       "ingest": {
@@ -246,7 +246,7 @@
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "metalizar algo com vÃƒÂ¡rias cores"
+            "value": "metalizar algo com vÃƒÆ’Ã‚Â¡rias cores"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -298,12 +298,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "metalizar algo com vÃƒÂ¡rias cores",
+      "interpretation": "metalizar algo com vÃƒÆ’Ã‚Â¡rias cores",
       "original_gloss": "nitla. ametalar algo de diversas colores",
       "sense_id": "L0222-S1",
       "translations": [
         {
-          "claim_id": "PCL-31460ae09503",
+          "claim_id": "PCL-06427263b250",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-b9ddd500487a"
@@ -325,7 +325,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "metalizar algo com vÃƒÂ¡rias cores",
+          "text": "metalizar algo com vÃƒÆ’Ã‚Â¡rias cores",
           "translation_id": "L0222-T1"
         }
       ]
