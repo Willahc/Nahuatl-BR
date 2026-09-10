@@ -71,6 +71,8 @@ def main():
                        'No morphological expansion or historical spelling modernization.',
                    'confidence_rationale': 'Legible selected headword/gloss in image; single witness '
                        'and editorial translation require independent semantic review.'}
+        if args.batch >= 4:
+            capture['reviewed_ledger_sha256'] = hashlib.sha256(path.read_bytes()).hexdigest()
         rec = derive_record(request, capture, args.batch, row['domain'], ROOT)
         errors = validate_record(rec, engine)
         if errors:

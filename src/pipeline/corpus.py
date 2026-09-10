@@ -194,6 +194,8 @@ def validate_record(rec, engine):
     required = ['image_url', 'canvas_id', 'sha256', 'attribution', 'column', 'inspection']
     if any(not capture.get(k) for k in required) or capture.get('inspection') != 'VISUALLY_INSPECTED':
         fail('WITNESS_INSPECTION_REQUIRED')
+    if g6.get('batch', 0) >= 4 and not capture.get('reviewed_ledger_sha256'):
+        fail('REVIEWED_LEDGER_HASH_MISMATCH')
     try:
         replay = engine.ingest(request)
         if replay.outcome != 'ACCEPT':
