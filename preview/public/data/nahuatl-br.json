@@ -32,7 +32,7 @@
       "status": "PASS"
     },
     "6": {
-      "closure": "BATCH_04_REMEDIATION_REQUIRED",
+      "closure": "SOURCE_EVIDENCE_PATH_RESOLVED",
       "status": "IN_PROGRESS"
     }
   },
