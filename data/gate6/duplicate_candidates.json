@@ -85,6 +85,56 @@
   },
   {
     "lemma_ids": [
+      "L0117",
+      "L0151"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "agudeza de ponta"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0122",
+      "L0151"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "agudeza de ponta"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0125",
+      "L0152"
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yacauitztic"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yacauitztic"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yacauitztic"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
       "L0127",
       "L0136"
     ],
@@ -114,6 +164,132 @@
       {
         "field": "SEARCH_KEY",
         "value": "yollopoconi"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0148",
+      "L0195"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "endurecer-se e obstinar-se no mal"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0150",
+      "L0192"
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yollotetl"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yollotetl"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yollotetl"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "corajoso e animoso; duro e obstinado"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0158",
+      "L0172"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "coisa macia e flexível"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0158",
+      "L0183"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "coisa macia e flexível"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0172",
+      "L0183"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "coisa macia e flexível"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0179",
+      "L0180"
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yamania"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yamania"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yamania"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0193",
+      "L0194"
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yollotia"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yollotia"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yollotia"
       }
     ],
     "status": "CANDIDATE_ONLY",

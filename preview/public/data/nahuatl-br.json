@@ -3,7 +3,7 @@
     "claims_total": 29,
     "evidence_total": 28,
     "integration_items": 15,
-    "lemmas": 150,
+    "lemmas": 200,
     "sources": 14
   },
   "gate_status": {
@@ -7726,6 +7726,2206 @@
         {
           "direct_witness_inspected": true,
           "locator": "JCB 1571, part II, manifest page 340, column a, headword Yollotetl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yacauitzticayotl",
+      "forms": {
+        "normalized_form": "Yacauitzticayotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yacauitzticayotl"
+        ],
+        "source_forms": [
+          "Yacauitzticayotl"
+        ]
+      },
+      "historical_glosses": [
+        "agudeza de punta"
+      ],
+      "id": "L0151",
+      "interpretations": [
+        "agudeza de ponta"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "agudeza de ponta"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yacauitzticayotl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yacauitztic",
+      "forms": {
+        "normalized_form": "Yacauitztic",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yacauitztic"
+        ],
+        "source_forms": [
+          "Yacauitztic"
+        ]
+      },
+      "historical_glosses": [
+        "mitl, pua o cosa puntiaguda"
+      ],
+      "id": "L0152",
+      "interpretations": [
+        "dardo, ponta ou coisa pontuda"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "dardo, ponta ou coisa pontuda"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yacauitztic",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yacaxitl",
+      "forms": {
+        "normalized_form": "Yacaxitl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yacaxitl"
+        ],
+        "source_forms": [
+          "Yacaxitl"
+        ]
+      },
+      "historical_glosses": [
+        "piedra preciosa con que componian y adornauan los nobles las narizes"
+      ],
+      "id": "L0153",
+      "interpretations": [
+        "pedra preciosa usada para adornar o nariz"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "pedra preciosa usada para adornar o nariz"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yacaxitl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayacayotl",
+      "forms": {
+        "normalized_form": "Yayacayotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayacayotl"
+        ],
+        "source_forms": [
+          "Yayacayotl"
+        ]
+      },
+      "historical_glosses": [
+        "flaqueza de doliente y debilitado"
+      ],
+      "id": "L0154",
+      "interpretations": [
+        "fraqueza de doente e debilitado"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "fraqueza de doente e debilitado"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yayacayotl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayacana",
+      "forms": {
+        "normalized_form": "Yayacana",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayacana"
+        ],
+        "source_forms": [
+          "Yayacana"
+        ]
+      },
+      "historical_glosses": [
+        "nite. guiar a otros frequentemente"
+      ],
+      "id": "L0155",
+      "interpretations": [
+        "iar guiando outros com frequência"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "iar guiando outros com frequência"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yayacana",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayacatzintli",
+      "forms": {
+        "normalized_form": "Yayacatzintli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayacatzintli"
+        ],
+        "source_forms": [
+          "Yayacatzintli"
+        ]
+      },
+      "historical_glosses": [
+        "debilitado y flaco"
+      ],
+      "id": "L0156",
+      "interpretations": [
+        "debilitado e fraco"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "debilitado e fraco"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yayacatzintli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayactic",
+      "forms": {
+        "normalized_form": "Yayactic",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayactic"
+        ],
+        "source_forms": [
+          "Yayactic"
+        ]
+      },
+      "historical_glosses": [
+        "cosa hosca y morena"
+      ],
+      "id": "L0157",
+      "interpretations": [
+        "coisa áspera e morena"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "coisa áspera e morena"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yayactic",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayamaztic",
+      "forms": {
+        "normalized_form": "Yayamaztic",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayamaztic"
+        ],
+        "source_forms": [
+          "Yayamaztic"
+        ]
+      },
+      "historical_glosses": [
+        "cosa blanda y muelle"
+      ],
+      "id": "L0158",
+      "interpretations": [
+        "coisa macia e flexível"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "coisa macia e flexível"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yayamaztic",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayaotla",
+      "forms": {
+        "normalized_form": "Yayaotla",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayaotla"
+        ],
+        "source_forms": [
+          "Yayaotla"
+        ]
+      },
+      "historical_glosses": [
+        "tito. escaramuçar vnos con otros"
+      ],
+      "id": "L0159",
+      "interpretations": [
+        "combater em escaramuça"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "combater em escaramuça"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yayaotla",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayapaleualiztli",
+      "forms": {
+        "normalized_form": "Yayapaleualiztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayapaleualiztli"
+        ],
+        "source_forms": [
+          "Yayapaleualiztli"
+        ]
+      },
+      "historical_glosses": [
+        "mancha del rostro o del cuerpo, o señal de cardenal"
+      ],
+      "id": "L0160",
+      "interpretations": [
+        "mancha no rosto ou no corpo; sinal de contusão"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "mancha no rosto ou no corpo; sinal de contusão"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yayapaleualiztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayapaleuctic",
+      "forms": {
+        "normalized_form": "Yayapaleuctic",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayapaleuctic"
+        ],
+        "source_forms": [
+          "Yayapaleuctic"
+        ]
+      },
+      "historical_glosses": [
+        "pecoso"
+      ],
+      "id": "L0161",
+      "interpretations": [
+        "com sardas"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "com sardas"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yayapaleuctic",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayatiacac",
+      "forms": {
+        "normalized_form": "Yayatiacac",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayatiacac"
+        ],
+        "source_forms": [
+          "Yayatiacac"
+        ]
+      },
+      "historical_glosses": [
+        "ni. bambanearse lo que esta en hielo"
+      ],
+      "id": "L0162",
+      "interpretations": [
+        "balançar-se sobre o gelo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "balançar-se sobre o gelo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column a, headword Yayatiacac",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayatinemi",
+      "forms": {
+        "normalized_form": "Yayatinemi",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayatinemi"
+        ],
+        "source_forms": [
+          "Yayatinemi"
+        ]
+      },
+      "historical_glosses": [
+        "passearse"
+      ],
+      "id": "L0163",
+      "interpretations": [
+        "passear-se"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "passear-se"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yayatinemi",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayatinemoayan",
+      "forms": {
+        "normalized_form": "Yayatinemoayan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayatinemoayan"
+        ],
+        "source_forms": [
+          "Yayatinemoayan"
+        ]
+      },
+      "historical_glosses": [
+        "passeadero"
+      ],
+      "id": "L0164",
+      "interpretations": [
+        "lugar de passeio"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "lugar de passeio"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yayatinemoayan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayatiuh",
+      "forms": {
+        "normalized_form": "Yayatiuh",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayatiuh"
+        ],
+        "source_forms": [
+          "Yayatiuh"
+        ]
+      },
+      "historical_glosses": [
+        "andar, o ir andando poco a poco"
+      ],
+      "id": "L0165",
+      "interpretations": [
+        "andar pouco a pouco"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "andar pouco a pouco"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yayatiuh",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayaualhuia",
+      "forms": {
+        "normalized_form": "Yayaualhuia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayaualhuia"
+        ],
+        "source_forms": [
+          "Yayaualhuia"
+        ]
+      },
+      "historical_glosses": [
+        "estar muchos al derredor de alguna persona noble"
+      ],
+      "id": "L0166",
+      "interpretations": [
+        "estar muitos ao redor de pessoa nobre"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "estar muitos ao redor de pessoa nobre"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yayaualhuia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yayaualhoa",
+      "forms": {
+        "normalized_form": "Yayaualhoa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yayaualhoa"
+        ],
+        "source_forms": [
+          "Yayaualhoa"
+        ]
+      },
+      "historical_glosses": [
+        "nite. cercar a los enemigos"
+      ],
+      "id": "L0167",
+      "interpretations": [
+        "cercar os inimigos"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "cercar os inimigos"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yayaualhoa",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yalhua",
+      "forms": {
+        "normalized_form": "Yalhua",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yalhua"
+        ],
+        "source_forms": [
+          "Yalhua"
+        ]
+      },
+      "historical_glosses": [
+        "ayer"
+      ],
+      "id": "L0168",
+      "interpretations": [
+        "ontem"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "ontem"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yalhua",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yalhuayuuua",
+      "forms": {
+        "normalized_form": "Yalhuayuuua",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yalhuayuuua"
+        ],
+        "source_forms": [
+          "Yalhuayuuua"
+        ]
+      },
+      "historical_glosses": [
+        "antenoche"
+      ],
+      "id": "L0169",
+      "interpretations": [
+        "anteontem"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "anteontem"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yalhuayuuua",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yaliztli",
+      "forms": {
+        "normalized_form": "Yaliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yaliztli"
+        ],
+        "source_forms": [
+          "Yaliztli"
+        ]
+      },
+      "historical_glosses": [
+        "ida o partida para algun lugar"
+      ],
+      "id": "L0170",
+      "interpretations": [
+        "ida ou partida para algum lugar"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "ida ou partida para algum lugar"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yaliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yaloyo",
+      "forms": {
+        "normalized_form": "Yaloyo",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yaloyo"
+        ],
+        "source_forms": [
+          "Yaloyo"
+        ]
+      },
+      "historical_glosses": [
+        "mi hija"
+      ],
+      "id": "L0171",
+      "interpretations": [
+        "minha filha"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "minha filha"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yaloyo",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamactic",
+      "forms": {
+        "normalized_form": "Yamactic",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamactic"
+        ],
+        "source_forms": [
+          "Yamactic"
+        ]
+      },
+      "historical_glosses": [
+        "cosa blanda y muelle"
+      ],
+      "id": "L0172",
+      "interpretations": [
+        "coisa macia e flexível"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "coisa macia e flexível"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamactic",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamactontli",
+      "forms": {
+        "normalized_form": "Yamactontli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamactontli"
+        ],
+        "source_forms": [
+          "Yamactontli"
+        ]
+      },
+      "historical_glosses": [
+        "cosa blandilla asi"
+      ],
+      "id": "L0173",
+      "interpretations": [
+        "coisa um pouco macia"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "coisa um pouco macia"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamactontli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamanca",
+      "forms": {
+        "normalized_form": "Yamanca",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamanca"
+        ],
+        "source_forms": [
+          "Yamanca"
+        ]
+      },
+      "historical_glosses": [
+        "blandamente"
+      ],
+      "id": "L0174",
+      "interpretations": [
+        "suavemente"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "suavemente"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamanca",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamancacuica",
+      "forms": {
+        "normalized_form": "Yamancacuica",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamancacuica"
+        ],
+        "source_forms": [
+          "Yamancacuica"
+        ]
+      },
+      "historical_glosses": [
+        "ni. cantar suavemente"
+      ],
+      "id": "L0175",
+      "interpretations": [
+        "cantar suavemente"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "cantar suavemente"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamancacuica",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamancay",
+      "forms": {
+        "normalized_form": "Yamancay",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamancay"
+        ],
+        "source_forms": [
+          "Yamancay"
+        ]
+      },
+      "historical_glosses": [
+        "bever vino donzel, o otras cosas suaues y delicadas"
+      ],
+      "id": "L0176",
+      "interpretations": [
+        "beber vinho novo ou coisas suaves"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "beber vinho novo ou coisas suaves"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamancay",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamancayotl",
+      "forms": {
+        "normalized_form": "Yamancayotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamancayotl"
+        ],
+        "source_forms": [
+          "Yamancayotl"
+        ]
+      },
+      "historical_glosses": [
+        "blandura, y ser metaphori que re decir riqueza y prosperidad"
+      ],
+      "id": "L0177",
+      "interpretations": [
+        "maciez; riqueza e prosperidade"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "maciez; riqueza e prosperidade"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamancayotl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamancatontli",
+      "forms": {
+        "normalized_form": "Yamancatontli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamancatontli"
+        ],
+        "source_forms": [
+          "Yamancatontli"
+        ]
+      },
+      "historical_glosses": [
+        "blandilla cosa"
+      ],
+      "id": "L0178",
+      "interpretations": [
+        "coisa macia"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "coisa macia"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamancatontli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamania",
+      "forms": {
+        "normalized_form": "Yamania",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamania"
+        ],
+        "source_forms": [
+          "Yamania"
+        ]
+      },
+      "historical_glosses": [
+        "ni. estar templado el cuerpo"
+      ],
+      "id": "L0179",
+      "interpretations": [
+        "estar com o corpo temperado"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "estar com o corpo temperado"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamania",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamania",
+      "forms": {
+        "normalized_form": "Yamania",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamania"
+        ],
+        "source_forms": [
+          "Yamania"
+        ]
+      },
+      "historical_glosses": [
+        "nitla. ablandar o adobar cueros, o entibiar lo que esta muy caliente"
+      ],
+      "id": "L0180",
+      "interpretations": [
+        "amolecer couro ou temperar algo quente"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "amolecer couro ou temperar algo quente"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamania",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamanilia",
+      "forms": {
+        "normalized_form": "Yamanilia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamanilia"
+        ],
+        "source_forms": [
+          "Yamanilia"
+        ]
+      },
+      "historical_glosses": [
+        "nitla. amolentar algo, o entibiarlo"
+      ],
+      "id": "L0181",
+      "interpretations": [
+        "amolecer ou aquecer algo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "amolecer ou aquecer algo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamanilia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamaniliztli",
+      "forms": {
+        "normalized_form": "Yamaniliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamaniliztli"
+        ],
+        "source_forms": [
+          "Yamaniliztli"
+        ]
+      },
+      "historical_glosses": [
+        "blandura"
+      ],
+      "id": "L0182",
+      "interpretations": [
+        "maciez"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "maciez"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamaniliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yamanqui",
+      "forms": {
+        "normalized_form": "Yamanqui",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yamanqui"
+        ],
+        "source_forms": [
+          "Yamanqui"
+        ]
+      },
+      "historical_glosses": [
+        "cosa blanda y muelle"
+      ],
+      "id": "L0183",
+      "interpretations": [
+        "coisa macia e flexível"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "coisa macia e flexível"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamanqui",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotequiçaliztli",
+      "forms": {
+        "normalized_form": "Yollotequiçaliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotequiçaliztli"
+        ],
+        "source_forms": [
+          "Yollotequiçaliztli"
+        ]
+      },
+      "historical_glosses": [
+        "dureza y obstinacion asi"
+      ],
+      "id": "L0184",
+      "interpretations": [
+        "dureza e obstinação"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "dureza e obstinação"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotequiçaliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotetecuica",
+      "forms": {
+        "normalized_form": "Yollotetecuica",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotetecuica"
+        ],
+        "source_forms": [
+          "Yollotetecuica"
+        ]
+      },
+      "historical_glosses": [
+        "no alterarse ni dolerme el coraçon"
+      ],
+      "id": "L0185",
+      "interpretations": [
+        "não alterar-se nem doer o coração"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "não alterar-se nem doer o coração"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotetecuica",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotetecuicuiliztli",
+      "forms": {
+        "normalized_form": "Yollotetecuicuiliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotetecuicuiliztli"
+        ],
+        "source_forms": [
+          "Yollotetecuicuiliztli"
+        ]
+      },
+      "historical_glosses": [
+        "dolor o alteracion del coraçon"
+      ],
+      "id": "L0186",
+      "interpretations": [
+        "dor ou alteração do coração"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "dor ou alteração do coração"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotetecuicuiliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yolloteni",
+      "forms": {
+        "normalized_form": "Yolloteni",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yolloteni"
+        ],
+        "source_forms": [
+          "Yolloteni"
+        ]
+      },
+      "historical_glosses": [
+        "endurecerse perseverado en el mal"
+      ],
+      "id": "L0187",
+      "interpretations": [
+        "endurecer-se perseverando no mal"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "endurecer-se perseverando no mal"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yolloteni",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotetia",
+      "forms": {
+        "normalized_form": "Yollotetia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotetia"
+        ],
+        "source_forms": [
+          "Yollotetia"
+        ]
+      },
+      "historical_glosses": [
+        "ni. ed. pret. oniyollotetiac"
+      ],
+      "id": "L0188",
+      "interpretations": [
+        "forma verbal registrada na fonte"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "forma verbal registrada na fonte"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotetia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotetilia",
+      "forms": {
+        "normalized_form": "Yollotetilia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotetilia"
+        ],
+        "source_forms": [
+          "Yollotetilia"
+        ]
+      },
+      "historical_glosses": [
+        "nite. endurecer y obstinar a otro asi"
+      ],
+      "id": "L0189",
+      "interpretations": [
+        "endurecer ou obstinar outra pessoa"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "endurecer ou obstinar outra pessoa"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotetilia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotetiliztica",
+      "forms": {
+        "normalized_form": "Yollotetiliztica",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotetiliztica"
+        ],
+        "source_forms": [
+          "Yollotetiliztica"
+        ]
+      },
+      "historical_glosses": [
+        "obstinadamente, o animosa y esforçadamente"
+      ],
+      "id": "L0190",
+      "interpretations": [
+        "obstinadamente ou com esforço"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "obstinadamente ou com esforço"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotetiliztica",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotetiliztli",
+      "forms": {
+        "normalized_form": "Yollotetiliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotetiliztli"
+        ],
+        "source_forms": [
+          "Yollotetiliztli"
+        ]
+      },
+      "historical_glosses": [
+        "endurecimiento y obstinacion, o animosidad y esfuerzo"
+      ],
+      "id": "L0191",
+      "interpretations": [
+        "endurecimento; obstinação e esforço"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "endurecimento; obstinação e esforço"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotetiliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotetl",
+      "forms": {
+        "normalized_form": "Yollotetl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotetl"
+        ],
+        "source_forms": [
+          "Yollotetl"
+        ]
+      },
+      "historical_glosses": [
+        "coçonate y animoso, o duro y obstinado"
+      ],
+      "id": "L0192",
+      "interpretations": [
+        "corajoso e animoso; duro e obstinado"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "corajoso e animoso; duro e obstinado"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotetl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotia",
+      "forms": {
+        "normalized_form": "Yollotia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotia"
+        ],
+        "source_forms": [
+          "Yollotia"
+        ]
+      },
+      "historical_glosses": [
+        "ni. notla. decorar algo. preterito oninotlayolloti"
+      ],
+      "id": "L0193",
+      "interpretations": [
+        "aprender algo de cor"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "aprender algo de cor"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotia",
+      "forms": {
+        "normalized_form": "Yollotia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotia"
+        ],
+        "source_forms": [
+          "Yollotia"
+        ]
+      },
+      "historical_glosses": [
+        "nite. inspirar algo a otro. preterito oniteyolloti"
+      ],
+      "id": "L0194",
+      "interpretations": [
+        "inspirar algo a outra pessoa"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "inspirar algo a outra pessoa"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotlacac",
+      "forms": {
+        "normalized_form": "Yollotlacac",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotlacac"
+        ],
+        "source_forms": [
+          "Yollotlacac"
+        ]
+      },
+      "historical_glosses": [
+        "ni. endurecerse y obstinarse en el mal"
+      ],
+      "id": "L0195",
+      "interpretations": [
+        "endurecer-se e obstinar-se no mal"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "endurecer-se e obstinar-se no mal"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotlacac",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotlaquauililiztli",
+      "forms": {
+        "normalized_form": "Yollotlaquauililiztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotlaquauililiztli"
+        ],
+        "source_forms": [
+          "Yollotlaquauililiztli"
+        ]
+      },
+      "historical_glosses": [
+        "dureza asi"
+      ],
+      "id": "L0196",
+      "interpretations": [
+        "dureza"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "dureza"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotlaquauililiztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotlaquaua",
+      "forms": {
+        "normalized_form": "Yollotlaquaua",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotlaquaua"
+        ],
+        "source_forms": [
+          "Yollotlaquaua"
+        ]
+      },
+      "historical_glosses": [
+        "ni. endurecerse desta manera"
+      ],
+      "id": "L0197",
+      "interpretations": [
+        "endurecer-se desta maneira"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "endurecer-se desta maneira"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotlaquaua",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotlaquauac",
+      "forms": {
+        "normalized_form": "Yollotlaquauac",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotlaquauac"
+        ],
+        "source_forms": [
+          "Yollotlaquauac"
+        ]
+      },
+      "historical_glosses": [
+        "endurecido desta manera"
+      ],
+      "id": "L0198",
+      "interpretations": [
+        "endurecido desta maneira"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "endurecido desta maneira"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotlaquauac",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotlaquaualiztica",
+      "forms": {
+        "normalized_form": "Yollotlaquaualiztica",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotlaquaualiztica"
+        ],
+        "source_forms": [
+          "Yollotlaquaualiztica"
+        ]
+      },
+      "historical_glosses": [
+        "obstinadamente asi"
+      ],
+      "id": "L0199",
+      "interpretations": [
+        "obstinadamente"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "obstinadamente"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotlaquaualiztica",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Yollotlatlamia",
+      "forms": {
+        "normalized_form": "Yollotlatlamia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "yollotlatlamia"
+        ],
+        "source_forms": [
+          "Yollotlatlamia"
+        ]
+      },
+      "historical_glosses": [
+        "mirar al mismo"
+      ],
+      "id": "L0200",
+      "interpretations": [
+        "olhar o próprio"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "olhar o próprio"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 340, column b, headword Yollotlatlamia",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",

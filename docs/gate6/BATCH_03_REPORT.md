@@ -1,3 +1,12 @@
+# Gate 6 — BATCH 03
+
+Checkpoint: PASS. New lemmas in batch: 50. Accepted: 50. Rejected: 0.
+Admission ran through Gate 5; replay/idempotency PASS; no automatic merge.
+Gate 6 regression suite: 27 tests PASS before this admission.
+Image-based selected captures: A01/jcb_1571_images, CC BY 4.0; DIRECT_WITNESS.
+SINGLE_SOURCE and NEEDS_SEMANTIC_REVIEW apply to every new lemma.
+
+```json
 {
   "attestations_count": 248,
   "attestations_per_lemma": {
@@ -63,3 +72,4 @@
   "total_lemmas": 200,
   "vowel_length_evidence": 23
 }
+```

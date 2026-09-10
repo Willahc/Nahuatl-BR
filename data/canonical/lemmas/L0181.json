@@ -1,0 +1,334 @@
+{
+  "attestations": [
+    {
+      "attestation_id": "PAT-e2f4ec77b83b",
+      "direct_witness_inspected": true,
+      "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
+      "editorial_state": "DRAFT",
+      "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamanilia",
+      "locator_absence_reason": "NOT_APPLICABLE",
+      "mediation_level": "DIRECT_WITNESS",
+      "origin": "PIPELINE",
+      "original_gloss": "nitla. amolentar algo, o entibiarlo",
+      "source": "A01",
+      "source_form": "Yamanilia",
+      "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+      "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
+      "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "PCL-d3732e904bfa",
+      "claim_source_origin": "PIPELINE",
+      "confidence": "MEDIUM",
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence": [
+        "PEV-fb20635f9868"
+      ],
+      "modality": "OBSERVED",
+      "origin": "PIPELINE",
+      "predicate": "has_historical_gloss",
+      "subject": "L0181",
+      "value": "\"nitla. amolentar algo, o entibiarlo\""
+    },
+    {
+      "claim_id": "PCL-18f9beea5e71",
+      "claim_source_origin": "PIPELINE",
+      "confidence": "MEDIUM",
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence": [
+        "PEV-fb20635f9868"
+      ],
+      "modality": "EDITORIAL",
+      "origin": "PIPELINE",
+      "predicate": "has_pt_br_editorial_gloss",
+      "subject": "L0181",
+      "value": "\"amolecer ou aquecer algo\""
+    }
+  ],
+  "corpus_references": [],
+  "evidence": [
+    {
+      "accessed_at": "2026-09-10",
+      "attestation_id": "PAT-e2f4ec77b83b",
+      "direct_witness_inspected": true,
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence_id": "PEV-fb20635f9868",
+      "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
+      "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamanilia",
+      "mediation_level": "DIRECT_WITNESS",
+      "origin": "PIPELINE",
+      "source": "A01",
+      "type": "LEXICAL_ENTRY_REFERENCE",
+      "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg"
+    }
+  ],
+  "evidence_links": [
+    {
+      "claim_id": "PCL-d3732e904bfa",
+      "evidence_id": "PEV-fb20635f9868",
+      "relation": "SUPPORTS"
+    },
+    {
+      "claim_id": "PCL-18f9beea5e71",
+      "evidence_id": "PEV-fb20635f9868",
+      "relation": "DERIVED_FROM"
+    }
+  ],
+  "forms": [
+    {
+      "evidence": [
+        "PEV-fb20635f9868"
+      ],
+      "form_id": "L0181-FS1",
+      "layer": "SOURCE_FORM",
+      "normalization_profile": "NOT_APPLICABLE",
+      "value": "Yamanilia"
+    },
+    {
+      "derivation_steps": [
+        {
+          "input": "Yamanilia",
+          "lossy": false,
+          "output": "Yamanilia",
+          "rule_id": "editorial-nfc-001"
+        }
+      ],
+      "form_id": "L0181-FS1-FD-3a28a27f0ae1",
+      "layer": "DIPLOMATIC_FORM",
+      "lossy": false,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "value": "Yamanilia"
+    },
+    {
+      "derivation_steps": [
+        {
+          "input": "Yamanilia",
+          "lossy": false,
+          "output": "Yamanilia",
+          "rule_id": "editorial-nfc-001"
+        }
+      ],
+      "form_id": "L0181-FS1-FN-cd65ff941b72",
+      "layer": "NORMALIZED_FORM",
+      "lossy": false,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "value": "Yamanilia"
+    },
+    {
+      "evidence": [],
+      "form_id": "L0181-FS1-FP-440cb7178c08",
+      "layer": "PEDAGOGICAL_FORM",
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "note": "editorial pedagogical value; macron or h requires independent Evidence",
+      "origin": "PIPELINE",
+      "value": "UNKNOWN"
+    },
+    {
+      "aliases": [],
+      "form_id": "L0181-FS1-SK-2352511155db",
+      "layer": "SEARCH_KEY",
+      "lossy": true,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "search_keys": [
+        "yamanilia"
+      ],
+      "steps": [
+        {
+          "input": "Yamanilia",
+          "lossy": false,
+          "output": "Yamanilia",
+          "rule_id": "editorial-nfc-001"
+        },
+        {
+          "input": "Yamanilia",
+          "lossy": true,
+          "output": "yamanilia",
+          "rule_id": "search-lower-001"
+        },
+        {
+          "input": "yamanilia",
+          "lossy": true,
+          "output": "yamanilia",
+          "rule_id": "search-diacritic-001"
+        },
+        {
+          "input": "yamanilia",
+          "lossy": true,
+          "output": "yamanilia",
+          "rule_id": "search-punct-001"
+        },
+        {
+          "input": "yamanilia",
+          "lossy": true,
+          "output": "yamanilia",
+          "rule_id": "search-hyphen-001"
+        }
+      ],
+      "value": "yamanilia"
+    }
+  ],
+  "gate6": {
+    "batch": 3,
+    "capture": {
+      "attribution": "Courtesy of the John Carter Brown Library",
+      "canvas_id": "https://americana.jcblibrary.org/iiif/presentation/canvas/jcbcap-991031815189706966-vocabularioenlen00moli/manifest__442984__26711223/canvas.json",
+      "column": "b",
+      "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
+      "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+      "inspection": "VISUALLY_INSPECTED",
+      "inspector": "EXECUTION_AGENT",
+      "license": "CC BY 4.0",
+      "page_index_1based": 320,
+      "rights_url": "https://jcblibrary.org/permissions/",
+      "sha256": "b2395a76807635cb498c597f5c57525229bffbee9fb420e8e91e85fb26d2958a",
+      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+    },
+    "pipeline_digest": "f83e46614f75234c18b6bd17499ddeb1adf43f729a396a1c89759b1daa64cb23",
+    "request": {
+      "case_id": "G6-L0181",
+      "ingest": {
+        "accessed_at": "2026-09-10",
+        "claims": [
+          {
+            "confidence": "MEDIUM",
+            "modality": "OBSERVED",
+            "predicate": "has_historical_gloss",
+            "value": "nitla. amolentar algo, o entibiarlo"
+          },
+          {
+            "confidence": "MEDIUM",
+            "modality": "EDITORIAL",
+            "predicate": "has_pt_br_editorial_gloss",
+            "value": "amolecer ou aquecer algo"
+          }
+        ],
+        "component_id": "jcb_1571_images",
+        "declared_lossy": true,
+        "direct_witness_inspected": true,
+        "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
+        "entries": [
+          {
+            "original_gloss": "nitla. amolentar algo, o entibiarlo",
+            "source_form": "Yamanilia",
+            "source_form_id": "L0181-FS1"
+          }
+        ],
+        "lemma_id": "L0181",
+        "lemma_variety": "Classical Nahuatl",
+        "locator": "JCB 1571, part II, manifest page 320, column b, headword Yamanilia",
+        "mediation_level": "DIRECT_WITNESS",
+        "source_id": "A01",
+        "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page319/full/2000,/0/default.jpg",
+        "use": "EVIDENCE_CAPTURE",
+        "witness": "John Carter Brown Library, 1-SIZE B571 .M722v"
+      }
+    }
+  },
+  "lemma": {
+    "display_form": "Yamanilia",
+    "id": "L0181",
+    "status": "DRAFT",
+    "variety": "Classical Nahuatl"
+  },
+  "morphology": {
+    "status": "NOT_REVIEWED"
+  },
+  "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+  "phonological_information": {
+    "saltillo": "UNKNOWN",
+    "status": "NOT_REVIEWED",
+    "vowel_length": "UNKNOWN"
+  },
+  "review": {
+    "automatic_merge": false,
+    "coverage_status": "SINGLE_SOURCE",
+    "domain_modality": "EDITORIAL",
+    "lexical_class": "NOT_REVIEWED",
+    "semantic_domain": "trabalho",
+    "semantic_status": "NEEDS_SEMANTIC_REVIEW"
+  },
+  "schema": "nahuatl-br-gate6-canonical-v1",
+  "senses": [
+    {
+      "editorial_status": "DRAFT",
+      "interpretation": "amolecer ou aquecer algo",
+      "original_gloss": "nitla. amolentar algo, o entibiarlo",
+      "sense_id": "L0181-S1",
+      "translations": [
+        {
+          "claim_id": "PCL-18f9beea5e71",
+          "confidence": "MEDIUM",
+          "derived_from": [
+            "PEV-fb20635f9868"
+          ],
+          "editorial_provenance": {
+            "action": "GATE5_PIPELINE_GENERATION",
+            "actor_id": "nahuatl-br-gate5-pipeline",
+            "actor_role": "EXECUTION_AGENT",
+            "created_in_commit": "NOT_COMMITTED",
+            "from_state": "NOT_APPLICABLE",
+            "history_status": "GATE5_DRY_RUN",
+            "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+            "review_status": "NOT_REVIEWED",
+            "timestamp": "NOT_RECORDED",
+            "to_state": "DRAFT",
+            "tool": "nahuatl-br-gate5-pipeline",
+            "tool_version": "1.0.0"
+          },
+          "editorial_state": "DRAFT",
+          "language": "pt-BR",
+          "modality": "EDITORIAL",
+          "text": "amolecer ou aquecer algo",
+          "translation_id": "L0181-T1"
+        }
+      ]
+    }
+  ]
+}
