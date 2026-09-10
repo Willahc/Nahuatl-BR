@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "en nueve partes o nueve raciones",
+      "original_gloss": "en nueue partes, o nueue raciones.",
       "source": "A01",
       "source_form": "Chicunauhcan",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-3fbb7a45b990",
+      "claim_id": "PCL-f873279cc3c9",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0238",
-      "value": "\"en nueve partes o nueve raciones\""
+      "value": "\"en nueue partes, o nueue raciones.\""
     },
     {
-      "claim_id": "PCL-1b7d9b477930",
+      "claim_id": "PCL-a0cbe3212902",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0238",
-      "value": "\"em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes\""
+      "value": "\"em nove partes ou nove porções\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-3fbb7a45b990",
+      "claim_id": "PCL-f873279cc3c9",
       "evidence_id": "PEV-c87fd3a8ced4",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-1b7d9b477930",
+      "claim_id": "PCL-a0cbe3212902",
       "evidence_id": "PEV-c87fd3a8ced4",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "be0c18ea2d602fd9f48474984090a875a2bb3dab42b9ddce6210e43302e6efe1",
+    "pipeline_digest": "1ee863c39b36158cd09866d7bf83a0c53c87d4bb0f32a4cbc949d04ce954e902",
     "request": {
       "case_id": "G6-L0238",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "en nueve partes o nueve raciones"
+            "value": "en nueue partes, o nueue raciones."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
+            "value": "em nove partes ou nove porções"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "en nueve partes o nueve raciones",
+            "original_gloss": "en nueue partes, o nueue raciones.",
             "source_form": "Chicunauhcan",
             "source_form_id": "L0238-FS1"
           }
@@ -298,12 +301,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
-      "original_gloss": "en nueve partes o nueve raciones",
+      "interpretation": "em nove partes ou nove porções",
+      "original_gloss": "en nueue partes, o nueue raciones.",
       "sense_id": "L0238-S1",
       "translations": [
         {
-          "claim_id": "PCL-1b7d9b477930",
+          "claim_id": "PCL-a0cbe3212902",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-c87fd3a8ced4"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
+          "text": "em nove partes ou nove porções",
           "translation_id": "L0238-T1"
         }
       ]

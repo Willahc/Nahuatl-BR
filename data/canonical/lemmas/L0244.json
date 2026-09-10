@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "nic. aguardar a otro con resfresco o con otra cosa",
+      "original_gloss": "aguardar a otro con refreſco o con otra coſa,",
       "source": "A01",
       "source_form": "Chielia",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-7682093a5107",
+      "claim_id": "PCL-1471beef3f50",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0244",
-      "value": "\"nic. aguardar a otro con resfresco o con otra cosa\""
+      "value": "\"aguardar a otro con refreſco o con otra coſa,\""
     },
     {
-      "claim_id": "PCL-2562fcd1d085",
+      "claim_id": "PCL-59a31a3fa244",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0244",
-      "value": "\"aguardar alguÃƒÆ’Ã‚Â©m com refresco ou outra coisa\""
+      "value": "\"aguardar outra pessoa com refresco ou outra coisa\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-7682093a5107",
+      "claim_id": "PCL-1471beef3f50",
       "evidence_id": "PEV-8a0bb3e0c268",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-2562fcd1d085",
+      "claim_id": "PCL-59a31a3fa244",
       "evidence_id": "PEV-8a0bb3e0c268",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "da66546e7e0c21393f638c907bb0161414584e4f19a8db6055e235276e9cf242",
+    "pipeline_digest": "702d137f6e998cef9390838cd9c07f15eb29faed10d62a890ad8ce5d8e72c01f",
     "request": {
       "case_id": "G6-L0244",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "nic. aguardar a otro con resfresco o con otra cosa"
+            "value": "aguardar a otro con refreſco o con otra coſa,"
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "aguardar alguÃƒÆ’Ã‚Â©m com refresco ou outra coisa"
+            "value": "aguardar outra pessoa com refresco ou outra coisa"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "nic. aguardar a otro con resfresco o con otra cosa",
+            "original_gloss": "aguardar a otro con refreſco o con otra coſa,",
             "source_form": "Chielia",
             "source_form_id": "L0244-FS1"
           }
@@ -291,19 +294,19 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "relaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
+    "semantic_domain": "relações",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "aguardar alguÃƒÆ’Ã‚Â©m com refresco ou outra coisa",
-      "original_gloss": "nic. aguardar a otro con resfresco o con otra cosa",
+      "interpretation": "aguardar outra pessoa com refresco ou outra coisa",
+      "original_gloss": "aguardar a otro con refreſco o con otra coſa,",
       "sense_id": "L0244-S1",
       "translations": [
         {
-          "claim_id": "PCL-2562fcd1d085",
+          "claim_id": "PCL-59a31a3fa244",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-8a0bb3e0c268"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "aguardar alguÃƒÆ’Ã‚Â©m com refresco ou outra coisa",
+          "text": "aguardar outra pessoa com refresco ou outra coisa",
           "translation_id": "L0244-T1"
         }
       ]

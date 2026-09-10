@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-54c4b3fdc31e",
+      "attestation_id": "PAT-a91e7ab9075a",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlalpalli",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatolli",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "palabra cautelosa, blasfemia, o palabra aviesa",
+      "original_gloss": "palabra cauteloſa, blasfemia, o palabra auieſa.",
       "source": "A01",
-      "source_form": "Chicotlalpalli",
+      "source_form": "Chicotlatolli",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-de983af52446",
+      "claim_id": "PCL-e04ef8d66f0b",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,16 +38,16 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-df7a2f3f6fdf"
+        "PEV-9179496708b6"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0217",
-      "value": "\"palabra cautelosa, blasfemia, o palabra aviesa\""
+      "value": "\"palabra cauteloſa, blasfemia, o palabra auieſa.\""
     },
     {
-      "claim_id": "PCL-6bebf6a5696f",
+      "claim_id": "PCL-8beec21bc2f9",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -66,20 +66,20 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-df7a2f3f6fdf"
+        "PEV-9179496708b6"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0217",
-      "value": "\"palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa\""
+      "value": "\"palavra cautelosa, blasfêmia ou palavra maldosa\""
     }
   ],
   "corpus_references": [],
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-54c4b3fdc31e",
+      "attestation_id": "PAT-a91e7ab9075a",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-df7a2f3f6fdf",
+      "evidence_id": "PEV-9179496708b6",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlalpalli",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatolli",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-de983af52446",
-      "evidence_id": "PEV-df7a2f3f6fdf",
+      "claim_id": "PCL-e04ef8d66f0b",
+      "evidence_id": "PEV-9179496708b6",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-6bebf6a5696f",
-      "evidence_id": "PEV-df7a2f3f6fdf",
+      "claim_id": "PCL-8beec21bc2f9",
+      "evidence_id": "PEV-9179496708b6",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-df7a2f3f6fdf"
+        "PEV-9179496708b6"
       ],
       "form_id": "L0217-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicotlalpalli"
+      "value": "Chicotlatolli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicotlalpalli",
+          "input": "Chicotlatolli",
           "lossy": false,
-          "output": "Chicotlalpalli",
+          "output": "Chicotlatolli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0217-FS1-FD-ebd8c0af7728",
+      "form_id": "L0217-FS1-FD-fbab6f6c2bdc",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicotlalpalli"
+      "value": "Chicotlatolli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicotlalpalli",
+          "input": "Chicotlatolli",
           "lossy": false,
-          "output": "Chicotlalpalli",
+          "output": "Chicotlatolli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0217-FS1-FN-aa05992dd0ff",
+      "form_id": "L0217-FS1-FN-f3e6c971e430",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicotlalpalli"
+      "value": "Chicotlatolli"
     },
     {
       "evidence": [],
-      "form_id": "L0217-FS1-FP-081a90274f8a",
+      "form_id": "L0217-FS1-FP-4b167b4b6a34",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0217-FS1-SK-45d56ad394b4",
+      "form_id": "L0217-FS1-SK-a5bed21f3aa9",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicotlalpalli"
+        "chicotlatolli"
       ],
       "steps": [
         {
-          "input": "Chicotlalpalli",
+          "input": "Chicotlatolli",
           "lossy": false,
-          "output": "Chicotlalpalli",
+          "output": "Chicotlatolli",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicotlalpalli",
+          "input": "Chicotlatolli",
           "lossy": true,
-          "output": "chicotlalpalli",
+          "output": "chicotlatolli",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicotlalpalli",
+          "input": "chicotlatolli",
           "lossy": true,
-          "output": "chicotlalpalli",
+          "output": "chicotlatolli",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicotlalpalli",
+          "input": "chicotlatolli",
           "lossy": true,
-          "output": "chicotlalpalli",
+          "output": "chicotlatolli",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicotlalpalli",
+          "input": "chicotlatolli",
           "lossy": true,
-          "output": "chicotlalpalli",
+          "output": "chicotlatolli",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicotlalpalli"
+      "value": "chicotlatolli"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "06f28c54d9826c7522bac7250b946ca73d8bc69e086262d42b6b877f803a62e5",
+    "pipeline_digest": "e6f4ca2d6628f0dbfd492995d2d031875d4fce52dc53e9c33ba123f00435f0e5",
     "request": {
       "case_id": "G6-L0217",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "palabra cautelosa, blasfemia, o palabra aviesa"
+            "value": "palabra cauteloſa, blasfemia, o palabra auieſa."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa"
+            "value": "palavra cautelosa, blasfêmia ou palavra maldosa"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "palabra cautelosa, blasfemia, o palabra aviesa",
-            "source_form": "Chicotlalpalli",
+            "original_gloss": "palabra cauteloſa, blasfemia, o palabra auieſa.",
+            "source_form": "Chicotlatolli",
             "source_form_id": "L0217-FS1"
           }
         ],
         "lemma_id": "L0217",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlalpalli",
+        "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatolli",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicotlalpalli",
+    "display_form": "Chicotlatolli",
     "id": "L0217",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -298,15 +301,15 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa",
-      "original_gloss": "palabra cautelosa, blasfemia, o palabra aviesa",
+      "interpretation": "palavra cautelosa, blasfêmia ou palavra maldosa",
+      "original_gloss": "palabra cauteloſa, blasfemia, o palabra auieſa.",
       "sense_id": "L0217-S1",
       "translations": [
         {
-          "claim_id": "PCL-6bebf6a5696f",
+          "claim_id": "PCL-8beec21bc2f9",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-df7a2f3f6fdf"
+            "PEV-9179496708b6"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa",
+          "text": "palavra cautelosa, blasfêmia ou palavra maldosa",
           "translation_id": "L0217-T1"
         }
       ]

@@ -129,31 +129,55 @@
     ],
     "source_forms": {
       "L0086": "Chicotlamatiliztli",
-      "L0208": "Chicotlamatiztli"
+      "L0208": "Chicotlamatiliztli"
     },
     "normalized_forms": {
       "L0086": "Chicotlamatiliztli",
-      "L0208": "Chicotlamatiztli"
+      "L0208": "Chicotlamatiliztli"
     },
     "search_keys": {
       "L0086": "chicotlamatiliztli",
-      "L0208": "chicotlamatiztli"
+      "L0208": "chicotlamatiliztli"
     },
     "historical_glosses": {
       "L0086": [
         "ſoſpecha."
       ],
       "L0208": [
-        "sospecha"
+        "ſoſpecha."
       ]
     },
     "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlamatiliztli"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlamatiliztli"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlamatiliztli"
+      },
       {
         "field": "SENSE_TEXT",
         "value": "suspeita"
       }
     ],
     "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlamatiliztli"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlamatiliztli"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlamatiliztli"
+      },
       {
         "field": "SENSE_TEXT",
         "value": "suspeita"
@@ -185,7 +209,7 @@
         "ſoſpechoſo o celoſo."
       ],
       "L0209": [
-        "sospechoso o celoso"
+        "ſoſpechoſo o celoſo."
       ]
     },
     "reason": [
@@ -242,7 +266,7 @@
         "coſa no entera."
       ],
       "L0210": [
-        "cosa no entera"
+        "coſa no entera."
       ]
     },
     "reason": [
@@ -307,7 +331,7 @@
         "desuario tal."
       ],
       "L0213": [
-        "desuario tal"
+        "deſuario tal."
       ]
     },
     "reason": [
@@ -364,7 +388,7 @@
         "loco atreſguado."
       ],
       "L0218": [
-        "loco atreguiado"
+        "loco atreguado."
       ]
     },
     "reason": [
@@ -379,10 +403,6 @@
       {
         "field": "SEARCH_KEY",
         "value": "chicotlaueliloc"
-      },
-      {
-        "field": "SENSE_TEXT",
-        "value": "louco perturbado"
       }
     ],
     "reasons": [
@@ -397,10 +417,6 @@
       {
         "field": "SEARCH_KEY",
         "value": "chicotlaueliloc"
-      },
-      {
-        "field": "SENSE_TEXT",
-        "value": "louco perturbado"
       }
     ],
     "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
@@ -429,7 +445,7 @@
         "ocho vezes."
       ],
       "L0227": [
-        "ocho vezes"
+        "ocho vezes."
       ]
     },
     "reason": [
@@ -455,22 +471,22 @@
     ],
     "source_forms": {
       "L0093": "Chicunpoalli",
-      "L0234": "Chicumpoa"
+      "L0234": "Chicumpoalli"
     },
     "normalized_forms": {
       "L0093": "Chicunpoalli",
-      "L0234": "Chicumpoa"
+      "L0234": "Chicumpoalli"
     },
     "search_keys": {
       "L0093": "chicunpoalli",
-      "L0234": "chicumpoa"
+      "L0234": "chicumpoalli"
     },
     "historical_glosses": {
       "L0093": [
         "ciento y quarenta."
       ],
       "L0234": [
-        "ciento y quarenta"
+        "ciento y quarenta."
       ]
     },
     "reason": [
@@ -511,81 +527,40 @@
         "nueue vezes."
       ],
       "L0235": [
-        "nueve veces"
-      ]
-    },
-    "reason": [
-      {
-        "field": "SOURCE_FORM",
-        "value": "Chicunappa"
-      },
-      {
-        "field": "NORMALIZED_FORM",
-        "value": "Chicunappa"
-      },
-      {
-        "field": "SEARCH_KEY",
-        "value": "chicunappa"
-      },
-      {
-        "field": "SENSE_TEXT",
-        "value": "nove vezes"
-      }
-    ],
-    "reasons": [
-      {
-        "field": "SOURCE_FORM",
-        "value": "Chicunappa"
-      },
-      {
-        "field": "NORMALIZED_FORM",
-        "value": "Chicunappa"
-      },
-      {
-        "field": "SEARCH_KEY",
-        "value": "chicunappa"
-      },
-      {
-        "field": "SENSE_TEXT",
-        "value": "nove vezes"
-      }
-    ],
-    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
-    "status": "CANDIDATE_ONLY",
-    "automatic_merge": false
-  },
-  {
-    "lemma_ids": [
-      "L0094",
-      "L0243"
-    ],
-    "source_forms": {
-      "L0094": "Chicunappa",
-      "L0243": "Chicuppa"
-    },
-    "normalized_forms": {
-      "L0094": "Chicunappa",
-      "L0243": "Chicuppa"
-    },
-    "search_keys": {
-      "L0094": "chicunappa",
-      "L0243": "chicuppa"
-    },
-    "historical_glosses": {
-      "L0094": [
         "nueue vezes."
-      ],
-      "L0243": [
-        "siete veces"
       ]
     },
     "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicunappa"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicunappa"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicunappa"
+      },
       {
         "field": "SENSE_TEXT",
         "value": "nove vezes"
       }
     ],
     "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicunappa"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicunappa"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicunappa"
+      },
       {
         "field": "SENSE_TEXT",
         "value": "nove vezes"
@@ -617,7 +592,7 @@
         "ſiete."
       ],
       "L0241": [
-        "siete"
+        "ſiete."
       ]
     },
     "reason": [
@@ -632,6 +607,10 @@
       {
         "field": "SEARCH_KEY",
         "value": "chicuntetl"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "sete"
       }
     ],
     "reasons": [
@@ -646,6 +625,10 @@
       {
         "field": "SEARCH_KEY",
         "value": "chicuntetl"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "sete"
       }
     ],
     "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
@@ -674,7 +657,7 @@
         "ſiete vezes."
       ],
       "L0243": [
-        "siete veces"
+        "ſiete vezes."
       ]
     },
     "reason": [
@@ -689,6 +672,10 @@
       {
         "field": "SEARCH_KEY",
         "value": "chicuppa"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "sete vezes"
       }
     ],
     "reasons": [
@@ -703,6 +690,10 @@
       {
         "field": "SEARCH_KEY",
         "value": "chicuppa"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "sete vezes"
       }
     ],
     "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
@@ -731,7 +722,7 @@
         "azeite de chia."
       ],
       "L0247": [
-        "azcite de chia"
+        "azeite de chia."
       ]
     },
     "reason": [
@@ -1476,34 +1467,34 @@
     ],
     "source_forms": {
       "L0213": "Chicotlatetoliztli",
-      "L0216": "Chicotlatoziztli"
+      "L0216": "Chicotlatoliztli"
     },
     "normalized_forms": {
       "L0213": "Chicotlatetoliztli",
-      "L0216": "Chicotlatoziztli"
+      "L0216": "Chicotlatoliztli"
     },
     "search_keys": {
       "L0213": "chicotlatetoliztli",
-      "L0216": "chicotlatoziztli"
+      "L0216": "chicotlatoliztli"
     },
     "historical_glosses": {
       "L0213": [
-        "desuario tal"
+        "deſuario tal."
       ],
       "L0216": [
-        "desuario tal"
+        "deſuario tal."
       ]
     },
     "reason": [
       {
         "field": "SENSE_TEXT",
-        "value": "delÃƒÆ’Ã‚Â­rio"
+        "value": "delírio desse tipo"
       }
     ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
-        "value": "delÃƒÆ’Ã‚Â­rio"
+        "value": "delírio desse tipo"
       }
     ],
     "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
@@ -1529,10 +1520,10 @@
     },
     "historical_glosses": {
       "L0220": [
-        "nitella. dar algo mas a vno que a otro"
+        "dar algo mas a vno que a otro"
       ],
       "L0221": [
-        "nite. mejorar a otro"
+        "mejorar a otro."
       ]
     },
     "reason": [
@@ -1561,47 +1552,6 @@
       {
         "field": "SEARCH_KEY",
         "value": "chicouia"
-      }
-    ],
-    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
-    "status": "CANDIDATE_ONLY",
-    "automatic_merge": false
-  },
-  {
-    "lemma_ids": [
-      "L0235",
-      "L0243"
-    ],
-    "source_forms": {
-      "L0235": "Chicunappa",
-      "L0243": "Chicuppa"
-    },
-    "normalized_forms": {
-      "L0235": "Chicunappa",
-      "L0243": "Chicuppa"
-    },
-    "search_keys": {
-      "L0235": "chicunappa",
-      "L0243": "chicuppa"
-    },
-    "historical_glosses": {
-      "L0235": [
-        "nueve veces"
-      ],
-      "L0243": [
-        "siete veces"
-      ]
-    },
-    "reason": [
-      {
-        "field": "SENSE_TEXT",
-        "value": "nove vezes"
-      }
-    ],
-    "reasons": [
-      {
-        "field": "SENSE_TEXT",
-        "value": "nove vezes"
       }
     ],
     "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
@@ -1627,10 +1577,10 @@
     },
     "historical_glosses": {
       "L0245": [
-        "nic. idem"
+        "idem."
       ],
       "L0246": [
-        "nicno. aguardar o esperar sin temor al enemigo"
+        "aguardar o eſperar ſin temor al enemigo."
       ]
     },
     "reason": [

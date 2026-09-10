@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-08f87a47737d",
+      "attestation_id": "PAT-8ac4962595cc",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhpan",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhpantli",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "nueve rengleras o hileras",
+      "original_gloss": "nueue rengleras o hileras.",
       "source": "A01",
-      "source_form": "Chicunauhpan",
+      "source_form": "Chicunauhpantli",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-0e1be1ac40d7",
+      "claim_id": "PCL-5002dab94780",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,13 +38,13 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-75af4bbfac93"
+        "PEV-407120c2462f"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0239",
-      "value": "\"nueve rengleras o hileras\""
+      "value": "\"nueue rengleras o hileras.\""
     },
     {
       "claim_id": "PCL-7f064d178561",
@@ -66,7 +66,7 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-75af4bbfac93"
+        "PEV-407120c2462f"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
@@ -79,7 +79,7 @@
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-08f87a47737d",
+      "attestation_id": "PAT-8ac4962595cc",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-75af4bbfac93",
+      "evidence_id": "PEV-407120c2462f",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhpan",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhpantli",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-0e1be1ac40d7",
-      "evidence_id": "PEV-75af4bbfac93",
+      "claim_id": "PCL-5002dab94780",
+      "evidence_id": "PEV-407120c2462f",
       "relation": "SUPPORTS"
     },
     {
       "claim_id": "PCL-7f064d178561",
-      "evidence_id": "PEV-75af4bbfac93",
+      "evidence_id": "PEV-407120c2462f",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-75af4bbfac93"
+        "PEV-407120c2462f"
       ],
       "form_id": "L0239-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicunauhpan"
+      "value": "Chicunauhpantli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicunauhpan",
+          "input": "Chicunauhpantli",
           "lossy": false,
-          "output": "Chicunauhpan",
+          "output": "Chicunauhpantli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0239-FS1-FD-337d5396c21e",
+      "form_id": "L0239-FS1-FD-e1644d2324b4",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicunauhpan"
+      "value": "Chicunauhpantli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicunauhpan",
+          "input": "Chicunauhpantli",
           "lossy": false,
-          "output": "Chicunauhpan",
+          "output": "Chicunauhpantli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0239-FS1-FN-fac5a9ae55bd",
+      "form_id": "L0239-FS1-FN-7b215a56adc8",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicunauhpan"
+      "value": "Chicunauhpantli"
     },
     {
       "evidence": [],
-      "form_id": "L0239-FS1-FP-9713f949e9b1",
+      "form_id": "L0239-FS1-FP-bd4d95991a65",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0239-FS1-SK-7b82659d9b7b",
+      "form_id": "L0239-FS1-SK-de78ec46ad9a",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicunauhpan"
+        "chicunauhpantli"
       ],
       "steps": [
         {
-          "input": "Chicunauhpan",
+          "input": "Chicunauhpantli",
           "lossy": false,
-          "output": "Chicunauhpan",
+          "output": "Chicunauhpantli",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicunauhpan",
+          "input": "Chicunauhpantli",
           "lossy": true,
-          "output": "chicunauhpan",
+          "output": "chicunauhpantli",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicunauhpan",
+          "input": "chicunauhpantli",
           "lossy": true,
-          "output": "chicunauhpan",
+          "output": "chicunauhpantli",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicunauhpan",
+          "input": "chicunauhpantli",
           "lossy": true,
-          "output": "chicunauhpan",
+          "output": "chicunauhpantli",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicunauhpan",
+          "input": "chicunauhpantli",
           "lossy": true,
-          "output": "chicunauhpan",
+          "output": "chicunauhpantli",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicunauhpan"
+      "value": "chicunauhpantli"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "532a639b5ab2e6dcf9643d9aa6146e82e913f177c4823c116c70b08ae2af3d67",
+    "pipeline_digest": "0067f25299c3e4726e9709e0d5be3116054b3a6ee8551ee5113b22d2fbb64acb",
     "request": {
       "case_id": "G6-L0239",
       "ingest": {
@@ -240,7 +243,7 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "nueve rengleras o hileras"
+            "value": "nueue rengleras o hileras."
           },
           {
             "confidence": "MEDIUM",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "nueve rengleras o hileras",
-            "source_form": "Chicunauhpan",
+            "original_gloss": "nueue rengleras o hileras.",
+            "source_form": "Chicunauhpantli",
             "source_form_id": "L0239-FS1"
           }
         ],
         "lemma_id": "L0239",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhpan",
+        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhpantli",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicunauhpan",
+    "display_form": "Chicunauhpantli",
     "id": "L0239",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -299,14 +302,14 @@
     {
       "editorial_status": "DRAFT",
       "interpretation": "nove fileiras",
-      "original_gloss": "nueve rengleras o hileras",
+      "original_gloss": "nueue rengleras o hileras.",
       "sense_id": "L0239-S1",
       "translations": [
         {
           "claim_id": "PCL-7f064d178561",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-75af4bbfac93"
+            "PEV-407120c2462f"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",

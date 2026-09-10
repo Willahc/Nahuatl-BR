@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "siete rengleras o hileras de algo",
+      "original_gloss": "ſiete rengleras o hileras de algo.",
       "source": "A01",
       "source_form": "Chicumpantli",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-79ba0538cc76",
+      "claim_id": "PCL-7d4530180651",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,7 +44,7 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0233",
-      "value": "\"siete rengleras o hileras de algo\""
+      "value": "\"ſiete rengleras o hileras de algo.\""
     },
     {
       "claim_id": "PCL-5df0ee34c385",
@@ -108,7 +108,7 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-79ba0538cc76",
+      "claim_id": "PCL-7d4530180651",
       "evidence_id": "PEV-c971c8ac7d80",
       "relation": "SUPPORTS"
     },
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "d4676e838f8f83ec59a9797aeea73708365e5bd7784a0b722c5cebc3fe7bf7f5",
+    "pipeline_digest": "c249f199fccf3a149fedbf5dad66a8d0a1b86d86a740404ab5abdd83980b00b2",
     "request": {
       "case_id": "G6-L0233",
       "ingest": {
@@ -240,7 +243,7 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "siete rengleras o hileras de algo"
+            "value": "ſiete rengleras o hileras de algo."
           },
           {
             "confidence": "MEDIUM",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "siete rengleras o hileras de algo",
+            "original_gloss": "ſiete rengleras o hileras de algo.",
             "source_form": "Chicumpantli",
             "source_form_id": "L0233-FS1"
           }
@@ -299,7 +302,7 @@
     {
       "editorial_status": "DRAFT",
       "interpretation": "sete fileiras de algo",
-      "original_gloss": "siete rengleras o hileras de algo",
+      "original_gloss": "ſiete rengleras o hileras de algo.",
       "sense_id": "L0233-S1",
       "translations": [
         {

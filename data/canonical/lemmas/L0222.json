@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "nitla. ametalar algo de diversas colores",
+      "original_gloss": "ametalar algo de diuerſas colores.",
       "source": "A01",
       "source_form": "Chictlapana",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-134e8c8b8bd9",
+      "claim_id": "PCL-1aff237d1140",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0222",
-      "value": "\"nitla. ametalar algo de diversas colores\""
+      "value": "\"ametalar algo de diuerſas colores.\""
     },
     {
-      "claim_id": "PCL-06427263b250",
+      "claim_id": "PCL-6293cd74ba41",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0222",
-      "value": "\"metalizar algo com vÃƒÆ’Ã‚Â¡rias cores\""
+      "value": "\"dar a algo cores variadas; “ametalar” requer revisão\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-134e8c8b8bd9",
+      "claim_id": "PCL-1aff237d1140",
       "evidence_id": "PEV-b9ddd500487a",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-06427263b250",
+      "claim_id": "PCL-6293cd74ba41",
       "evidence_id": "PEV-b9ddd500487a",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "98eadbc722e9718ddab4dd9bcb48f736b2eb8a008e855be6921a395b6caac4cf",
+    "pipeline_digest": "769854d66f002a34b87c2dd7bce85b33d7084947ae72e9de6baebe81a1a2ea09",
     "request": {
       "case_id": "G6-L0222",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "nitla. ametalar algo de diversas colores"
+            "value": "ametalar algo de diuerſas colores."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "metalizar algo com vÃƒÆ’Ã‚Â¡rias cores"
+            "value": "dar a algo cores variadas; “ametalar” requer revisão"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "nitla. ametalar algo de diversas colores",
+            "original_gloss": "ametalar algo de diuerſas colores.",
             "source_form": "Chictlapana",
             "source_form_id": "L0222-FS1"
           }
@@ -298,12 +301,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "metalizar algo com vÃƒÆ’Ã‚Â¡rias cores",
-      "original_gloss": "nitla. ametalar algo de diversas colores",
+      "interpretation": "dar a algo cores variadas; “ametalar” requer revisão",
+      "original_gloss": "ametalar algo de diuerſas colores.",
       "sense_id": "L0222-S1",
       "translations": [
         {
-          "claim_id": "PCL-06427263b250",
+          "claim_id": "PCL-6293cd74ba41",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-b9ddd500487a"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "metalizar algo com vÃƒÆ’Ã‚Â¡rias cores",
+          "text": "dar a algo cores variadas; “ametalar” requer revisão",
           "translation_id": "L0222-T1"
         }
       ]

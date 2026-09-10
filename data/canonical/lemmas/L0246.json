@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "nicno. aguardar o esperar sin temor al enemigo",
+      "original_gloss": "aguardar o eſperar ſin temor al enemigo.",
       "source": "A01",
       "source_form": "Chieltia",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-ada4f451330d",
+      "claim_id": "PCL-332348eb8fa7",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0246",
-      "value": "\"nicno. aguardar o esperar sin temor al enemigo\""
+      "value": "\"aguardar o eſperar ſin temor al enemigo.\""
     },
     {
-      "claim_id": "PCL-88c3c00bc75c",
+      "claim_id": "PCL-512039eb5e9c",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0246",
-      "value": "\"esperar sem temor do inimigo\""
+      "value": "\"aguardar ou esperar o inimigo sem temor\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-ada4f451330d",
+      "claim_id": "PCL-332348eb8fa7",
       "evidence_id": "PEV-3a946209f134",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-88c3c00bc75c",
+      "claim_id": "PCL-512039eb5e9c",
       "evidence_id": "PEV-3a946209f134",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "6669c77f0243f4de5fc0b924336a5570da23de526e4209193e5837d9414133bf",
+    "pipeline_digest": "51dd0856b5aebcc2ed2c250d424cbf997c3a80a32bc30522166bdce94f540311",
     "request": {
       "case_id": "G6-L0246",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "nicno. aguardar o esperar sin temor al enemigo"
+            "value": "aguardar o eſperar ſin temor al enemigo."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "esperar sem temor do inimigo"
+            "value": "aguardar ou esperar o inimigo sem temor"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "nicno. aguardar o esperar sin temor al enemigo",
+            "original_gloss": "aguardar o eſperar ſin temor al enemigo.",
             "source_form": "Chieltia",
             "source_form_id": "L0246-FS1"
           }
@@ -298,12 +301,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "esperar sem temor do inimigo",
-      "original_gloss": "nicno. aguardar o esperar sin temor al enemigo",
+      "interpretation": "aguardar ou esperar o inimigo sem temor",
+      "original_gloss": "aguardar o eſperar ſin temor al enemigo.",
       "sense_id": "L0246-S1",
       "translations": [
         {
-          "claim_id": "PCL-88c3c00bc75c",
+          "claim_id": "PCL-512039eb5e9c",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-3a946209f134"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "esperar sem temor do inimigo",
+          "text": "aguardar ou esperar o inimigo sem temor",
           "translation_id": "L0246-T1"
         }
       ]

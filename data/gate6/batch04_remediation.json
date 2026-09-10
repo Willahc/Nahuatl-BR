@@ -1,0 +1,633 @@
+{
+  "baseline_comparison_commit": "8f33f82aeba8c0691e9ac6b5b19d57b03916e192",
+  "records_inspected": 50,
+  "source_form_corrections": 14,
+  "historical_gloss_corrections": 50,
+  "pt_br_corrections": 35,
+  "semantic_domain_corrections": 18,
+  "records_with_encoding_corrections": 23,
+  "records_unchanged": 0,
+  "unresolved_transcription": 0,
+  "true_mojibake_remaining": 0,
+  "duplicate_candidates": 32,
+  "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
+  "rows": [
+    {
+      "lemma_id": "L0201",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0202",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0203",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0204",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0205",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0206",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0207",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0208",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0209",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0210",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0211",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0212",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0213",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0214",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0215",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0216",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0217",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0218",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0219",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0220",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0221",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0222",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0223",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0224",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0225",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "a",
+      "changed_fields": [
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0226",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0227",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0228",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0229",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0230",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0231",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0232",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0233",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0234",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0235",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0236",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0237",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0238",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0239",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0240",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0241",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0242",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0243",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0244",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0245",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br",
+        "domain"
+      ],
+      "prior_true_mojibake": true,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0246",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0247",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0248",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "source_form",
+        "historical_gloss"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0249",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    },
+    {
+      "lemma_id": "L0250",
+      "visual_recheck": "COMPLETE",
+      "entry_boundary_checked": true,
+      "column": "b",
+      "changed_fields": [
+        "historical_gloss",
+        "pt_br"
+      ],
+      "prior_true_mojibake": false,
+      "unresolved_transcription": false
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-3b00a5b6f18f",
+      "attestation_id": "PAT-a56ac45d1f07",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuiltia",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicultia",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "niteta. persuadir algo a otro con importunidad",
+      "original_gloss": "perſuadir algo a otro con importunidad.",
       "source": "A01",
-      "source_form": "Chicuiltia",
+      "source_form": "Chicultia",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-9e72ab5e2d17",
+      "claim_id": "PCL-6b421eb71c3a",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,16 +38,16 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-77bdfd32008d"
+        "PEV-f563a390c280"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0230",
-      "value": "\"niteta. persuadir algo a otro con importunidad\""
+      "value": "\"perſuadir algo a otro con importunidad.\""
     },
     {
-      "claim_id": "PCL-7bebe0140417",
+      "claim_id": "PCL-69f7046d0106",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -66,20 +66,20 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-77bdfd32008d"
+        "PEV-f563a390c280"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0230",
-      "value": "\"persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia\""
+      "value": "\"persuadir outra pessoa com insistência\""
     }
   ],
   "corpus_references": [],
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-3b00a5b6f18f",
+      "attestation_id": "PAT-a56ac45d1f07",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-77bdfd32008d",
+      "evidence_id": "PEV-f563a390c280",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuiltia",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicultia",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-9e72ab5e2d17",
-      "evidence_id": "PEV-77bdfd32008d",
+      "claim_id": "PCL-6b421eb71c3a",
+      "evidence_id": "PEV-f563a390c280",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-7bebe0140417",
-      "evidence_id": "PEV-77bdfd32008d",
+      "claim_id": "PCL-69f7046d0106",
+      "evidence_id": "PEV-f563a390c280",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-77bdfd32008d"
+        "PEV-f563a390c280"
       ],
       "form_id": "L0230-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicuiltia"
+      "value": "Chicultia"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicuiltia",
+          "input": "Chicultia",
           "lossy": false,
-          "output": "Chicuiltia",
+          "output": "Chicultia",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0230-FS1-FD-da94693bdc92",
+      "form_id": "L0230-FS1-FD-dca3618b424a",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicuiltia"
+      "value": "Chicultia"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicuiltia",
+          "input": "Chicultia",
           "lossy": false,
-          "output": "Chicuiltia",
+          "output": "Chicultia",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0230-FS1-FN-cc773974a350",
+      "form_id": "L0230-FS1-FN-57b305497bfe",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicuiltia"
+      "value": "Chicultia"
     },
     {
       "evidence": [],
-      "form_id": "L0230-FS1-FP-03f840ce62ef",
+      "form_id": "L0230-FS1-FP-50b883de4ba6",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0230-FS1-SK-718b973f5808",
+      "form_id": "L0230-FS1-SK-f87ed4c8e412",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicuiltia"
+        "chicultia"
       ],
       "steps": [
         {
-          "input": "Chicuiltia",
+          "input": "Chicultia",
           "lossy": false,
-          "output": "Chicuiltia",
+          "output": "Chicultia",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicuiltia",
+          "input": "Chicultia",
           "lossy": true,
-          "output": "chicuiltia",
+          "output": "chicultia",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicuiltia",
+          "input": "chicultia",
           "lossy": true,
-          "output": "chicuiltia",
+          "output": "chicultia",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicuiltia",
+          "input": "chicultia",
           "lossy": true,
-          "output": "chicuiltia",
+          "output": "chicultia",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicuiltia",
+          "input": "chicultia",
           "lossy": true,
-          "output": "chicuiltia",
+          "output": "chicultia",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicuiltia"
+      "value": "chicultia"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "2f91d0ac203da1aed76b8f184479bddfcc69c489762dbf21e2b52a2d99b8d540",
+    "pipeline_digest": "7c032e8f6402aabdb1800d75a3b9276922096309ae6e2840b6f13557cc0659ba",
     "request": {
       "case_id": "G6-L0230",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "niteta. persuadir algo a otro con importunidad"
+            "value": "perſuadir algo a otro con importunidad."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia"
+            "value": "persuadir outra pessoa com insistência"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "niteta. persuadir algo a otro con importunidad",
-            "source_form": "Chicuiltia",
+            "original_gloss": "perſuadir algo a otro con importunidad.",
+            "source_form": "Chicultia",
             "source_form_id": "L0230-FS1"
           }
         ],
         "lemma_id": "L0230",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuiltia",
+        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicultia",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicuiltia",
+    "display_form": "Chicultia",
     "id": "L0230",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -291,22 +294,22 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "relaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
+    "semantic_domain": "relações",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia",
-      "original_gloss": "niteta. persuadir algo a otro con importunidad",
+      "interpretation": "persuadir outra pessoa com insistência",
+      "original_gloss": "perſuadir algo a otro con importunidad.",
       "sense_id": "L0230-S1",
       "translations": [
         {
-          "claim_id": "PCL-7bebe0140417",
+          "claim_id": "PCL-69f7046d0106",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-77bdfd32008d"
+            "PEV-f563a390c280"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia",
+          "text": "persuadir outra pessoa com insistência",
           "translation_id": "L0230-T1"
         }
       ]

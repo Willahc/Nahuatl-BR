@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-7c469925c1cc",
+      "attestation_id": "PAT-17e160ee33d5",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunquauipilli",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauipilli",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "ciento y ochenta mantas, tortillas etc.",
+      "original_gloss": "ciento y ochenta mãtas, tortillas eſteras.",
       "source": "A01",
-      "source_form": "Chicunquauipilli",
+      "source_form": "Chicunauipilli",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-afe2703f70c8",
+      "claim_id": "PCL-f41fdddcdc5c",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,16 +38,16 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-77967474d4b7"
+        "PEV-d09556683b3f"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0237",
-      "value": "\"ciento y ochenta mantas, tortillas etc.\""
+      "value": "\"ciento y ochenta mãtas, tortillas eſteras.\""
     },
     {
-      "claim_id": "PCL-6774c82a182a",
+      "claim_id": "PCL-258c24fb27e8",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -66,20 +66,20 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-77967474d4b7"
+        "PEV-d09556683b3f"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0237",
-      "value": "\"cento e oitenta mantas ou tortillas\""
+      "value": "\"cento e oitenta mantas, tortillas ou esteiras\""
     }
   ],
   "corpus_references": [],
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-7c469925c1cc",
+      "attestation_id": "PAT-17e160ee33d5",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-77967474d4b7",
+      "evidence_id": "PEV-d09556683b3f",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunquauipilli",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauipilli",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-afe2703f70c8",
-      "evidence_id": "PEV-77967474d4b7",
+      "claim_id": "PCL-f41fdddcdc5c",
+      "evidence_id": "PEV-d09556683b3f",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-6774c82a182a",
-      "evidence_id": "PEV-77967474d4b7",
+      "claim_id": "PCL-258c24fb27e8",
+      "evidence_id": "PEV-d09556683b3f",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-77967474d4b7"
+        "PEV-d09556683b3f"
       ],
       "form_id": "L0237-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicunquauipilli"
+      "value": "Chicunauipilli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicunquauipilli",
+          "input": "Chicunauipilli",
           "lossy": false,
-          "output": "Chicunquauipilli",
+          "output": "Chicunauipilli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0237-FS1-FD-6d6f4508dfc3",
+      "form_id": "L0237-FS1-FD-621978fcf7b1",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicunquauipilli"
+      "value": "Chicunauipilli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicunquauipilli",
+          "input": "Chicunauipilli",
           "lossy": false,
-          "output": "Chicunquauipilli",
+          "output": "Chicunauipilli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0237-FS1-FN-c2525a46e95a",
+      "form_id": "L0237-FS1-FN-abd02317c28b",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicunquauipilli"
+      "value": "Chicunauipilli"
     },
     {
       "evidence": [],
-      "form_id": "L0237-FS1-FP-1be6d316b193",
+      "form_id": "L0237-FS1-FP-118c9d8d6b11",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0237-FS1-SK-fe7de682c23b",
+      "form_id": "L0237-FS1-SK-06d3cb448083",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicunquauipilli"
+        "chicunauipilli"
       ],
       "steps": [
         {
-          "input": "Chicunquauipilli",
+          "input": "Chicunauipilli",
           "lossy": false,
-          "output": "Chicunquauipilli",
+          "output": "Chicunauipilli",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicunquauipilli",
+          "input": "Chicunauipilli",
           "lossy": true,
-          "output": "chicunquauipilli",
+          "output": "chicunauipilli",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicunquauipilli",
+          "input": "chicunauipilli",
           "lossy": true,
-          "output": "chicunquauipilli",
+          "output": "chicunauipilli",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicunquauipilli",
+          "input": "chicunauipilli",
           "lossy": true,
-          "output": "chicunquauipilli",
+          "output": "chicunauipilli",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicunquauipilli",
+          "input": "chicunauipilli",
           "lossy": true,
-          "output": "chicunquauipilli",
+          "output": "chicunauipilli",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicunquauipilli"
+      "value": "chicunauipilli"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "a62e24dc2aae5da7ece3b2a85f2a16e6a6126bbef9a1d65ffa83d37f8db2f384",
+    "pipeline_digest": "c0cd097fe68dbb084d0cf8af2a0ee14addc47c22c6f5f62e0d548fc3b275ae40",
     "request": {
       "case_id": "G6-L0237",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "ciento y ochenta mantas, tortillas etc."
+            "value": "ciento y ochenta mãtas, tortillas eſteras."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "cento e oitenta mantas ou tortillas"
+            "value": "cento e oitenta mantas, tortillas ou esteiras"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "ciento y ochenta mantas, tortillas etc.",
-            "source_form": "Chicunquauipilli",
+            "original_gloss": "ciento y ochenta mãtas, tortillas eſteras.",
+            "source_form": "Chicunauipilli",
             "source_form_id": "L0237-FS1"
           }
         ],
         "lemma_id": "L0237",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunquauipilli",
+        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauipilli",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicunquauipilli",
+    "display_form": "Chicunauipilli",
     "id": "L0237",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -298,15 +301,15 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "cento e oitenta mantas ou tortillas",
-      "original_gloss": "ciento y ochenta mantas, tortillas etc.",
+      "interpretation": "cento e oitenta mantas, tortillas ou esteiras",
+      "original_gloss": "ciento y ochenta mãtas, tortillas eſteras.",
       "sense_id": "L0237-S1",
       "translations": [
         {
-          "claim_id": "PCL-6774c82a182a",
+          "claim_id": "PCL-258c24fb27e8",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-77967474d4b7"
+            "PEV-d09556683b3f"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "cento e oitenta mantas ou tortillas",
+          "text": "cento e oitenta mantas, tortillas ou esteiras",
           "translation_id": "L0237-T1"
         }
       ]

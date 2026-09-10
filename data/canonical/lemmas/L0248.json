@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-60ae3c4e7ce7",
+      "attestation_id": "PAT-f19a71a988bf",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chien quema",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chien cuema",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "ni. sembrar chia",
+      "original_gloss": "ſembrar chia.",
       "source": "A01",
-      "source_form": "Chien quema",
+      "source_form": "Chien cuema",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-7bb23e2cf809",
+      "claim_id": "PCL-b8a025097cd4",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,13 +38,13 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-12bc60d4ef5f"
+        "PEV-ae3b7cd213fe"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0248",
-      "value": "\"ni. sembrar chia\""
+      "value": "\"ſembrar chia.\""
     },
     {
       "claim_id": "PCL-28870a098ce0",
@@ -66,7 +66,7 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-12bc60d4ef5f"
+        "PEV-ae3b7cd213fe"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
@@ -79,7 +79,7 @@
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-60ae3c4e7ce7",
+      "attestation_id": "PAT-f19a71a988bf",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-12bc60d4ef5f",
+      "evidence_id": "PEV-ae3b7cd213fe",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chien quema",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chien cuema",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-7bb23e2cf809",
-      "evidence_id": "PEV-12bc60d4ef5f",
+      "claim_id": "PCL-b8a025097cd4",
+      "evidence_id": "PEV-ae3b7cd213fe",
       "relation": "SUPPORTS"
     },
     {
       "claim_id": "PCL-28870a098ce0",
-      "evidence_id": "PEV-12bc60d4ef5f",
+      "evidence_id": "PEV-ae3b7cd213fe",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-12bc60d4ef5f"
+        "PEV-ae3b7cd213fe"
       ],
       "form_id": "L0248-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chien quema"
+      "value": "Chien cuema"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chien quema",
+          "input": "Chien cuema",
           "lossy": false,
-          "output": "Chien quema",
+          "output": "Chien cuema",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0248-FS1-FD-6aba2741baa4",
+      "form_id": "L0248-FS1-FD-60e46f6c1be3",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chien quema"
+      "value": "Chien cuema"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chien quema",
+          "input": "Chien cuema",
           "lossy": false,
-          "output": "Chien quema",
+          "output": "Chien cuema",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0248-FS1-FN-e17aa793f25f",
+      "form_id": "L0248-FS1-FN-8401aab43348",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chien quema"
+      "value": "Chien cuema"
     },
     {
       "evidence": [],
-      "form_id": "L0248-FS1-FP-41a1785d8cef",
+      "form_id": "L0248-FS1-FP-e0eb8239da80",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0248-FS1-SK-8c5adb033a19",
+      "form_id": "L0248-FS1-SK-140326c588b3",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chien quema"
+        "chien cuema"
       ],
       "steps": [
         {
-          "input": "Chien quema",
+          "input": "Chien cuema",
           "lossy": false,
-          "output": "Chien quema",
+          "output": "Chien cuema",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chien quema",
+          "input": "Chien cuema",
           "lossy": true,
-          "output": "chien quema",
+          "output": "chien cuema",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chien quema",
+          "input": "chien cuema",
           "lossy": true,
-          "output": "chien quema",
+          "output": "chien cuema",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chien quema",
+          "input": "chien cuema",
           "lossy": true,
-          "output": "chien quema",
+          "output": "chien cuema",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chien quema",
+          "input": "chien cuema",
           "lossy": true,
-          "output": "chien quema",
+          "output": "chien cuema",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chien quema"
+      "value": "chien cuema"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "906b65b753b18d6c5891d7951ceaae58123077699d5b85cff456d9829df3baeb",
+    "pipeline_digest": "65e773a8baf533a8b45732ff784a63d5cf4e08bd8e8e624d78385dd19a92b2f5",
     "request": {
       "case_id": "G6-L0248",
       "ingest": {
@@ -240,7 +243,7 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "ni. sembrar chia"
+            "value": "ſembrar chia."
           },
           {
             "confidence": "MEDIUM",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "ni. sembrar chia",
-            "source_form": "Chien quema",
+            "original_gloss": "ſembrar chia.",
+            "source_form": "Chien cuema",
             "source_form_id": "L0248-FS1"
           }
         ],
         "lemma_id": "L0248",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chien quema",
+        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chien cuema",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chien quema",
+    "display_form": "Chien cuema",
     "id": "L0248",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -299,14 +302,14 @@
     {
       "editorial_status": "DRAFT",
       "interpretation": "semear chia",
-      "original_gloss": "ni. sembrar chia",
+      "original_gloss": "ſembrar chia.",
       "sense_id": "L0248-S1",
       "translations": [
         {
           "claim_id": "PCL-28870a098ce0",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-12bc60d4ef5f"
+            "PEV-ae3b7cd213fe"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",

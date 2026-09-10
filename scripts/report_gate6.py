@@ -70,10 +70,15 @@ def main():
     text = (f'# Gate 6 — BATCH {args.batch:02}\n\n'
             f'Checkpoint: PASS. New lemmas in batch: 50. Accepted: 50. Rejected: 0.\n'
             'Admission ran through Gate 5; replay/idempotency PASS; no automatic merge.\n'
-            'Gate 6 regression suite: 27 tests PASS before this admission.\n'
+            'Validation evidence and test results are recorded in the delivery/remediation report.\n'
             'Image-based selected captures: A01/jcb_1571_images, CC BY 4.0; DIRECT_WITNESS.\n'
             'SINGLE_SOURCE and NEEDS_SEMANTIC_REVIEW apply to every new lemma.\n\n'
             '```json\n'+json.dumps(m,ensure_ascii=False,indent=2,sort_keys=True)+'\n```\n')
+    if args.batch == 4 and (ROOT/'data/gate6/batch04_remediation.json').exists():
+        text += ('\nBatch 04: PASS_AFTER_REMEDIATION / AWAITING_EXTERNAL_REVIEW.\n'
+                 'The rejected delivery is superseded by [the remediation report]'
+                 '(BATCH_04_REMEDIATION_REPORT.md), including the 50-row visual recheck.\n'
+                 'Last externally accepted checkpoint: 3 / 200 lemmas.\n')
     (out/f'BATCH_{args.batch:02}_REPORT.md').write_text(text,encoding='utf-8')
     (ROOT/'data/gate6/coverage.json').write_text(json.dumps(m,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
     print(f'BATCH {args.batch:02} report: PASS')

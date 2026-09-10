@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "siete",
+      "original_gloss": "ſiete.",
       "source": "A01",
       "source_form": "Chicuntetl",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-2eb69e54d47f",
+      "claim_id": "PCL-98d1f6f62409",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0241",
-      "value": "\"siete\""
+      "value": "\"ſiete.\""
     },
     {
-      "claim_id": "PCL-5b7a366fd26a",
+      "claim_id": "PCL-baa11c181b58",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0241",
-      "value": "\"nove\""
+      "value": "\"sete\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-2eb69e54d47f",
+      "claim_id": "PCL-98d1f6f62409",
       "evidence_id": "PEV-4d2a2afff09c",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-5b7a366fd26a",
+      "claim_id": "PCL-baa11c181b58",
       "evidence_id": "PEV-4d2a2afff09c",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "fa20dd4cd9dae861dc4e0f4cd4bc944658efacd52960c666f09cbbdf5da1d7b0",
+    "pipeline_digest": "3cb3a345804934a25010dac74ddac87eed89e342cc18b4d0f8ed28e6aa198998",
     "request": {
       "case_id": "G6-L0241",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "siete"
+            "value": "ſiete."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "nove"
+            "value": "sete"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "siete",
+            "original_gloss": "ſiete.",
             "source_form": "Chicuntetl",
             "source_form_id": "L0241-FS1"
           }
@@ -298,12 +301,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "nove",
-      "original_gloss": "siete",
+      "interpretation": "sete",
+      "original_gloss": "ſiete.",
       "sense_id": "L0241-S1",
       "translations": [
         {
-          "claim_id": "PCL-5b7a366fd26a",
+          "claim_id": "PCL-baa11c181b58",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-4d2a2afff09c"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "nove",
+          "text": "sete",
           "translation_id": "L0241-T1"
         }
       ]

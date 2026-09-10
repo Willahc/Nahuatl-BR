@@ -1,0 +1,2 @@
+# Reviewed ledgers must retain UTF-8 bytes and LF on Windows and CI.
+data/gate6/batches/*.tsv text eol=lf

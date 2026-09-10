@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-dc5b1515871b",
+      "attestation_id": "PAT-05e2e4b1b1d8",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuexcan",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicucxcan",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "en ocho partes, o ocho raciones",
+      "original_gloss": "en ocho partes, o ocho raciones.",
       "source": "A01",
-      "source_form": "Chicuexcan",
+      "source_form": "Chicucxcan",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-78ce2b5e3cb8",
+      "claim_id": "PCL-d181d4838302",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,16 +38,16 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-ca55051c465b"
+        "PEV-1282aa3ba150"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0226",
-      "value": "\"en ocho partes, o ocho raciones\""
+      "value": "\"en ocho partes, o ocho raciones.\""
     },
     {
-      "claim_id": "PCL-68c7c01b0987",
+      "claim_id": "PCL-59ac219fd6f8",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -66,20 +66,20 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-ca55051c465b"
+        "PEV-1282aa3ba150"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0226",
-      "value": "\"em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes\""
+      "value": "\"em oito partes ou oito porções\""
     }
   ],
   "corpus_references": [],
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-dc5b1515871b",
+      "attestation_id": "PAT-05e2e4b1b1d8",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-ca55051c465b",
+      "evidence_id": "PEV-1282aa3ba150",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuexcan",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicucxcan",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-78ce2b5e3cb8",
-      "evidence_id": "PEV-ca55051c465b",
+      "claim_id": "PCL-d181d4838302",
+      "evidence_id": "PEV-1282aa3ba150",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-68c7c01b0987",
-      "evidence_id": "PEV-ca55051c465b",
+      "claim_id": "PCL-59ac219fd6f8",
+      "evidence_id": "PEV-1282aa3ba150",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-ca55051c465b"
+        "PEV-1282aa3ba150"
       ],
       "form_id": "L0226-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicuexcan"
+      "value": "Chicucxcan"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicuexcan",
+          "input": "Chicucxcan",
           "lossy": false,
-          "output": "Chicuexcan",
+          "output": "Chicucxcan",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0226-FS1-FD-88d33eebb865",
+      "form_id": "L0226-FS1-FD-dce85d801f3f",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicuexcan"
+      "value": "Chicucxcan"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicuexcan",
+          "input": "Chicucxcan",
           "lossy": false,
-          "output": "Chicuexcan",
+          "output": "Chicucxcan",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0226-FS1-FN-a720817df96c",
+      "form_id": "L0226-FS1-FN-8f1027abb017",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicuexcan"
+      "value": "Chicucxcan"
     },
     {
       "evidence": [],
-      "form_id": "L0226-FS1-FP-ef2e3a938bd7",
+      "form_id": "L0226-FS1-FP-69856b0c64dc",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0226-FS1-SK-3f240b14d33d",
+      "form_id": "L0226-FS1-SK-2589fdfa0ded",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicuexcan"
+        "chicucxcan"
       ],
       "steps": [
         {
-          "input": "Chicuexcan",
+          "input": "Chicucxcan",
           "lossy": false,
-          "output": "Chicuexcan",
+          "output": "Chicucxcan",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicuexcan",
+          "input": "Chicucxcan",
           "lossy": true,
-          "output": "chicuexcan",
+          "output": "chicucxcan",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicuexcan",
+          "input": "chicucxcan",
           "lossy": true,
-          "output": "chicuexcan",
+          "output": "chicucxcan",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicuexcan",
+          "input": "chicucxcan",
           "lossy": true,
-          "output": "chicuexcan",
+          "output": "chicucxcan",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicuexcan",
+          "input": "chicucxcan",
           "lossy": true,
-          "output": "chicuexcan",
+          "output": "chicucxcan",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicuexcan"
+      "value": "chicucxcan"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "d5f0c5e077f85b2aa60233f10eeb89aa8965634a7f31e18e335187e72c8ea9ba",
+    "pipeline_digest": "1330c2722b4e174005b24bacc6ee84aaa1dc23407fc2ae66f6a17a2470952899",
     "request": {
       "case_id": "G6-L0226",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "en ocho partes, o ocho raciones"
+            "value": "en ocho partes, o ocho raciones."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
+            "value": "em oito partes ou oito porções"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "en ocho partes, o ocho raciones",
-            "source_form": "Chicuexcan",
+            "original_gloss": "en ocho partes, o ocho raciones.",
+            "source_form": "Chicucxcan",
             "source_form_id": "L0226-FS1"
           }
         ],
         "lemma_id": "L0226",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuexcan",
+        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicucxcan",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicuexcan",
+    "display_form": "Chicucxcan",
     "id": "L0226",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -298,15 +301,15 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
-      "original_gloss": "en ocho partes, o ocho raciones",
+      "interpretation": "em oito partes ou oito porções",
+      "original_gloss": "en ocho partes, o ocho raciones.",
       "sense_id": "L0226-S1",
       "translations": [
         {
-          "claim_id": "PCL-68c7c01b0987",
+          "claim_id": "PCL-59ac219fd6f8",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-ca55051c465b"
+            "PEV-1282aa3ba150"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
+          "text": "em oito partes ou oito porções",
           "translation_id": "L0226-T1"
         }
       ]

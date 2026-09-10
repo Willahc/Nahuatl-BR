@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "en siete partes, o siete raciones",
+      "original_gloss": "en ſiete partes, o ſiete raciones.",
       "source": "A01",
       "source_form": "Chicucan",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-0592e7457b58",
+      "claim_id": "PCL-e17d3fa4f122",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0224",
-      "value": "\"en siete partes, o siete raciones\""
+      "value": "\"en ſiete partes, o ſiete raciones.\""
     },
     {
-      "claim_id": "PCL-95b4a4059ff9",
+      "claim_id": "PCL-e90e05dc8781",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0224",
-      "value": "\"em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes\""
+      "value": "\"em sete partes ou sete porções\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-0592e7457b58",
+      "claim_id": "PCL-e17d3fa4f122",
       "evidence_id": "PEV-a1b39d81bf46",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-95b4a4059ff9",
+      "claim_id": "PCL-e90e05dc8781",
       "evidence_id": "PEV-a1b39d81bf46",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "be831c783727c79daf23586339bea4c8286094769907d065548563afd0cc52b6",
+    "pipeline_digest": "e608b43738c95598140cd7152b665d1db1ce54f4c881a694b2dd144cda84f651",
     "request": {
       "case_id": "G6-L0224",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "en siete partes, o siete raciones"
+            "value": "en ſiete partes, o ſiete raciones."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
+            "value": "em sete partes ou sete porções"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "en siete partes, o siete raciones",
+            "original_gloss": "en ſiete partes, o ſiete raciones.",
             "source_form": "Chicucan",
             "source_form_id": "L0224-FS1"
           }
@@ -298,12 +301,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
-      "original_gloss": "en siete partes, o siete raciones",
+      "interpretation": "em sete partes ou sete porções",
+      "original_gloss": "en ſiete partes, o ſiete raciones.",
       "sense_id": "L0224-S1",
       "translations": [
         {
-          "claim_id": "PCL-95b4a4059ff9",
+          "claim_id": "PCL-e90e05dc8781",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-a1b39d81bf46"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes",
+          "text": "em sete partes ou sete porções",
           "translation_id": "L0224-T1"
         }
       ]

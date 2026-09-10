@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "nueve tanto",
+      "original_gloss": "nueue tanto.",
       "source": "A01",
       "source_form": "Chicunappa ixquich",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-4f4404e67bcf",
+      "claim_id": "PCL-3179c357da98",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,7 +44,7 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0236",
-      "value": "\"nueve tanto\""
+      "value": "\"nueue tanto.\""
     },
     {
       "claim_id": "PCL-db0a15275fd8",
@@ -108,7 +108,7 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-4f4404e67bcf",
+      "claim_id": "PCL-3179c357da98",
       "evidence_id": "PEV-25c4b42c4fb7",
       "relation": "SUPPORTS"
     },
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "bd87b7a2b771add93d09a74e5051e5d4ca1e4b82faf3cc0f71855944c5eb9d94",
+    "pipeline_digest": "d488f4c78dcdd9310da504c1ff30513264a6cd1cb71a619785d657adf4493fd6",
     "request": {
       "case_id": "G6-L0236",
       "ingest": {
@@ -240,7 +243,7 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "nueve tanto"
+            "value": "nueue tanto."
           },
           {
             "confidence": "MEDIUM",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "nueve tanto",
+            "original_gloss": "nueue tanto.",
             "source_form": "Chicunappa ixquich",
             "source_form_id": "L0236-FS1"
           }
@@ -299,7 +302,7 @@
     {
       "editorial_status": "DRAFT",
       "interpretation": "nove vezes tanto",
-      "original_gloss": "nueve tanto",
+      "original_gloss": "nueue tanto.",
       "sense_id": "L0236-S1",
       "translations": [
         {

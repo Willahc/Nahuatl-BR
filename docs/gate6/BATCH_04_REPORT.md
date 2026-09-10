@@ -2,7 +2,7 @@
 
 Checkpoint: PASS. New lemmas in batch: 50. Accepted: 50. Rejected: 0.
 Admission ran through Gate 5; replay/idempotency PASS; no automatic merge.
-Gate 6 regression suite: 27 tests PASS before this admission.
+Validation evidence and test results are recorded in the delivery/remediation report.
 Image-based selected captures: A01/jcb_1571_images, CC BY 4.0; DIRECT_WITNESS.
 SINGLE_SOURCE and NEEDS_SEMANTIC_REVIEW apply to every new lemma.
 
@@ -17,16 +17,16 @@ SINGLE_SOURCE and NEEDS_SEMANTIC_REVIEW apply to every new lemma.
   "claims_count": 529,
   "context_directly_inspected": 0,
   "context_references": 47,
-  "duplicate_candidates": 34,
+  "duplicate_candidates": 32,
   "duplicate_identity_statuses": {
-    "LEXICAL_IDENTITY_UNRESOLVED": 34
+    "LEXICAL_IDENTITY_UNRESOLVED": 32
   },
   "duplicate_review_warning": null,
   "duplicate_trend_checkpoints": {
     "batch01": 3,
     "batch02": 8,
     "batch03": 18,
-    "current": 34
+    "current": 32
   },
   "editorial_states": {
     "DRAFT": 200,
@@ -50,36 +50,30 @@ SINGLE_SOURCE and NEEDS_SEMANTIC_REVIEW apply to every new lemma.
     "alimentos": 5,
     "animais": 6,
     "ações": 1,
-    "cogniÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o": 4,
-    "cognição": 14,
-    "comercio": 1,
-    "comÃƒÆ’Ã‚Â©rcio": 1,
-    "comércio": 3,
-    "corpo": 21,
-    "emoÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes": 1,
-    "emoções": 20,
+    "cognição": 18,
+    "comércio": 5,
+    "corpo": 20,
+    "emoções": 21,
     "espaço": 2,
     "expressões": 1,
     "fala": 3,
     "guerra": 3,
     "movimento": 10,
     "natureza": 2,
-    "objetos": 27,
+    "objetos": 28,
     "parentesco": 1,
-    "percepÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o": 2,
-    "percepção": 3,
+    "percepção": 5,
     "pessoas": 5,
     "plantas": 1,
     "qualidades": 4,
     "quantidade": 25,
-    "relaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes": 6,
-    "relações": 10,
+    "relações": 16,
     "religião": 1,
-    "saÃƒÆ’Ã‚Âºde": 1,
+    "saúde": 1,
     "sociedade": 3,
     "tempo": 6,
     "trabalho": 5,
-    "ÃƒÆ’Ã‚Â©tica": 1
+    "ética": 1
   },
   "semantic_review_candidates": 200,
   "single_source": 202,
@@ -92,3 +86,7 @@ SINGLE_SOURCE and NEEDS_SEMANTIC_REVIEW apply to every new lemma.
   "vowel_length_evidence": 23
 }
 ```
+
+Batch 04: PASS_AFTER_REMEDIATION / AWAITING_EXTERNAL_REVIEW.
+The rejected delivery is superseded by [the remediation report](BATCH_04_REMEDIATION_REPORT.md), including the 50-row visual recheck.
+Last externally accepted checkpoint: 3 / 200 lemmas.

@@ -42,6 +42,9 @@ def main():
         expected = 50 + 50 * checkpoint if checkpoint else 500
     try:
         errors = validate(ROOT, expected)
+        from src.pipeline.corpus import records
+        from src.pipeline.text_integrity import validate_integrity
+        errors += validate_integrity(ROOT, records(ROOT))
         from scripts.build_preview_data import build_preview_data, PREVIEW_DATA
         if json.loads(PREVIEW_DATA.read_text(encoding='utf-8')) != build_preview_data(ROOT):
             errors.append('PREVIEW_NOT_REPRODUCIBLE')

@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "ocho tanto",
+      "original_gloss": "ocho tanto.",
       "source": "A01",
       "source_form": "Chicuexpa ixquich",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-e320d1213d55",
+      "claim_id": "PCL-d6802aaf577c",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0228",
-      "value": "\"ocho tanto\""
+      "value": "\"ocho tanto.\""
     },
     {
-      "claim_id": "PCL-44a741b429c3",
+      "claim_id": "PCL-9f154bbfecb6",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0228",
-      "value": "\"oito tanto\""
+      "value": "\"oito vezes tanto\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-e320d1213d55",
+      "claim_id": "PCL-d6802aaf577c",
       "evidence_id": "PEV-2224dd289bbd",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-44a741b429c3",
+      "claim_id": "PCL-9f154bbfecb6",
       "evidence_id": "PEV-2224dd289bbd",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "34c2f8a94bc783b91bf52c5b500aad7fabd3c9e12d54db69ab2b3b8051b8a866",
+    "pipeline_digest": "b2c4c6afb220182ffc0ee80bafe1eeea43f62628029f1e34db6f57e95f10aaf9",
     "request": {
       "case_id": "G6-L0228",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "ocho tanto"
+            "value": "ocho tanto."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "oito tanto"
+            "value": "oito vezes tanto"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "ocho tanto",
+            "original_gloss": "ocho tanto.",
             "source_form": "Chicuexpa ixquich",
             "source_form_id": "L0228-FS1"
           }
@@ -298,12 +301,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "oito tanto",
-      "original_gloss": "ocho tanto",
+      "interpretation": "oito vezes tanto",
+      "original_gloss": "ocho tanto.",
       "sense_id": "L0228-S1",
       "translations": [
         {
-          "claim_id": "PCL-44a741b429c3",
+          "claim_id": "PCL-9f154bbfecb6",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-2224dd289bbd"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "oito tanto",
+          "text": "oito vezes tanto",
           "translation_id": "L0228-T1"
         }
       ]

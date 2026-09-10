@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "defraudar el enfermo con la rezia calentura",
+      "original_gloss": "deſuariar el enfermo con la rezia calentura.",
       "source": "A01",
       "source_form": "Chicotlatetoa",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-4d8789a94c2b",
+      "claim_id": "PCL-8ab09857267a",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0211",
-      "value": "\"defraudar el enfermo con la rezia calentura\""
+      "value": "\"deſuariar el enfermo con la rezia calentura.\""
     },
     {
-      "claim_id": "PCL-50aa54fdbcf0",
+      "claim_id": "PCL-28c96b1cef12",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0211",
-      "value": "\"enganar o doente com febre forte\""
+      "value": "\"delirar o doente com febre forte\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-4d8789a94c2b",
+      "claim_id": "PCL-8ab09857267a",
       "evidence_id": "PEV-14ba9afa89c1",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-50aa54fdbcf0",
+      "claim_id": "PCL-28c96b1cef12",
       "evidence_id": "PEV-14ba9afa89c1",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "e5509da366f247a5a65f83647931abd0285a9015d5ff408a44c0497222f9bfb4",
+    "pipeline_digest": "850d55f533ae31fbc35714a937cda9192eee01507d4f8a7191e39adb8e0e4c5a",
     "request": {
       "case_id": "G6-L0211",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "defraudar el enfermo con la rezia calentura"
+            "value": "deſuariar el enfermo con la rezia calentura."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "enganar o doente com febre forte"
+            "value": "delirar o doente com febre forte"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "defraudar el enfermo con la rezia calentura",
+            "original_gloss": "deſuariar el enfermo con la rezia calentura.",
             "source_form": "Chicotlatetoa",
             "source_form_id": "L0211-FS1"
           }
@@ -291,19 +294,19 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "saÃƒÆ’Ã‚Âºde",
+    "semantic_domain": "saúde",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "enganar o doente com febre forte",
-      "original_gloss": "defraudar el enfermo con la rezia calentura",
+      "interpretation": "delirar o doente com febre forte",
+      "original_gloss": "deſuariar el enfermo con la rezia calentura.",
       "sense_id": "L0211-S1",
       "translations": [
         {
-          "claim_id": "PCL-50aa54fdbcf0",
+          "claim_id": "PCL-28c96b1cef12",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-14ba9afa89c1"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "enganar o doente com febre forte",
+          "text": "delirar o doente com febre forte",
           "translation_id": "L0211-T1"
         }
       ]

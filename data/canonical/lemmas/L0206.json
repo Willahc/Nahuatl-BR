@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "deponedor desta manera",
+      "original_gloss": "deponedor deſta manera",
       "source": "A01",
       "source_form": "Chicoteiquaniani",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-36e3b5e05741",
+      "claim_id": "PCL-73cdb1bbc17d",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0206",
-      "value": "\"deponedor desta manera\""
+      "value": "\"deponedor deſta manera\""
     },
     {
-      "claim_id": "PCL-7943396ddbaf",
+      "claim_id": "PCL-979553e25c45",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0206",
-      "value": "\"quem exonera dessa maneira\""
+      "value": "\"quem destitui dessa maneira\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-36e3b5e05741",
+      "claim_id": "PCL-73cdb1bbc17d",
       "evidence_id": "PEV-dda74d111cf7",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-7943396ddbaf",
+      "claim_id": "PCL-979553e25c45",
       "evidence_id": "PEV-dda74d111cf7",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "750f5ea08c263ed4b70c0df5300e706f1d06dd1d62db12bd6a877891e1d2a914",
+    "pipeline_digest": "61d423e5bdda80631b310f43841844ad5f197a9b44837aa0a13d7df52da72cd2",
     "request": {
       "case_id": "G6-L0206",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "deponedor desta manera"
+            "value": "deponedor deſta manera"
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "quem exonera dessa maneira"
+            "value": "quem destitui dessa maneira"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "deponedor desta manera",
+            "original_gloss": "deponedor deſta manera",
             "source_form": "Chicoteiquaniani",
             "source_form_id": "L0206-FS1"
           }
@@ -298,12 +301,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "quem exonera dessa maneira",
-      "original_gloss": "deponedor desta manera",
+      "interpretation": "quem destitui dessa maneira",
+      "original_gloss": "deponedor deſta manera",
       "sense_id": "L0206-S1",
       "translations": [
         {
-          "claim_id": "PCL-7943396ddbaf",
+          "claim_id": "PCL-979553e25c45",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-dda74d111cf7"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "quem exonera dessa maneira",
+          "text": "quem destitui dessa maneira",
           "translation_id": "L0206-T1"
         }
       ]

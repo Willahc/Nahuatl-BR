@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "el enfermo que desuaria, o el blasfemador",
+      "original_gloss": "el enfermo que deſuaria,",
       "source": "A01",
       "source_form": "Chicotlatoani",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-ce8aa274138f",
+      "claim_id": "PCL-bb26d3887673",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0215",
-      "value": "\"el enfermo que desuaria, o el blasfemador\""
+      "value": "\"el enfermo que deſuaria,\""
     },
     {
-      "claim_id": "PCL-940ca06b1440",
+      "claim_id": "PCL-6f1a5a577331",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0215",
-      "value": "\"doente delirante ou blasfemador\""
+      "value": "\"o doente que delira\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-ce8aa274138f",
+      "claim_id": "PCL-bb26d3887673",
       "evidence_id": "PEV-7ba19693324d",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-940ca06b1440",
+      "claim_id": "PCL-6f1a5a577331",
       "evidence_id": "PEV-7ba19693324d",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "65c47083722c98f812df65b12be5b8576efc86bbe81617d767cc53aa346d0ebe",
+    "pipeline_digest": "78b46505be464bbde9f652613952e25d03ce2858dbd839e8a8330f47f1b4438c",
     "request": {
       "case_id": "G6-L0215",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "el enfermo que desuaria, o el blasfemador"
+            "value": "el enfermo que deſuaria,"
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "doente delirante ou blasfemador"
+            "value": "o doente que delira"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "el enfermo que desuaria, o el blasfemador",
+            "original_gloss": "el enfermo que deſuaria,",
             "source_form": "Chicotlatoani",
             "source_form_id": "L0215-FS1"
           }
@@ -291,19 +294,19 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "cogniÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o",
+    "semantic_domain": "cognição",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "doente delirante ou blasfemador",
-      "original_gloss": "el enfermo que desuaria, o el blasfemador",
+      "interpretation": "o doente que delira",
+      "original_gloss": "el enfermo que deſuaria,",
       "sense_id": "L0215-S1",
       "translations": [
         {
-          "claim_id": "PCL-940ca06b1440",
+          "claim_id": "PCL-6f1a5a577331",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-7ba19693324d"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "doente delirante ou blasfemador",
+          "text": "o doente que delira",
           "translation_id": "L0215-T1"
         }
       ]

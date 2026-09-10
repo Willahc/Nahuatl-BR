@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-44da8be42fad",
+      "attestation_id": "PAT-cb1a1bc0969e",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhtianquiztli",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauh tianquiztli",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "mercado o feria de nueve en nueve dias",
+      "original_gloss": "mercado o feria de nueue en nueue dias.",
       "source": "A01",
-      "source_form": "Chicunauhtianquiztli",
+      "source_form": "Chicunauh tianquiztli",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-7ae666bef9b2",
+      "claim_id": "PCL-316f5ce71416",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,16 +38,16 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-b1f130f38137"
+        "PEV-38db0cd36447"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0240",
-      "value": "\"mercado o feria de nueve en nueve dias\""
+      "value": "\"mercado o feria de nueue en nueue dias.\""
     },
     {
-      "claim_id": "PCL-de5ced374115",
+      "claim_id": "PCL-4b10da2c382b",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -66,20 +66,20 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-b1f130f38137"
+        "PEV-38db0cd36447"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0240",
-      "value": "\"mercado a cada nove dias\""
+      "value": "\"mercado ou feira a cada nove dias\""
     }
   ],
   "corpus_references": [],
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-44da8be42fad",
+      "attestation_id": "PAT-cb1a1bc0969e",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-b1f130f38137",
+      "evidence_id": "PEV-38db0cd36447",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhtianquiztli",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauh tianquiztli",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-7ae666bef9b2",
-      "evidence_id": "PEV-b1f130f38137",
+      "claim_id": "PCL-316f5ce71416",
+      "evidence_id": "PEV-38db0cd36447",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-de5ced374115",
-      "evidence_id": "PEV-b1f130f38137",
+      "claim_id": "PCL-4b10da2c382b",
+      "evidence_id": "PEV-38db0cd36447",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-b1f130f38137"
+        "PEV-38db0cd36447"
       ],
       "form_id": "L0240-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicunauhtianquiztli"
+      "value": "Chicunauh tianquiztli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicunauhtianquiztli",
+          "input": "Chicunauh tianquiztli",
           "lossy": false,
-          "output": "Chicunauhtianquiztli",
+          "output": "Chicunauh tianquiztli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0240-FS1-FD-2adac1dbfad2",
+      "form_id": "L0240-FS1-FD-ec17d023ac7b",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicunauhtianquiztli"
+      "value": "Chicunauh tianquiztli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicunauhtianquiztli",
+          "input": "Chicunauh tianquiztli",
           "lossy": false,
-          "output": "Chicunauhtianquiztli",
+          "output": "Chicunauh tianquiztli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0240-FS1-FN-1026cd185df3",
+      "form_id": "L0240-FS1-FN-190f2526c5b6",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicunauhtianquiztli"
+      "value": "Chicunauh tianquiztli"
     },
     {
       "evidence": [],
-      "form_id": "L0240-FS1-FP-24bc433bca0d",
+      "form_id": "L0240-FS1-FP-d8dd7258d37d",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0240-FS1-SK-1754e0223a1e",
+      "form_id": "L0240-FS1-SK-118739181287",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicunauhtianquiztli"
+        "chicunauh tianquiztli"
       ],
       "steps": [
         {
-          "input": "Chicunauhtianquiztli",
+          "input": "Chicunauh tianquiztli",
           "lossy": false,
-          "output": "Chicunauhtianquiztli",
+          "output": "Chicunauh tianquiztli",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicunauhtianquiztli",
+          "input": "Chicunauh tianquiztli",
           "lossy": true,
-          "output": "chicunauhtianquiztli",
+          "output": "chicunauh tianquiztli",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicunauhtianquiztli",
+          "input": "chicunauh tianquiztli",
           "lossy": true,
-          "output": "chicunauhtianquiztli",
+          "output": "chicunauh tianquiztli",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicunauhtianquiztli",
+          "input": "chicunauh tianquiztli",
           "lossy": true,
-          "output": "chicunauhtianquiztli",
+          "output": "chicunauh tianquiztli",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicunauhtianquiztli",
+          "input": "chicunauh tianquiztli",
           "lossy": true,
-          "output": "chicunauhtianquiztli",
+          "output": "chicunauh tianquiztli",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicunauhtianquiztli"
+      "value": "chicunauh tianquiztli"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "1baab4b869c1f1c782abde90d90b8b8830298ecc77779eacf74d484334ad7053",
+    "pipeline_digest": "3c24753cb36007217f4145659fc832dcef2df7b63f9b8557549ad05ab7192ce5",
     "request": {
       "case_id": "G6-L0240",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "mercado o feria de nueve en nueve dias"
+            "value": "mercado o feria de nueue en nueue dias."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "mercado a cada nove dias"
+            "value": "mercado ou feira a cada nove dias"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "mercado o feria de nueve en nueve dias",
-            "source_form": "Chicunauhtianquiztli",
+            "original_gloss": "mercado o feria de nueue en nueue dias.",
+            "source_form": "Chicunauh tianquiztli",
             "source_form_id": "L0240-FS1"
           }
         ],
         "lemma_id": "L0240",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhtianquiztli",
+        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauh tianquiztli",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicunauhtianquiztli",
+    "display_form": "Chicunauh tianquiztli",
     "id": "L0240",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -291,22 +294,22 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "comÃƒÆ’Ã‚Â©rcio",
+    "semantic_domain": "comércio",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "mercado a cada nove dias",
-      "original_gloss": "mercado o feria de nueve en nueve dias",
+      "interpretation": "mercado ou feira a cada nove dias",
+      "original_gloss": "mercado o feria de nueue en nueue dias.",
       "sense_id": "L0240-S1",
       "translations": [
         {
-          "claim_id": "PCL-de5ced374115",
+          "claim_id": "PCL-4b10da2c382b",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-b1f130f38137"
+            "PEV-38db0cd36447"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "mercado a cada nove dias",
+          "text": "mercado ou feira a cada nove dias",
           "translation_id": "L0240-T1"
         }
       ]

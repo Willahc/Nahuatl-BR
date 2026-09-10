@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-d6f73cabd9ab",
+      "attestation_id": "PAT-6537b0b57b19",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatoziztli",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatoliztli",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "desuario tal",
+      "original_gloss": "deſuario tal.",
       "source": "A01",
-      "source_form": "Chicotlatoziztli",
+      "source_form": "Chicotlatoliztli",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-8db78b14f21a",
+      "claim_id": "PCL-25b4a8b0ac59",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,16 +38,16 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-00c7e12a21eb"
+        "PEV-1592e111b888"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0216",
-      "value": "\"desuario tal\""
+      "value": "\"deſuario tal.\""
     },
     {
-      "claim_id": "PCL-5a1fe3a2dc1a",
+      "claim_id": "PCL-7baf48fc4599",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -66,20 +66,20 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-00c7e12a21eb"
+        "PEV-1592e111b888"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0216",
-      "value": "\"delÃƒÆ’Ã‚Â­rio\""
+      "value": "\"delírio desse tipo\""
     }
   ],
   "corpus_references": [],
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-d6f73cabd9ab",
+      "attestation_id": "PAT-6537b0b57b19",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-00c7e12a21eb",
+      "evidence_id": "PEV-1592e111b888",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatoziztli",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatoliztli",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-8db78b14f21a",
-      "evidence_id": "PEV-00c7e12a21eb",
+      "claim_id": "PCL-25b4a8b0ac59",
+      "evidence_id": "PEV-1592e111b888",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-5a1fe3a2dc1a",
-      "evidence_id": "PEV-00c7e12a21eb",
+      "claim_id": "PCL-7baf48fc4599",
+      "evidence_id": "PEV-1592e111b888",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-00c7e12a21eb"
+        "PEV-1592e111b888"
       ],
       "form_id": "L0216-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicotlatoziztli"
+      "value": "Chicotlatoliztli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicotlatoziztli",
+          "input": "Chicotlatoliztli",
           "lossy": false,
-          "output": "Chicotlatoziztli",
+          "output": "Chicotlatoliztli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0216-FS1-FD-04ee7893d25e",
+      "form_id": "L0216-FS1-FD-d9c268b1b7fe",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicotlatoziztli"
+      "value": "Chicotlatoliztli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicotlatoziztli",
+          "input": "Chicotlatoliztli",
           "lossy": false,
-          "output": "Chicotlatoziztli",
+          "output": "Chicotlatoliztli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0216-FS1-FN-dee90326a1c6",
+      "form_id": "L0216-FS1-FN-bcbe7d821825",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicotlatoziztli"
+      "value": "Chicotlatoliztli"
     },
     {
       "evidence": [],
-      "form_id": "L0216-FS1-FP-af56d9b6adc2",
+      "form_id": "L0216-FS1-FP-c951c9880972",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0216-FS1-SK-0eb605b4bda5",
+      "form_id": "L0216-FS1-SK-466f272aa82c",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicotlatoziztli"
+        "chicotlatoliztli"
       ],
       "steps": [
         {
-          "input": "Chicotlatoziztli",
+          "input": "Chicotlatoliztli",
           "lossy": false,
-          "output": "Chicotlatoziztli",
+          "output": "Chicotlatoliztli",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicotlatoziztli",
+          "input": "Chicotlatoliztli",
           "lossy": true,
-          "output": "chicotlatoziztli",
+          "output": "chicotlatoliztli",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicotlatoziztli",
+          "input": "chicotlatoliztli",
           "lossy": true,
-          "output": "chicotlatoziztli",
+          "output": "chicotlatoliztli",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicotlatoziztli",
+          "input": "chicotlatoliztli",
           "lossy": true,
-          "output": "chicotlatoziztli",
+          "output": "chicotlatoliztli",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicotlatoziztli",
+          "input": "chicotlatoliztli",
           "lossy": true,
-          "output": "chicotlatoziztli",
+          "output": "chicotlatoliztli",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicotlatoziztli"
+      "value": "chicotlatoliztli"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "e1617e856426c713b82ed3e2bd671e49531bc77a6dc06f12bc0b0d67ffdadf5e",
+    "pipeline_digest": "c59053d4ad969498939973a7730a7f92ea9594b2529e65e8e88a4d63db153c03",
     "request": {
       "case_id": "G6-L0216",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "desuario tal"
+            "value": "deſuario tal."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "delÃƒÆ’Ã‚Â­rio"
+            "value": "delírio desse tipo"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "desuario tal",
-            "source_form": "Chicotlatoziztli",
+            "original_gloss": "deſuario tal.",
+            "source_form": "Chicotlatoliztli",
             "source_form_id": "L0216-FS1"
           }
         ],
         "lemma_id": "L0216",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatoziztli",
+        "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatoliztli",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicotlatoziztli",
+    "display_form": "Chicotlatoliztli",
     "id": "L0216",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -291,22 +294,22 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "cogniÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o",
+    "semantic_domain": "cognição",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "delÃƒÆ’Ã‚Â­rio",
-      "original_gloss": "desuario tal",
+      "interpretation": "delírio desse tipo",
+      "original_gloss": "deſuario tal.",
       "sense_id": "L0216-S1",
       "translations": [
         {
-          "claim_id": "PCL-5a1fe3a2dc1a",
+          "claim_id": "PCL-7baf48fc4599",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-00c7e12a21eb"
+            "PEV-1592e111b888"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "delÃƒÆ’Ã‚Â­rio",
+          "text": "delírio desse tipo",
           "translation_id": "L0216-T1"
         }
       ]

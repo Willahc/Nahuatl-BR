@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-2dea9e4e8ce9",
+      "attestation_id": "PAT-c9a21622d93e",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatiztli",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatiliztli",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "sospecha",
+      "original_gloss": "ſoſpecha.",
       "source": "A01",
-      "source_form": "Chicotlamatiztli",
+      "source_form": "Chicotlamatiliztli",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-46b4e00371af",
+      "claim_id": "PCL-749df6276a50",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,13 +38,13 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-537f158b1ff2"
+        "PEV-5cb2f4eae37a"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0208",
-      "value": "\"sospecha\""
+      "value": "\"ſoſpecha.\""
     },
     {
       "claim_id": "PCL-41f20824ba91",
@@ -66,7 +66,7 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-537f158b1ff2"
+        "PEV-5cb2f4eae37a"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
@@ -79,7 +79,7 @@
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-2dea9e4e8ce9",
+      "attestation_id": "PAT-c9a21622d93e",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-537f158b1ff2",
+      "evidence_id": "PEV-5cb2f4eae37a",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatiztli",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatiliztli",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-46b4e00371af",
-      "evidence_id": "PEV-537f158b1ff2",
+      "claim_id": "PCL-749df6276a50",
+      "evidence_id": "PEV-5cb2f4eae37a",
       "relation": "SUPPORTS"
     },
     {
       "claim_id": "PCL-41f20824ba91",
-      "evidence_id": "PEV-537f158b1ff2",
+      "evidence_id": "PEV-5cb2f4eae37a",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-537f158b1ff2"
+        "PEV-5cb2f4eae37a"
       ],
       "form_id": "L0208-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicotlamatiztli"
+      "value": "Chicotlamatiliztli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicotlamatiztli",
+          "input": "Chicotlamatiliztli",
           "lossy": false,
-          "output": "Chicotlamatiztli",
+          "output": "Chicotlamatiliztli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0208-FS1-FD-b61f670c5548",
+      "form_id": "L0208-FS1-FD-7874bd7a63ae",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicotlamatiztli"
+      "value": "Chicotlamatiliztli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicotlamatiztli",
+          "input": "Chicotlamatiliztli",
           "lossy": false,
-          "output": "Chicotlamatiztli",
+          "output": "Chicotlamatiliztli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0208-FS1-FN-5dd45a6fa4f7",
+      "form_id": "L0208-FS1-FN-b5f165b6de12",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicotlamatiztli"
+      "value": "Chicotlamatiliztli"
     },
     {
       "evidence": [],
-      "form_id": "L0208-FS1-FP-5a263dab6b97",
+      "form_id": "L0208-FS1-FP-5686cb7f8d26",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0208-FS1-SK-09399ba69c5b",
+      "form_id": "L0208-FS1-SK-bf79dbab1c0d",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicotlamatiztli"
+        "chicotlamatiliztli"
       ],
       "steps": [
         {
-          "input": "Chicotlamatiztli",
+          "input": "Chicotlamatiliztli",
           "lossy": false,
-          "output": "Chicotlamatiztli",
+          "output": "Chicotlamatiliztli",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicotlamatiztli",
+          "input": "Chicotlamatiliztli",
           "lossy": true,
-          "output": "chicotlamatiztli",
+          "output": "chicotlamatiliztli",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicotlamatiztli",
+          "input": "chicotlamatiliztli",
           "lossy": true,
-          "output": "chicotlamatiztli",
+          "output": "chicotlamatiliztli",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicotlamatiztli",
+          "input": "chicotlamatiliztli",
           "lossy": true,
-          "output": "chicotlamatiztli",
+          "output": "chicotlamatiliztli",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicotlamatiztli",
+          "input": "chicotlamatiliztli",
           "lossy": true,
-          "output": "chicotlamatiztli",
+          "output": "chicotlamatiliztli",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicotlamatiztli"
+      "value": "chicotlamatiliztli"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "b1033b85f52f3d4a65538705628d9896f77f41afe7f78cde0479ee80b96acfd8",
+    "pipeline_digest": "e11b29fa27f79c85050aeed0174b43594e3203cec25ddec8d09bb8184a6f47b4",
     "request": {
       "case_id": "G6-L0208",
       "ingest": {
@@ -240,7 +243,7 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "sospecha"
+            "value": "ſoſpecha."
           },
           {
             "confidence": "MEDIUM",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "sospecha",
-            "source_form": "Chicotlamatiztli",
+            "original_gloss": "ſoſpecha.",
+            "source_form": "Chicotlamatiliztli",
             "source_form_id": "L0208-FS1"
           }
         ],
         "lemma_id": "L0208",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatiztli",
+        "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatiliztli",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicotlamatiztli",
+    "display_form": "Chicotlamatiliztli",
     "id": "L0208",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -291,7 +294,7 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "percepÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o",
+    "semantic_domain": "percepção",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
@@ -299,14 +302,14 @@
     {
       "editorial_status": "DRAFT",
       "interpretation": "suspeita",
-      "original_gloss": "sospecha",
+      "original_gloss": "ſoſpecha.",
       "sense_id": "L0208-S1",
       "translations": [
         {
           "claim_id": "PCL-41f20824ba91",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-537f158b1ff2"
+            "PEV-5cb2f4eae37a"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",

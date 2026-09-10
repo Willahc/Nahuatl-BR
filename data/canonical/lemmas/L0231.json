@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "cosa coruada, torcida, o tuerta como garauato o cayado",
+      "original_gloss": "coſa coruada, torcida, o tuerta como garauato o cayado.",
       "source": "A01",
       "source_form": "Chicultic",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-bbbd7898814a",
+      "claim_id": "PCL-bbbbc9b30b21",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0231",
-      "value": "\"cosa coruada, torcida, o tuerta como garauato o cayado\""
+      "value": "\"coſa coruada, torcida, o tuerta como garauato o cayado.\""
     },
     {
-      "claim_id": "PCL-55d6436dea77",
+      "claim_id": "PCL-28c8edc608e9",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0231",
-      "value": "\"coisa curva ou torcida\""
+      "value": "\"coisa curva ou torcida como gancho ou cajado\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-bbbd7898814a",
+      "claim_id": "PCL-bbbbc9b30b21",
       "evidence_id": "PEV-67b6c1b98704",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-55d6436dea77",
+      "claim_id": "PCL-28c8edc608e9",
       "evidence_id": "PEV-67b6c1b98704",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "250cb34779b68a05d3227d0ef9bacf1c12036f38d82bdcf5dbf7da1e916d8b8f",
+    "pipeline_digest": "e11c9ad3299625d45ba063907e68b62d30dfa49760cc9d53fedd69d6822b6d92",
     "request": {
       "case_id": "G6-L0231",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "cosa coruada, torcida, o tuerta como garauato o cayado"
+            "value": "coſa coruada, torcida, o tuerta como garauato o cayado."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "coisa curva ou torcida"
+            "value": "coisa curva ou torcida como gancho ou cajado"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "cosa coruada, torcida, o tuerta como garauato o cayado",
+            "original_gloss": "coſa coruada, torcida, o tuerta como garauato o cayado.",
             "source_form": "Chicultic",
             "source_form_id": "L0231-FS1"
           }
@@ -298,12 +301,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "coisa curva ou torcida",
-      "original_gloss": "cosa coruada, torcida, o tuerta como garauato o cayado",
+      "interpretation": "coisa curva ou torcida como gancho ou cajado",
+      "original_gloss": "coſa coruada, torcida, o tuerta como garauato o cayado.",
       "sense_id": "L0231-S1",
       "translations": [
         {
-          "claim_id": "PCL-55d6436dea77",
+          "claim_id": "PCL-28c8edc608e9",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-67b6c1b98704"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "coisa curva ou torcida",
+          "text": "coisa curva ou torcida como gancho ou cajado",
           "translation_id": "L0231-T1"
         }
       ]

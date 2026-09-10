@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-c3255c74e7e7",
+      "attestation_id": "PAT-ed160b6a04f4",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicumpoa",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicumpoalli",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "ciento y quarenta",
+      "original_gloss": "ciento y quarenta.",
       "source": "A01",
-      "source_form": "Chicumpoa",
+      "source_form": "Chicumpoalli",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-f5bc9300130f",
+      "claim_id": "PCL-9b17d69bdd36",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,13 +38,13 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-f2fcb207f634"
+        "PEV-3815d6424b93"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0234",
-      "value": "\"ciento y quarenta\""
+      "value": "\"ciento y quarenta.\""
     },
     {
       "claim_id": "PCL-580aa4a9df47",
@@ -66,7 +66,7 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-f2fcb207f634"
+        "PEV-3815d6424b93"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
@@ -79,7 +79,7 @@
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-c3255c74e7e7",
+      "attestation_id": "PAT-ed160b6a04f4",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-f2fcb207f634",
+      "evidence_id": "PEV-3815d6424b93",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicumpoa",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicumpoalli",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-f5bc9300130f",
-      "evidence_id": "PEV-f2fcb207f634",
+      "claim_id": "PCL-9b17d69bdd36",
+      "evidence_id": "PEV-3815d6424b93",
       "relation": "SUPPORTS"
     },
     {
       "claim_id": "PCL-580aa4a9df47",
-      "evidence_id": "PEV-f2fcb207f634",
+      "evidence_id": "PEV-3815d6424b93",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-f2fcb207f634"
+        "PEV-3815d6424b93"
       ],
       "form_id": "L0234-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicumpoa"
+      "value": "Chicumpoalli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicumpoa",
+          "input": "Chicumpoalli",
           "lossy": false,
-          "output": "Chicumpoa",
+          "output": "Chicumpoalli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0234-FS1-FD-a7e93112b408",
+      "form_id": "L0234-FS1-FD-f51a4f5939f9",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicumpoa"
+      "value": "Chicumpoalli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicumpoa",
+          "input": "Chicumpoalli",
           "lossy": false,
-          "output": "Chicumpoa",
+          "output": "Chicumpoalli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0234-FS1-FN-fd19ff29a413",
+      "form_id": "L0234-FS1-FN-286a38812865",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicumpoa"
+      "value": "Chicumpoalli"
     },
     {
       "evidence": [],
-      "form_id": "L0234-FS1-FP-e1aeaeb1a4c5",
+      "form_id": "L0234-FS1-FP-9e24e6d35fc1",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0234-FS1-SK-81b4faefbe66",
+      "form_id": "L0234-FS1-SK-4e9671155ca7",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicumpoa"
+        "chicumpoalli"
       ],
       "steps": [
         {
-          "input": "Chicumpoa",
+          "input": "Chicumpoalli",
           "lossy": false,
-          "output": "Chicumpoa",
+          "output": "Chicumpoalli",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicumpoa",
+          "input": "Chicumpoalli",
           "lossy": true,
-          "output": "chicumpoa",
+          "output": "chicumpoalli",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicumpoa",
+          "input": "chicumpoalli",
           "lossy": true,
-          "output": "chicumpoa",
+          "output": "chicumpoalli",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicumpoa",
+          "input": "chicumpoalli",
           "lossy": true,
-          "output": "chicumpoa",
+          "output": "chicumpoalli",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicumpoa",
+          "input": "chicumpoalli",
           "lossy": true,
-          "output": "chicumpoa",
+          "output": "chicumpoalli",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicumpoa"
+      "value": "chicumpoalli"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "8e024a50351f863aeb003ad921c56ac19d4d599770b03477af7bd623fd6a8d15",
+    "pipeline_digest": "ed3bcbbdf1a6eabfe8b5da0d1fce0c29430ec9b84b72081b0f8577f4dd27756e",
     "request": {
       "case_id": "G6-L0234",
       "ingest": {
@@ -240,7 +243,7 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "ciento y quarenta"
+            "value": "ciento y quarenta."
           },
           {
             "confidence": "MEDIUM",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "ciento y quarenta",
-            "source_form": "Chicumpoa",
+            "original_gloss": "ciento y quarenta.",
+            "source_form": "Chicumpoalli",
             "source_form_id": "L0234-FS1"
           }
         ],
         "lemma_id": "L0234",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicumpoa",
+        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicumpoalli",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicumpoa",
+    "display_form": "Chicumpoalli",
     "id": "L0234",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -299,14 +302,14 @@
     {
       "editorial_status": "DRAFT",
       "interpretation": "cento e quarenta",
-      "original_gloss": "ciento y quarenta",
+      "original_gloss": "ciento y quarenta.",
       "sense_id": "L0234-S1",
       "translations": [
         {
           "claim_id": "PCL-580aa4a9df47",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-f2fcb207f634"
+            "PEV-3815d6424b93"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",

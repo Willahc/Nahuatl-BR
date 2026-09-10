@@ -133,7 +133,8 @@ def derive_record(request, capture, batch, domain, root):
 
 
 def validate_record(rec, engine):
-    errors = []
+    from .text_integrity import text_errors
+    errors = text_errors(rec)
     lid = rec.get('lemma', {}).get('id', '?')
     def fail(code):
         errors.append(f'{code}: {lid}')

@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "mancha de azeite o de manteca",
+      "original_gloss": "mancha de azeite o de manteca,",
       "source": "A01",
       "source_form": "Chiyactic",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-025bb4306f0c",
+      "claim_id": "PCL-2259113870a0",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,10 +44,10 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0249",
-      "value": "\"mancha de azeite o de manteca\""
+      "value": "\"mancha de azeite o de manteca,\""
     },
     {
-      "claim_id": "PCL-b7ce636d19c2",
+      "claim_id": "PCL-13a4a94402e3",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -72,7 +72,7 @@
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0249",
-      "value": "\"mancha de azeite ou gordura\""
+      "value": "\"mancha de azeite ou manteiga\""
     }
   ],
   "corpus_references": [],
@@ -108,12 +108,12 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-025bb4306f0c",
+      "claim_id": "PCL-2259113870a0",
       "evidence_id": "PEV-56056e021dc2",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-b7ce636d19c2",
+      "claim_id": "PCL-13a4a94402e3",
       "evidence_id": "PEV-56056e021dc2",
       "relation": "DERIVED_FROM"
     }
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "b01003028da40bdd85aa15dc232fab90ace6e9ae1571ba5f3d7db736038064ac",
+    "pipeline_digest": "c0154748f8a504c0e0972b15d2e670085a0336ab4230f6c67518a2f46e1d9bf7",
     "request": {
       "case_id": "G6-L0249",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "mancha de azeite o de manteca"
+            "value": "mancha de azeite o de manteca,"
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "mancha de azeite ou gordura"
+            "value": "mancha de azeite ou manteiga"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "mancha de azeite o de manteca",
+            "original_gloss": "mancha de azeite o de manteca,",
             "source_form": "Chiyactic",
             "source_form_id": "L0249-FS1"
           }
@@ -298,12 +301,12 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "mancha de azeite ou gordura",
-      "original_gloss": "mancha de azeite o de manteca",
+      "interpretation": "mancha de azeite ou manteiga",
+      "original_gloss": "mancha de azeite o de manteca,",
       "sense_id": "L0249-S1",
       "translations": [
         {
-          "claim_id": "PCL-b7ce636d19c2",
+          "claim_id": "PCL-13a4a94402e3",
           "confidence": "MEDIUM",
           "derived_from": [
             "PEV-56056e021dc2"
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "mancha de azeite ou gordura",
+          "text": "mancha de azeite ou manteiga",
           "translation_id": "L0249-T1"
         }
       ]

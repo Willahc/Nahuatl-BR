@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-f88dd3f56890",
+      "attestation_id": "PAT-932c68a9019a",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotomachia",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotamachiua",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "medir corto o falto, o medir tuerto",
+      "original_gloss": "medir corto o falto, o medir tuerto.",
       "source": "A01",
-      "source_form": "Chicotomachia",
+      "source_form": "Chicotamachiua",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-faee81273d8a",
+      "claim_id": "PCL-dfc971dc4dc8",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,16 +38,16 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-432882bd2c0b"
+        "PEV-c4e180170725"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0204",
-      "value": "\"medir corto o falto, o medir tuerto\""
+      "value": "\"medir corto o falto, o medir tuerto.\""
     },
     {
-      "claim_id": "PCL-42a61bbbfb77",
+      "claim_id": "PCL-769c126cdca0",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -66,20 +66,20 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-432882bd2c0b"
+        "PEV-c4e180170725"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0204",
-      "value": "\"medir curto ou de modo errado\""
+      "value": "\"medir curto, a menos ou de modo errado\""
     }
   ],
   "corpus_references": [],
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-f88dd3f56890",
+      "attestation_id": "PAT-932c68a9019a",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-432882bd2c0b",
+      "evidence_id": "PEV-c4e180170725",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotomachia",
+      "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotamachiua",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-faee81273d8a",
-      "evidence_id": "PEV-432882bd2c0b",
+      "claim_id": "PCL-dfc971dc4dc8",
+      "evidence_id": "PEV-c4e180170725",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-42a61bbbfb77",
-      "evidence_id": "PEV-432882bd2c0b",
+      "claim_id": "PCL-769c126cdca0",
+      "evidence_id": "PEV-c4e180170725",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-432882bd2c0b"
+        "PEV-c4e180170725"
       ],
       "form_id": "L0204-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicotomachia"
+      "value": "Chicotamachiua"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicotomachia",
+          "input": "Chicotamachiua",
           "lossy": false,
-          "output": "Chicotomachia",
+          "output": "Chicotamachiua",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0204-FS1-FD-4f269cdcc7f1",
+      "form_id": "L0204-FS1-FD-467e46f84d81",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicotomachia"
+      "value": "Chicotamachiua"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicotomachia",
+          "input": "Chicotamachiua",
           "lossy": false,
-          "output": "Chicotomachia",
+          "output": "Chicotamachiua",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0204-FS1-FN-767a827125e7",
+      "form_id": "L0204-FS1-FN-b1f1bf7c669e",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicotomachia"
+      "value": "Chicotamachiua"
     },
     {
       "evidence": [],
-      "form_id": "L0204-FS1-FP-e228b62096fd",
+      "form_id": "L0204-FS1-FP-511734333e48",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0204-FS1-SK-08a600d99c8f",
+      "form_id": "L0204-FS1-SK-e0a0ee61cd66",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicotomachia"
+        "chicotamachiua"
       ],
       "steps": [
         {
-          "input": "Chicotomachia",
+          "input": "Chicotamachiua",
           "lossy": false,
-          "output": "Chicotomachia",
+          "output": "Chicotamachiua",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicotomachia",
+          "input": "Chicotamachiua",
           "lossy": true,
-          "output": "chicotomachia",
+          "output": "chicotamachiua",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicotomachia",
+          "input": "chicotamachiua",
           "lossy": true,
-          "output": "chicotomachia",
+          "output": "chicotamachiua",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicotomachia",
+          "input": "chicotamachiua",
           "lossy": true,
-          "output": "chicotomachia",
+          "output": "chicotamachiua",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicotomachia",
+          "input": "chicotamachiua",
           "lossy": true,
-          "output": "chicotomachia",
+          "output": "chicotamachiua",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicotomachia"
+      "value": "chicotamachiua"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "0f27f2f27ff46634154b3380ffa34f04bb9a249ee93afa75bb6a3cbaa94e58b9",
+    "pipeline_digest": "0c2320340bc4df6c050b63ba5a87dc99cfe1d154e583acebaaafa21182a35bde",
     "request": {
       "case_id": "G6-L0204",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "medir corto o falto, o medir tuerto"
+            "value": "medir corto o falto, o medir tuerto."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "medir curto ou de modo errado"
+            "value": "medir curto, a menos ou de modo errado"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "medir corto o falto, o medir tuerto",
-            "source_form": "Chicotomachia",
+            "original_gloss": "medir corto o falto, o medir tuerto.",
+            "source_form": "Chicotamachiua",
             "source_form_id": "L0204-FS1"
           }
         ],
         "lemma_id": "L0204",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotomachia",
+        "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotamachiua",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicotomachia",
+    "display_form": "Chicotamachiua",
     "id": "L0204",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -298,15 +301,15 @@
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "medir curto ou de modo errado",
-      "original_gloss": "medir corto o falto, o medir tuerto",
+      "interpretation": "medir curto, a menos ou de modo errado",
+      "original_gloss": "medir corto o falto, o medir tuerto.",
       "sense_id": "L0204-S1",
       "translations": [
         {
-          "claim_id": "PCL-42a61bbbfb77",
+          "claim_id": "PCL-769c126cdca0",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-432882bd2c0b"
+            "PEV-c4e180170725"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "medir curto ou de modo errado",
+          "text": "medir curto, a menos ou de modo errado",
           "translation_id": "L0204-T1"
         }
       ]

@@ -32,7 +32,7 @@
       "status": "PASS"
     },
     "6": {
-      "closure": "SOURCE_EVIDENCE_PATH_RESOLVED",
+      "closure": "BATCH_04_REMEDIATION_REQUIRED",
       "status": "IN_PROGRESS"
     }
   },
@@ -9937,19 +9937,19 @@
     },
     {
       "claim_ids": [],
-      "display_form": "ChicoquiÃƒÆ’Ã‚Â§a",
+      "display_form": "Chicoquiça",
       "forms": {
-        "normalized_form": "ChicoquiÃƒÆ’Ã‚Â§a",
+        "normalized_form": "Chicoquiça",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicoquiãƒæ’ã‚â§a"
+          "chicoquiça"
         ],
         "source_forms": [
-          "ChicoquiÃƒÆ’Ã‚Â§a"
+          "Chicoquiça"
         ]
       },
       "historical_glosses": [
-        "apartarse dela virtud"
+        "apartarſe dela virtud."
       ],
       "id": "L0201",
       "interpretations": [
@@ -9969,7 +9969,7 @@
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÆ’Ã‚Â§a",
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicoquiça",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -9981,23 +9981,23 @@
     },
     {
       "claim_ids": [],
-      "display_form": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
+      "display_form": "Chicoquiça in nonetlauhtil",
       "forms": {
-        "normalized_form": "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
+        "normalized_form": "Chicoquiça in nonetlauhtil",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicoquiãƒæ’ã‚â§a inonãƒâã‚âµãƒâ€˜ã¢â‚¬å¡lauhtil"
+          "chicoquiça in nonetlauhtil"
         ],
         "source_forms": [
-          "ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil"
+          "Chicoquiça in nonetlauhtil"
         ]
       },
       "historical_glosses": [
-        "disminuirse las mercedes que recibe de otro"
+        "diſminuirſe las mercedes que recibe de otro."
       ],
       "id": "L0202",
       "interpretations": [
-        "diminuÃƒÆ’Ã‚Â­rem as mercÃƒÆ’Ã‚Âªs recebidas"
+        "diminuírem as mercês recebidas de outra pessoa"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10007,13 +10007,13 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "diminuÃƒÆ’Ã‚Â­rem as mercÃƒÆ’Ã‚Âªs recebidas"
+        "diminuírem as mercês recebidas de outra pessoa"
       ],
       "references": [],
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column a, headword ChicoquiÃƒÆ’Ã‚Â§a inonÃƒÂÃ‚ÂµÃƒâ€˜Ã¢â‚¬Å¡lauhtil",
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicoquiça in nonetlauhtil",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -10037,11 +10037,11 @@
         ]
       },
       "historical_glosses": [
-        "pagar parte de la deuda, o sacar algo a fuera en edificio"
+        "pagar parte dela deuda,"
       ],
       "id": "L0203",
       "interpretations": [
-        "pagar parte da divida ou retirar algo de um edificio"
+        "pagar parte da dívida"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10051,7 +10051,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "pagar parte da divida ou retirar algo de um edificio"
+        "pagar parte da dívida"
       ],
       "references": [],
       "sources": [
@@ -10069,23 +10069,23 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicotomachia",
+      "display_form": "Chicotamachiua",
       "forms": {
-        "normalized_form": "Chicotomachia",
+        "normalized_form": "Chicotamachiua",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicotomachia"
+          "chicotamachiua"
         ],
         "source_forms": [
-          "Chicotomachia"
+          "Chicotamachiua"
         ]
       },
       "historical_glosses": [
-        "medir corto o falto, o medir tuerto"
+        "medir corto o falto, o medir tuerto."
       ],
       "id": "L0204",
       "interpretations": [
-        "medir curto ou de modo errado"
+        "medir curto, a menos ou de modo errado"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10095,13 +10095,13 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "medir curto ou de modo errado"
+        "medir curto, a menos ou de modo errado"
       ],
       "references": [],
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotomachia",
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotamachiua",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -10125,11 +10125,11 @@
         ]
       },
       "historical_glosses": [
-        "deposicion de oficio o cargo"
+        "depoſicion"
       ],
       "id": "L0205",
       "interpretations": [
-        "exoneraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de cargo"
+        "destituição"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10139,7 +10139,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "exoneraÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o de cargo"
+        "destituição"
       ],
       "references": [],
       "sources": [
@@ -10169,11 +10169,11 @@
         ]
       },
       "historical_glosses": [
-        "deponedor desta manera"
+        "deponedor deſta manera"
       ],
       "id": "L0206",
       "interpretations": [
-        "quem exonera dessa maneira"
+        "quem destitui dessa maneira"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10183,7 +10183,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "quem exonera dessa maneira"
+        "quem destitui dessa maneira"
       ],
       "references": [],
       "sources": [
@@ -10213,7 +10213,7 @@
         ]
       },
       "historical_glosses": [
-        "ni. ser sospechoso"
+        "ſer ſoſpechoſo."
       ],
       "id": "L0207",
       "interpretations": [
@@ -10245,19 +10245,19 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicotlamatiztli",
+      "display_form": "Chicotlamatiliztli",
       "forms": {
-        "normalized_form": "Chicotlamatiztli",
+        "normalized_form": "Chicotlamatiliztli",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicotlamatiztli"
+          "chicotlamatiliztli"
         ],
         "source_forms": [
-          "Chicotlamatiztli"
+          "Chicotlamatiliztli"
         ]
       },
       "historical_glosses": [
-        "sospecha"
+        "ſoſpecha."
       ],
       "id": "L0208",
       "interpretations": [
@@ -10277,7 +10277,7 @@
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatiztli",
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatiliztli",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -10301,7 +10301,7 @@
         ]
       },
       "historical_glosses": [
-        "sospechoso o celoso"
+        "ſoſpechoſo o celoſo."
       ],
       "id": "L0209",
       "interpretations": [
@@ -10345,7 +10345,7 @@
         ]
       },
       "historical_glosses": [
-        "cosa no entera"
+        "coſa no entera."
       ],
       "id": "L0210",
       "interpretations": [
@@ -10389,11 +10389,11 @@
         ]
       },
       "historical_glosses": [
-        "defraudar el enfermo con la rezia calentura"
+        "deſuariar el enfermo con la rezia calentura."
       ],
       "id": "L0211",
       "interpretations": [
-        "enganar o doente com febre forte"
+        "delirar o doente com febre forte"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10403,7 +10403,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "enganar o doente com febre forte"
+        "delirar o doente com febre forte"
       ],
       "references": [],
       "sources": [
@@ -10433,11 +10433,11 @@
         ]
       },
       "historical_glosses": [
-        "enfermo que desuaria asi"
+        "enfermo que deſuaria aſsi."
       ],
       "id": "L0212",
       "interpretations": [
-        "doente que delira"
+        "doente que delira assim"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10447,7 +10447,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "doente que delira"
+        "doente que delira assim"
       ],
       "references": [],
       "sources": [
@@ -10477,11 +10477,11 @@
         ]
       },
       "historical_glosses": [
-        "desuario tal"
+        "deſuario tal."
       ],
       "id": "L0213",
       "interpretations": [
-        "delÃƒÆ’Ã‚Â­rio"
+        "delírio desse tipo"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10491,7 +10491,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "delÃƒÆ’Ã‚Â­rio"
+        "delírio desse tipo"
       ],
       "references": [],
       "sources": [
@@ -10521,11 +10521,11 @@
         ]
       },
       "historical_glosses": [
-        "ni. desuariar el enfermo, o hablar cautelosamente"
+        "deſuariar el enfermo,"
       ],
       "id": "L0214",
       "interpretations": [
-        "delirar ou falar com cautela"
+        "delirar o doente"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10535,7 +10535,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "delirar ou falar com cautela"
+        "delirar o doente"
       ],
       "references": [],
       "sources": [
@@ -10565,11 +10565,11 @@
         ]
       },
       "historical_glosses": [
-        "el enfermo que desuaria, o el blasfemador"
+        "el enfermo que deſuaria,"
       ],
       "id": "L0215",
       "interpretations": [
-        "doente delirante ou blasfemador"
+        "o doente que delira"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10579,7 +10579,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "doente delirante ou blasfemador"
+        "o doente que delira"
       ],
       "references": [],
       "sources": [
@@ -10597,23 +10597,23 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicotlatoziztli",
+      "display_form": "Chicotlatoliztli",
       "forms": {
-        "normalized_form": "Chicotlatoziztli",
+        "normalized_form": "Chicotlatoliztli",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicotlatoziztli"
+          "chicotlatoliztli"
         ],
         "source_forms": [
-          "Chicotlatoziztli"
+          "Chicotlatoliztli"
         ]
       },
       "historical_glosses": [
-        "desuario tal"
+        "deſuario tal."
       ],
       "id": "L0216",
       "interpretations": [
-        "delÃƒÆ’Ã‚Â­rio"
+        "delírio desse tipo"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10623,13 +10623,13 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "delÃƒÆ’Ã‚Â­rio"
+        "delírio desse tipo"
       ],
       "references": [],
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatoziztli",
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatoliztli",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -10641,23 +10641,23 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicotlalpalli",
+      "display_form": "Chicotlatolli",
       "forms": {
-        "normalized_form": "Chicotlalpalli",
+        "normalized_form": "Chicotlatolli",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicotlalpalli"
+          "chicotlatolli"
         ],
         "source_forms": [
-          "Chicotlalpalli"
+          "Chicotlatolli"
         ]
       },
       "historical_glosses": [
-        "palabra cautelosa, blasfemia, o palabra aviesa"
+        "palabra cauteloſa, blasfemia, o palabra auieſa."
       ],
       "id": "L0217",
       "interpretations": [
-        "palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa"
+        "palavra cautelosa, blasfêmia ou palavra maldosa"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10667,13 +10667,13 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "palavra cautelosa, blasfÃƒÆ’Ã‚Âªmia ou palavra maldosa"
+        "palavra cautelosa, blasfêmia ou palavra maldosa"
       ],
       "references": [],
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlalpalli",
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatolli",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -10697,11 +10697,11 @@
         ]
       },
       "historical_glosses": [
-        "loco atreguiado"
+        "loco atreguado."
       ],
       "id": "L0218",
       "interpretations": [
-        "louco perturbado"
+        "louco; sentido de “atreguado” requer revisão"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10711,7 +10711,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "louco perturbado"
+        "louco; sentido de “atreguado” requer revisão"
       ],
       "references": [],
       "sources": [
@@ -10741,11 +10741,11 @@
         ]
       },
       "historical_glosses": [
-        "ni. poner o componer algo desigualmente"
+        "poner o componer algo deſigualmente."
       ],
       "id": "L0219",
       "interpretations": [
-        "colocar algo de modo desigual"
+        "colocar ou dispor algo de modo desigual"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10755,7 +10755,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "colocar algo de modo desigual"
+        "colocar ou dispor algo de modo desigual"
       ],
       "references": [],
       "sources": [
@@ -10785,11 +10785,11 @@
         ]
       },
       "historical_glosses": [
-        "nitella. dar algo mas a vno que a otro"
+        "dar algo mas a vno que a otro"
       ],
       "id": "L0220",
       "interpretations": [
-        "dar mais a um do que a outro"
+        "dar mais de algo a um do que a outro"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10799,7 +10799,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "dar mais a um do que a outro"
+        "dar mais de algo a um do que a outro"
       ],
       "references": [],
       "sources": [
@@ -10829,7 +10829,7 @@
         ]
       },
       "historical_glosses": [
-        "nite. mejorar a otro"
+        "mejorar a otro."
       ],
       "id": "L0221",
       "interpretations": [
@@ -10873,11 +10873,11 @@
         ]
       },
       "historical_glosses": [
-        "nitla. ametalar algo de diversas colores"
+        "ametalar algo de diuerſas colores."
       ],
       "id": "L0222",
       "interpretations": [
-        "metalizar algo com vÃƒÆ’Ã‚Â¡rias cores"
+        "dar a algo cores variadas; “ametalar” requer revisão"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10887,7 +10887,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "metalizar algo com vÃƒÆ’Ã‚Â¡rias cores"
+        "dar a algo cores variadas; “ametalar” requer revisão"
       ],
       "references": [],
       "sources": [
@@ -10917,11 +10917,11 @@
         ]
       },
       "historical_glosses": [
-        "cosa ametalada asi"
+        "coſa ametalada aſsi."
       ],
       "id": "L0223",
       "interpretations": [
-        "coisa metalizada"
+        "coisa “ametalada”; sentido requer revisão"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10931,7 +10931,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "coisa metalizada"
+        "coisa “ametalada”; sentido requer revisão"
       ],
       "references": [],
       "sources": [
@@ -10961,11 +10961,11 @@
         ]
       },
       "historical_glosses": [
-        "en siete partes, o siete raciones"
+        "en ſiete partes, o ſiete raciones."
       ],
       "id": "L0224",
       "interpretations": [
-        "em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
+        "em sete partes ou sete porções"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -10975,7 +10975,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "em sete partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
+        "em sete partes ou sete porções"
       ],
       "references": [],
       "sources": [
@@ -11005,7 +11005,7 @@
         ]
       },
       "historical_glosses": [
-        "ocho"
+        "ocho."
       ],
       "id": "L0225",
       "interpretations": [
@@ -11037,23 +11037,23 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicuexcan",
+      "display_form": "Chicucxcan",
       "forms": {
-        "normalized_form": "Chicuexcan",
+        "normalized_form": "Chicucxcan",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicuexcan"
+          "chicucxcan"
         ],
         "source_forms": [
-          "Chicuexcan"
+          "Chicucxcan"
         ]
       },
       "historical_glosses": [
-        "en ocho partes, o ocho raciones"
+        "en ocho partes, o ocho raciones."
       ],
       "id": "L0226",
       "interpretations": [
-        "em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
+        "em oito partes ou oito porções"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11063,13 +11063,13 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "em oito partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
+        "em oito partes ou oito porções"
       ],
       "references": [],
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuexcan",
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicucxcan",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -11093,7 +11093,7 @@
         ]
       },
       "historical_glosses": [
-        "ocho vezes"
+        "ocho vezes."
       ],
       "id": "L0227",
       "interpretations": [
@@ -11137,11 +11137,11 @@
         ]
       },
       "historical_glosses": [
-        "ocho tanto"
+        "ocho tanto."
       ],
       "id": "L0228",
       "interpretations": [
-        "oito tanto"
+        "oito vezes tanto"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11151,7 +11151,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "oito tanto"
+        "oito vezes tanto"
       ],
       "references": [],
       "sources": [
@@ -11169,23 +11169,23 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicuili",
+      "display_form": "Chiculli",
       "forms": {
-        "normalized_form": "Chicuili",
+        "normalized_form": "Chiculli",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicuili"
+          "chiculli"
         ],
         "source_forms": [
-          "Chicuili"
+          "Chiculli"
         ]
       },
       "historical_glosses": [
-        "garauato"
+        "garauato."
       ],
       "id": "L0229",
       "interpretations": [
-        "caroÃƒÆ’Ã‚Â§o ou verruga"
+        "gancho; sentido requer revisão"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11195,13 +11195,13 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "caroÃƒÆ’Ã‚Â§o ou verruga"
+        "gancho; sentido requer revisão"
       ],
       "references": [],
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuili",
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chiculli",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -11213,23 +11213,23 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicuiltia",
+      "display_form": "Chicultia",
       "forms": {
-        "normalized_form": "Chicuiltia",
+        "normalized_form": "Chicultia",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicuiltia"
+          "chicultia"
         ],
         "source_forms": [
-          "Chicuiltia"
+          "Chicultia"
         ]
       },
       "historical_glosses": [
-        "niteta. persuadir algo a otro con importunidad"
+        "perſuadir algo a otro con importunidad."
       ],
       "id": "L0230",
       "interpretations": [
-        "persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia"
+        "persuadir outra pessoa com insistência"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11239,13 +11239,13 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "persuadir alguÃƒÆ’Ã‚Â©m com insistÃƒÆ’Ã‚Âªncia"
+        "persuadir outra pessoa com insistência"
       ],
       "references": [],
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuiltia",
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicultia",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -11269,11 +11269,11 @@
         ]
       },
       "historical_glosses": [
-        "cosa coruada, torcida, o tuerta como garauato o cayado"
+        "coſa coruada, torcida, o tuerta como garauato o cayado."
       ],
       "id": "L0231",
       "interpretations": [
-        "coisa curva ou torcida"
+        "coisa curva ou torcida como gancho ou cajado"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11283,7 +11283,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "coisa curva ou torcida"
+        "coisa curva ou torcida como gancho ou cajado"
       ],
       "references": [],
       "sources": [
@@ -11313,11 +11313,11 @@
         ]
       },
       "historical_glosses": [
-        "ciento y quarenta mantas, tortillas pliegos de papel"
+        "ciento y quarenta mantas, tortillas pliegos de papel, eſteras."
       ],
       "id": "L0232",
       "interpretations": [
-        "cento e quarenta mantas, tortillas ou folhas"
+        "cento e quarenta mantas, tortillas, folhas de papel ou esteiras"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11327,7 +11327,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "cento e quarenta mantas, tortillas ou folhas"
+        "cento e quarenta mantas, tortillas, folhas de papel ou esteiras"
       ],
       "references": [],
       "sources": [
@@ -11357,7 +11357,7 @@
         ]
       },
       "historical_glosses": [
-        "siete rengleras o hileras de algo"
+        "ſiete rengleras o hileras de algo."
       ],
       "id": "L0233",
       "interpretations": [
@@ -11389,19 +11389,19 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicumpoa",
+      "display_form": "Chicumpoalli",
       "forms": {
-        "normalized_form": "Chicumpoa",
+        "normalized_form": "Chicumpoalli",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicumpoa"
+          "chicumpoalli"
         ],
         "source_forms": [
-          "Chicumpoa"
+          "Chicumpoalli"
         ]
       },
       "historical_glosses": [
-        "ciento y quarenta"
+        "ciento y quarenta."
       ],
       "id": "L0234",
       "interpretations": [
@@ -11421,7 +11421,7 @@
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicumpoa",
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicumpoalli",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -11445,7 +11445,7 @@
         ]
       },
       "historical_glosses": [
-        "nueve veces"
+        "nueue vezes."
       ],
       "id": "L0235",
       "interpretations": [
@@ -11489,7 +11489,7 @@
         ]
       },
       "historical_glosses": [
-        "nueve tanto"
+        "nueue tanto."
       ],
       "id": "L0236",
       "interpretations": [
@@ -11521,23 +11521,23 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicunquauipilli",
+      "display_form": "Chicunauipilli",
       "forms": {
-        "normalized_form": "Chicunquauipilli",
+        "normalized_form": "Chicunauipilli",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicunquauipilli"
+          "chicunauipilli"
         ],
         "source_forms": [
-          "Chicunquauipilli"
+          "Chicunauipilli"
         ]
       },
       "historical_glosses": [
-        "ciento y ochenta mantas, tortillas etc."
+        "ciento y ochenta mãtas, tortillas eſteras."
       ],
       "id": "L0237",
       "interpretations": [
-        "cento e oitenta mantas ou tortillas"
+        "cento e oitenta mantas, tortillas ou esteiras"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11547,13 +11547,13 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "cento e oitenta mantas ou tortillas"
+        "cento e oitenta mantas, tortillas ou esteiras"
       ],
       "references": [],
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunquauipilli",
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauipilli",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -11577,11 +11577,11 @@
         ]
       },
       "historical_glosses": [
-        "en nueve partes o nueve raciones"
+        "en nueue partes, o nueue raciones."
       ],
       "id": "L0238",
       "interpretations": [
-        "em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
+        "em nove partes ou nove porções"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11591,7 +11591,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "em nove partes ou porÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes"
+        "em nove partes ou nove porções"
       ],
       "references": [],
       "sources": [
@@ -11609,19 +11609,19 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicunauhpan",
+      "display_form": "Chicunauhpantli",
       "forms": {
-        "normalized_form": "Chicunauhpan",
+        "normalized_form": "Chicunauhpantli",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicunauhpan"
+          "chicunauhpantli"
         ],
         "source_forms": [
-          "Chicunauhpan"
+          "Chicunauhpantli"
         ]
       },
       "historical_glosses": [
-        "nueve rengleras o hileras"
+        "nueue rengleras o hileras."
       ],
       "id": "L0239",
       "interpretations": [
@@ -11641,7 +11641,7 @@
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhpan",
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhpantli",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -11653,23 +11653,23 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chicunauhtianquiztli",
+      "display_form": "Chicunauh tianquiztli",
       "forms": {
-        "normalized_form": "Chicunauhtianquiztli",
+        "normalized_form": "Chicunauh tianquiztli",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chicunauhtianquiztli"
+          "chicunauh tianquiztli"
         ],
         "source_forms": [
-          "Chicunauhtianquiztli"
+          "Chicunauh tianquiztli"
         ]
       },
       "historical_glosses": [
-        "mercado o feria de nueve en nueve dias"
+        "mercado o feria de nueue en nueue dias."
       ],
       "id": "L0240",
       "interpretations": [
-        "mercado a cada nove dias"
+        "mercado ou feira a cada nove dias"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11679,13 +11679,13 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "mercado a cada nove dias"
+        "mercado ou feira a cada nove dias"
       ],
       "references": [],
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauhtianquiztli",
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunauh tianquiztli",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -11709,11 +11709,11 @@
         ]
       },
       "historical_glosses": [
-        "siete"
+        "ſiete."
       ],
       "id": "L0241",
       "interpretations": [
-        "nove"
+        "sete"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11723,7 +11723,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "nove"
+        "sete"
       ],
       "references": [],
       "sources": [
@@ -11753,11 +11753,11 @@
         ]
       },
       "historical_glosses": [
-        "siete cosas, pares, o partes"
+        "ſiete coſas, pares, o partes."
       ],
       "id": "L0242",
       "interpretations": [
-        "nove coisas, pares ou partes"
+        "sete coisas, pares ou partes"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11767,7 +11767,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "nove coisas, pares ou partes"
+        "sete coisas, pares ou partes"
       ],
       "references": [],
       "sources": [
@@ -11797,11 +11797,11 @@
         ]
       },
       "historical_glosses": [
-        "siete veces"
+        "ſiete vezes."
       ],
       "id": "L0243",
       "interpretations": [
-        "nove vezes"
+        "sete vezes"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11811,7 +11811,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "nove vezes"
+        "sete vezes"
       ],
       "references": [],
       "sources": [
@@ -11841,11 +11841,11 @@
         ]
       },
       "historical_glosses": [
-        "nic. aguardar a otro con resfresco o con otra cosa"
+        "aguardar a otro con refreſco o con otra coſa,"
       ],
       "id": "L0244",
       "interpretations": [
-        "aguardar alguÃƒÆ’Ã‚Â©m com refresco ou outra coisa"
+        "aguardar outra pessoa com refresco ou outra coisa"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11855,7 +11855,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "aguardar alguÃƒÆ’Ã‚Â©m com refresco ou outra coisa"
+        "aguardar outra pessoa com refresco ou outra coisa"
       ],
       "references": [],
       "sources": [
@@ -11885,11 +11885,11 @@
         ]
       },
       "historical_glosses": [
-        "nic. idem"
+        "idem."
       ],
       "id": "L0245",
       "interpretations": [
-        "aguardar alguÃƒÆ’Ã‚Â©m"
+        "mesmo sentido de Chielia, segundo a remissão da fonte"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11899,7 +11899,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "aguardar alguÃƒÆ’Ã‚Â©m"
+        "mesmo sentido de Chielia, segundo a remissão da fonte"
       ],
       "references": [],
       "sources": [
@@ -11929,11 +11929,11 @@
         ]
       },
       "historical_glosses": [
-        "nicno. aguardar o esperar sin temor al enemigo"
+        "aguardar o eſperar ſin temor al enemigo."
       ],
       "id": "L0246",
       "interpretations": [
-        "esperar sem temor do inimigo"
+        "aguardar ou esperar o inimigo sem temor"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -11943,7 +11943,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "esperar sem temor do inimigo"
+        "aguardar ou esperar o inimigo sem temor"
       ],
       "references": [],
       "sources": [
@@ -11973,7 +11973,7 @@
         ]
       },
       "historical_glosses": [
-        "azcite de chia"
+        "azeite de chia."
       ],
       "id": "L0247",
       "interpretations": [
@@ -12005,19 +12005,19 @@
     },
     {
       "claim_ids": [],
-      "display_form": "Chien quema",
+      "display_form": "Chien cuema",
       "forms": {
-        "normalized_form": "Chien quema",
+        "normalized_form": "Chien cuema",
         "pedagogical_form": "UNKNOWN",
         "search_keys": [
-          "chien quema"
+          "chien cuema"
         ],
         "source_forms": [
-          "Chien quema"
+          "Chien cuema"
         ]
       },
       "historical_glosses": [
-        "ni. sembrar chia"
+        "ſembrar chia."
       ],
       "id": "L0248",
       "interpretations": [
@@ -12037,7 +12037,7 @@
       "sources": [
         {
           "direct_witness_inspected": true,
-          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chien quema",
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chien cuema",
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -12061,11 +12061,11 @@
         ]
       },
       "historical_glosses": [
-        "mancha de azeite o de manteca"
+        "mancha de azeite o de manteca,"
       ],
       "id": "L0249",
       "interpretations": [
-        "mancha de azeite ou gordura"
+        "mancha de azeite ou manteiga"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -12075,7 +12075,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "mancha de azeite ou gordura"
+        "mancha de azeite ou manteiga"
       ],
       "references": [],
       "sources": [
@@ -12105,11 +12105,11 @@
         ]
       },
       "historical_glosses": [
-        "mote. pararse cachondala perra"
+        "pararſe cachonda la perra."
       ],
       "id": "L0250",
       "interpretations": [
-        "parar-se, diz-se da cadela"
+        "ficar a cadela no cio"
       ],
       "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
       "phonology": {
@@ -12119,7 +12119,7 @@
         "vowel_length": "UNKNOWN"
       },
       "pt_br_editorial": [
-        "parar-se, diz-se da cadela"
+        "ficar a cadela no cio"
       ],
       "references": [],
       "sources": [

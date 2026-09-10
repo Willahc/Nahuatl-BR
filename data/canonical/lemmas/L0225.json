@@ -9,7 +9,7 @@
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "ocho",
+      "original_gloss": "ocho.",
       "source": "A01",
       "source_form": "Chicuei",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-2a09e0c9eed5",
+      "claim_id": "PCL-cd3055f224e4",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -44,7 +44,7 @@
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0225",
-      "value": "\"ocho\""
+      "value": "\"ocho.\""
     },
     {
       "claim_id": "PCL-ddde41179855",
@@ -108,7 +108,7 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-2a09e0c9eed5",
+      "claim_id": "PCL-cd3055f224e4",
       "evidence_id": "PEV-aa0ebe7a5311",
       "relation": "SUPPORTS"
     },
@@ -222,15 +222,18 @@
       "column": "a",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "7549a75aa68e93ddc7aaf3b090073481fa7becac6565e984bc38fb6593a61b1c",
+    "pipeline_digest": "dd9c9ebc6e390a84036cf667288b8986ad2ea290e64ecb02f663703d87bf4a26",
     "request": {
       "case_id": "G6-L0225",
       "ingest": {
@@ -240,7 +243,7 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "ocho"
+            "value": "ocho."
           },
           {
             "confidence": "MEDIUM",
@@ -255,7 +258,7 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "ocho",
+            "original_gloss": "ocho.",
             "source_form": "Chicuei",
             "source_form_id": "L0225-FS1"
           }
@@ -299,7 +302,7 @@
     {
       "editorial_status": "DRAFT",
       "interpretation": "oito",
-      "original_gloss": "ocho",
+      "original_gloss": "ocho.",
       "sense_id": "L0225-S1",
       "translations": [
         {

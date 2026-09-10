@@ -1,17 +1,17 @@
 {
   "attestations": [
     {
-      "attestation_id": "PAT-9104040f71a6",
+      "attestation_id": "PAT-294d91d924c9",
       "direct_witness_inspected": true,
       "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
       "editorial_state": "DRAFT",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuili",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chiculli",
       "locator_absence_reason": "NOT_APPLICABLE",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
-      "original_gloss": "garauato",
+      "original_gloss": "garauato.",
       "source": "A01",
-      "source_form": "Chicuili",
+      "source_form": "Chiculli",
       "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
       "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
       "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
@@ -19,7 +19,7 @@
   ],
   "claims": [
     {
-      "claim_id": "PCL-e7e2bc2b1e03",
+      "claim_id": "PCL-c9d80625de62",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -38,16 +38,16 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-137dca6f5687"
+        "PEV-51f63d31423d"
       ],
       "modality": "OBSERVED",
       "origin": "PIPELINE",
       "predicate": "has_historical_gloss",
       "subject": "L0229",
-      "value": "\"garauato\""
+      "value": "\"garauato.\""
     },
     {
-      "claim_id": "PCL-be9cb0fd71b2",
+      "claim_id": "PCL-a6e034d4668a",
       "claim_source_origin": "PIPELINE",
       "confidence": "MEDIUM",
       "editorial_provenance": {
@@ -66,20 +66,20 @@
       },
       "editorial_state": "DRAFT",
       "evidence": [
-        "PEV-137dca6f5687"
+        "PEV-51f63d31423d"
       ],
       "modality": "EDITORIAL",
       "origin": "PIPELINE",
       "predicate": "has_pt_br_editorial_gloss",
       "subject": "L0229",
-      "value": "\"caroÃƒÆ’Ã‚Â§o ou verruga\""
+      "value": "\"gancho; sentido requer revisão\""
     }
   ],
   "corpus_references": [],
   "evidence": [
     {
       "accessed_at": "2026-09-10",
-      "attestation_id": "PAT-9104040f71a6",
+      "attestation_id": "PAT-294d91d924c9",
       "direct_witness_inspected": true,
       "editorial_provenance": {
         "action": "GATE5_PIPELINE_GENERATION",
@@ -96,9 +96,9 @@
         "tool_version": "1.0.0"
       },
       "editorial_state": "DRAFT",
-      "evidence_id": "PEV-137dca6f5687",
+      "evidence_id": "PEV-51f63d31423d",
       "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
-      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuili",
+      "locator": "JCB 1571, part II, manifest page 300, column b, headword Chiculli",
       "mediation_level": "DIRECT_WITNESS",
       "origin": "PIPELINE",
       "source": "A01",
@@ -108,61 +108,61 @@
   ],
   "evidence_links": [
     {
-      "claim_id": "PCL-e7e2bc2b1e03",
-      "evidence_id": "PEV-137dca6f5687",
+      "claim_id": "PCL-c9d80625de62",
+      "evidence_id": "PEV-51f63d31423d",
       "relation": "SUPPORTS"
     },
     {
-      "claim_id": "PCL-be9cb0fd71b2",
-      "evidence_id": "PEV-137dca6f5687",
+      "claim_id": "PCL-a6e034d4668a",
+      "evidence_id": "PEV-51f63d31423d",
       "relation": "DERIVED_FROM"
     }
   ],
   "forms": [
     {
       "evidence": [
-        "PEV-137dca6f5687"
+        "PEV-51f63d31423d"
       ],
       "form_id": "L0229-FS1",
       "layer": "SOURCE_FORM",
       "normalization_profile": "NOT_APPLICABLE",
-      "value": "Chicuili"
+      "value": "Chiculli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicuili",
+          "input": "Chiculli",
           "lossy": false,
-          "output": "Chicuili",
+          "output": "Chiculli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0229-FS1-FD-76d194088f67",
+      "form_id": "L0229-FS1-FD-4168331b60ab",
       "layer": "DIPLOMATIC_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicuili"
+      "value": "Chiculli"
     },
     {
       "derivation_steps": [
         {
-          "input": "Chicuili",
+          "input": "Chiculli",
           "lossy": false,
-          "output": "Chicuili",
+          "output": "Chiculli",
           "rule_id": "editorial-nfc-001"
         }
       ],
-      "form_id": "L0229-FS1-FN-615389b28bcf",
+      "form_id": "L0229-FS1-FN-a23a3e2a3526",
       "layer": "NORMALIZED_FORM",
       "lossy": false,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
-      "value": "Chicuili"
+      "value": "Chiculli"
     },
     {
       "evidence": [],
-      "form_id": "L0229-FS1-FP-a3aaeef8c3fd",
+      "form_id": "L0229-FS1-FP-a1f70530d8e2",
       "layer": "PEDAGOGICAL_FORM",
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "note": "editorial pedagogical value; macron or h requires independent Evidence",
@@ -171,47 +171,47 @@
     },
     {
       "aliases": [],
-      "form_id": "L0229-FS1-SK-4299b2dc5a07",
+      "form_id": "L0229-FS1-SK-b7afccffb760",
       "layer": "SEARCH_KEY",
       "lossy": true,
       "normalization_profile": "classical_orthography_v1@1.0.0",
       "origin": "PIPELINE",
       "search_keys": [
-        "chicuili"
+        "chiculli"
       ],
       "steps": [
         {
-          "input": "Chicuili",
+          "input": "Chiculli",
           "lossy": false,
-          "output": "Chicuili",
+          "output": "Chiculli",
           "rule_id": "editorial-nfc-001"
         },
         {
-          "input": "Chicuili",
+          "input": "Chiculli",
           "lossy": true,
-          "output": "chicuili",
+          "output": "chiculli",
           "rule_id": "search-lower-001"
         },
         {
-          "input": "chicuili",
+          "input": "chiculli",
           "lossy": true,
-          "output": "chicuili",
+          "output": "chiculli",
           "rule_id": "search-diacritic-001"
         },
         {
-          "input": "chicuili",
+          "input": "chiculli",
           "lossy": true,
-          "output": "chicuili",
+          "output": "chiculli",
           "rule_id": "search-punct-001"
         },
         {
-          "input": "chicuili",
+          "input": "chiculli",
           "lossy": true,
-          "output": "chicuili",
+          "output": "chiculli",
           "rule_id": "search-hyphen-001"
         }
       ],
-      "value": "chicuili"
+      "value": "chiculli"
     }
   ],
   "gate6": {
@@ -222,15 +222,18 @@
       "column": "b",
       "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
       "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+      "inspected_at": "2026-09-10",
       "inspection": "VISUALLY_INSPECTED",
+      "inspection_method": "VISUAL_RECHECK_JCB_PAGE_300",
       "inspector": "EXECUTION_AGENT",
       "license": "CC BY 4.0",
       "page_index_1based": 300,
+      "reviewed_ledger_sha256": "5e7a3c4783aeb9af2e009f4ca7247f88229c578730473dc41d6ee51f756747c7",
       "rights_url": "https://jcblibrary.org/permissions/",
       "sha256": "99810978f8a6c70015669fc43731acae31d9e9c31e3dc2c362c4c375827c568e",
-      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+      "transcription_convention": "Visual transcription; historical spelling, spaces and long s preserved. Typographic ct ligatures represented by c + t; entry separators excluded from headwords. Glosses are short contiguous excerpts; line wrapping and line-end hyphenation joined. No inferred expansion of abbreviations."
     },
-    "pipeline_digest": "3deedb8368bd0d307683e40de0ec2472f0ac5ba2155aec64db77550ddbd48702",
+    "pipeline_digest": "7b01d0dda4d833bb9ed8a463a71d4a41304b6acff581bc14cd02c0b2b1c42670",
     "request": {
       "case_id": "G6-L0229",
       "ingest": {
@@ -240,13 +243,13 @@
             "confidence": "MEDIUM",
             "modality": "OBSERVED",
             "predicate": "has_historical_gloss",
-            "value": "garauato"
+            "value": "garauato."
           },
           {
             "confidence": "MEDIUM",
             "modality": "EDITORIAL",
             "predicate": "has_pt_br_editorial_gloss",
-            "value": "caroÃƒÆ’Ã‚Â§o ou verruga"
+            "value": "gancho; sentido requer revisão"
           }
         ],
         "component_id": "jcb_1571_images",
@@ -255,14 +258,14 @@
         "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
         "entries": [
           {
-            "original_gloss": "garauato",
-            "source_form": "Chicuili",
+            "original_gloss": "garauato.",
+            "source_form": "Chiculli",
             "source_form_id": "L0229-FS1"
           }
         ],
         "lemma_id": "L0229",
         "lemma_variety": "Classical Nahuatl",
-        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuili",
+        "locator": "JCB 1571, part II, manifest page 300, column b, headword Chiculli",
         "mediation_level": "DIRECT_WITNESS",
         "source_id": "A01",
         "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
@@ -272,7 +275,7 @@
     }
   },
   "lemma": {
-    "display_form": "Chicuili",
+    "display_form": "Chiculli",
     "id": "L0229",
     "status": "DRAFT",
     "variety": "Classical Nahuatl"
@@ -291,22 +294,22 @@
     "coverage_status": "SINGLE_SOURCE",
     "domain_modality": "EDITORIAL",
     "lexical_class": "NOT_REVIEWED",
-    "semantic_domain": "corpo",
+    "semantic_domain": "objetos",
     "semantic_status": "NEEDS_SEMANTIC_REVIEW"
   },
   "schema": "nahuatl-br-gate6-canonical-v1",
   "senses": [
     {
       "editorial_status": "DRAFT",
-      "interpretation": "caroÃƒÆ’Ã‚Â§o ou verruga",
-      "original_gloss": "garauato",
+      "interpretation": "gancho; sentido requer revisão",
+      "original_gloss": "garauato.",
       "sense_id": "L0229-S1",
       "translations": [
         {
-          "claim_id": "PCL-be9cb0fd71b2",
+          "claim_id": "PCL-a6e034d4668a",
           "confidence": "MEDIUM",
           "derived_from": [
-            "PEV-137dca6f5687"
+            "PEV-51f63d31423d"
           ],
           "editorial_provenance": {
             "action": "GATE5_PIPELINE_GENERATION",
@@ -325,7 +328,7 @@
           "editorial_state": "DRAFT",
           "language": "pt-BR",
           "modality": "EDITORIAL",
-          "text": "caroÃƒÆ’Ã‚Â§o ou verruga",
+          "text": "gancho; sentido requer revisão",
           "translation_id": "L0229-T1"
         }
       ]
