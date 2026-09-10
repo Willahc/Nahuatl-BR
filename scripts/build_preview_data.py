@@ -24,6 +24,7 @@ if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
 from src.pipeline.gates import is_modern_source
+from src.pipeline.corpus import records as corpus_records
 from src.pipeline.models import PIPELINE_VERSION
 from src.pipeline.loader import (
     load_gate3_baseline,
@@ -74,8 +75,7 @@ def build_preview_data(root: Path) -> dict:
         integration_by_lemma[item.get("lemma_id")] = item
 
     lemmas_out = []
-    for path in lemma_paths:
-        rec = _load_json(path)
+    for rec in corpus_records(root):
         head = rec.get("lemma", {})
         lid = head.get("id")
 
@@ -107,7 +107,10 @@ def build_preview_data(root: Path) -> dict:
         historical_glosses = []
         for claim in rec.get("claims", []):
             if claim.get("predicate") == "has_historical_gloss" and _non_absent(claim.get("value")):
-                historical_glosses.append(claim.get("value"))
+                value = claim.get("value")
+                if rec.get("schema") == "nahuatl-br-gate6-canonical-v1":
+                    value = json.loads(value)
+                historical_glosses.append(value)
 
         phon_info = rec.get("phonological_information", {}) or {}
         phonology_out = {
@@ -232,8 +235,11 @@ def _check() -> int:
     committed = _load_json(PREVIEW_DATA)
     if committed.get("schema") != built.get("schema"):
         errors.append(f"EXPORT: schema drift {committed.get('schema')!r}")
-    if committed.get("counts", {}).get("lemmas") != 50:
-        errors.append(f"EXPORT: expected exactly 50 lemmas, found {committed.get('counts', {}).get('lemmas')}")
+    expected_count = len(corpus_records(_ROOT))
+    if committed.get("counts", {}).get("lemmas") != expected_count:
+        errors.append(f"EXPORT: expected {expected_count} canonical lemmas")
+    if not {f"L{i:04}" for i in range(1, 51)} <= {r['id'] for r in committed.get('lemmas', [])}:
+        errors.append("EXPORT: immutable 50-lemma pilot missing")
     if committed.get("generated_at") != "NOT_RECORDED":
         errors.append("EXPORT: generated_at must be NOT_RECORDED (deterministic build)")
     used_modern_ids = set(committed.get("sources", {}))

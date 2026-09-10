@@ -27,6 +27,10 @@ class Gate5PipelineTests(unittest.TestCase):
         for directory in ("data/pilot", "data/source_registry", "data/policies",
                           "data/phonology", "data/fixtures"):
             shutil.copytree(ROOT / directory, self.root / directory)
+        if (ROOT / "data/canonical").exists():
+            shutil.copytree(ROOT / "data/canonical", self.root / "data/canonical")
+        if (ROOT / "data/gate6").exists():
+            shutil.copytree(ROOT / "data/gate6", self.root / "data/gate6")
         (self.root / "docs").mkdir()
         shutil.copyfile(ROOT / "docs/GATE_STATUS.md", self.root / "docs/GATE_STATUS.md")
         shutil.copytree(ROOT / "src", self.root / "src")

@@ -1,0 +1,44 @@
+[
+  {
+    "lemma_ids": [
+      "L0055",
+      "L0059"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "alegremente"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0077",
+      "L0082"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "biblioteca onde se guardam livros"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0080",
+      "L0084"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "livro pequeno"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  }
+]

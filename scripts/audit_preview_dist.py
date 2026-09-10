@@ -27,7 +27,9 @@ def main():
         errors.append('derived JSON differs')
     else:
         data = json.loads(exported.read_text(encoding='utf-8'))
-        if len(data['lemmas']) != 50 or {'C01', 'C02', 'C03'} & data['sources'].keys():
+        if (len(data['lemmas']) != data['counts']['lemmas'] or
+                not 50 <= len(data['lemmas']) <= 500 or
+                {'C01', 'C02', 'C03'} & data['sources'].keys()):
             errors.append('invalid corpus scope')
     print('PREVIEW_DIST_SECURITY: ' + ('FAIL' if errors else 'PASS'))
     for error in errors:

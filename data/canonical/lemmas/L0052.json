@@ -1,0 +1,334 @@
+{
+  "attestations": [
+    {
+      "attestation_id": "PAT-8ae4ef0d8fb9",
+      "direct_witness_inspected": true,
+      "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
+      "editorial_state": "DRAFT",
+      "locator": "JCB 1571, part II, manifest page 265, column a, headword Acueyotl",
+      "locator_absence_reason": "NOT_APPLICABLE",
+      "mediation_level": "DIRECT_WITNESS",
+      "origin": "PIPELINE",
+      "original_gloss": "ola. vel. onda de agua.",
+      "source": "A01",
+      "source_form": "Acueyotl",
+      "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+      "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
+      "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "PCL-80a124dd94a9",
+      "claim_source_origin": "PIPELINE",
+      "confidence": "MEDIUM",
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence": [
+        "PEV-74dd142b5e49"
+      ],
+      "modality": "OBSERVED",
+      "origin": "PIPELINE",
+      "predicate": "has_historical_gloss",
+      "subject": "L0052",
+      "value": "\"ola. vel. onda de agua.\""
+    },
+    {
+      "claim_id": "PCL-925f9fd3b307",
+      "claim_source_origin": "PIPELINE",
+      "confidence": "MEDIUM",
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence": [
+        "PEV-74dd142b5e49"
+      ],
+      "modality": "EDITORIAL",
+      "origin": "PIPELINE",
+      "predicate": "has_pt_br_editorial_gloss",
+      "subject": "L0052",
+      "value": "\"onda de água\""
+    }
+  ],
+  "corpus_references": [],
+  "evidence": [
+    {
+      "accessed_at": "2026-09-10",
+      "attestation_id": "PAT-8ae4ef0d8fb9",
+      "direct_witness_inspected": true,
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence_id": "PEV-74dd142b5e49",
+      "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
+      "locator": "JCB 1571, part II, manifest page 265, column a, headword Acueyotl",
+      "mediation_level": "DIRECT_WITNESS",
+      "origin": "PIPELINE",
+      "source": "A01",
+      "type": "LEXICAL_ENTRY_REFERENCE",
+      "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg"
+    }
+  ],
+  "evidence_links": [
+    {
+      "claim_id": "PCL-80a124dd94a9",
+      "evidence_id": "PEV-74dd142b5e49",
+      "relation": "SUPPORTS"
+    },
+    {
+      "claim_id": "PCL-925f9fd3b307",
+      "evidence_id": "PEV-74dd142b5e49",
+      "relation": "DERIVED_FROM"
+    }
+  ],
+  "forms": [
+    {
+      "evidence": [
+        "PEV-74dd142b5e49"
+      ],
+      "form_id": "L0052-FS1",
+      "layer": "SOURCE_FORM",
+      "normalization_profile": "NOT_APPLICABLE",
+      "value": "Acueyotl"
+    },
+    {
+      "derivation_steps": [
+        {
+          "input": "Acueyotl",
+          "lossy": false,
+          "output": "Acueyotl",
+          "rule_id": "editorial-nfc-001"
+        }
+      ],
+      "form_id": "L0052-FS1-FD-9213e380a69f",
+      "layer": "DIPLOMATIC_FORM",
+      "lossy": false,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "value": "Acueyotl"
+    },
+    {
+      "derivation_steps": [
+        {
+          "input": "Acueyotl",
+          "lossy": false,
+          "output": "Acueyotl",
+          "rule_id": "editorial-nfc-001"
+        }
+      ],
+      "form_id": "L0052-FS1-FN-723ef9736539",
+      "layer": "NORMALIZED_FORM",
+      "lossy": false,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "value": "Acueyotl"
+    },
+    {
+      "evidence": [],
+      "form_id": "L0052-FS1-FP-c3ab13fe0302",
+      "layer": "PEDAGOGICAL_FORM",
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "note": "editorial pedagogical value; macron or h requires independent Evidence",
+      "origin": "PIPELINE",
+      "value": "UNKNOWN"
+    },
+    {
+      "aliases": [],
+      "form_id": "L0052-FS1-SK-65227324c8ca",
+      "layer": "SEARCH_KEY",
+      "lossy": true,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "search_keys": [
+        "acueyotl"
+      ],
+      "steps": [
+        {
+          "input": "Acueyotl",
+          "lossy": false,
+          "output": "Acueyotl",
+          "rule_id": "editorial-nfc-001"
+        },
+        {
+          "input": "Acueyotl",
+          "lossy": true,
+          "output": "acueyotl",
+          "rule_id": "search-lower-001"
+        },
+        {
+          "input": "acueyotl",
+          "lossy": true,
+          "output": "acueyotl",
+          "rule_id": "search-diacritic-001"
+        },
+        {
+          "input": "acueyotl",
+          "lossy": true,
+          "output": "acueyotl",
+          "rule_id": "search-punct-001"
+        },
+        {
+          "input": "acueyotl",
+          "lossy": true,
+          "output": "acueyotl",
+          "rule_id": "search-hyphen-001"
+        }
+      ],
+      "value": "acueyotl"
+    }
+  ],
+  "gate6": {
+    "batch": 1,
+    "capture": {
+      "attribution": "Courtesy of the John Carter Brown Library",
+      "canvas_id": "https://americana.jcblibrary.org/iiif/presentation/canvas/jcbcap-991031815189706966-vocabularioenlen00moli/manifest__442984__26711168/canvas.json",
+      "column": "a",
+      "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
+      "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+      "inspection": "VISUALLY_INSPECTED",
+      "inspector": "EXECUTION_AGENT",
+      "license": "CC BY 4.0",
+      "page_index_1based": 265,
+      "rights_url": "https://jcblibrary.org/permissions/",
+      "sha256": "a0949ecde9ee42589a915e5b510f790ce1a233669d631459b57e49b69550d35e",
+      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+    },
+    "pipeline_digest": "d160c95be03a5641b86d324ef9fa5975909b4775e596772c830b3178e390ce9d",
+    "request": {
+      "case_id": "G6-L0052",
+      "ingest": {
+        "accessed_at": "2026-09-10",
+        "claims": [
+          {
+            "confidence": "MEDIUM",
+            "modality": "OBSERVED",
+            "predicate": "has_historical_gloss",
+            "value": "ola. vel. onda de agua."
+          },
+          {
+            "confidence": "MEDIUM",
+            "modality": "EDITORIAL",
+            "predicate": "has_pt_br_editorial_gloss",
+            "value": "onda de água"
+          }
+        ],
+        "component_id": "jcb_1571_images",
+        "declared_lossy": true,
+        "direct_witness_inspected": true,
+        "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
+        "entries": [
+          {
+            "original_gloss": "ola. vel. onda de agua.",
+            "source_form": "Acueyotl",
+            "source_form_id": "L0052-FS1"
+          }
+        ],
+        "lemma_id": "L0052",
+        "lemma_variety": "Classical Nahuatl",
+        "locator": "JCB 1571, part II, manifest page 265, column a, headword Acueyotl",
+        "mediation_level": "DIRECT_WITNESS",
+        "source_id": "A01",
+        "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+        "use": "EVIDENCE_CAPTURE",
+        "witness": "John Carter Brown Library, 1-SIZE B571 .M722v"
+      }
+    }
+  },
+  "lemma": {
+    "display_form": "Acueyotl",
+    "id": "L0052",
+    "status": "DRAFT",
+    "variety": "Classical Nahuatl"
+  },
+  "morphology": {
+    "status": "NOT_REVIEWED"
+  },
+  "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+  "phonological_information": {
+    "saltillo": "UNKNOWN",
+    "status": "NOT_REVIEWED",
+    "vowel_length": "UNKNOWN"
+  },
+  "review": {
+    "automatic_merge": false,
+    "coverage_status": "SINGLE_SOURCE",
+    "domain_modality": "EDITORIAL",
+    "lexical_class": "NOT_REVIEWED",
+    "semantic_domain": "natureza",
+    "semantic_status": "NEEDS_SEMANTIC_REVIEW"
+  },
+  "schema": "nahuatl-br-gate6-canonical-v1",
+  "senses": [
+    {
+      "editorial_status": "DRAFT",
+      "interpretation": "onda de água",
+      "original_gloss": "ola. vel. onda de agua.",
+      "sense_id": "L0052-S1",
+      "translations": [
+        {
+          "claim_id": "PCL-925f9fd3b307",
+          "confidence": "MEDIUM",
+          "derived_from": [
+            "PEV-74dd142b5e49"
+          ],
+          "editorial_provenance": {
+            "action": "GATE5_PIPELINE_GENERATION",
+            "actor_id": "nahuatl-br-gate5-pipeline",
+            "actor_role": "EXECUTION_AGENT",
+            "created_in_commit": "NOT_COMMITTED",
+            "from_state": "NOT_APPLICABLE",
+            "history_status": "GATE5_DRY_RUN",
+            "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+            "review_status": "NOT_REVIEWED",
+            "timestamp": "NOT_RECORDED",
+            "to_state": "DRAFT",
+            "tool": "nahuatl-br-gate5-pipeline",
+            "tool_version": "1.0.0"
+          },
+          "editorial_state": "DRAFT",
+          "language": "pt-BR",
+          "modality": "EDITORIAL",
+          "text": "onda de água",
+          "translation_id": "L0052-T1"
+        }
+      ]
+    }
+  ]
+}

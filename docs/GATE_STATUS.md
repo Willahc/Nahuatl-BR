@@ -12,7 +12,9 @@ Gate 4: PASS / CLOSED
 
 Gate 5: PASS / CLOSED
 
-Gate 6: AUTHORIZED / NOT_STARTED
+Gate 6: IN_PROGRESS
+
+Gate 7: NOT_STARTED
 
 ## Registro do fechamento do Gate 5
 

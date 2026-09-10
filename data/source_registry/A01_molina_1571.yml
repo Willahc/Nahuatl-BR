@@ -7,10 +7,12 @@ linguistic_scope: {language: "Nahuatl and Spanish", variety: "colonial Central M
 source_role: [dictionary, manuscript, metadata]
 scholarly_relevance: "P0 lexical source: two-direction bilingual vocabulary and foundational witness for colonial lexical forms."
 available_components:
+  - {component_id: jcb_1571_images, description: "JCB 1571 Witness 1-SIZE B571 .M722v via Americana/Luna; selective visual capture", format: IIIF_images, approximate_size: "589 manifest canvases", searchable: false, downloadable: true, machine_readable: false}
   - {component_id: historical_work, description: "1571 printed Work", format: "print", approximate_size: "two parts: 121 and 162 leaves plus preliminaries", searchable: false, downloadable: false, machine_readable: false}
   - {component_id: digital_surrogate, description: "page images/reproduction of a library Witness", format: "web images", approximate_size: UNKNOWN, searchable: false, downloadable: UNKNOWN, machine_readable: false}
   - {component_id: catalog_metadata, description: "bibliographic record", format: "HTML", approximate_size: "one record", searchable: true, downloadable: UNKNOWN, machine_readable: UNKNOWN}
 rights:
+  - {component_id: jcb_1571_images, work_status: OPEN_LICENSE, rights_holder: "John Carter Brown Library", license: "CC BY 4.0", storage_allowed: true, extraction_allowed: true, derivative_use_allowed: true, redistribution_allowed: true, commercial_use_allowed: true, attribution_required: true, evidence_url: "https://jcblibrary.org/permissions/", status: OPEN_LICENSE, ingestion_class: CAN_INGEST_WITH_ATTRIBUTION}
   - {component_id: historical_work, work_status: PUBLIC_DOMAIN_WORK, rights_holder: UNKNOWN, license: "not required for underlying 1571 Work; jurisdictional review still required", storage_allowed: true, extraction_allowed: true, derivative_use_allowed: true, redistribution_allowed: true, commercial_use_allowed: true, attribution_required: true, evidence_url: "https://bvpb.mcu.es/es/consulta/registro.do?id=469079", status: PUBLIC_DOMAIN_WORK, ingestion_class: CAN_INGEST_WITH_ATTRIBUTION}
   - {component_id: digital_surrogate, work_status: UNKNOWN_RIGHTS, rights_holder: "holding/digitizing institution not fully resolved", license: "no explicit license located on audited record", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://bvpb.mcu.es/es/consulta/registro.do?id=469079", status: UNKNOWN_RIGHTS, ingestion_class: RIGHTS_UNCLEAR}
   - {component_id: catalog_metadata, work_status: UNKNOWN_RIGHTS, rights_holder: "BVPB / record provider", license: "no explicit reusable-data license located", storage_allowed: UNKNOWN, extraction_allowed: UNKNOWN, derivative_use_allowed: UNKNOWN, redistribution_allowed: UNKNOWN, commercial_use_allowed: UNKNOWN, attribution_required: true, evidence_url: "https://bvpb.mcu.es/es/consulta/registro.do?id=469079", status: UNKNOWN_RIGHTS, ingestion_class: CAN_REFERENCE}
@@ -20,7 +22,9 @@ provenance_quality: "High bibliographic identity and foliation; entry-level capt
 known_limitations: ["missionary bilingual lexicography", "Spanish glosses are historical and not PT-BR", "orthography and editorial categories require source-specific interpretation"]
 risks: ["confusing Work public domain with digital-surrogate rights", "merging the two directions", "normalizing away original spelling"]
 recommended_role: "Primary historical lexical Evidence; cite folio and direction; preserve original."
-ingestion_class: {historical_work: CAN_INGEST_WITH_ATTRIBUTION, digital_surrogate: RIGHTS_UNCLEAR, catalog_metadata: CAN_REFERENCE}
+ingestion_class: {jcb_1571_images: CAN_INGEST_WITH_ATTRIBUTION, historical_work: CAN_INGEST_WITH_ATTRIBUTION, digital_surrogate: RIGHTS_UNCLEAR, catalog_metadata: CAN_REFERENCE}
 evidence:
   - {claim: "Official catalog identifies author, Mexico imprint, 1571 date, two parts and digital reproduction.", url: "https://bvpb.mcu.es/es/consulta/registro.do?id=469079", accessed_at: "2026-09-03"}
   - {claim: "INALI describes Molina 1571 as a major lexical source for colonial Central Mexico.", url: "https://site.inali.gob.mx/publicaciones/libro_lectura_nahuatl/pdf/lectura_del_nahuatl.pdf", accessed_at: "2026-09-03"}
+
+  - {claim: "Gate 6: JCB explicitly licenses its digital collections including Luna/IA under CC BY 4.0; selected Witness is separately identified in Americana, not the BVPB surrogate.", url: "https://jcblibrary.org/permissions/", accessed_at: "2026-09-10"}

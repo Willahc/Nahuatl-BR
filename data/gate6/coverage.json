@@ -1,0 +1,57 @@
+{
+  "attestations_count": 148,
+  "attestations_per_lemma": {
+    "1": 52,
+    "2": 48
+  },
+  "blocks_note": "No prohibited capture submitted for corpus admission; negative fixtures reported separately.",
+  "claims_count": 229,
+  "context_directly_inspected": 0,
+  "context_references": 47,
+  "duplicate_candidates": 3,
+  "editorial_states": {
+    "DRAFT": 50,
+    "IN_REVIEW": 50
+  },
+  "evidence_count": 148,
+  "historical_attestation_coverage": 100,
+  "lexical_class": {
+    "NOT_REVIEWED": 100
+  },
+  "modern_variety_blocks_admission": 0,
+  "morphology_coverage": 12,
+  "multi_source": 48,
+  "new_lemmas": 50,
+  "pt_br_coverage": 100,
+  "rights_blocks_admission": 0,
+  "saltillo_evidence": 10,
+  "semantic_domain_editorial": {
+    "NOT_CLASSIFIED": 50,
+    "alimentos": 3,
+    "animais": 2,
+    "ações": 1,
+    "cognição": 2,
+    "comércio": 3,
+    "emoções": 5,
+    "espaço": 1,
+    "expressões": 1,
+    "natureza": 1,
+    "objetos": 8,
+    "percepção": 2,
+    "pessoas": 2,
+    "quantidade": 8,
+    "relações": 6,
+    "sociedade": 1,
+    "tempo": 3,
+    "trabalho": 1
+  },
+  "semantic_review_candidates": 50,
+  "single_source": 52,
+  "sources_distribution": {
+    "A01": 99,
+    "A02": 2,
+    "A04": 47
+  },
+  "total_lemmas": 100,
+  "vowel_length_evidence": 23
+}

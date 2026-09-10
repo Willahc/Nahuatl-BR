@@ -3,7 +3,7 @@
     "claims_total": 29,
     "evidence_total": 28,
     "integration_items": 15,
-    "lemmas": 50,
+    "lemmas": 100,
     "sources": 14
   },
   "gate_status": {
@@ -30,10 +30,6 @@
     "5": {
       "closure": "CLOSED",
       "status": "PASS"
-    },
-    "6": {
-      "closure": "NOT_STARTED",
-      "status": "AUTHORIZED"
     }
   },
   "generated_at": "NOT_RECORDED",
@@ -3333,6 +3329,2206 @@
         }
       ],
       "status": "IN_REVIEW",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Acuecueyachin",
+      "forms": {
+        "normalized_form": "Acuecueyachin",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "acuecueyachin"
+        ],
+        "source_forms": [
+          "Acuecueyachin"
+        ]
+      },
+      "historical_glosses": [
+        "ſanguijuela."
+      ],
+      "id": "L0051",
+      "interpretations": [
+        "sanguessuga"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "sanguessuga"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Acuecueyachin",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Acueyotl",
+      "forms": {
+        "normalized_form": "Acueyotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "acueyotl"
+        ],
+        "source_forms": [
+          "Acueyotl"
+        ]
+      },
+      "historical_glosses": [
+        "ola. vel. onda de agua."
+      ],
+      "id": "L0052",
+      "interpretations": [
+        "onda de água"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "onda de água"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Acueyotl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Acxoyatototl",
+      "forms": {
+        "normalized_form": "Acxoyatototl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "acxoyatototl"
+        ],
+        "source_forms": [
+          "Acxoyatototl"
+        ]
+      },
+      "historical_glosses": [
+        "cierto paxaro."
+      ],
+      "id": "L0053",
+      "interpretations": [
+        "pássaro não identificado"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "pássaro não identificado"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Acxoyatototl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ahauializpan",
+      "forms": {
+        "normalized_form": "Ahauializpan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ahauializpan"
+        ],
+        "source_forms": [
+          "Ahauializpan"
+        ]
+      },
+      "historical_glosses": [
+        "en alegria."
+      ],
+      "id": "L0054",
+      "interpretations": [
+        "em alegria"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "em alegria"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Ahauializpan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ahauializtica",
+      "forms": {
+        "normalized_form": "Ahauializtica",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ahauializtica"
+        ],
+        "source_forms": [
+          "Ahauializtica"
+        ]
+      },
+      "historical_glosses": [
+        "alegremente. aduerbio."
+      ],
+      "id": "L0055",
+      "interpretations": [
+        "alegremente"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "alegremente"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Ahauializtica",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ahauializtli",
+      "forms": {
+        "normalized_form": "Ahauializtli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ahauializtli"
+        ],
+        "source_forms": [
+          "Ahauializtli"
+        ]
+      },
+      "historical_glosses": [
+        "alegria."
+      ],
+      "id": "L0056",
+      "interpretations": [
+        "alegria"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "alegria"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Ahauializtli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ahauiani",
+      "forms": {
+        "normalized_form": "Ahauiani",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ahauiani"
+        ],
+        "source_forms": [
+          "Ahauiani"
+        ]
+      },
+      "historical_glosses": [
+        "plazentero."
+      ],
+      "id": "L0057",
+      "interpretations": [
+        "alegre; agradável"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "alegre; agradável"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Ahauiani",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ahauilnemiliztli",
+      "forms": {
+        "normalized_form": "Ahauilnemiliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ahauilnemiliztli"
+        ],
+        "source_forms": [
+          "Ahauilnemiliztli"
+        ]
+      },
+      "historical_glosses": [
+        "rufianeria o luxuria."
+      ],
+      "id": "L0058",
+      "interpretations": [
+        "libertinagem ou luxúria"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "libertinagem ou luxúria"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Ahauilnemiliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ahauixca",
+      "forms": {
+        "normalized_form": "Ahauixca",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ahauixca"
+        ],
+        "source_forms": [
+          "Ahauixca"
+        ]
+      },
+      "historical_glosses": [
+        "alegremente. aduerbio."
+      ],
+      "id": "L0059",
+      "interpretations": [
+        "alegremente"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "alegremente"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Ahauixca",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ahqua",
+      "forms": {
+        "normalized_form": "Ahqua",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ahqua"
+        ],
+        "source_forms": [
+          "Ahqua"
+        ]
+      },
+      "historical_glosses": [
+        "ay ay."
+      ],
+      "id": "L0060",
+      "interpretations": [
+        "ai, ai"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "ai, ai"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Ahqua",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ahuachia",
+      "forms": {
+        "normalized_form": "Ahuachia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ahuachia"
+        ],
+        "source_forms": [
+          "Ahuachia"
+        ]
+      },
+      "historical_glosses": [
+        "rociarſe."
+      ],
+      "id": "L0061",
+      "interpretations": [
+        "borrifar-se"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "borrifar-se"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Ahuachia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ahuilia",
+      "forms": {
+        "normalized_form": "Ahuilia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ahuilia"
+        ],
+        "source_forms": [
+          "Ahuilia"
+        ]
+      },
+      "historical_glosses": [
+        "regar la huerta o los trigos."
+      ],
+      "id": "L0062",
+      "interpretations": [
+        "regar a horta ou o trigo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "regar a horta ou o trigo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column a, headword Ahuilia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ayac",
+      "forms": {
+        "normalized_form": "Ayac",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ayac"
+        ],
+        "source_forms": [
+          "Ayac"
+        ]
+      },
+      "historical_glosses": [
+        "ninguno, o nadie,"
+      ],
+      "id": "L0063",
+      "interpretations": [
+        "nenhum; ninguém"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "nenhum; ninguém"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayac",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ayacachtli",
+      "forms": {
+        "normalized_form": "Ayacachtli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ayacachtli"
+        ],
+        "source_forms": [
+          "Ayacachtli"
+        ]
+      },
+      "historical_glosses": [
+        "ſonajas hechas a manera de dormideras."
+      ],
+      "id": "L0064",
+      "interpretations": [
+        "chocalhos feitos à maneira de papoulas"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "chocalhos feitos à maneira de papoulas"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayacachtli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ayacan",
+      "forms": {
+        "normalized_form": "Ayacan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ayacan"
+        ],
+        "source_forms": [
+          "Ayacan"
+        ]
+      },
+      "historical_glosses": [
+        "aun en ninguna parte o lugar."
+      ],
+      "id": "L0065",
+      "interpretations": [
+        "em lugar nenhum"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "em lugar nenhum"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayacan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ayacma",
+      "forms": {
+        "normalized_form": "Ayacma",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ayacma"
+        ],
+        "source_forms": [
+          "Ayacma"
+        ]
+      },
+      "historical_glosses": [
+        "nadie, o ninguno."
+      ],
+      "id": "L0066",
+      "interpretations": [
+        "ninguém; nenhum"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "ninguém; nenhum"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayacma",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ayaya",
+      "forms": {
+        "normalized_form": "Ayaya",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ayaya"
+        ],
+        "source_forms": [
+          "Ayaya"
+        ]
+      },
+      "historical_glosses": [
+        "apenas, o con dificultad."
+      ],
+      "id": "L0067",
+      "interpretations": [
+        "apenas; com dificuldade"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "apenas; com dificuldade"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayaya",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ayaic",
+      "forms": {
+        "normalized_form": "Ayaic",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ayaic"
+        ],
+        "source_forms": [
+          "Ayaic"
+        ]
+      },
+      "historical_glosses": [
+        "aun nunca."
+      ],
+      "id": "L0068",
+      "interpretations": [
+        "ainda nunca"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "ainda nunca"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayaic",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ayamo",
+      "forms": {
+        "normalized_form": "Ayamo",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ayamo"
+        ],
+        "source_forms": [
+          "Ayamo"
+        ]
+      },
+      "historical_glosses": [
+        "aun no."
+      ],
+      "id": "L0069",
+      "interpretations": [
+        "ainda não"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "ainda não"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayamo",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ayaquemman",
+      "forms": {
+        "normalized_form": "Ayaquemman",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ayaquemman"
+        ],
+        "source_forms": [
+          "Ayaquemman"
+        ]
+      },
+      "historical_glosses": [
+        "temprano."
+      ],
+      "id": "L0070",
+      "interpretations": [
+        "cedo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "cedo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayaquemman",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amono",
+      "forms": {
+        "normalized_form": "Amono",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amono"
+        ],
+        "source_forms": [
+          "Amono"
+        ]
+      },
+      "historical_glosses": [
+        "tampoco."
+      ],
+      "id": "L0071",
+      "interpretations": [
+        "tampouco"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "tampouco"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column a, headword Amono",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amotlan",
+      "forms": {
+        "normalized_form": "Amotlan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amotlan"
+        ],
+        "source_forms": [
+          "Amotlan"
+        ]
+      },
+      "historical_glosses": [
+        "cabe voſotros, o con voſotros."
+      ],
+      "id": "L0072",
+      "interpretations": [
+        "junto de vocês; com vocês"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "junto de vocês; com vocês"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amotlan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amouan",
+      "forms": {
+        "normalized_form": "Amouan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amouan"
+        ],
+        "source_forms": [
+          "Amouan"
+        ]
+      },
+      "historical_glosses": [
+        "con voſotros."
+      ],
+      "id": "L0073",
+      "interpretations": [
+        "com vocês"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "com vocês"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amouan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxcalli",
+      "forms": {
+        "normalized_form": "Amoxcalli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxcalli"
+        ],
+        "source_forms": [
+          "Amoxcalli"
+        ]
+      },
+      "historical_glosses": [
+        "libreria, o tienda de papel."
+      ],
+      "id": "L0074",
+      "interpretations": [
+        "livraria ou loja de papel"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "livraria ou loja de papel"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxcalli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxnamacac",
+      "forms": {
+        "normalized_form": "Amoxnamacac",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxnamacac"
+        ],
+        "source_forms": [
+          "Amoxnamacac"
+        ]
+      },
+      "historical_glosses": [
+        "vendedor de libros."
+      ],
+      "id": "L0075",
+      "interpretations": [
+        "vendedor de livros"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "vendedor de livros"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxnamacac",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxnamacoyan",
+      "forms": {
+        "normalized_form": "Amoxnamacoyan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxnamacoyan"
+        ],
+        "source_forms": [
+          "Amoxnamacoyan"
+        ]
+      },
+      "historical_glosses": [
+        "tienda de libros o de papel."
+      ],
+      "id": "L0076",
+      "interpretations": [
+        "loja de livros ou de papel"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "loja de livros ou de papel"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxnamacoyan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxpialoyan",
+      "forms": {
+        "normalized_form": "Amoxpialoyan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxpialoyan"
+        ],
+        "source_forms": [
+          "Amoxpialoyan"
+        ]
+      },
+      "historical_glosses": [
+        "libreria adonde ſe guardan los libros."
+      ],
+      "id": "L0077",
+      "interpretations": [
+        "biblioteca onde se guardam livros"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "biblioteca onde se guardam livros"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxpialoyan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxpoani",
+      "forms": {
+        "normalized_form": "Amoxpoani",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxpoani"
+        ],
+        "source_forms": [
+          "Amoxpoani"
+        ]
+      },
+      "historical_glosses": [
+        "lector de libros,"
+      ],
+      "id": "L0078",
+      "interpretations": [
+        "leitor de livros"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "leitor de livros"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxpoani",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxtenmalhuiloni",
+      "forms": {
+        "normalized_form": "Amoxtenmalhuiloni",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxtenmalhuiloni"
+        ],
+        "source_forms": [
+          "Amoxtenmalhuiloni"
+        ]
+      },
+      "historical_glosses": [
+        "margen de libro."
+      ],
+      "id": "L0079",
+      "interpretations": [
+        "margem de livro"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "margem de livro"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxtenmalhuiloni",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxtepito",
+      "forms": {
+        "normalized_form": "Amoxtepito",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxtepito"
+        ],
+        "source_forms": [
+          "Amoxtepito"
+        ]
+      },
+      "historical_glosses": [
+        "libro pequeño."
+      ],
+      "id": "L0080",
+      "interpretations": [
+        "livro pequeno"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "livro pequeno"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxtepito",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxtlacuilo",
+      "forms": {
+        "normalized_form": "Amoxtlacuilo",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxtlacuilo"
+        ],
+        "source_forms": [
+          "Amoxtlacuilo"
+        ]
+      },
+      "historical_glosses": [
+        "eſcriptor de libros."
+      ],
+      "id": "L0081",
+      "interpretations": [
+        "escritor de livros"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "escritor de livros"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxtlacuilo",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxtlatiloyan",
+      "forms": {
+        "normalized_form": "Amoxtlatiloyan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxtlatiloyan"
+        ],
+        "source_forms": [
+          "Amoxtlatiloyan"
+        ]
+      },
+      "historical_glosses": [
+        "libreria donde ſe guardan los libros."
+      ],
+      "id": "L0082",
+      "interpretations": [
+        "biblioteca onde se guardam livros"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "biblioteca onde se guardam livros"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxtlatiloyan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxtocaitl",
+      "forms": {
+        "normalized_form": "Amoxtocaitl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxtocaitl"
+        ],
+        "source_forms": [
+          "Amoxtocaitl"
+        ]
+      },
+      "historical_glosses": [
+        "titulo de libro."
+      ],
+      "id": "L0083",
+      "interpretations": [
+        "título de livro"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "título de livro"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxtocaitl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxtontli",
+      "forms": {
+        "normalized_form": "Amoxtontli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxtontli"
+        ],
+        "source_forms": [
+          "Amoxtontli"
+        ]
+      },
+      "historical_glosses": [
+        "libro pequeño."
+      ],
+      "id": "L0084",
+      "interpretations": [
+        "livro pequeno"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "livro pequeno"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxtontli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Amoxxeloliztli",
+      "forms": {
+        "normalized_form": "Amoxxeloliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "amoxxeloliztli"
+        ],
+        "source_forms": [
+          "Amoxxeloliztli"
+        ]
+      },
+      "historical_glosses": [
+        "capitulo del libro."
+      ],
+      "id": "L0085",
+      "interpretations": [
+        "capítulo de livro"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "capítulo de livro"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 270, column b, headword Amoxxeloliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page269/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicotlamatiliztli",
+      "forms": {
+        "normalized_form": "Chicotlamatiliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicotlamatiliztli"
+        ],
+        "source_forms": [
+          "Chicotlamatiliztli"
+        ]
+      },
+      "historical_glosses": [
+        "ſoſpecha."
+      ],
+      "id": "L0086",
+      "interpretations": [
+        "suspeita"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "suspeita"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatiliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicotlamatini",
+      "forms": {
+        "normalized_form": "Chicotlamatini",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicotlamatini"
+        ],
+        "source_forms": [
+          "Chicotlamatini"
+        ]
+      },
+      "historical_glosses": [
+        "ſoſpechoſo o celoſo."
+      ],
+      "id": "L0087",
+      "interpretations": [
+        "desconfiado ou ciumento"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "desconfiado ou ciumento"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlamatini",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicotlapanqui",
+      "forms": {
+        "normalized_form": "Chicotlapanqui",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicotlapanqui"
+        ],
+        "source_forms": [
+          "Chicotlapanqui"
+        ]
+      },
+      "historical_glosses": [
+        "coſa no entera."
+      ],
+      "id": "L0088",
+      "interpretations": [
+        "coisa incompleta"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "coisa incompleta"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlapanqui",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicotlatetoliztli",
+      "forms": {
+        "normalized_form": "Chicotlatetoliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicotlatetoliztli"
+        ],
+        "source_forms": [
+          "Chicotlatetoliztli"
+        ]
+      },
+      "historical_glosses": [
+        "desuario tal."
+      ],
+      "id": "L0089",
+      "interpretations": [
+        "delírio referido na entrada"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "delírio referido na entrada"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlatetoliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicotlaueliloc",
+      "forms": {
+        "normalized_form": "Chicotlaueliloc",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicotlaueliloc"
+        ],
+        "source_forms": [
+          "Chicotlaueliloc"
+        ]
+      },
+      "historical_glosses": [
+        "loco atreſguado."
+      ],
+      "id": "L0090",
+      "interpretations": [
+        "louco perturbado"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "louco perturbado"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicotlaueliloc",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicucxpa",
+      "forms": {
+        "normalized_form": "Chicucxpa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicucxpa"
+        ],
+        "source_forms": [
+          "Chicucxpa"
+        ]
+      },
+      "historical_glosses": [
+        "ocho vezes."
+      ],
+      "id": "L0091",
+      "interpretations": [
+        "oito vezes"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "oito vezes"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicucxpa",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicuepoalli",
+      "forms": {
+        "normalized_form": "Chicuepoalli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicuepoalli"
+        ],
+        "source_forms": [
+          "Chicuepoalli"
+        ]
+      },
+      "historical_glosses": [
+        "ciento y ſeſenta."
+      ],
+      "id": "L0092",
+      "interpretations": [
+        "cento e sessenta"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "cento e sessenta"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column a, headword Chicuepoalli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicunpoalli",
+      "forms": {
+        "normalized_form": "Chicunpoalli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicunpoalli"
+        ],
+        "source_forms": [
+          "Chicunpoalli"
+        ]
+      },
+      "historical_glosses": [
+        "ciento y quarenta."
+      ],
+      "id": "L0093",
+      "interpretations": [
+        "cento e quarenta"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "cento e quarenta"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunpoalli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicunappa",
+      "forms": {
+        "normalized_form": "Chicunappa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicunappa"
+        ],
+        "source_forms": [
+          "Chicunappa"
+        ]
+      },
+      "historical_glosses": [
+        "nueue vezes."
+      ],
+      "id": "L0094",
+      "interpretations": [
+        "nove vezes"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "nove vezes"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunappa",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicunappoalli",
+      "forms": {
+        "normalized_form": "Chicunappoalli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicunappoalli"
+        ],
+        "source_forms": [
+          "Chicunappoalli"
+        ]
+      },
+      "historical_glosses": [
+        "ciento y ochenta."
+      ],
+      "id": "L0095",
+      "interpretations": [
+        "cento e oitenta"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "cento e oitenta"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicunappoalli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicuntetl",
+      "forms": {
+        "normalized_form": "Chicuntetl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicuntetl"
+        ],
+        "source_forms": [
+          "Chicuntetl"
+        ]
+      },
+      "historical_glosses": [
+        "ſiete."
+      ],
+      "id": "L0096",
+      "interpretations": [
+        "sete"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "sete"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuntetl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chicuppa",
+      "forms": {
+        "normalized_form": "Chicuppa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chicuppa"
+        ],
+        "source_forms": [
+          "Chicuppa"
+        ]
+      },
+      "historical_glosses": [
+        "ſiete vezes."
+      ],
+      "id": "L0097",
+      "interpretations": [
+        "sete vezes"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "sete vezes"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chicuppa",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chiematl",
+      "forms": {
+        "normalized_form": "Chiematl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chiematl"
+        ],
+        "source_forms": [
+          "Chiematl"
+        ]
+      },
+      "historical_glosses": [
+        "azeite de chia."
+      ],
+      "id": "L0098",
+      "interpretations": [
+        "óleo de chia"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "óleo de chia"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chiematl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chilatl",
+      "forms": {
+        "normalized_form": "Chilatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chilatl"
+        ],
+        "source_forms": [
+          "Chilatl"
+        ]
+      },
+      "historical_glosses": [
+        "aguachil, o agua de axi."
+      ],
+      "id": "L0099",
+      "interpretations": [
+        "água de pimenta"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "água de pimenta"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chilatl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Chilchotl",
+      "forms": {
+        "normalized_form": "Chilchotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "chilchotl"
+        ],
+        "source_forms": [
+          "Chilchotl"
+        ]
+      },
+      "historical_glosses": [
+        "axi o chilli verde."
+      ],
+      "id": "L0100",
+      "interpretations": [
+        "pimenta verde"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "pimenta verde"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 300, column b, headword Chilchotl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
       "variety": "Classical Nahuatl"
     }
   ],

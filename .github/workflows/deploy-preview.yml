@@ -2,7 +2,7 @@ name: Deploy Research Preview
 
 on:
   workflow_run:
-    workflows: ['Validate Gates 3, 4 and 5']
+    workflows: ['Validate Gates 3, 4, 5 and 6']
     types: [completed]
     branches: [main]
 

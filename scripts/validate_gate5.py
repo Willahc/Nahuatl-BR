@@ -130,10 +130,11 @@ def run_exporter_check() -> list:
         errors.append(
             f"EXPORT: schema drift {committed.get('schema')!r} != {built.get('schema')!r}"
         )
-    if committed.get("counts", {}).get("lemmas") != 50:
-        errors.append(
-            f"EXPORT: expected exactly 50 lemmas, found {committed.get('counts', {}).get('lemmas')}"
-        )
+    pilot_ids = {f"L{i:04}" for i in range(1, 51)}
+    if not pilot_ids <= {r['id'] for r in committed.get('lemmas', [])}:
+        errors.append("EXPORT: immutable 50-lemma pilot missing")
+    if committed.get('counts', {}).get('lemmas') != len(built['lemmas']):
+        errors.append("EXPORT: canonical corpus count mismatch")
     if committed != built:
         built_keys = set(built)
         committed_keys = set(committed)

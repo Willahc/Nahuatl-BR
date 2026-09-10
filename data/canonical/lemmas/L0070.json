@@ -1,0 +1,334 @@
+{
+  "attestations": [
+    {
+      "attestation_id": "PAT-8980b0c1162f",
+      "direct_witness_inspected": true,
+      "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
+      "editorial_state": "DRAFT",
+      "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayaquemman",
+      "locator_absence_reason": "NOT_APPLICABLE",
+      "mediation_level": "DIRECT_WITNESS",
+      "origin": "PIPELINE",
+      "original_gloss": "temprano.",
+      "source": "A01",
+      "source_form": "Ayaquemman",
+      "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+      "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
+      "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "PCL-e96680fadc5a",
+      "claim_source_origin": "PIPELINE",
+      "confidence": "MEDIUM",
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence": [
+        "PEV-13a184ec69a2"
+      ],
+      "modality": "OBSERVED",
+      "origin": "PIPELINE",
+      "predicate": "has_historical_gloss",
+      "subject": "L0070",
+      "value": "\"temprano.\""
+    },
+    {
+      "claim_id": "PCL-8df74d472ba6",
+      "claim_source_origin": "PIPELINE",
+      "confidence": "MEDIUM",
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence": [
+        "PEV-13a184ec69a2"
+      ],
+      "modality": "EDITORIAL",
+      "origin": "PIPELINE",
+      "predicate": "has_pt_br_editorial_gloss",
+      "subject": "L0070",
+      "value": "\"cedo\""
+    }
+  ],
+  "corpus_references": [],
+  "evidence": [
+    {
+      "accessed_at": "2026-09-10",
+      "attestation_id": "PAT-8980b0c1162f",
+      "direct_witness_inspected": true,
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence_id": "PEV-13a184ec69a2",
+      "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
+      "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayaquemman",
+      "mediation_level": "DIRECT_WITNESS",
+      "origin": "PIPELINE",
+      "source": "A01",
+      "type": "LEXICAL_ENTRY_REFERENCE",
+      "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg"
+    }
+  ],
+  "evidence_links": [
+    {
+      "claim_id": "PCL-e96680fadc5a",
+      "evidence_id": "PEV-13a184ec69a2",
+      "relation": "SUPPORTS"
+    },
+    {
+      "claim_id": "PCL-8df74d472ba6",
+      "evidence_id": "PEV-13a184ec69a2",
+      "relation": "DERIVED_FROM"
+    }
+  ],
+  "forms": [
+    {
+      "evidence": [
+        "PEV-13a184ec69a2"
+      ],
+      "form_id": "L0070-FS1",
+      "layer": "SOURCE_FORM",
+      "normalization_profile": "NOT_APPLICABLE",
+      "value": "Ayaquemman"
+    },
+    {
+      "derivation_steps": [
+        {
+          "input": "Ayaquemman",
+          "lossy": false,
+          "output": "Ayaquemman",
+          "rule_id": "editorial-nfc-001"
+        }
+      ],
+      "form_id": "L0070-FS1-FD-51aec5c5b6a9",
+      "layer": "DIPLOMATIC_FORM",
+      "lossy": false,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "value": "Ayaquemman"
+    },
+    {
+      "derivation_steps": [
+        {
+          "input": "Ayaquemman",
+          "lossy": false,
+          "output": "Ayaquemman",
+          "rule_id": "editorial-nfc-001"
+        }
+      ],
+      "form_id": "L0070-FS1-FN-2821beb8b975",
+      "layer": "NORMALIZED_FORM",
+      "lossy": false,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "value": "Ayaquemman"
+    },
+    {
+      "evidence": [],
+      "form_id": "L0070-FS1-FP-5cb970c9e7e3",
+      "layer": "PEDAGOGICAL_FORM",
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "note": "editorial pedagogical value; macron or h requires independent Evidence",
+      "origin": "PIPELINE",
+      "value": "UNKNOWN"
+    },
+    {
+      "aliases": [],
+      "form_id": "L0070-FS1-SK-9aafeb8413dc",
+      "layer": "SEARCH_KEY",
+      "lossy": true,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "search_keys": [
+        "ayaquemman"
+      ],
+      "steps": [
+        {
+          "input": "Ayaquemman",
+          "lossy": false,
+          "output": "Ayaquemman",
+          "rule_id": "editorial-nfc-001"
+        },
+        {
+          "input": "Ayaquemman",
+          "lossy": true,
+          "output": "ayaquemman",
+          "rule_id": "search-lower-001"
+        },
+        {
+          "input": "ayaquemman",
+          "lossy": true,
+          "output": "ayaquemman",
+          "rule_id": "search-diacritic-001"
+        },
+        {
+          "input": "ayaquemman",
+          "lossy": true,
+          "output": "ayaquemman",
+          "rule_id": "search-punct-001"
+        },
+        {
+          "input": "ayaquemman",
+          "lossy": true,
+          "output": "ayaquemman",
+          "rule_id": "search-hyphen-001"
+        }
+      ],
+      "value": "ayaquemman"
+    }
+  ],
+  "gate6": {
+    "batch": 1,
+    "capture": {
+      "attribution": "Courtesy of the John Carter Brown Library",
+      "canvas_id": "https://americana.jcblibrary.org/iiif/presentation/canvas/jcbcap-991031815189706966-vocabularioenlen00moli/manifest__442984__26711168/canvas.json",
+      "column": "b",
+      "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
+      "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+      "inspection": "VISUALLY_INSPECTED",
+      "inspector": "EXECUTION_AGENT",
+      "license": "CC BY 4.0",
+      "page_index_1based": 265,
+      "rights_url": "https://jcblibrary.org/permissions/",
+      "sha256": "a0949ecde9ee42589a915e5b510f790ce1a233669d631459b57e49b69550d35e",
+      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+    },
+    "pipeline_digest": "37ceef59d9befd5ae0ae415a2524277c45be59e4f7ade145d3716f150e9d0e4f",
+    "request": {
+      "case_id": "G6-L0070",
+      "ingest": {
+        "accessed_at": "2026-09-10",
+        "claims": [
+          {
+            "confidence": "MEDIUM",
+            "modality": "OBSERVED",
+            "predicate": "has_historical_gloss",
+            "value": "temprano."
+          },
+          {
+            "confidence": "MEDIUM",
+            "modality": "EDITORIAL",
+            "predicate": "has_pt_br_editorial_gloss",
+            "value": "cedo"
+          }
+        ],
+        "component_id": "jcb_1571_images",
+        "declared_lossy": true,
+        "direct_witness_inspected": true,
+        "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
+        "entries": [
+          {
+            "original_gloss": "temprano.",
+            "source_form": "Ayaquemman",
+            "source_form_id": "L0070-FS1"
+          }
+        ],
+        "lemma_id": "L0070",
+        "lemma_variety": "Classical Nahuatl",
+        "locator": "JCB 1571, part II, manifest page 265, column b, headword Ayaquemman",
+        "mediation_level": "DIRECT_WITNESS",
+        "source_id": "A01",
+        "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page264/full/2000,/0/default.jpg",
+        "use": "EVIDENCE_CAPTURE",
+        "witness": "John Carter Brown Library, 1-SIZE B571 .M722v"
+      }
+    }
+  },
+  "lemma": {
+    "display_form": "Ayaquemman",
+    "id": "L0070",
+    "status": "DRAFT",
+    "variety": "Classical Nahuatl"
+  },
+  "morphology": {
+    "status": "NOT_REVIEWED"
+  },
+  "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+  "phonological_information": {
+    "saltillo": "UNKNOWN",
+    "status": "NOT_REVIEWED",
+    "vowel_length": "UNKNOWN"
+  },
+  "review": {
+    "automatic_merge": false,
+    "coverage_status": "SINGLE_SOURCE",
+    "domain_modality": "EDITORIAL",
+    "lexical_class": "NOT_REVIEWED",
+    "semantic_domain": "tempo",
+    "semantic_status": "NEEDS_SEMANTIC_REVIEW"
+  },
+  "schema": "nahuatl-br-gate6-canonical-v1",
+  "senses": [
+    {
+      "editorial_status": "DRAFT",
+      "interpretation": "cedo",
+      "original_gloss": "temprano.",
+      "sense_id": "L0070-S1",
+      "translations": [
+        {
+          "claim_id": "PCL-8df74d472ba6",
+          "confidence": "MEDIUM",
+          "derived_from": [
+            "PEV-13a184ec69a2"
+          ],
+          "editorial_provenance": {
+            "action": "GATE5_PIPELINE_GENERATION",
+            "actor_id": "nahuatl-br-gate5-pipeline",
+            "actor_role": "EXECUTION_AGENT",
+            "created_in_commit": "NOT_COMMITTED",
+            "from_state": "NOT_APPLICABLE",
+            "history_status": "GATE5_DRY_RUN",
+            "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+            "review_status": "NOT_REVIEWED",
+            "timestamp": "NOT_RECORDED",
+            "to_state": "DRAFT",
+            "tool": "nahuatl-br-gate5-pipeline",
+            "tool_version": "1.0.0"
+          },
+          "editorial_state": "DRAFT",
+          "language": "pt-BR",
+          "modality": "EDITORIAL",
+          "text": "cedo",
+          "translation_id": "L0070-T1"
+        }
+      ]
+    }
+  ]
+}

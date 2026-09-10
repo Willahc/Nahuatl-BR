@@ -11,7 +11,7 @@ export function Dicionario({ lemmas }: { lemmas: LemmaDto[] }) {
   return (
     <>
       <section className="card">
-        <h2>Dicionário — 50 lemas piloto</h2>
+        <h2>Dicionário — {lemmas.length} lemas</h2>
         <label className="field">
           <span>Buscar por formas e chaves registradas</span>
           <input
