@@ -5,13 +5,9 @@ rule (normalization_rules.rule_id) and records its rule_id, input, output and
 lossy flag. Rules that the policy gates behind source-specific review are never
 auto-applied by the dry run; referencing them is rejected.
 
-SEARCH_KEY is the deliberately lossy retrieval layer (policy evidence:
-"xochitl/xōchitl retrieval requirement"). The diacritic fold implements
-search-diacritic-001 across the controlled vowel diacritics that appear in the
-canonical GDN representations (macrons and the GDN diaeresis variant for the
-same long-vowel notation); it is performed on NFC-normalized lowercased text and
-remains retrieval-only, never a linguistic form. No vowel length, saltillo or
-IPA is ever inferred from the fold.
+SEARCH_KEY is retrieval-only. search-diacritic-001 maps only the policy's
+controlled macron vowels; all other marks remain intact. Historical source
+forms are preserved, and key equality never establishes linguistic identity.
 """
 
 from __future__ import annotations
@@ -39,7 +35,7 @@ def _nfc(text: str) -> str:
 
 
 def _fold_diacritics(text: str) -> str:
-    return "".join(ch for ch in unicodedata.normalize("NFD", text) if unicodedata.category(ch) != "Mn")
+    return text.translate(str.maketrans("āēīōĀĒĪŌ", "aeioAEIO"))
 
 
 def _is_punctuation(char: str) -> bool:

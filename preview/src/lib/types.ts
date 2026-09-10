@@ -69,7 +69,7 @@ export interface LemmaDto {
   };
   interpretations: string[];
   pt_br_editorial: string[];
-  historical_glosses: string[];
+  historical_glosses: (string | string[])[];
   phonology: LemmaPhonology;
   sources: LemmaAttestation[];
   references: LemmaReference[];

@@ -57,23 +57,66 @@ Ran 58 tests ... OK
 - Dados do Gate 4 inalterados (29 Claims `IN_REVIEW`, label histórico
   `classical_phonology_v1@1.0.0-draft.1` preservado).
 
-## Decisões abertas (para o PRODUCT_OWNER / Orquestrador)
+## Remediação final autorizada pelo PRODUCT_OWNER
 
-1. **Mapeamento de busca lossy**: SEARCH_KEY atualmente converte `ö→o` como
-   convenção de recuperação com `declared_lossy: true`. Confirmar que a
-   convenção deve ser oficializada na política de ortografia.
-2. **Fixture C02**: a negação C02 usa `clin_metadata` (CAN_REFERENCE) como
-   alvo de captura indevida; confirmar se um segundo caso envolvendo o dicionário
-   INALI (componente `alin_archive`) deve ser mantido como referência.
-3. **Evolução da policy `classical_orthography_v1`**: permanece
-   `APPROVED`/1.0.0 no escopo atual; qualquer mudança de normalização deve ser
-   versionada e revalidada.
-4. **Prévia como GitHub Pages**: nenhum workflow de deploy foi criado; o build
-   `npm run build` é validado em CI, e a publicação é decisão futura do
-   PRODUCT_OWNER.
-5. **Condições de saída do Gate 5**: entrada (`IN_PROGRESS`), saída e aprovação
-   seguem pendentes de definição pelo PRODUCT_OWNER; o Gate 6 segue
-   `NOT_STARTED`.
+`GATE_5_DELIVERY_STATUS: IN_PROGRESS / AWAITING_EXTERNAL_REVIEW`
+`RESEARCH_PREVIEW_PUBLIC_DEPLOYMENT: AUTHORIZED`
+Gate 6: `NOT_STARTED`. A autorização atual substitui o escopo antigo do
+AGENTS.md; o EXECUTION_AGENT não aprova nem encerra o Gate 5.
+
+- `search-diacritic-001` usa exclusivamente a whitelist `ā ē ī ō Ā Ē Ī Ō`.
+  NFC e lowercase continuam em suas regras próprias. Grave, agudo, circunflexo,
+  trema, til, cedilha e marcas combinantes não listadas não são removidos.
+- `xöchitl` recupera L0050 pela SOURCE_FORM histórica existente; `xochitl`
+  recupera L0050 pela SEARCH_KEY exportada / NORMALIZED_FORM existente.
+  Não há transformação `ö → o`. Igualdade de SEARCH_KEY não cria Claim de
+  identidade linguística. Nenhum dado linguístico ou policy foi ampliado.
+- O frontend prioriza SEARCH_KEYs exportadas, sem recalculá-las. A query usa
+  apenas NFC, lowercase e a whitelist de macrons. As demais representações
+  e textos editoriais usam correspondência literal sem folding de acentos.
+- **C02 mantida**: `clin_metadata` cobre CAN_REFERENCE / modern Variety;
+  RIGHTS_UNCLEAR tem cobertura estrutural independente. Não adicionar caso
+  obrigatório `alin_archive`. ALIN/Audiorama ficam para trabalho explícito
+  futuro com modern varieties/audio; nenhum áudio é criado nesta entrega.
+- Publicação autorizada exclusivamente de `preview/dist`, com base
+  `/Nahuatl-BR/`, HashRouter e aviso visível de Research Preview / IN_REVIEW.
+
+## Critérios formais de saída
+
+Gate 5 só pode receber PASS após todos os controles abaixo passarem e revisão
+externa; o executor não converte resultados técnicos em fechamento do Gate.
+
+- Pipeline determinístico e read-only por padrão; Source resolution, Rights
+  Gate, Variety Gate e SOURCE_FORM immutable PASS.
+- Normalização somente por rules aprovadas, sem hidden transformations;
+  Claims geradas DRAFT, Evidence resolvida e idempotência PASS.
+- 32 fixtures com outcomes esperados e mandatory negative classes cobertas.
+- Preview derivado e reproduzível, exatamente 50 lemmas, sem ingestão de
+  fontes modernas/restritas.
+- Regressões Gate 3 e Gate 4, validator Gate 5, suíte completa, testes de
+  busca frontend e npm build PASS.
+- Publication security PASS e CI remoto PASS.
+
+O deploy depende do sucesso do CI principal para o mesmo commit. O workflow
+publica somente `preview/dist`, com permissões de Pages/OIDC limitadas ao job
+de deploy e sem token customizado. Resultado remoto e verificação HTTP/rotas
+serão apresentados no relatório de execução após o push.
+
+### Validação local da remediação — 2026-09-10
+
+Gate 3, Gate 4 e Gate 5: PASS. As 32 fixtures mantêm os outcomes esperados;
+idempotência e export reproduzível: PASS. Suíte completa: **60 testes PASS**.
+`npm ci`, `npm test`, `npm run build`, `audit_publication.py`,
+`audit_preview_dist.py` e `git diff --check`: PASS.
+Nenhum arquivo em `data/` nem o JSON canônico derivado precisou ser alterado.
+O teste frontend executa a busca real nos 50 lemmas e isola SOURCE_FORM de
+SEARCH_KEY para provar os caminhos distintos de recuperação de L0050.
+Glosas históricas que já eram listas são percorridas como texto na busca;
+seu conteúdo permanece inalterado.
+
+Pages foi habilitado pela API oficial com `build_type: workflow`, no repositório
+público `Willahc/Nahuatl-BR`; HTTPS habilitado. Não foi necessária intervenção
+manual em Settings. O workflow segue as [instruções oficiais de Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
 ## Declaração
 

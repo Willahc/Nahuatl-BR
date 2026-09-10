@@ -30,6 +30,7 @@ function Header() {
 function Footer() {
   return (
     <footer className="app-footer">
+      <p>Dados editoriais e reconstruções podem permanecer IN_REVIEW.</p>
       <p className="muted">
         Náhuatl Clássico · acervo de pesquisa em construção · dados canônicos em{" "}
         <code>data/</code> · visualização derivada e determinística.

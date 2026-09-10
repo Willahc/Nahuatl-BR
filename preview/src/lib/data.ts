@@ -1,5 +1,5 @@
 import type { LemmaDto, PreviewData } from "./types";
-import { foldMatch } from "./fold";
+export { searchLemmas } from "./fold";
 
 let cache: PreviewData | null = null;
 
@@ -16,26 +16,6 @@ export async function loadPreview(): Promise<PreviewData> {
 
 export function previewCache(): PreviewData | null {
   return cache;
-}
-
-export function searchLemmas(lemmas: LemmaDto[], query: string): LemmaDto[] {
-  const q = query.trim();
-  if (!q) {
-    return lemmas;
-  }
-  return lemmas.filter((lemma) => {
-    const texts = [
-      ...lemma.forms.source_forms,
-      ...lemma.forms.search_keys,
-      lemma.forms.normalized_form ?? "",
-      lemma.forms.pedagogical_form ?? "",
-      lemma.display_form ?? "",
-      ...lemma.interpretations,
-      ...lemma.pt_br_editorial,
-      ...lemma.historical_glosses,
-    ];
-    return foldMatch(texts, q);
-  });
 }
 
 export function lemmaById(lemmas: LemmaDto[], id: string): LemmaDto | undefined {

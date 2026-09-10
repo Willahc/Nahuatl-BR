@@ -38,9 +38,16 @@ jobs:
       - name: Install preview dependencies (locked)
         run: npm ci
         working-directory: preview
+      - name: Test canonical preview search
+        run: npm test
+        working-directory: preview
+      - name: Audit publication security
+        run: python scripts/audit_publication.py
       - name: Build research preview
         run: npm run build
         working-directory: preview
+      - name: Audit exact Pages artifact
+        run: python scripts/audit_preview_dist.py
       - name: Require unchanged working tree
         if: always()
         run: |

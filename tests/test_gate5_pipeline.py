@@ -118,8 +118,7 @@ class Gate5PipelineTests(unittest.TestCase):
         self.assertTrue(claim["evidence"], "DRAFT claim must carry Evidence")
 
     def test_T02_variant_preserved_and_search_folded(self):
-        # xöchitl stays verbatim in the attestation while SEARCH_KEY folds to
-        # the same retrieval key as Xochitl, without asserting identity.
+        # Historical diaeresis remains intact in attestation and search key.
         fixture = self.basic_accept(requested_forms=["SEARCH_KEY"], entries=[
             {"source_form_id": "L0050-FS1", "source_form": "Xochitl", "original_gloss": "rosa, o flor."},
             {"source_form_id": "L0050-FS2", "source_form": "xöchitl", "original_gloss": "flor / flor(es)"},
@@ -129,8 +128,32 @@ class Gate5PipelineTests(unittest.TestCase):
         attestations = {a["source_form"] for a in artifacts["attestations"]}
         self.assertEqual(attestations, {"Xochitl", "xöchitl"})
         keys = [s["value"] for s in artifacts["search_keys"]]
-        self.assertEqual(keys, ["xochitl", "xochitl"])
+        self.assertEqual(keys, ["xochitl", "xöchitl"])
         self.assertEqual(len({s["form_id"] for s in artifacts["search_keys"]}), 2)
+
+    def test_macron_key_equality_does_not_create_identity_claim(self):
+        fixture = self.basic_accept(lemma_id="TEST-RETRIEVAL", requested_forms=["SEARCH_KEY"], claims=[], entries=[
+            {"source_form_id": "test-a", "source_form": "xochitl"},
+            {"source_form_id": "test-b", "source_form": "xōchitl"},
+        ])
+        artifacts = self.run_ingest(fixture, expectation="ACCEPT")["artifacts"]
+        self.assertEqual([s["value"] for s in artifacts["search_keys"]], ["xochitl", "xochitl"])
+        self.assertEqual(artifacts["claims"], [])
+        self.assertEqual(len({s["form_id"] for s in artifacts["search_keys"]}), 2)
+
+    def test_search_diacritic_whitelist(self):
+        from src.pipeline.loader import load_policy_orthography
+        from src.pipeline.normalize import OrthographyNormalizer
+        normalizer = OrthographyNormalizer(load_policy_orthography(ROOT))
+        for original, expected in [("āēīōĀĒĪŌ", "aeioaeio"), ("ā", "a"),
+                                   ("xōchitl", "xochitl"), ("xöchitl", "xöchitl"),
+                                   ("à", "à"), ("á", "á"), ("ç", "ç"),
+                                   ("âãäëïö", "âãäëïö"), ("a\u035c", "a\u035c")]:
+            with self.subTest(original=original):
+                result = normalizer.transform(original, "SEARCH_KEY", declared_lossy=True)
+                self.assertEqual(result.result, expected)
+        for value in ["a\u0300", "a\u0301", "c\u0327", "a\u035c", "xöchitl"]:
+            self.assertEqual(normalizer._apply("search-diacritic-001", value), value)
 
     def test_T03_rights_gate_requires_no_name(self):
         # mandatory negative: rename the Hueyapan label to a neutral id and

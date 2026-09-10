@@ -22,7 +22,7 @@ export function Home({ data }: { data: PreviewData }) {
       <section className="grid">
         <Link className="tile" to="/dicionario">
           <h2>Dicionário</h2>
-          <p>Buscar entre os lemas piloto com normalização de busca sem diacríticos.</p>
+          <p>Buscar entre os lemas piloto pelas formas e chaves de busca registradas.</p>
         </Link>
         <Link className="tile" to="/fonologia">
           <h2>Fonologia</h2>
