@@ -10,9 +10,37 @@ Gate 3: PASS / CLOSED
 
 Gate 4: PASS / CLOSED
 
-Gate 5: IN_PROGRESS
+Gate 5: PASS / CLOSED
 
-Gate 6: NOT_STARTED
+Gate 6: AUTHORIZED / NOT_STARTED
+
+## Registro do fechamento do Gate 5
+
+- Gate 5 initial delivery: `c310429`
+- Gate 5 search-policy remediation: `1f7c913`
+- Gate 5 preview-label finalization: `40f1623`
+- Orchestrator Reviewer: `PASS`
+- Decisão externa registrada em 2026-09-10: `GATE_5_STATUS: CLOSED`,
+  `PIPELINE_USE: APPROVED`, `RESEARCH_PREVIEW_0: APPROVED`,
+  `PUBLIC_DEPLOYMENT: APPROVED`.
+- Public Research Preview: https://willahc.github.io/Nahuatl-BR/
+- Commit de fechamento: `docs: close Gate 5 ingestion pipeline`; a tag anotada
+  `gate-5-approved` identifica exatamente esse commit após os workflows SUCCESS.
+
+A aprovação abrange pipeline read-only/dry-run, Source resolution, Rights Gate,
+Variety Gate, transformações governadas por policy, geração de candidatos DRAFT,
+idempotência, exporter determinístico, Research Preview 0 e deployment estático
+controlado. O Preview é produto derivado, não fonte canônica.
+
+Não aprova automaticamente ingestão irrestrita, fontes RIGHTS_UNCLEAR,
+Hueyapan, modern varieties como Classical, Claims individuais, IPA em massa,
+áudio, scraping em massa ou conteúdo dos futuros 500 lemmas.
+
+Gate approval != Claim publication. Os estados atuais são preservados: nenhuma
+promoção DRAFT -> PUBLISHED ou IN_REVIEW -> PUBLISHED decorre deste fechamento.
+Todos os critérios formais de saída foram satisfeitos conforme a decisão externa
+registrada em `GATE_5_AUDIT_REPORT.md`. Reservas futuras não reabrem o Gate 5.
+Gate 6 está autorizado, mas não foi iniciado nesta execução.
 
 ## Registro do fechamento do Gate 4
 
@@ -62,6 +90,6 @@ Os 29 Claims fonológicos nascem `IN_REVIEW` por instrução explícita do
 PRODUCT_OWNER (exceção registrada no AGENTS.md), com origem EXECUTION_AGENT
 registrada. Revisão humana individual não está documentada.
 
-Gate 5: IN_PROGRESS — pipeline de ingestão, gates de rights/Variety, transformação
-auditável, geração controlada de Claims (DRAFT), validator, testes, exportador e
-Research Preview 0 em desenvolvimento. Gate 6 não foi iniciado.
+Gate 5 está PASS / CLOSED por decisão externa. Pipeline e Research Preview 0
+aprovados no escopo acima, sem promoção de Claims individuais.
+Gate 6 permanece AUTHORIZED / NOT_STARTED.

@@ -26,6 +26,14 @@
     "4": {
       "closure": "CLOSED",
       "status": "PASS"
+    },
+    "5": {
+      "closure": "CLOSED",
+      "status": "PASS"
+    },
+    "6": {
+      "closure": "NOT_STARTED",
+      "status": "AUTHORIZED"
     }
   },
   "generated_at": "NOT_RECORDED",

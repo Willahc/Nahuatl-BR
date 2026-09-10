@@ -127,3 +127,52 @@ manual em Settings. O workflow segue as [instruções oficiais de Pages](https:/
   read-only por construção.
 - Claims fonológicas permanecem `IN_REVIEW` com origem EXECUTION_AGENT; a
   revisão humana individual não está documentada.
+
+## EXTERNAL REVIEW DECISION
+
+Decisão externa comunicada pelo PRODUCT_OWNER em 2026-09-10, após revisão do
+ORCHESTRATOR_REVIEWER. As seções anteriores preservam a autoauditoria histórica
+e os estados vigentes nas entregas; esta seção registra o fechamento formal.
+O EXECUTION_AGENT registra a decisão externa, sem aprovar o próprio trabalho.
+
+```text
+ORCHESTRATOR_REVIEWER_DECISION: PASS
+GATE_5_STATUS: CLOSED
+PIPELINE_USE: APPROVED
+RESEARCH_PREVIEW_STATUS: APPROVED
+PUBLIC_DEPLOYMENT_STATUS: APPROVED
+Gate 6: AUTHORIZED / NOT_STARTED
+```
+
+Todos os critérios formais de saída definidos neste relatório foram satisfeitos.
+As reservas futuras não reabrem o Gate 5.
+
+Referências da entrega aprovada:
+
+- Initial delivery: `c310429`.
+- Search-policy remediation: `1f7c913`.
+- Preview-label finalization: `40f1623`.
+- [CI principal aprovado](https://github.com/Willahc/Nahuatl-BR/actions/runs/34477470190).
+- [Deploy aprovado](https://github.com/Willahc/Nahuatl-BR/actions/runs/34477517132).
+- Public Research Preview: https://willahc.github.io/Nahuatl-BR/
+
+A aprovação abrange pipeline read-only/dry-run, Source resolution, Rights Gate,
+Variety Gate, transformações governadas por policy, geração de candidatos DRAFT,
+idempotência, exporter determinístico, Research Preview 0 e deployment estático
+controlado. O Research Preview é produto derivado, não fonte canônica; seu
+deployment, design e conteúdo linguístico permanecem preservados. Somente os
+metadados derivados de status dos Gates acompanham este fechamento.
+
+Não há aprovação automática de ingestão irrestrita de fontes, fontes
+RIGHTS_UNCLEAR, Hueyapan, modern varieties como Classical, Claims individuais,
+IPA em massa, áudio, scraping em massa ou conteúdo dos futuros 500 lemmas.
+
+**Gate approval != Claim publication.** Os estados atuais permanecem intactos;
+nenhuma Claim passa de DRAFT ou IN_REVIEW para PUBLISHED. Nenhum dos 50 lemmas
+é alterado. Nenhum validator é enfraquecido. Gate 6 não é iniciado nesta execução.
+
+O commit `docs: close Gate 5 ingestion pipeline` registra este fechamento.
+A tag anotada `gate-5-approved`, com mensagem
+`Gate 5 approved: canonical ingestion pipeline and Research Preview 0`, deve
+apontar exatamente para esse commit, sendo criada e enviada somente após
+SUCCESS do CI principal e do deploy correspondentes.
