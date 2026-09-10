@@ -3,7 +3,7 @@
     "claims_total": 29,
     "evidence_total": 28,
     "integration_items": 15,
-    "lemmas": 250,
+    "lemmas": 300,
     "sources": 14
   },
   "gate_status": {
@@ -12129,6 +12129,2206 @@
           "mediation_level": "DIRECT_WITNESS",
           "source_id": "A01",
           "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page299/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacayacatimani",
+      "forms": {
+        "normalized_form": "Cacayacatimani",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacayacatimani"
+        ],
+        "source_forms": [
+          "Cacayacatimani"
+        ]
+      },
+      "historical_glosses": [
+        "eſtar ralas las cañas enelcañaueral, o coſas ſemejantes."
+      ],
+      "id": "L0251",
+      "interpretations": [
+        "estarem ralas as canas no canavial, ou coisas semelhantes"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "estarem ralas as canas no canavial, ou coisas semelhantes"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacayacatimani",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacayachilia",
+      "forms": {
+        "normalized_form": "Cacayachilia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacayachilia"
+        ],
+        "source_forms": [
+          "Cacayachilia"
+        ]
+      },
+      "historical_glosses": [
+        "desboronar o deſmigajar algo a outro."
+      ],
+      "id": "L0252",
+      "interpretations": [
+        "esfarelar ou esmigalhar algo para outrem"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "esfarelar ou esmigalhar algo para outrem"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacayachilia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacayactic",
+      "forms": {
+        "normalized_form": "Cacayactic",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacayactic"
+        ],
+        "source_forms": [
+          "Cacayactic"
+        ]
+      },
+      "historical_glosses": [
+        "coſa rala, como manta, o arboleda, &c."
+      ],
+      "id": "L0253",
+      "interpretations": [
+        "coisa rala, como manta ou arvoredo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "coisa rala, como manta ou arvoredo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacayactic",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacayana",
+      "forms": {
+        "normalized_form": "Cacayana",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacayana"
+        ],
+        "source_forms": [
+          "Cacayana"
+        ]
+      },
+      "historical_glosses": [
+        "burlar o eſcarnecer de otro, o engañarle."
+      ],
+      "id": "L0254",
+      "interpretations": [
+        "burlar, escarnecer de outrem ou enganá-lo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "burlar, escarnecer de outrem ou enganá-lo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacayana",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacalaca",
+      "forms": {
+        "normalized_form": "Cacalaca",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacalaca"
+        ],
+        "source_forms": [
+          "Cacalaca"
+        ]
+      },
+      "historical_glosses": [
+        "ſonar el caxcauel, o la vaſija de barro que tiene dentro pedrezuelas, o el cacao dañado quando lo cuentan, o echan enel ſuelo, o coſa ſemejante"
+      ],
+      "id": "L0255",
+      "interpretations": [
+        "soar o chocalho, ou vaso de barro com pedrinhas dentro, ou cacau danificado ao ser contado ou lançado ao chão"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "soar o chocalho, ou vaso de barro com pedrinhas dentro, ou cacau danificado ao ser contado ou lançado ao chão"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacalaca",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacalacaliztli",
+      "forms": {
+        "normalized_form": "Cacalacaliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacalacaliztli"
+        ],
+        "source_forms": [
+          "Cacalacaliztli"
+        ]
+      },
+      "historical_glosses": [
+        "eſtruendo o ſonido de coſas quebradas."
+      ],
+      "id": "L0256",
+      "interpretations": [
+        "estrondo ou som de coisas quebradas"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "estrondo ou som de coisas quebradas"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacalacaliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacalachtli",
+      "forms": {
+        "normalized_form": "Cacalachtli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacalachtli"
+        ],
+        "source_forms": [
+          "Cacalachtli"
+        ]
+      },
+      "historical_glosses": [
+        "caxcauel de barro,"
+      ],
+      "id": "L0257",
+      "interpretations": [
+        "chocalho de barro"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "chocalho de barro"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacalachtli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacalaqui",
+      "forms": {
+        "normalized_form": "Cacalaqui",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacalaqui"
+        ],
+        "source_forms": [
+          "Cacalaqui"
+        ]
+      },
+      "historical_glosses": [
+        "andar de caſa en caſa."
+      ],
+      "id": "L0258",
+      "interpretations": [
+        "andar de casa em casa"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "andar de casa em casa"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacalaqui",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacalaquia",
+      "forms": {
+        "normalized_form": "Cacalaquia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacalaquia"
+        ],
+        "source_forms": [
+          "Cacalaquia"
+        ]
+      },
+      "historical_glosses": [
+        "acarrear y meter algo en alguna parte."
+      ],
+      "id": "L0259",
+      "interpretations": [
+        "carregar e introduzir algo em alguma parte"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "carregar e introduzir algo em alguma parte"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacalaquia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacalli",
+      "forms": {
+        "normalized_form": "Cacalli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacalli"
+        ],
+        "source_forms": [
+          "Cacalli"
+        ]
+      },
+      "historical_glosses": [
+        "cueruo,"
+      ],
+      "id": "L0260",
+      "interpretations": [
+        "corvo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "corvo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacalli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacallotl",
+      "forms": {
+        "normalized_form": "Cacallotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacallotl"
+        ],
+        "source_forms": [
+          "Cacallotl"
+        ]
+      },
+      "historical_glosses": [
+        "caxcara de nuez, o de coſaafsi."
+      ],
+      "id": "L0261",
+      "interpretations": [
+        "casca de noz ou coisa parecida"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "casca de noz ou coisa parecida"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacallotl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacalotl",
+      "forms": {
+        "normalized_form": "Cacalotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacalotl"
+        ],
+        "source_forms": [
+          "Cacalotl"
+        ]
+      },
+      "historical_glosses": [
+        "cueruo, o tenazuela de palo para deſpauilar candelas, o para comer granos de mayz toſtado enel teſcoldo."
+      ],
+      "id": "L0262",
+      "interpretations": [
+        "corvo, ou tenaz de madeira para aparar velas ou comer grãos de milho tostado no borralho"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "corvo, ou tenaz de madeira para aparar velas ou comer grãos de milho tostado no borralho"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacalotl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacamachaloa",
+      "forms": {
+        "normalized_form": "Cacamachaloa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacamachaloa"
+        ],
+        "source_forms": [
+          "Cacamachaloa"
+        ]
+      },
+      "historical_glosses": [
+        "boquear, o abrir y cerrar la boca muchas vezes."
+      ],
+      "id": "L0263",
+      "interpretations": [
+        "boquejar, ou abrir e fechar a boca muitas vezes"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "boquejar, ou abrir e fechar a boca muitas vezes"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacamachaloa",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacamatl",
+      "forms": {
+        "normalized_form": "Cacamatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacamatl"
+        ],
+        "source_forms": [
+          "Cacamatl"
+        ]
+      },
+      "historical_glosses": [
+        "maçorcas pequeñas de mayz, que nacen cabe la maçorca mayor."
+      ],
+      "id": "L0264",
+      "interpretations": [
+        "espigas pequenas de milho que nascem junto à espiga maior"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "espigas pequenas de milho que nascem junto à espiga maior"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacamatl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacane",
+      "forms": {
+        "normalized_form": "Cacane",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacane"
+        ],
+        "source_forms": [
+          "Cacane"
+        ]
+      },
+      "historical_glosses": [
+        "carrilludo."
+      ],
+      "id": "L0265",
+      "interpretations": [
+        "bochechudo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "bochechudo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacane",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacapaca",
+      "forms": {
+        "normalized_form": "Cacapaca",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacapaca"
+        ],
+        "source_forms": [
+          "Cacapaca"
+        ]
+      },
+      "historical_glosses": [
+        "ſonar las chinelas o alcorques quãdo andan con ellas."
+      ],
+      "id": "L0266",
+      "interpretations": [
+        "soarem os calçados ao andar"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "soarem os calçados ao andar"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacapaca",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacapania",
+      "forms": {
+        "normalized_form": "Cacapania",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacapania"
+        ],
+        "source_forms": [
+          "Cacapania"
+        ]
+      },
+      "historical_glosses": [
+        "reſtallar o hazer cruxir los dedos eſtirandolos."
+      ],
+      "id": "L0267",
+      "interpretations": [
+        "estalar os dedos esticando-os"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "estalar os dedos esticando-os"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column a, headword Cacapania",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacaqui",
+      "forms": {
+        "normalized_form": "Cacaqui",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacaqui"
+        ],
+        "source_forms": [
+          "Cacaqui"
+        ]
+      },
+      "historical_glosses": [
+        "eſcuchar aſechando."
+      ],
+      "id": "L0268",
+      "interpretations": [
+        "escutar à espreita"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "escutar à espreita"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column b, headword Cacaqui",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacatza",
+      "forms": {
+        "normalized_form": "Cacatza",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacatza"
+        ],
+        "source_forms": [
+          "Cacatza"
+        ]
+      },
+      "historical_glosses": [
+        "atar fuertemente alguna coſa, o embutir o recalcar algo."
+      ],
+      "id": "L0269",
+      "interpretations": [
+        "atar fortemente algo, ou embutir ou recalcar"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "atar fortemente algo, ou embutir ou recalcar"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column b, headword Cacatza",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacatzac",
+      "forms": {
+        "normalized_form": "Cacatzac",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacatzac"
+        ],
+        "source_forms": [
+          "Cacatzac"
+        ]
+      },
+      "historical_glosses": [
+        "hombre negro, o negra."
+      ],
+      "id": "L0270",
+      "interpretations": [
+        "pessoa negra"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "pessoa negra"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column b, headword Cacatzac",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacatzoa",
+      "forms": {
+        "normalized_form": "Cacatzoa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacatzoa"
+        ],
+        "source_forms": [
+          "Cacatzoa"
+        ]
+      },
+      "historical_glosses": [
+        "deſperezarſe."
+      ],
+      "id": "L0271",
+      "interpretations": [
+        "espreguiçar-se"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "espreguiçar-se"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column b, headword Cacatzoa",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacauaatl",
+      "forms": {
+        "normalized_form": "Cacauaatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacauaatl"
+        ],
+        "source_forms": [
+          "Cacauaatl"
+        ]
+      },
+      "historical_glosses": [
+        "beuida de cacao."
+      ],
+      "id": "L0272",
+      "interpretations": [
+        "bebida de cacau"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "bebida de cacau"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column b, headword Cacauaatl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacauacentli",
+      "forms": {
+        "normalized_form": "Cacauacentli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacauacentli"
+        ],
+        "source_forms": [
+          "Cacauacentli"
+        ]
+      },
+      "historical_glosses": [
+        "maçorca o piña de cacao."
+      ],
+      "id": "L0273",
+      "interpretations": [
+        "espiga ou fruto de cacau"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "espiga ou fruto de cacau"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column b, headword Cacauacentli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacauatl",
+      "forms": {
+        "normalized_form": "Cacauatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacauatl"
+        ],
+        "source_forms": [
+          "Cacauatl"
+        ]
+      },
+      "historical_glosses": [
+        "grano de cacao."
+      ],
+      "id": "L0274",
+      "interpretations": [
+        "grão de cacau"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "grão de cacau"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column b, headword Cacauatl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cacaxtli",
+      "forms": {
+        "normalized_form": "Cacaxtli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cacaxtli"
+        ],
+        "source_forms": [
+          "Cacaxtli"
+        ]
+      },
+      "historical_glosses": [
+        "eſcalerillas de tablas para lleuar algo acueſtas el tameme, o cierto paxaro."
+      ],
+      "id": "L0275",
+      "interpretations": [
+        "armação de tábuas para carga às costas de carregador, ou certo pássaro"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "armação de tábuas para carga às costas de carregador, ou certo pássaro"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 280, column b, headword Cacaxtli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page279/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecenyoal",
+      "forms": {
+        "normalized_form": "Cecenyoal",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecenyoal"
+        ],
+        "source_forms": [
+          "Cecenyoal"
+        ]
+      },
+      "historical_glosses": [
+        "cada noche."
+      ],
+      "id": "L0276",
+      "interpretations": [
+        "a cada noite"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "a cada noite"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecenyoal",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecenquiauatempan",
+      "forms": {
+        "normalized_form": "Cecenquiauatempan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecenquiauatempan"
+        ],
+        "source_forms": [
+          "Cecenquiauatempan"
+        ]
+      },
+      "historical_glosses": [
+        "a cada puerta."
+      ],
+      "id": "L0277",
+      "interpretations": [
+        "a cada porta"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "a cada porta"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecenquiauatempan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentepan",
+      "forms": {
+        "normalized_form": "Cecentepan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentepan"
+        ],
+        "source_forms": [
+          "Cecentepan"
+        ]
+      },
+      "historical_glosses": [
+        "en cada pueblo o ciudad."
+      ],
+      "id": "L0278",
+      "interpretations": [
+        "em cada povoado ou cidade"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "em cada povoado ou cidade"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentepan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentianquiztli",
+      "forms": {
+        "normalized_form": "Cecentianquiztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentianquiztli"
+        ],
+        "source_forms": [
+          "Cecentianquiztli"
+        ]
+      },
+      "historical_glosses": [
+        "el que en todas partes tiene ruyn fama."
+      ],
+      "id": "L0279",
+      "interpretations": [
+        "aquele que em todas as partes tem má fama"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "aquele que em todas as partes tem má fama"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentianquiztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentin",
+      "forms": {
+        "normalized_form": "Cecentin",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentin"
+        ],
+        "source_forms": [
+          "Cecentin"
+        ]
+      },
+      "historical_glosses": [
+        "ſendos. o cada ſendos .ſ. ſe les dará."
+      ],
+      "id": "L0280",
+      "interpretations": [
+        "um para cada um"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "um para cada um"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentin",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentlacamecayotl",
+      "forms": {
+        "normalized_form": "Cecentlacamecayotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentlacamecayotl"
+        ],
+        "source_forms": [
+          "Cecentlacamecayotl"
+        ]
+      },
+      "historical_glosses": [
+        "cada linaje."
+      ],
+      "id": "L0281",
+      "interpretations": [
+        "cada linhagem"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "cada linhagem"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentlacamecayotl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentlacatl",
+      "forms": {
+        "normalized_form": "Cecentlacatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentlacatl"
+        ],
+        "source_forms": [
+          "Cecentlacatl"
+        ]
+      },
+      "historical_glosses": [
+        "cada vna perſona, o cada qual."
+      ],
+      "id": "L0282",
+      "interpretations": [
+        "cada pessoa, ou cada qual"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "cada pessoa, ou cada qual"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentlacatl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentlacxiliztica",
+      "forms": {
+        "normalized_form": "Cecentlacxiliztica",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentlacxiliztica"
+        ],
+        "source_forms": [
+          "Cecentlacxiliztica"
+        ]
+      },
+      "historical_glosses": [
+        "paſſo a paſſo. Aduerbio."
+      ],
+      "id": "L0283",
+      "interpretations": [
+        "passo a passo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "passo a passo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentlacxiliztica",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentlalia",
+      "forms": {
+        "normalized_form": "Cecentlalia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentlalia"
+        ],
+        "source_forms": [
+          "Cecentlalia"
+        ]
+      },
+      "historical_glosses": [
+        "ayuntar o recoger razones en fauor de algun negocio."
+      ],
+      "id": "L0284",
+      "interpretations": [
+        "reunir ou recolher razões em favor de algum negócio"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "reunir ou recolher razões em favor de algum negócio"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentlalia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentlalpilpan",
+      "forms": {
+        "normalized_form": "Cecentlalpilpan",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentlalpilpan"
+        ],
+        "source_forms": [
+          "Cecentlalpilpan"
+        ]
+      },
+      "historical_glosses": [
+        "manojo amanojo."
+      ],
+      "id": "L0285",
+      "interpretations": [
+        "feixe a feixe"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "feixe a feixe"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentlalpilpan",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentlamanca",
+      "forms": {
+        "normalized_form": "Cecentlamanca",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentlamanca"
+        ],
+        "source_forms": [
+          "Cecentlamanca"
+        ]
+      },
+      "historical_glosses": [
+        "eſtar las partes cada vna por ſi, diuididas y apartadas vnas de otras."
+      ],
+      "id": "L0286",
+      "interpretations": [
+        "estarem as partes cada uma por si, divididas e separadas umas das outras"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "estarem as partes cada uma por si, divididas e separadas umas das outras"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentlamanca",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecentlamantli",
+      "forms": {
+        "normalized_form": "Cecentlamantli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecentlamantli"
+        ],
+        "source_forms": [
+          "Cecentlamantli"
+        ]
+      },
+      "historical_glosses": [
+        "cada vna coſa."
+      ],
+      "id": "L0287",
+      "interpretations": [
+        "cada coisa"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "cada coisa"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecentlamantli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecepatic",
+      "forms": {
+        "normalized_form": "Cecepatic",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecepatic"
+        ],
+        "source_forms": [
+          "Cecepatic"
+        ]
+      },
+      "historical_glosses": [
+        "coſa muy fria. Et per metaphoram. coſa muy eſpantable."
+      ],
+      "id": "L0288",
+      "interpretations": [
+        "coisa muito fria; metaforicamente, coisa muito espantosa"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "coisa muito fria; metaforicamente, coisa muito espantosa"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecepatic",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecepoa",
+      "forms": {
+        "normalized_form": "Cecepoa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecepoa"
+        ],
+        "source_forms": [
+          "Cecepoa"
+        ]
+      },
+      "historical_glosses": [
+        "entomecerſe alguna parte del cuerpo."
+      ],
+      "id": "L0289",
+      "interpretations": [
+        "entorpecer-se alguma parte do corpo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "entorpecer-se alguma parte do corpo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecepoa",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecepoac",
+      "forms": {
+        "normalized_form": "Cecepoac",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecepoac"
+        ],
+        "source_forms": [
+          "Cecepoac"
+        ]
+      },
+      "historical_glosses": [
+        "entomecido o tollido."
+      ],
+      "id": "L0290",
+      "interpretations": [
+        "entorpecido ou entrevado"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "entorpecido ou entrevado"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecepoac",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ceceppa",
+      "forms": {
+        "normalized_form": "Ceceppa",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ceceppa"
+        ],
+        "source_forms": [
+          "Ceceppa"
+        ]
+      },
+      "historical_glosses": [
+        "cada ſendas vezes. Aduerbio."
+      ],
+      "id": "L0291",
+      "interpretations": [
+        "uma vez para cada um"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "uma vez para cada um"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Ceceppa",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ceceuia",
+      "forms": {
+        "normalized_form": "Ceceuia",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ceceuia"
+        ],
+        "source_forms": [
+          "Ceceuia"
+        ]
+      },
+      "historical_glosses": [
+        "deſcanſar a ratos."
+      ],
+      "id": "L0292",
+      "interpretations": [
+        "descansar a intervalos"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "descansar a intervalos"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Ceceuia",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecexiuitl",
+      "forms": {
+        "normalized_form": "Cecexiuitl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecexiuitl"
+        ],
+        "source_forms": [
+          "Cecexiuitl"
+        ]
+      },
+      "historical_glosses": [
+        "cada año. Aduerbio."
+      ],
+      "id": "L0293",
+      "interpretations": [
+        "a cada ano"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "a cada ano"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecexiuitl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ceciyacatl",
+      "forms": {
+        "normalized_form": "Ceciyacatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ceciyacatl"
+        ],
+        "source_forms": [
+          "Ceciyacatl"
+        ]
+      },
+      "historical_glosses": [
+        "vn braçado."
+      ],
+      "id": "L0294",
+      "interpretations": [
+        "uma braçada"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "uma braçada"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Ceciyacatl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecmiqui",
+      "forms": {
+        "normalized_form": "Cecmiqui",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecmiqui"
+        ],
+        "source_forms": [
+          "Cecmiqui"
+        ]
+      },
+      "historical_glosses": [
+        "morirſe de frio."
+      ],
+      "id": "L0295",
+      "interpretations": [
+        "morrer de frio"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "morrer de frio"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecmiqui",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cecni",
+      "forms": {
+        "normalized_form": "Cecni",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cecni"
+        ],
+        "source_forms": [
+          "Cecni"
+        ]
+      },
+      "historical_glosses": [
+        "en otra parte o lugar, o en cierta parte, o por ſi aparte. Aduerbio."
+      ],
+      "id": "L0296",
+      "interpretations": [
+        "em outra parte ou lugar, ou à parte"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "em outra parte ou lugar, ou à parte"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column a, headword Cecni",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ceehecatl",
+      "forms": {
+        "normalized_form": "Ceehecatl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ceehecatl"
+        ],
+        "source_forms": [
+          "Ceehecatl"
+        ]
+      },
+      "historical_glosses": [
+        "cierço, viento aquilonar."
+      ],
+      "id": "L0297",
+      "interpretations": [
+        "vento norte ou frio"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "vento norte ou frio"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column b, headword Ceehecatl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Ceyotl",
+      "forms": {
+        "normalized_form": "Ceyotl",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "ceyotl"
+        ],
+        "source_forms": [
+          "Ceyotl"
+        ]
+      },
+      "historical_glosses": [
+        "tuetano de hueſſo."
+      ],
+      "id": "L0298",
+      "interpretations": [
+        "tutano de osso"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "tutano de osso"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column b, headword Ceyotl",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Celtiliztli",
+      "forms": {
+        "normalized_form": "Celtiliztli",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "celtiliztli"
+        ],
+        "source_forms": [
+          "Celtiliztli"
+        ]
+      },
+      "historical_glosses": [
+        "verdor, o freſcura de arbol que brota y retoñece."
+      ],
+      "id": "L0299",
+      "interpretations": [
+        "verdor ou frescor de árvore que brota e renova"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "verdor ou frescor de árvore que brota e renova"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column b, headword Celtiliztli",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
+          "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+        }
+      ],
+      "status": "DRAFT",
+      "variety": "Classical Nahuatl"
+    },
+    {
+      "claim_ids": [],
+      "display_form": "Cemanauac",
+      "forms": {
+        "normalized_form": "Cemanauac",
+        "pedagogical_form": "UNKNOWN",
+        "search_keys": [
+          "cemanauac"
+        ],
+        "source_forms": [
+          "Cemanauac"
+        ]
+      },
+      "historical_glosses": [
+        "el mundo."
+      ],
+      "id": "L0300",
+      "interpretations": [
+        "o mundo"
+      ],
+      "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+      "phonology": {
+        "notes": [],
+        "saltillo": "UNKNOWN",
+        "status": "NOT_REVIEWED",
+        "vowel_length": "UNKNOWN"
+      },
+      "pt_br_editorial": [
+        "o mundo"
+      ],
+      "references": [],
+      "sources": [
+        {
+          "direct_witness_inspected": true,
+          "locator": "JCB 1571, part II, manifest page 290, column b, headword Cemanauac",
+          "mediation_level": "DIRECT_WITNESS",
+          "source_id": "A01",
+          "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page289/full/2000,/0/default.jpg",
           "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
         }
       ],

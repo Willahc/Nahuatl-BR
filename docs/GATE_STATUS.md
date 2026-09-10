@@ -14,11 +14,12 @@ Gate 5: PASS / CLOSED
 
 Gate 6: IN_PROGRESS / SOURCE_EVIDENCE_PATH_RESOLVED
 
-Batch 04: PASS_AFTER_REMEDIATION / AWAITING_EXTERNAL_REVIEW.
-Previous external review: FAIL / REMEDIATION_REQUIRED; preserved as history.
-Last externally accepted checkpoint: 3 / 200 lemmas.
-Physical repository: 250 records; L0201–L0250 DRAFT / AWAITING_EXTERNAL_REVIEW.
-Batch 05: NOT_STARTED / NOT AUTHORIZED.
+Batch 04: PASS_AFTER_REMEDIATION / EXTERNALLY_ACCEPTED.
+Previous external review: FAIL / REMEDIATION_REQUIRED; remediation committed in `63bd44b` and status synchronized in `a305a3a`; preserved as history.
+Last externally accepted checkpoint: 4 / 250 lemmas.
+Physical repository: 300 records; L0251–L0300 DRAFT / AWAITING_EXTERNAL_REVIEW.
+Batch 05: PASS / AWAITING_EXTERNAL_REVIEW.
+Batch 06: NOT_STARTED / NOT AUTHORIZED.
 
 Gate 7: NOT_STARTED
 
