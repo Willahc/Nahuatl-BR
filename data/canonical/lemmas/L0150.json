@@ -1,0 +1,334 @@
+{
+  "attestations": [
+    {
+      "attestation_id": "PAT-d9fbb09b5ea2",
+      "direct_witness_inspected": true,
+      "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
+      "editorial_state": "DRAFT",
+      "locator": "JCB 1571, part II, manifest page 340, column a, headword Yollotetl",
+      "locator_absence_reason": "NOT_APPLICABLE",
+      "mediation_level": "DIRECT_WITNESS",
+      "origin": "PIPELINE",
+      "original_gloss": "coſnate y animoso, o duro y obstinado.",
+      "source": "A01",
+      "source_form": "Yollotetl",
+      "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+      "witness": "John Carter Brown Library, 1-SIZE B571 .M722v",
+      "work": "Vocabulario en lengua castellana y mexicana / mexicana y castellana"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "PCL-25d6f2160c7f",
+      "claim_source_origin": "PIPELINE",
+      "confidence": "MEDIUM",
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence": [
+        "PEV-a1ecb1954fc9"
+      ],
+      "modality": "OBSERVED",
+      "origin": "PIPELINE",
+      "predicate": "has_historical_gloss",
+      "subject": "L0150",
+      "value": "\"coſnate y animoso, o duro y obstinado.\""
+    },
+    {
+      "claim_id": "PCL-4c31609170a5",
+      "claim_source_origin": "PIPELINE",
+      "confidence": "MEDIUM",
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence": [
+        "PEV-a1ecb1954fc9"
+      ],
+      "modality": "EDITORIAL",
+      "origin": "PIPELINE",
+      "predicate": "has_pt_br_editorial_gloss",
+      "subject": "L0150",
+      "value": "\"corajoso e animoso; duro e obstinado\""
+    }
+  ],
+  "corpus_references": [],
+  "evidence": [
+    {
+      "accessed_at": "2026-09-10",
+      "attestation_id": "PAT-d9fbb09b5ea2",
+      "direct_witness_inspected": true,
+      "editorial_provenance": {
+        "action": "GATE5_PIPELINE_GENERATION",
+        "actor_id": "nahuatl-br-gate5-pipeline",
+        "actor_role": "EXECUTION_AGENT",
+        "created_in_commit": "NOT_COMMITTED",
+        "from_state": "NOT_APPLICABLE",
+        "history_status": "GATE5_DRY_RUN",
+        "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+        "review_status": "NOT_REVIEWED",
+        "timestamp": "NOT_RECORDED",
+        "to_state": "DRAFT",
+        "tool": "nahuatl-br-gate5-pipeline",
+        "tool_version": "1.0.0"
+      },
+      "editorial_state": "DRAFT",
+      "evidence_id": "PEV-a1ecb1954fc9",
+      "evidence_role": "DIRECT_CLASSICAL_EVIDENCE",
+      "locator": "JCB 1571, part II, manifest page 340, column a, headword Yollotetl",
+      "mediation_level": "DIRECT_WITNESS",
+      "origin": "PIPELINE",
+      "source": "A01",
+      "type": "LEXICAL_ENTRY_REFERENCE",
+      "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg"
+    }
+  ],
+  "evidence_links": [
+    {
+      "claim_id": "PCL-25d6f2160c7f",
+      "evidence_id": "PEV-a1ecb1954fc9",
+      "relation": "SUPPORTS"
+    },
+    {
+      "claim_id": "PCL-4c31609170a5",
+      "evidence_id": "PEV-a1ecb1954fc9",
+      "relation": "DERIVED_FROM"
+    }
+  ],
+  "forms": [
+    {
+      "evidence": [
+        "PEV-a1ecb1954fc9"
+      ],
+      "form_id": "L0150-FS1",
+      "layer": "SOURCE_FORM",
+      "normalization_profile": "NOT_APPLICABLE",
+      "value": "Yollotetl"
+    },
+    {
+      "derivation_steps": [
+        {
+          "input": "Yollotetl",
+          "lossy": false,
+          "output": "Yollotetl",
+          "rule_id": "editorial-nfc-001"
+        }
+      ],
+      "form_id": "L0150-FS1-FD-ff03e62ee4bf",
+      "layer": "DIPLOMATIC_FORM",
+      "lossy": false,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "value": "Yollotetl"
+    },
+    {
+      "derivation_steps": [
+        {
+          "input": "Yollotetl",
+          "lossy": false,
+          "output": "Yollotetl",
+          "rule_id": "editorial-nfc-001"
+        }
+      ],
+      "form_id": "L0150-FS1-FN-f335e4d01c61",
+      "layer": "NORMALIZED_FORM",
+      "lossy": false,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "value": "Yollotetl"
+    },
+    {
+      "evidence": [],
+      "form_id": "L0150-FS1-FP-696bedd088b1",
+      "layer": "PEDAGOGICAL_FORM",
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "note": "editorial pedagogical value; macron or h requires independent Evidence",
+      "origin": "PIPELINE",
+      "value": "UNKNOWN"
+    },
+    {
+      "aliases": [],
+      "form_id": "L0150-FS1-SK-3dc3a06cb5ff",
+      "layer": "SEARCH_KEY",
+      "lossy": true,
+      "normalization_profile": "classical_orthography_v1@1.0.0",
+      "origin": "PIPELINE",
+      "search_keys": [
+        "yollotetl"
+      ],
+      "steps": [
+        {
+          "input": "Yollotetl",
+          "lossy": false,
+          "output": "Yollotetl",
+          "rule_id": "editorial-nfc-001"
+        },
+        {
+          "input": "Yollotetl",
+          "lossy": true,
+          "output": "yollotetl",
+          "rule_id": "search-lower-001"
+        },
+        {
+          "input": "yollotetl",
+          "lossy": true,
+          "output": "yollotetl",
+          "rule_id": "search-diacritic-001"
+        },
+        {
+          "input": "yollotetl",
+          "lossy": true,
+          "output": "yollotetl",
+          "rule_id": "search-punct-001"
+        },
+        {
+          "input": "yollotetl",
+          "lossy": true,
+          "output": "yollotetl",
+          "rule_id": "search-hyphen-001"
+        }
+      ],
+      "value": "yollotetl"
+    }
+  ],
+  "gate6": {
+    "batch": 2,
+    "capture": {
+      "attribution": "Courtesy of the John Carter Brown Library",
+      "canvas_id": "https://americana.jcblibrary.org/iiif/presentation/canvas/jcbcap-991031815189706966-vocabularioenlen00moli/manifest__442984__26711243/canvas.json",
+      "column": "a",
+      "confidence_rationale": "Legible selected headword/gloss in image; single witness and editorial translation require independent semantic review.",
+      "image_url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+      "inspection": "VISUALLY_INSPECTED",
+      "inspector": "EXECUTION_AGENT",
+      "license": "CC BY 4.0",
+      "page_index_1based": 340,
+      "rights_url": "https://jcblibrary.org/permissions/",
+      "sha256": "12fbca0ba7bbdfba4d69682ddb0d7cf8ad998e2861940ed4236f606781009b8e",
+      "transcription_convention": "Headword glyphs preserved; terminal separator excluded. Short contiguous historical gloss; line breaks joined as spaces. No morphological expansion or historical spelling modernization."
+    },
+    "pipeline_digest": "84b5e606d174b92deeca56df95a2cdc601cbbeea8333ece598d73ed39059a42a",
+    "request": {
+      "case_id": "G6-L0150",
+      "ingest": {
+        "accessed_at": "2026-09-10",
+        "claims": [
+          {
+            "confidence": "MEDIUM",
+            "modality": "OBSERVED",
+            "predicate": "has_historical_gloss",
+            "value": "coſnate y animoso, o duro y obstinado."
+          },
+          {
+            "confidence": "MEDIUM",
+            "modality": "EDITORIAL",
+            "predicate": "has_pt_br_editorial_gloss",
+            "value": "corajoso e animoso; duro e obstinado"
+          }
+        ],
+        "component_id": "jcb_1571_images",
+        "declared_lossy": true,
+        "direct_witness_inspected": true,
+        "edition": "Mexico, Antonio de Spinosa, 1571; part II, mexicana-castellana",
+        "entries": [
+          {
+            "original_gloss": "coſnate y animoso, o duro y obstinado.",
+            "source_form": "Yollotetl",
+            "source_form_id": "L0150-FS1"
+          }
+        ],
+        "lemma_id": "L0150",
+        "lemma_variety": "Classical Nahuatl",
+        "locator": "JCB 1571, part II, manifest page 340, column a, headword Yollotetl",
+        "mediation_level": "DIRECT_WITNESS",
+        "source_id": "A01",
+        "url": "https://jcb.lunaimaging.com/luna/servlet/iiif/JCB~3~3~21781~115907151page339/full/2000,/0/default.jpg",
+        "use": "EVIDENCE_CAPTURE",
+        "witness": "John Carter Brown Library, 1-SIZE B571 .M722v"
+      }
+    }
+  },
+  "lemma": {
+    "display_form": "Yollotetl",
+    "id": "L0150",
+    "status": "DRAFT",
+    "variety": "Classical Nahuatl"
+  },
+  "morphology": {
+    "status": "NOT_REVIEWED"
+  },
+  "notes": "Selective visual transcription of a historical entry; Portuguese is an editorial DRAFT. Courtesy of the John Carter Brown Library (CC BY 4.0). No phonology or morphology inferred; source headword is preserved. A selected historical gloss may not exhaust the entry or its senses.",
+  "phonological_information": {
+    "saltillo": "UNKNOWN",
+    "status": "NOT_REVIEWED",
+    "vowel_length": "UNKNOWN"
+  },
+  "review": {
+    "automatic_merge": false,
+    "coverage_status": "SINGLE_SOURCE",
+    "domain_modality": "EDITORIAL",
+    "lexical_class": "NOT_REVIEWED",
+    "semantic_domain": "pessoas",
+    "semantic_status": "NEEDS_SEMANTIC_REVIEW"
+  },
+  "schema": "nahuatl-br-gate6-canonical-v1",
+  "senses": [
+    {
+      "editorial_status": "DRAFT",
+      "interpretation": "corajoso e animoso; duro e obstinado",
+      "original_gloss": "coſnate y animoso, o duro y obstinado.",
+      "sense_id": "L0150-S1",
+      "translations": [
+        {
+          "claim_id": "PCL-4c31609170a5",
+          "confidence": "MEDIUM",
+          "derived_from": [
+            "PEV-a1ecb1954fc9"
+          ],
+          "editorial_provenance": {
+            "action": "GATE5_PIPELINE_GENERATION",
+            "actor_id": "nahuatl-br-gate5-pipeline",
+            "actor_role": "EXECUTION_AGENT",
+            "created_in_commit": "NOT_COMMITTED",
+            "from_state": "NOT_APPLICABLE",
+            "history_status": "GATE5_DRY_RUN",
+            "notes": "Automated pipeline candidate: origin PIPELINE; never primary linguistic evidence; human review required before adoption.",
+            "review_status": "NOT_REVIEWED",
+            "timestamp": "NOT_RECORDED",
+            "to_state": "DRAFT",
+            "tool": "nahuatl-br-gate5-pipeline",
+            "tool_version": "1.0.0"
+          },
+          "editorial_state": "DRAFT",
+          "language": "pt-BR",
+          "modality": "EDITORIAL",
+          "text": "corajoso e animoso; duro e obstinado",
+          "translation_id": "L0150-T1"
+        }
+      ]
+    }
+  ]
+}

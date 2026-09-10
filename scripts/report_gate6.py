@@ -64,7 +64,7 @@ def main():
     text = (f'# Gate 6 — BATCH {args.batch:02}\n\n'
             f'Checkpoint: PASS. New lemmas in batch: 50. Accepted: 50. Rejected: 0.\n'
             'Admission ran through Gate 5; replay/idempotency PASS; no automatic merge.\n'
-            'Gate 6 regression suite: 20 tests PASS before first admission.\n'
+            'Gate 6 regression suite: 27 tests PASS before this admission.\n'
             'Image-based selected captures: A01/jcb_1571_images, CC BY 4.0; DIRECT_WITNESS.\n'
             'SINGLE_SOURCE and NEEDS_SEMANTIC_REVIEW apply to every new lemma.\n\n'
             '```json\n'+json.dumps(m,ensure_ascii=False,indent=2,sort_keys=True)+'\n```\n')

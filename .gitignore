@@ -53,3 +53,7 @@ data/staging/
 data/derived/
 data/cache/
 data/exports/
+
+# Gate 6 external locator cache (never publish OCR or images)
+.cache/gate6/
+build/gate6/

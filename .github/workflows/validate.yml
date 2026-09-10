@@ -27,7 +27,7 @@ jobs:
       - name: Validate Gate 5 ingestion pipeline and fixtures
         run: python scripts/validate_gate5.py --check
       - name: Validate Gate 6 canonical corpus checkpoint
-        run: python scripts/validate_gate6.py --checkpoint 1
+        run: python scripts/validate_gate6.py --checkpoint 2
       - name: Require reproducible research preview data
         run: python scripts/build_preview_data.py --check
       - name: Run isolated regression tests

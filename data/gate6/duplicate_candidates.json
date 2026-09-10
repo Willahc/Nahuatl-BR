@@ -40,5 +40,83 @@
     ],
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0102",
+      "L0113"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "ir à frente"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0108",
+      "L0110"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "caruncho"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0117",
+      "L0122"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "agudeza de ponta"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0127",
+      "L0136"
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "satisfazer outra pessoa assim"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0138",
+      "L0140"
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yollopoconi"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yollopoconi"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yollopoconi"
+      }
+    ],
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
   }
 ]

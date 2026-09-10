@@ -168,6 +168,10 @@ def validate_record(rec, engine):
     if ing.get('lemma_id') != lid or ing.get('use') != 'EVIDENCE_CAPTURE':
         fail('CAPTURE_IDENTITY')
     capture = g6.get('capture', {})
+    if capture.get('provenance_source') in {'IA_OCR', 'ABBYY', 'DJVU_TEXT', 'HOCR'}:
+        fail('OCR_NOT_LINGUISTIC_EVIDENCE')
+    if capture.get('ocr_only') is True or capture.get('technical_role') == 'LOCATOR_ASSIST_ONLY':
+        fail('OCR_NOT_LINGUISTIC_EVIDENCE')
     required = ['image_url', 'canvas_id', 'sha256', 'attribution', 'column', 'inspection']
     if any(not capture.get(k) for k in required) or capture.get('inspection') != 'VISUALLY_INSPECTED':
         fail('WITNESS_INSPECTION_REQUIRED')

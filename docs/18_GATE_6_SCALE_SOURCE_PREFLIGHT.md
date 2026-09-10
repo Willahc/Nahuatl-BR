@@ -65,3 +65,32 @@ morfologia. Não copiar arquivos de imagem para Git/Pages. Cada lote de 50 passa
 pelo pipeline Gate 5 e checkpoint antes do seguinte. A disponibilidade deste
 exemplar não garante a meta de 300 lemmas com fontes independentes: a métrica
 real será publicada, sem inventar uma segunda fonte.
+
+## OCR-ASSISTED LOCATOR PATH
+
+`source_work: A01 Molina 1571`; `witness: JCB 1-SIZE B571 .M722v`;
+`scan_provider: JCB / Internet Archive`; `ocr_engine: ABBYY FineReader 8.0`.
+`ocr_role: LOCATOR_ASSIST_ONLY`; `evidence_eligible: false`;
+`canonical_text_eligible: false`; `visual_confirmation_required: true`.
+Licença: CC BY 4.0. Atribuição: Courtesy of the John Carter Brown Library.
+
+Os nomes reais foram verificados no diretório remoto em 2026-09-10: `djvu.txt`,
+`djvu.xml`, `hocr.html`, `hocr_pageindex.json.gz`, `hocr_searchtext.txt.gz`,
+`page_numbers.json` e `scandata.xml`. O manifest técnico está em
+`manifests/external_sources/A01_jcb_ia_ocr_locator.yml`. O download dos arquivos
+grandes falhou por DNS deste ambiente; portanto os hashes estão
+`NOT_DOWNLOADED` e nenhum OCR bruto foi versionado. Quando o cache estiver
+disponível, `scripts/build_gate6_ocr_locator.py` gera somente
+`build/gate6/locator_candidates.json`.
+
+**OCR ERROR IS EXPECTED.** `Acuecueyachin` é localizável no OCR, mas sua glosa
+é corrompida. Logo, OCR MATCH != TRANSCRIPTION. OCR não pode ser SOURCE_FORM,
+glosa canônica ou Evidence; imagem vence. Cada candidato requer imagem JCB,
+canvas/página, coluna, headword visual, glosa visual, hash da imagem e inspeção
+antes de `direct_witness_inspected: true`. Candidato OCR sozinho é rejeitado
+com `OCR_NOT_LINGUISTIC_EVIDENCE`.
+
+O locator usa a fronteira da Parte II como indício e nunca decide a fronteira
+por contagem de páginas. Erros de foliação conhecidos continuam valendo. Linhas
+que parecem frases, exemplos, pretéritos soltos, remissões, cabeçalhos, números
+ou artefatos são apenas candidatos técnicos e não entram automaticamente.

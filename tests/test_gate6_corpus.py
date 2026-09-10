@@ -8,6 +8,7 @@ import unittest
 
 from src.pipeline.corpus import derive_record, validate_record, validate, read
 from src.pipeline.engine import IngestionEngine
+from scripts.build_gate6_ocr_locator import build as build_ocr_locator
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -80,6 +81,27 @@ class Gate6CorpusTests(unittest.TestCase):
     def test_T16_saltillo(self): self.rejected(lambda r: r['phonological_information'].update(saltillo='ABSENT'), 'AUTO_SALTILLO')
     def test_T17_ipa(self): self.rejected(lambda r: r['phonological_information'].update(phonemic_ipa='test'), 'AUTO_IPA')
     def test_T18_gdn_bulk(self): self.rejected(lambda r: r['gate6']['request']['ingest'].update(source_id='B01', component_id='lexical_records'), 'SCALE_ACCESS_LAYER_NOT_APPROVED')
+    def test_OCR01_ocr_only_reject(self): self.rejected(lambda r: r['gate6']['capture'].update(ocr_only=True), 'OCR_NOT_LINGUISTIC_EVIDENCE')
+    def test_OCR02_visual_form_wins(self):
+        rec = copy.deepcopy(self.good)
+        rec['gate6']['capture']['ocr_locator_candidate'] = 'Acuecueyach1n'
+        rec['gate6']['capture']['visual_transcription'] = rec['forms'][0]['value']
+        self.assertEqual(validate_record(rec, self.engine), [])
+        self.assertEqual(rec['forms'][0]['value'], 'test-only')
+    def test_OCR03_visual_gloss_wins(self):
+        rec = copy.deepcopy(self.good)
+        rec['gate6']['capture']['ocr_gloss_candidate'] = 'corrupted OCR'
+        rec['gate6']['capture']['visual_transcription_gloss'] = 'synthetic test'
+        self.assertEqual(validate_record(rec, self.engine), [])
+    def test_OCR04_inspected_without_image_reject(self): self.rejected(lambda r: r['gate6']['capture'].update(image_url=''), 'WITNESS_INSPECTION_REQUIRED')
+    def test_OCR05_locator_as_evidence_reject(self): self.rejected(lambda r: r['gate6']['capture'].update(provenance_source='IA_OCR'), 'OCR_NOT_LINGUISTIC_EVIDENCE')
+    def test_OCR06_locator_does_not_mutate(self):
+        before = json.dumps(self.good, ensure_ascii=False, sort_keys=True)
+        _ = build_ocr_locator('Vocabulario en lengua mexicana y castellana\nAmoxtli. libro.')
+        self.assertEqual(json.dumps(self.good, ensure_ascii=False, sort_keys=True), before)
+    def test_OCR07_locator_deterministic(self):
+        text = 'Vocabulario en lengua mexicana y castellana\nAmoxtli. libro.\nAtl. agua.'
+        self.assertEqual(build_ocr_locator(text), build_ocr_locator(text))
     def test_500_synthetic_positive(self): self.assertEqual(self.count_fixture(500), [])
 
 

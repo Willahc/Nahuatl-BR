@@ -1,0 +1,53 @@
+work_source_id: A01
+identifier: vocabularioenlen00moli
+witness: "John Carter Brown Library, 1-SIZE B571 .M722v"
+technical_role: LOCATOR_ASSIST_ONLY
+linguistic_evidence_allowed: false
+canonical_ingestion_allowed_from_ocr: false
+visual_verification_required: true
+scan_provider: "JCB / Internet Archive"
+ocr_engine: "ABBYY FineReader 8.0"
+license: "CC BY 4.0"
+attribution: "Courtesy of the John Carter Brown Library"
+source_item_url: "https://archive.org/details/vocabularioenlen00moli"
+directory_url: "https://archive.org/download/vocabularioenlen00moli/"
+cache_path: ".cache/gate6/a01_jcb_ocr/"
+download_status: "REMOTE_NAMES_VERIFIED; DOWNLOAD_BLOCKED_BY_ENVIRONMENT_DNS"
+files:
+  djvu_text:
+    filename: vocabularioenlen00moli_djvu.txt
+    url: https://archive.org/download/vocabularioenlen00moli/vocabularioenlen00moli_djvu.txt
+    sha256: NOT_DOWNLOADED
+  djvu_xml:
+    filename: vocabularioenlen00moli_djvu.xml
+    url: https://archive.org/download/vocabularioenlen00moli/vocabularioenlen00moli_djvu.xml
+    sha256: NOT_DOWNLOADED
+  hocr:
+    filename: vocabularioenlen00moli_hocr.html
+    url: https://archive.org/download/vocabularioenlen00moli/vocabularioenlen00moli_hocr.html
+    sha256: NOT_DOWNLOADED
+  hocr_pageindex:
+    filename: vocabularioenlen00moli_hocr_pageindex.json.gz
+    url: https://archive.org/download/vocabularioenlen00moli/vocabularioenlen00moli_hocr_pageindex.json.gz
+    sha256: NOT_DOWNLOADED
+  hocr_searchtext:
+    filename: vocabularioenlen00moli_hocr_searchtext.txt.gz
+    url: https://archive.org/download/vocabularioenlen00moli/vocabularioenlen00moli_hocr_searchtext.txt.gz
+    sha256: NOT_DOWNLOADED
+  page_numbers:
+    filename: vocabularioenlen00moli_page_numbers.json
+    url: https://archive.org/download/vocabularioenlen00moli/vocabularioenlen00moli_page_numbers.json
+    sha256: NOT_DOWNLOADED
+  scandata:
+    filename: vocabularioenlen00moli_scandata.xml
+    url: https://archive.org/download/vocabularioenlen00moli/vocabularioenlen00moli_scandata.xml
+    sha256: NOT_DOWNLOADED
+part_ii_boundary:
+  required: true
+  method: "visual/title-page confirmation; OCR marker is locator hint only"
+  marker: "Vocabulario en lengua mexicana y castellana"
+invariants:
+  - "OCR ERROR IS EXPECTED"
+  - "OCR MATCH != TRANSCRIPTION"
+  - "OCR is never Evidence, SOURCE_FORM, or historical gloss"
+  - "IMAGE WINS"
