@@ -20,3 +20,11 @@ e é derivado; não é fonte canônica.
 Resultado: **PASS no checkpoint 01; Gate 6 IN_PROGRESS / BLOCKED_BY_SOURCE_EVIDENCE
 para expansão adicional nesta execução**. Esta condição não encerra o Gate e
 não inicia Gate 7.
+
+## Checkpoint 02 — source path resolved
+
+O caminho OCR-assisted foi resolvido para o mesmo exemplar JCB de Molina 1571. OCR permanece somente um auxiliar técnico de localização; a admissão canônica usa transcrição visual da imagem, com página/canvas, coluna e hash da imagem.
+
+O lote 02 adicionou L0101–L0150, elevando o corpus para 150 lemmas. Os 50 registros foram visualmente verificados, passaram pelo pipeline Gate 5 e pelo validador Gate 6. Foram preservados 8 candidatos de duplicidade sem fusão automática. O Preview continua Research Preview 0.
+
+Resultado: **PASS no checkpoint 02; Gate 6 IN_PROGRESS / SOURCE_EVIDENCE_PATH_RESOLVED**. A aprovação do checkpoint não fecha o Gate 6 e não inicia o Gate 7.
