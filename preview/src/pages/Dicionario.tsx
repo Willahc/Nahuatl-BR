@@ -13,7 +13,7 @@ export function Dicionario({ lemmas }: { lemmas: LemmaDto[] }) {
       <section className="card">
         <h2>Dicionário — 50 lemas piloto</h2>
         <label className="field">
-          <span>Buscar (sem distinção de diacríticos)</span>
+          <span>Buscar por formas e chaves registradas</span>
           <input
             autoFocus
             value={query}
