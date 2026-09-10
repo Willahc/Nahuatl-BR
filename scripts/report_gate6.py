@@ -31,6 +31,7 @@ def metrics(recs):
         saltillo += bool(ph.get('saltillo_evidence'))
         mo = r.get('morphology', {})
         morphology += mo.get('status') not in {None, 'UNKNOWN', 'NOT_REVIEWED', 'NOT_ATTESTED'}
+    duplicates = duplicate_candidates(recs)
     return {'total_lemmas': len(recs), 'new_lemmas': len(recs)-50,
             'historical_attestation_coverage': sum(bool(r.get('attestations')) for r in recs),
             'pt_br_coverage': sum(any(t.get('language') == 'pt-BR' for s in r.get('senses', []) for t in s.get('translations', [])) for r in recs),
@@ -40,7 +41,12 @@ def metrics(recs):
             'context_references': contexts, 'context_directly_inspected': inspected,
             'vowel_length_evidence': length, 'saltillo_evidence': saltillo,
             'morphology_coverage': morphology,
-            'duplicate_candidates': len(duplicate_candidates(recs)),
+            'duplicate_candidates': len(duplicates),
+            'duplicate_identity_statuses': dict(Counter(d['identity_status'] for d in duplicates)),
+            'duplicate_review_warning': ('HIGH_DUPLICATE_REVIEW_LOAD'
+                                         if len(duplicates) / len(recs) >= 0.15 else None),
+            'duplicate_trend_checkpoints': {'batch01': 3, 'batch02': 8, 'batch03': 18,
+                                            'current': len(duplicates)},
             'semantic_review_candidates': sum(r.get('review', {}).get('semantic_status') == 'NEEDS_SEMANTIC_REVIEW' for r in recs),
             'rights_blocks_admission': 0, 'modern_variety_blocks_admission': 0,
             'blocks_note': 'No prohibited capture submitted for corpus admission; negative fixtures reported separately.',

@@ -4,12 +4,39 @@
       "L0055",
       "L0059"
     ],
+    "source_forms": {
+      "L0055": "Ahauializtica",
+      "L0059": "Ahauixca"
+    },
+    "normalized_forms": {
+      "L0055": "Ahauializtica",
+      "L0059": "Ahauixca"
+    },
+    "search_keys": {
+      "L0055": "ahauializtica",
+      "L0059": "ahauixca"
+    },
+    "historical_glosses": {
+      "L0055": [
+        "alegremente. aduerbio."
+      ],
+      "L0059": [
+        "alegremente. aduerbio."
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "alegremente"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "alegremente"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -18,12 +45,39 @@
       "L0077",
       "L0082"
     ],
+    "source_forms": {
+      "L0077": "Amoxpialoyan",
+      "L0082": "Amoxtlatiloyan"
+    },
+    "normalized_forms": {
+      "L0077": "Amoxpialoyan",
+      "L0082": "Amoxtlatiloyan"
+    },
+    "search_keys": {
+      "L0077": "amoxpialoyan",
+      "L0082": "amoxtlatiloyan"
+    },
+    "historical_glosses": {
+      "L0077": [
+        "libreria adonde ſe guardan los libros."
+      ],
+      "L0082": [
+        "libreria donde ſe guardan los libros."
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "biblioteca onde se guardam livros"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "biblioteca onde se guardam livros"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -32,12 +86,683 @@
       "L0080",
       "L0084"
     ],
+    "source_forms": {
+      "L0080": "Amoxtepito",
+      "L0084": "Amoxtontli"
+    },
+    "normalized_forms": {
+      "L0080": "Amoxtepito",
+      "L0084": "Amoxtontli"
+    },
+    "search_keys": {
+      "L0080": "amoxtepito",
+      "L0084": "amoxtontli"
+    },
+    "historical_glosses": {
+      "L0080": [
+        "libro pequeño."
+      ],
+      "L0084": [
+        "libro pequeño."
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "livro pequeno"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "livro pequeno"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0086",
+      "L0208"
+    ],
+    "source_forms": {
+      "L0086": "Chicotlamatiliztli",
+      "L0208": "Chicotlamatiztli"
+    },
+    "normalized_forms": {
+      "L0086": "Chicotlamatiliztli",
+      "L0208": "Chicotlamatiztli"
+    },
+    "search_keys": {
+      "L0086": "chicotlamatiliztli",
+      "L0208": "chicotlamatiztli"
+    },
+    "historical_glosses": {
+      "L0086": [
+        "ſoſpecha."
+      ],
+      "L0208": [
+        "sospecha"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "suspeita"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "suspeita"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0087",
+      "L0209"
+    ],
+    "source_forms": {
+      "L0087": "Chicotlamatini",
+      "L0209": "Chicotlamatini"
+    },
+    "normalized_forms": {
+      "L0087": "Chicotlamatini",
+      "L0209": "Chicotlamatini"
+    },
+    "search_keys": {
+      "L0087": "chicotlamatini",
+      "L0209": "chicotlamatini"
+    },
+    "historical_glosses": {
+      "L0087": [
+        "ſoſpechoſo o celoſo."
+      ],
+      "L0209": [
+        "sospechoso o celoso"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlamatini"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlamatini"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlamatini"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlamatini"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlamatini"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlamatini"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0088",
+      "L0210"
+    ],
+    "source_forms": {
+      "L0088": "Chicotlapanqui",
+      "L0210": "Chicotlapanqui"
+    },
+    "normalized_forms": {
+      "L0088": "Chicotlapanqui",
+      "L0210": "Chicotlapanqui"
+    },
+    "search_keys": {
+      "L0088": "chicotlapanqui",
+      "L0210": "chicotlapanqui"
+    },
+    "historical_glosses": {
+      "L0088": [
+        "coſa no entera."
+      ],
+      "L0210": [
+        "cosa no entera"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlapanqui"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlapanqui"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlapanqui"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "coisa incompleta"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlapanqui"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlapanqui"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlapanqui"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "coisa incompleta"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0089",
+      "L0213"
+    ],
+    "source_forms": {
+      "L0089": "Chicotlatetoliztli",
+      "L0213": "Chicotlatetoliztli"
+    },
+    "normalized_forms": {
+      "L0089": "Chicotlatetoliztli",
+      "L0213": "Chicotlatetoliztli"
+    },
+    "search_keys": {
+      "L0089": "chicotlatetoliztli",
+      "L0213": "chicotlatetoliztli"
+    },
+    "historical_glosses": {
+      "L0089": [
+        "desuario tal."
+      ],
+      "L0213": [
+        "desuario tal"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlatetoliztli"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlatetoliztli"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlatetoliztli"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlatetoliztli"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlatetoliztli"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlatetoliztli"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0090",
+      "L0218"
+    ],
+    "source_forms": {
+      "L0090": "Chicotlaueliloc",
+      "L0218": "Chicotlaueliloc"
+    },
+    "normalized_forms": {
+      "L0090": "Chicotlaueliloc",
+      "L0218": "Chicotlaueliloc"
+    },
+    "search_keys": {
+      "L0090": "chicotlaueliloc",
+      "L0218": "chicotlaueliloc"
+    },
+    "historical_glosses": {
+      "L0090": [
+        "loco atreſguado."
+      ],
+      "L0218": [
+        "loco atreguiado"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlaueliloc"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlaueliloc"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlaueliloc"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "louco perturbado"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicotlaueliloc"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicotlaueliloc"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicotlaueliloc"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "louco perturbado"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0091",
+      "L0227"
+    ],
+    "source_forms": {
+      "L0091": "Chicucxpa",
+      "L0227": "Chicuexpa"
+    },
+    "normalized_forms": {
+      "L0091": "Chicucxpa",
+      "L0227": "Chicuexpa"
+    },
+    "search_keys": {
+      "L0091": "chicucxpa",
+      "L0227": "chicuexpa"
+    },
+    "historical_glosses": {
+      "L0091": [
+        "ocho vezes."
+      ],
+      "L0227": [
+        "ocho vezes"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "oito vezes"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "oito vezes"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0093",
+      "L0234"
+    ],
+    "source_forms": {
+      "L0093": "Chicunpoalli",
+      "L0234": "Chicumpoa"
+    },
+    "normalized_forms": {
+      "L0093": "Chicunpoalli",
+      "L0234": "Chicumpoa"
+    },
+    "search_keys": {
+      "L0093": "chicunpoalli",
+      "L0234": "chicumpoa"
+    },
+    "historical_glosses": {
+      "L0093": [
+        "ciento y quarenta."
+      ],
+      "L0234": [
+        "ciento y quarenta"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "cento e quarenta"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "cento e quarenta"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0094",
+      "L0235"
+    ],
+    "source_forms": {
+      "L0094": "Chicunappa",
+      "L0235": "Chicunappa"
+    },
+    "normalized_forms": {
+      "L0094": "Chicunappa",
+      "L0235": "Chicunappa"
+    },
+    "search_keys": {
+      "L0094": "chicunappa",
+      "L0235": "chicunappa"
+    },
+    "historical_glosses": {
+      "L0094": [
+        "nueue vezes."
+      ],
+      "L0235": [
+        "nueve veces"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicunappa"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicunappa"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicunappa"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "nove vezes"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicunappa"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicunappa"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicunappa"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "nove vezes"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0094",
+      "L0243"
+    ],
+    "source_forms": {
+      "L0094": "Chicunappa",
+      "L0243": "Chicuppa"
+    },
+    "normalized_forms": {
+      "L0094": "Chicunappa",
+      "L0243": "Chicuppa"
+    },
+    "search_keys": {
+      "L0094": "chicunappa",
+      "L0243": "chicuppa"
+    },
+    "historical_glosses": {
+      "L0094": [
+        "nueue vezes."
+      ],
+      "L0243": [
+        "siete veces"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "nove vezes"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "nove vezes"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0096",
+      "L0241"
+    ],
+    "source_forms": {
+      "L0096": "Chicuntetl",
+      "L0241": "Chicuntetl"
+    },
+    "normalized_forms": {
+      "L0096": "Chicuntetl",
+      "L0241": "Chicuntetl"
+    },
+    "search_keys": {
+      "L0096": "chicuntetl",
+      "L0241": "chicuntetl"
+    },
+    "historical_glosses": {
+      "L0096": [
+        "ſiete."
+      ],
+      "L0241": [
+        "siete"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicuntetl"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicuntetl"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicuntetl"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicuntetl"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicuntetl"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicuntetl"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0097",
+      "L0243"
+    ],
+    "source_forms": {
+      "L0097": "Chicuppa",
+      "L0243": "Chicuppa"
+    },
+    "normalized_forms": {
+      "L0097": "Chicuppa",
+      "L0243": "Chicuppa"
+    },
+    "search_keys": {
+      "L0097": "chicuppa",
+      "L0243": "chicuppa"
+    },
+    "historical_glosses": {
+      "L0097": [
+        "ſiete vezes."
+      ],
+      "L0243": [
+        "siete veces"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicuppa"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicuppa"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicuppa"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicuppa"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicuppa"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicuppa"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0098",
+      "L0247"
+    ],
+    "source_forms": {
+      "L0098": "Chiematl",
+      "L0247": "Chiematl"
+    },
+    "normalized_forms": {
+      "L0098": "Chiematl",
+      "L0247": "Chiematl"
+    },
+    "search_keys": {
+      "L0098": "chiematl",
+      "L0247": "chiematl"
+    },
+    "historical_glosses": {
+      "L0098": [
+        "azeite de chia."
+      ],
+      "L0247": [
+        "azcite de chia"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chiematl"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chiematl"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chiematl"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chiematl"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chiematl"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chiematl"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -46,12 +771,39 @@
       "L0102",
       "L0113"
     ],
+    "source_forms": {
+      "L0102": "Yacatitiuh",
+      "L0113": "Yacattiuh"
+    },
+    "normalized_forms": {
+      "L0102": "Yacatitiuh",
+      "L0113": "Yacattiuh"
+    },
+    "search_keys": {
+      "L0102": "yacatitiuh",
+      "L0113": "yacattiuh"
+    },
+    "historical_glosses": {
+      "L0102": [
+        "ir en la delantera."
+      ],
+      "L0113": [
+        "ir en la delantera."
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "ir à frente"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "ir à frente"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -60,12 +812,39 @@
       "L0108",
       "L0110"
     ],
+    "source_forms": {
+      "L0108": "Yacatotona",
+      "L0110": "Yacatotl"
+    },
+    "normalized_forms": {
+      "L0108": "Yacatotona",
+      "L0110": "Yacatotl"
+    },
+    "search_keys": {
+      "L0108": "yacatotona",
+      "L0110": "yacatotl"
+    },
+    "historical_glosses": {
+      "L0108": [
+        "gorgojo."
+      ],
+      "L0110": [
+        "gorgojo."
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "caruncho"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "caruncho"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -74,12 +853,39 @@
       "L0117",
       "L0122"
     ],
+    "source_forms": {
+      "L0117": "Yacatzapticayotl",
+      "L0122": "Yacauitzauhca-yotl"
+    },
+    "normalized_forms": {
+      "L0117": "Yacatzapticayotl",
+      "L0122": "Yacauitzauhca-yotl"
+    },
+    "search_keys": {
+      "L0117": "yacatzapticayotl",
+      "L0122": "yacauitzauhcayotl"
+    },
+    "historical_glosses": {
+      "L0117": [
+        "agudeza de punta."
+      ],
+      "L0122": [
+        "agudeza de punta."
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "agudeza de ponta"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "agudeza de ponta"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -88,12 +894,39 @@
       "L0117",
       "L0151"
     ],
+    "source_forms": {
+      "L0117": "Yacatzapticayotl",
+      "L0151": "Yacauitzticayotl"
+    },
+    "normalized_forms": {
+      "L0117": "Yacatzapticayotl",
+      "L0151": "Yacauitzticayotl"
+    },
+    "search_keys": {
+      "L0117": "yacatzapticayotl",
+      "L0151": "yacauitzticayotl"
+    },
+    "historical_glosses": {
+      "L0117": [
+        "agudeza de punta."
+      ],
+      "L0151": [
+        "agudeza de punta"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "agudeza de ponta"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "agudeza de ponta"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -102,12 +935,39 @@
       "L0122",
       "L0151"
     ],
+    "source_forms": {
+      "L0122": "Yacauitzauhca-yotl",
+      "L0151": "Yacauitzticayotl"
+    },
+    "normalized_forms": {
+      "L0122": "Yacauitzauhca-yotl",
+      "L0151": "Yacauitzticayotl"
+    },
+    "search_keys": {
+      "L0122": "yacauitzauhcayotl",
+      "L0151": "yacauitzticayotl"
+    },
+    "historical_glosses": {
+      "L0122": [
+        "agudeza de punta."
+      ],
+      "L0151": [
+        "agudeza de punta"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "agudeza de ponta"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "agudeza de ponta"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -115,6 +975,40 @@
     "lemma_ids": [
       "L0125",
       "L0152"
+    ],
+    "source_forms": {
+      "L0125": "Yacauitztic",
+      "L0152": "Yacauitztic"
+    },
+    "normalized_forms": {
+      "L0125": "Yacauitztic",
+      "L0152": "Yacauitztic"
+    },
+    "search_keys": {
+      "L0125": "yacauitztic",
+      "L0152": "yacauitztic"
+    },
+    "historical_glosses": {
+      "L0125": [
+        "cosa aguda de púa, o puntiaguda."
+      ],
+      "L0152": [
+        "mitl, pua o cosa puntiaguda"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yacauitztic"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yacauitztic"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yacauitztic"
+      }
     ],
     "reasons": [
       {
@@ -130,6 +1024,7 @@
         "value": "yacauitztic"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -138,12 +1033,39 @@
       "L0127",
       "L0136"
     ],
+    "source_forms": {
+      "L0127": "Yollomaxilti",
+      "L0136": "Yollopachiuitia"
+    },
+    "normalized_forms": {
+      "L0127": "Yollomaxilti",
+      "L0136": "Yollopachiuitia"
+    },
+    "search_keys": {
+      "L0127": "yollomaxilti",
+      "L0136": "yollopachiuitia"
+    },
+    "historical_glosses": {
+      "L0127": [
+        "satisfazer a otro desta manera."
+      ],
+      "L0136": [
+        "satisfazer a otro así."
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "satisfazer outra pessoa assim"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "satisfazer outra pessoa assim"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -151,6 +1073,40 @@
     "lemma_ids": [
       "L0138",
       "L0140"
+    ],
+    "source_forms": {
+      "L0138": "Yollopoconi",
+      "L0140": "Yollopoconi"
+    },
+    "normalized_forms": {
+      "L0138": "Yollopoconi",
+      "L0140": "Yollopoconi"
+    },
+    "search_keys": {
+      "L0138": "yollopoconi",
+      "L0140": "yollopoconi"
+    },
+    "historical_glosses": {
+      "L0138": [
+        "hazer ayrar a otro."
+      ],
+      "L0140": [
+        "no enojarse o ayrarse."
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yollopoconi"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yollopoconi"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yollopoconi"
+      }
     ],
     "reasons": [
       {
@@ -166,6 +1122,7 @@
         "value": "yollopoconi"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -174,12 +1131,39 @@
       "L0148",
       "L0195"
     ],
+    "source_forms": {
+      "L0148": "Yollotlaqua",
+      "L0195": "Yollotlacac"
+    },
+    "normalized_forms": {
+      "L0148": "Yollotlaqua",
+      "L0195": "Yollotlacac"
+    },
+    "search_keys": {
+      "L0148": "yollotlaqua",
+      "L0195": "yollotlacac"
+    },
+    "historical_glosses": {
+      "L0148": [
+        "endurеcerse y obstinarse en el mal."
+      ],
+      "L0195": [
+        "ni. endurecerse y obstinarse en el mal"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "endurecer-se e obstinar-se no mal"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "endurecer-se e obstinar-se no mal"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -187,6 +1171,44 @@
     "lemma_ids": [
       "L0150",
       "L0192"
+    ],
+    "source_forms": {
+      "L0150": "Yollotetl",
+      "L0192": "Yollotetl"
+    },
+    "normalized_forms": {
+      "L0150": "Yollotetl",
+      "L0192": "Yollotetl"
+    },
+    "search_keys": {
+      "L0150": "yollotetl",
+      "L0192": "yollotetl"
+    },
+    "historical_glosses": {
+      "L0150": [
+        "coſnate y animoso, o duro y obstinado."
+      ],
+      "L0192": [
+        "coçonate y animoso, o duro y obstinado"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yollotetl"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yollotetl"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yollotetl"
+      },
+      {
+        "field": "SENSE_TEXT",
+        "value": "corajoso e animoso; duro e obstinado"
+      }
     ],
     "reasons": [
       {
@@ -206,6 +1228,7 @@
         "value": "corajoso e animoso; duro e obstinado"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -214,12 +1237,39 @@
       "L0158",
       "L0172"
     ],
+    "source_forms": {
+      "L0158": "Yayamaztic",
+      "L0172": "Yamactic"
+    },
+    "normalized_forms": {
+      "L0158": "Yayamaztic",
+      "L0172": "Yamactic"
+    },
+    "search_keys": {
+      "L0158": "yayamaztic",
+      "L0172": "yamactic"
+    },
+    "historical_glosses": {
+      "L0158": [
+        "cosa blanda y muelle"
+      ],
+      "L0172": [
+        "cosa blanda y muelle"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "coisa macia e flexível"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "coisa macia e flexível"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -228,12 +1278,39 @@
       "L0158",
       "L0183"
     ],
+    "source_forms": {
+      "L0158": "Yayamaztic",
+      "L0183": "Yamanqui"
+    },
+    "normalized_forms": {
+      "L0158": "Yayamaztic",
+      "L0183": "Yamanqui"
+    },
+    "search_keys": {
+      "L0158": "yayamaztic",
+      "L0183": "yamanqui"
+    },
+    "historical_glosses": {
+      "L0158": [
+        "cosa blanda y muelle"
+      ],
+      "L0183": [
+        "cosa blanda y muelle"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "coisa macia e flexível"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "coisa macia e flexível"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -242,12 +1319,39 @@
       "L0172",
       "L0183"
     ],
+    "source_forms": {
+      "L0172": "Yamactic",
+      "L0183": "Yamanqui"
+    },
+    "normalized_forms": {
+      "L0172": "Yamactic",
+      "L0183": "Yamanqui"
+    },
+    "search_keys": {
+      "L0172": "yamactic",
+      "L0183": "yamanqui"
+    },
+    "historical_glosses": {
+      "L0172": [
+        "cosa blanda y muelle"
+      ],
+      "L0183": [
+        "cosa blanda y muelle"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "coisa macia e flexível"
+      }
+    ],
     "reasons": [
       {
         "field": "SENSE_TEXT",
         "value": "coisa macia e flexível"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -255,6 +1359,40 @@
     "lemma_ids": [
       "L0179",
       "L0180"
+    ],
+    "source_forms": {
+      "L0179": "Yamania",
+      "L0180": "Yamania"
+    },
+    "normalized_forms": {
+      "L0179": "Yamania",
+      "L0180": "Yamania"
+    },
+    "search_keys": {
+      "L0179": "yamania",
+      "L0180": "yamania"
+    },
+    "historical_glosses": {
+      "L0179": [
+        "ni. estar templado el cuerpo"
+      ],
+      "L0180": [
+        "nitla. ablandar o adobar cueros, o entibiar lo que esta muy caliente"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yamania"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yamania"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yamania"
+      }
     ],
     "reasons": [
       {
@@ -270,6 +1408,7 @@
         "value": "yamania"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   },
@@ -277,6 +1416,40 @@
     "lemma_ids": [
       "L0193",
       "L0194"
+    ],
+    "source_forms": {
+      "L0193": "Yollotia",
+      "L0194": "Yollotia"
+    },
+    "normalized_forms": {
+      "L0193": "Yollotia",
+      "L0194": "Yollotia"
+    },
+    "search_keys": {
+      "L0193": "yollotia",
+      "L0194": "yollotia"
+    },
+    "historical_glosses": {
+      "L0193": [
+        "ni. notla. decorar algo. preterito oninotlayolloti"
+      ],
+      "L0194": [
+        "nite. inspirar algo a otro. preterito oniteyolloti"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Yollotia"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Yollotia"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "yollotia"
+      }
     ],
     "reasons": [
       {
@@ -292,6 +1465,203 @@
         "value": "yollotia"
       }
     ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0213",
+      "L0216"
+    ],
+    "source_forms": {
+      "L0213": "Chicotlatetoliztli",
+      "L0216": "Chicotlatoziztli"
+    },
+    "normalized_forms": {
+      "L0213": "Chicotlatetoliztli",
+      "L0216": "Chicotlatoziztli"
+    },
+    "search_keys": {
+      "L0213": "chicotlatetoliztli",
+      "L0216": "chicotlatoziztli"
+    },
+    "historical_glosses": {
+      "L0213": [
+        "desuario tal"
+      ],
+      "L0216": [
+        "desuario tal"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "delÃƒÂ­rio"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "delÃƒÂ­rio"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0220",
+      "L0221"
+    ],
+    "source_forms": {
+      "L0220": "Chicouia",
+      "L0221": "Chicouia"
+    },
+    "normalized_forms": {
+      "L0220": "Chicouia",
+      "L0221": "Chicouia"
+    },
+    "search_keys": {
+      "L0220": "chicouia",
+      "L0221": "chicouia"
+    },
+    "historical_glosses": {
+      "L0220": [
+        "nitella. dar algo mas a vno que a otro"
+      ],
+      "L0221": [
+        "nite. mejorar a otro"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicouia"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicouia"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicouia"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chicouia"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chicouia"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chicouia"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0235",
+      "L0243"
+    ],
+    "source_forms": {
+      "L0235": "Chicunappa",
+      "L0243": "Chicuppa"
+    },
+    "normalized_forms": {
+      "L0235": "Chicunappa",
+      "L0243": "Chicuppa"
+    },
+    "search_keys": {
+      "L0235": "chicunappa",
+      "L0243": "chicuppa"
+    },
+    "historical_glosses": {
+      "L0235": [
+        "nueve veces"
+      ],
+      "L0243": [
+        "siete veces"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "nove vezes"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SENSE_TEXT",
+        "value": "nove vezes"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
+    "status": "CANDIDATE_ONLY",
+    "automatic_merge": false
+  },
+  {
+    "lemma_ids": [
+      "L0245",
+      "L0246"
+    ],
+    "source_forms": {
+      "L0245": "Chieltia",
+      "L0246": "Chieltia"
+    },
+    "normalized_forms": {
+      "L0245": "Chieltia",
+      "L0246": "Chieltia"
+    },
+    "search_keys": {
+      "L0245": "chieltia",
+      "L0246": "chieltia"
+    },
+    "historical_glosses": {
+      "L0245": [
+        "nic. idem"
+      ],
+      "L0246": [
+        "nicno. aguardar o esperar sin temor al enemigo"
+      ]
+    },
+    "reason": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chieltia"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chieltia"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chieltia"
+      }
+    ],
+    "reasons": [
+      {
+        "field": "SOURCE_FORM",
+        "value": "Chieltia"
+      },
+      {
+        "field": "NORMALIZED_FORM",
+        "value": "Chieltia"
+      },
+      {
+        "field": "SEARCH_KEY",
+        "value": "chieltia"
+      }
+    ],
+    "identity_status": "LEXICAL_IDENTITY_UNRESOLVED",
     "status": "CANDIDATE_ONLY",
     "automatic_merge": false
   }

@@ -94,4 +94,5 @@ registrada. Revisão humana individual não está documentada.
 
 Gate 5 está PASS / CLOSED por decisão externa. Pipeline e Research Preview 0
 aprovados no escopo acima, sem promoção de Claims individuais.
-Gate 6 está IN_PROGRESS / SOURCE_EVIDENCE_PATH_RESOLVED.`r`nGate 7 permanece NOT_STARTED.
+Gate 6 está IN_PROGRESS / SOURCE_EVIDENCE_PATH_RESOLVED.
+Gate 7 permanece NOT_STARTED.

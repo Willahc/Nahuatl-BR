@@ -56,8 +56,26 @@ def duplicate_candidates(recs):
         for value, ids in sorted(index.items()):
             for pair in itertools.combinations(sorted(ids), 2):
                 pairs.setdefault(pair, []).append({'field': reason, 'value': value})
-    return [{'lemma_ids': list(pair), 'reasons': reasons, 'status': 'CANDIDATE_ONLY',
-             'automatic_merge': False} for pair, reasons in sorted(pairs.items())]
+    by_id = {record_id(rec): rec for rec in recs}
+    report = []
+    for pair, reasons in sorted(pairs.items()):
+        forms = {lid: {f['layer']: f['value'] for f in by_id[lid].get('forms', [])}
+                 for lid in pair}
+        glosses = {lid: [a.get('original_gloss', '') for a in by_id[lid].get('attestations', [])]
+                   for lid in pair}
+        report.append({
+            'lemma_ids': list(pair),
+            'source_forms': {lid: forms[lid].get('SOURCE_FORM', '') for lid in pair},
+            'normalized_forms': {lid: forms[lid].get('NORMALIZED_FORM', '') for lid in pair},
+            'search_keys': {lid: forms[lid].get('SEARCH_KEY', '') for lid in pair},
+            'historical_glosses': glosses,
+            'reason': reasons,
+            'reasons': reasons,
+            'identity_status': 'LEXICAL_IDENTITY_UNRESOLVED',
+            'status': 'CANDIDATE_ONLY',
+            'automatic_merge': False,
+        })
+    return report
 
 
 def audit_ids(recs):
